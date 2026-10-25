@@ -3,7 +3,7 @@ import { useAppContext } from "../context/AppContext";
 import toast from "react-hot-toast";
 
 const Login = () => {
-  const { setShowUserLogin, setUser, axios, navigate } = useAppContext();
+  const { setShowUserLogin, setUser, axios } = useAppContext();
   const [state, setState] = React.useState("login");
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("customer@grocery.com");
@@ -27,6 +27,9 @@ const Login = () => {
       const { data } = await axios.post(endpoint, payload);
       if (data.success) {
         toast.success(state === "register" ? "Account created successfully!" : "Logged in successfully!");
+        if (data.token) {
+          localStorage.setItem("token", data.token);
+        }
         setUser(data.user);
         setShowUserLogin(false);
       } else {

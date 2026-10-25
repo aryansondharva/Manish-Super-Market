@@ -25,6 +25,9 @@ function SellerLogin() {
       });
       if (data.success) {
         toast.success(data.message || "Logged in as Admin");
+        if (data.token) {
+          localStorage.setItem("sellerToken", data.token);
+        }
         setIsSeller(true);
         navigate("/seller");
       } else {

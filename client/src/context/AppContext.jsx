@@ -7,6 +7,19 @@ import axios from "axios";
 axios.defaults.withCredentials = true;
 axios.defaults.baseURL = import.meta.env.VITE_BACKEND_URL || "http://localhost:4000";
 
+// Ensure auth tokens are sent in headers for cross-domain Vercel deployment
+axios.interceptors.request.use((config) => {
+  const token = localStorage.getItem("token");
+  const sellerToken = localStorage.getItem("sellerToken");
+  if (token && !config.headers["token"]) {
+    config.headers["token"] = token;
+  }
+  if (sellerToken && !config.headers["seller-token"]) {
+    config.headers["seller-token"] = sellerToken;
+  }
+  return config;
+});
+
 export const AppContext = createContext();
 
 export const AppContextProvider = ({ children }) => {
@@ -26,14 +39,12 @@ export const AppContextProvider = ({ children }) => {
       if (data.success && Array.isArray(data.products) && data.products.length > 0) {
         setProducts(data.products);
       } else if (data.success && data.products.length === 0) {
-        // If server returned 0 products, check if dummyProducts can be fallback
         setProducts([]);
       } else {
         toast.error(data.message || "Failed to fetch products");
       }
     } catch (error) {
       console.log("fetchProducts error:", error.message);
-      // Fallback to dummyProducts for smooth offline development
       if (products.length === 0) {
         setProducts(dummyProducts);
       }
