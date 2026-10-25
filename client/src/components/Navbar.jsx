@@ -42,9 +42,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full flex items-center justify-between px-4 sm:px-6 md:px-16 lg:px-24 xl:px-32 py-3.5 sm:py-4 border-b border-gray-200 bg-white sticky top-0 z-40 shadow-xs transition-all">
+    <nav className="w-full flex items-center justify-between px-4 sm:px-6 md:px-16 lg:px-24 xl:px-32 py-2 sm:py-3 border-b border-gray-200 bg-white sticky top-0 z-40 shadow-xs transition-all">
       <NavLink to="/" onClick={() => setOpen(false)} className="flex items-center gap-2">
-        <img className="h-8 sm:h-9 w-auto object-contain cursor-pointer" src={assets.logo} alt="Manish Super Store" />
+        <img className="h-12 sm:h-16 md:h-20 w-auto object-contain cursor-pointer transition-transform hover:scale-102" src={assets.logo} alt="Manish Super Market" />
       </NavLink>
 
       <div className="hidden sm:flex items-center gap-6 lg:gap-8 font-medium text-sm text-gray-700">

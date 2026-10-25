@@ -174,7 +174,7 @@ const seedInitialData = async () => {
 };
 
 app.use("/stripe", express.raw({ type: "application/json" }), stripeWebhooks);
-app.get("/", (req, res) => res.send("Manish Super Store API is Working"));
+app.get("/", (req, res) => res.send("Manish Super Market API is Working"));
 
 app.use(express.json());
 app.use(cookieParser());
