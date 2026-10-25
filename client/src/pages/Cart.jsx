@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useAppContext } from "../context/AppContext";
 import { assets, dummyAddress } from "../assets/assets";
 import toast from "react-hot-toast";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
   const {
@@ -15,7 +16,8 @@ const Cart = () => {
     getCartAmmount,
     axios,
     user,
-    setCartItems
+    setCartItems,
+    setShowUserLogin
   } = useAppContext();
 
   const [cartArray, setCartArray] = useState([]);
@@ -23,54 +25,66 @@ const Cart = () => {
   const [showAddress, setShowAddress] = useState(false);
   const [selectedAddress, setSelectedAddress] = useState(dummyAddress[0]);
   const [paymentOption, setPaymentOption] = useState("COD");
+  const [loading, setLoading] = useState(false);
 
   const getCart = () => {
     let tempArray = [];
     for (const key in cartItems) {
-      const product = products.find((item) => item._id === key);
-      product.quantity = cartItems[key];
-      tempArray.push(product);
+      if (cartItems[key] > 0) {
+        const product = products.find((item) => item._id === key);
+        if (product) {
+          tempArray.push({
+            ...product,
+            quantity: cartItems[key]
+          });
+        }
+      }
     }
     setCartArray(tempArray);
   };
 
   const getUserAddress = async () => {
     try {
+      if (!user || !user._id) return;
       const { data } = await axios.get("/api/address/get", {
         params: {
           userId: user._id
         }
       });
-      if (data.success) {
+      if (data.success && Array.isArray(data.addresses) && data.addresses.length > 0) {
         setAddresses(data.addresses);
-        if (data.addresses.length > 0) {
-          setSelectedAddress(data.addresses[0]);
-        }
-      } else {
-        toast.error(data.message);
+        setSelectedAddress(data.addresses[0]);
       }
     } catch (error) {
-      toast.error(error.message);
+      console.log("getUserAddress note:", error.message);
     }
   };
 
   useEffect(() => {
-    if (products.length > 0 && cartItems) {
-      getCart();
-    }
+    getCart();
   }, [products, cartItems]);
 
   useEffect(() => {
-    if (user) {
+    if (user && user._id) {
       getUserAddress();
     }
   }, [user]);
 
   const placeOrder = async () => {
     try {
-      if (!selectedAddress) {
-        return toast.error("Please select an address");
+      if (cartArray.length === 0) {
+        return toast.error("Your cart is empty. Please add items to buy.");
       }
+      if (!user) {
+        setShowUserLogin(true);
+        return toast.error("Please log in to complete your purchase");
+      }
+      if (!selectedAddress) {
+        return toast.error("Please select a delivery address");
+      }
+
+      setLoading(true);
+
       if (paymentOption === "COD") {
         const { data } = await axios.post("/api/order/cod", {
           userId: user._id,
@@ -78,14 +92,15 @@ const Cart = () => {
             product: item._id,
             quantity: item.quantity
           })),
-          address: selectedAddress._id
+          address: selectedAddress
         });
+
         if (data.success) {
-          toast.success(data.message);
+          toast.success("🎉 " + (data.message || "Order Placed Successfully!"));
           setCartItems({});
           navigate("/my-orders");
         } else {
-          toast.error(data.message);
+          toast.error(data.message || "Failed to place order");
         }
       } else {
         const { data } = await axios.post("/api/order/stripe", {
@@ -94,217 +109,327 @@ const Cart = () => {
             product: item._id,
             quantity: item.quantity
           })),
-          address: selectedAddress._id
+          address: selectedAddress
         });
-        if (data.success) {
+
+        if (data.success && data.url) {
           window.location.replace(data.url);
         } else {
-          toast.error(data.message);
+          toast.error(data.message || "Online checkout unavailable, please select COD");
         }
-        console.log(data);
       }
     } catch (error) {
-      toast.error(error.message);
+      toast.error(error.message || "Error placing order");
+    } finally {
+      setLoading(false);
     }
   };
 
-  return products.length > 0 && cartItems ? (
-    <div className="flex flex-col md:flex-row mt-16">
-      <div className="flex-1 max-w-4xl">
-        <h1 className="text-3xl font-medium mb-6">
-          Shopping Cart{" "}
-          <span className="text-sm text-primary">{getCartCount()} Items</span>
-        </h1>
+  if (cartArray.length === 0) {
+    return (
+      <div className="py-20 flex flex-col items-center justify-center text-center">
+        <div className="w-20 h-20 bg-emerald-50 rounded-full flex items-center justify-center mb-4">
+          <img src={assets.nav_cart_icon} alt="empty cart" className="w-10 opacity-40" />
+        </div>
+        <h2 className="text-2xl font-bold text-gray-800">Your Shopping Cart is Empty</h2>
+        <p className="text-gray-500 text-sm mt-1 mb-6 max-w-sm">
+          Looks like you haven't added any groceries to your basket yet. Explore fresh vegetables, fruits, dairy, and more!
+        </p>
+        <Link
+          to="/products"
+          className="px-6 py-2.5 bg-primary hover:bg-primary-600 text-white font-medium rounded-full text-sm shadow-md transition"
+        >
+          Explore All Groceries
+        </Link>
+      </div>
+    );
+  }
 
-        <div className="grid grid-cols-[2fr_1fr_1fr] text-gray-500 text-base font-medium pb-3">
-          <p className="text-left">Product Details</p>
-          <p className="text-center">Subtotal</p>
-          <p className="text-center">Action</p>
+  return (
+    <div className="flex flex-col lg:flex-row gap-8 mt-12 pb-20">
+      {/* Cart Items List */}
+      <div className="flex-1">
+        <div className="flex items-center justify-between mb-6">
+          <h1 className="text-2xl font-bold text-gray-800">
+            Shopping Cart{" "}
+            <span className="text-xs font-semibold px-2.5 py-1 bg-primary/10 text-primary rounded-full ml-2">
+              {getCartCount()} Items
+            </span>
+          </h1>
+          <button
+            onClick={() => setCartItems({})}
+            className="text-xs text-red-500 hover:underline cursor-pointer"
+          >
+            Clear Cart
+          </button>
         </div>
 
-        {cartArray.map((product, index) => {
-          return (
-            <div
-              key={index}
-              className="grid grid-cols-[2fr_1fr_1fr] text-gray-500 items-center text-sm md:text-base font-medium pt-3"
-            >
-              <div className="flex items-center md:gap-6 gap-3">
-                <div
-                  className="cursor-pointer w-24 h-24 flex items-center justify-center border border-gray-300 rounded"
-                  onClick={() => {
-                    navigate(
-                      `/products/${product.category.toLowerCse()}/${
-                        product._id
-                      }`
-                    );
-                    scrollTo(0, 0);
-                  }}
-                >
-                  <img
-                    className="max-w-full h-full object-cover"
-                    src={product.image[0]}
-                    alt={product.name}
-                  />
-                </div>
-                <div>
-                  <p className="hidden md:block font-semibold">
-                    {product.name}
-                  </p>
-                  <div className="font-normal text-gray-500/70">
-                    <p>
-                      Weight: <span>{product?.weight || "N/A"}</span>
+        <div className="hidden sm:grid grid-cols-[3fr_1fr_1fr] text-gray-400 text-xs font-semibold uppercase tracking-wider pb-3 border-b border-gray-200">
+          <p className="text-left">Product</p>
+          <p className="text-center">Subtotal</p>
+          <p className="text-center">Remove</p>
+        </div>
+
+        <div className="divide-y divide-gray-100">
+          {cartArray.map((product, index) => {
+            const imageSrc =
+              (Array.isArray(product.image) ? product.image[0] : product.image) ||
+              assets.upload_area;
+
+            return (
+              <div
+                key={product._id || index}
+                className="grid grid-cols-1 sm:grid-cols-[3fr_1fr_1fr] items-center py-4 gap-4"
+              >
+                <div className="flex items-center gap-4">
+                  <div
+                    className="cursor-pointer w-20 h-20 flex items-center justify-center border border-gray-200 rounded-xl p-1 bg-white shrink-0 overflow-hidden"
+                    onClick={() => {
+                      navigate(
+                        `/products/${(product.category || "vegetables").toLowerCase()}/${product._id}`
+                      );
+                      window.scrollTo(0, 0);
+                    }}
+                  >
+                    <img
+                      className="w-full h-full object-contain"
+                      src={imageSrc}
+                      alt={product.name}
+                      onError={(e) => {
+                        e.target.src = assets.upload_area;
+                      }}
+                    />
+                  </div>
+                  <div>
+                    <p className="font-semibold text-gray-800 text-sm md:text-base">
+                      {product.name}
                     </p>
-                    <div className="flex items-center">
-                      <p>Qty:</p>
-                      <select
-                        className="outline-none"
-                        onChange={(e) =>
-                          updateCartItem(product._id, Number(e.target.value))
-                        }
-                        value={cartItems[product._id]}
-                      >
-                        {Array(
-                          cartItems[product._id] > 9
-                            ? cartItems[product._id]
-                            : 9
-                        )
-                          .fill("")
-                          .map((_, index) => (
-                            <option key={index} value={index + 1}>
-                              {index + 1}
-                            </option>
-                          ))}
-                      </select>
+                    <p className="text-xs text-gray-400 capitalize mb-1">
+                      Category: {product.category}
+                    </p>
+                    <div className="flex items-center gap-2 text-xs text-gray-600">
+                      <span>Qty:</span>
+                      <div className="flex items-center border border-gray-300 rounded-md">
+                        <button
+                          type="button"
+                          onClick={() => updateCartItem(product._id, product.quantity - 1)}
+                          className="px-2 py-0.5 hover:bg-gray-100 cursor-pointer"
+                        >
+                          -
+                        </button>
+                        <span className="px-2 font-medium">{product.quantity}</span>
+                        <button
+                          type="button"
+                          onClick={() => updateCartItem(product._id, product.quantity + 1)}
+                          className="px-2 py-0.5 hover:bg-gray-100 cursor-pointer"
+                        >
+                          +
+                        </button>
+                      </div>
+                      <span className="text-xs text-gray-400 ml-2">
+                        (${product.offerPrice || product.price} each)
+                      </span>
                     </div>
                   </div>
                 </div>
+
+                <p className="text-center font-bold text-gray-800 text-sm md:text-base">
+                  {currency}
+                  {Math.round((product.offerPrice || product.price) * product.quantity * 100) / 100}
+                </p>
+
+                <div className="text-center">
+                  <button
+                    className="p-1.5 hover:bg-red-50 text-red-500 rounded-lg transition cursor-pointer"
+                    onClick={() => removeCartItem(product._id)}
+                    title="Remove Item"
+                  >
+                    <img
+                      src={assets.remove_icon}
+                      alt="remove"
+                      className="inline-block w-5 h-5"
+                    />
+                  </button>
+                </div>
               </div>
-              <p className="text-center">
-                {currency}
-                {product.offerPrice * product.quantity}
-              </p>
-              <button
-                className="cursor-pointer mx-auto"
-                onClick={() => removeCartItem(product._id)}
-              >
-                <img
-                  src={assets.remove_icon}
-                  alt="remove"
-                  className="inline-block w-6 h-6"
-                />
-              </button>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
 
         <button
           onClick={() => {
             navigate("/products");
-            scrollTo(0, 0);
+            window.scrollTo(0, 0);
           }}
-          className="group cursor-pointer flex items-center mt-8 gap-2 text-primary font-medium"
+          className="group cursor-pointer inline-flex items-center mt-6 gap-2 text-primary font-semibold text-sm hover:underline"
         >
           <img
             src={assets.arrow_right_icon_colored}
             alt="arrow"
-            className="group-hover:-translate-x-1 transition"
+            className="group-hover:-translate-x-1 transition rotate-180 w-4 h-4"
           />
           Continue Shopping
         </button>
       </div>
 
-      <div className="max-w-[360px] w-full bg-gray-100/40 p-5 max-md:mt-16 border border-gray-300/70">
-        <h2 className="text-xl md:text-xl font-medium">Order Summary</h2>
-        <hr className="border-gray-300 my-5" />
+      {/* Order Summary & Checkout Sidebar */}
+      <div className="lg:w-[380px] w-full bg-white p-6 rounded-2xl border border-gray-200 shadow-xs h-fit">
+        <h2 className="text-xl font-bold text-gray-800">Order Summary</h2>
+        <hr className="border-gray-100 my-4" />
 
-        <div className="mb-6">
-          <p className="text-sm font-medium uppercase">Delivery Address</p>
-          <div className="relative flex justify-between items-start mt-2">
-            <p className="text-gray-500">
-              {selectedAddress
-                ? `${selectedAddress.street},${selectedAddress.city},${selectedAddress.state}, ${selectedAddress.country}`
-                : "No Address found"}
+        {/* Delivery Address */}
+        <div className="mb-5">
+          <div className="flex justify-between items-center mb-1.5">
+            <p className="text-xs font-bold text-gray-500 uppercase tracking-wider">
+              Delivery Address
             </p>
             <button
               onClick={() => setShowAddress(!showAddress)}
-              className="text-primary hover:underline cursor-pointer"
+              className="text-xs text-primary font-semibold hover:underline cursor-pointer"
             >
               Change
             </button>
-            {showAddress && (
-              <div className="absolute top-12 py-1 bg-white border border-gray-300 text-sm w-full">
-                {addresses.map((address, index) => (
-                  <p
-                    onClick={() => {
-                      setSelectedAddress(address);
-                      setShowAddress(false);
-                    }}
-                    className="text-gray-500 p-2 hover:bg-gray-100"
-                  >
-                    {address.street},{address.city},{address.state},
-                    {address.country}
-                  </p>
-                ))}
+          </div>
 
-                <p
-                  onClick={() => navigate("/add-address")}
-                  className="text-primary text-center cursor-pointer p-2 hover:bg-primary/10"
-                >
-                  Add address
+          <div className="p-3 bg-gray-50 rounded-xl border border-gray-200 text-xs text-gray-700">
+            {selectedAddress ? (
+              <>
+                <p className="font-semibold text-gray-800">
+                  {selectedAddress.firstName} {selectedAddress.lastName}
                 </p>
-              </div>
+                <p>
+                  {selectedAddress.street}, {selectedAddress.city}
+                </p>
+                <p>
+                  {selectedAddress.state} {selectedAddress.zipcode}, {selectedAddress.country}
+                </p>
+                <p className="mt-1 text-gray-500">📞 {selectedAddress.phone}</p>
+              </>
+            ) : (
+              <p className="text-gray-400">No address selected</p>
             )}
           </div>
 
-          <p className="text-sm font-medium uppercase mt-6">Payment Method</p>
-
-          <select
-            className="w-full border border-gray-300 bg-white px-3 py-2 mt-2 outline-none"
-            onChange={(e) => setPaymentOption(e.target.value)}
-          >
-            <option value="COD">Cash On Delivery</option>
-            <option value="Online">Online Payment</option>
-          </select>
+          {showAddress && (
+            <div className="mt-2 p-2 bg-white border border-gray-200 rounded-xl shadow-lg space-y-1 text-xs">
+              {addresses.map((address, index) => (
+                <div
+                  key={index}
+                  onClick={() => {
+                    setSelectedAddress(address);
+                    setShowAddress(false);
+                  }}
+                  className="p-2 hover:bg-gray-50 rounded-lg cursor-pointer transition text-gray-700"
+                >
+                  <p className="font-medium">
+                    {address.firstName} {address.lastName}
+                  </p>
+                  <p className="text-gray-500 text-[11px]">
+                    {address.street}, {address.city}
+                  </p>
+                </div>
+              ))}
+              <div
+                onClick={() => navigate("/add-address")}
+                className="text-primary text-center font-medium cursor-pointer p-2 hover:bg-primary/10 rounded-lg border-t border-gray-100"
+              >
+                + Add New Address
+              </div>
+            </div>
+          )}
         </div>
 
-        <hr className="border-gray-300" />
+        {/* Payment Method */}
+        <div className="mb-5">
+          <p className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">
+            Payment Method
+          </p>
+          <div className="grid grid-cols-2 gap-2">
+            <button
+              type="button"
+              onClick={() => setPaymentOption("COD")}
+              className={`p-3 text-xs font-semibold rounded-xl border transition text-center cursor-pointer ${
+                paymentOption === "COD"
+                  ? "border-primary bg-primary/10 text-primary"
+                  : "border-gray-200 text-gray-700 hover:bg-gray-50"
+              }`}
+            >
+              💵 Cash on Delivery
+            </button>
+            <button
+              type="button"
+              onClick={() => setPaymentOption("Online")}
+              className={`p-3 text-xs font-semibold rounded-xl border transition text-center cursor-pointer ${
+                paymentOption === "Online"
+                  ? "border-primary bg-primary/10 text-primary"
+                  : "border-gray-200 text-gray-700 hover:bg-gray-50"
+              }`}
+            >
+              💳 Online / Card
+            </button>
+          </div>
+        </div>
 
-        <div className="text-gray-500 mt-4 space-y-2">
-          <p className="flex justify-between">
-            <span>Price</span>
-            <span>
+        <hr className="border-gray-100" />
+
+        {/* Pricing Calculation */}
+        <div className="text-sm text-gray-600 mt-4 space-y-2.5">
+          <div className="flex justify-between">
+            <span>Subtotal</span>
+            <span className="font-medium text-gray-800">
               {currency}
               {getCartAmmount()}
             </span>
-          </p>
-          <p className="flex justify-between">
-            <span>Shipping Fee</span>
-            <span className="text-green-600">Free</span>
-          </p>
-          <p className="flex justify-between">
-            <span>Tax (2%)</span>
+          </div>
+          <div className="flex justify-between text-xs">
+            <span>Estimated Delivery</span>
+            <span className="text-emerald-600 font-semibold">FREE (30 Mins)</span>
+          </div>
+          <div className="flex justify-between text-xs">
+            <span>Estimated Tax (2%)</span>
             <span>
               {currency}
-              {(getCartAmmount() * 2) / 100}
+              {Math.round((getCartAmmount() * 0.02) * 100) / 100}
             </span>
-          </p>
-          <p className="flex justify-between text-lg font-medium mt-3">
-            <span>Total Amount:</span>
-            <span>
+          </div>
+          <div className="flex justify-between text-base font-bold text-gray-900 pt-2 border-t border-gray-100">
+            <span>Grand Total:</span>
+            <span className="text-primary">
               {currency}
-              {getCartAmmount() + (getCartAmmount() * 2) / 100}
+              {Math.round((getCartAmmount() + getCartAmmount() * 0.02) * 100) / 100}
             </span>
-          </p>
+          </div>
         </div>
 
+        {/* Checkout Button */}
         <button
-          className="w-full py-3 mt-6 cursor-pointer bg-primary text-white font-medium hover:bg-primary transition"
+          disabled={loading}
           onClick={placeOrder}
+          className="w-full py-3.5 mt-6 cursor-pointer bg-primary hover:bg-primary-600 text-white font-bold rounded-xl transition duration-200 shadow-md hover:shadow-lg disabled:opacity-50 text-sm flex items-center justify-center gap-2"
         >
-          {paymentOption === "COD" ? "Place Order" : "Proceed to checkout"}
+          {loading ? (
+            "Placing Order..."
+          ) : paymentOption === "COD" ? (
+            <>
+              <span>📦</span>
+              <span>Confirm & Place Order (COD)</span>
+            </>
+          ) : (
+            <>
+              <span>💳</span>
+              <span>Proceed to Payment</span>
+            </>
+          )}
         </button>
+
+        {!user && (
+          <p className="text-[11px] text-center text-amber-700 bg-amber-50 p-2 rounded-lg mt-3">
+            ℹ️ You will be asked to sign in or create an account to confirm delivery.
+          </p>
+        )}
       </div>
     </div>
-  ) : null;
+  );
 };
+
 export default Cart;

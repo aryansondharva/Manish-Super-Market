@@ -3,12 +3,12 @@ import jwt from "jsonwebtoken";
 export const sellerLogin = async (req, res) => {
   try {
     const { email, password } = req.body;
+    const adminEmail = process.env.SELLER_EMAIL || "admin@grocery.com";
+    const adminPassword = process.env.SELLER_PASSWORD || "admin123";
+    const jwtSecret = process.env.JWT_SECRET || "grocery_secret_jwt_key_2026_xyz";
 
-    if (
-      password === process.env.SELLER_PASSWORD &&
-      email === process.env.SELLER_EMAIL
-    ) {
-      const token = jwt.sign({ email }, process.env.JWT_SECRET, {
+    if (password === adminPassword && email === adminEmail) {
+      const token = jwt.sign({ email }, jwtSecret, {
         expiresIn: "7d"
       });
       res.cookie("sellerToken", token, {
@@ -17,13 +17,13 @@ export const sellerLogin = async (req, res) => {
         sameSite: process.env.NODE_ENV === "production" ? "none" : "strict",
         maxAge: 7 * 24 * 60 * 60 * 1000
       });
-      return res.json({ success: true, message: "Logged In" });
+      return res.json({ success: true, message: "Logged In as Admin", token });
     } else {
-      return res.json({ success: false, message: "Invalid Credentials" });
+      return res.json({ success: false, message: "Invalid Admin Credentials" });
     }
   } catch (error) {
     console.log(error.message);
-    res.json({ succes: false, message: error.message });
+    res.json({ success: false, message: error.message });
   }
 };
 
@@ -32,7 +32,7 @@ export const isSellerAuth = async (req, res) => {
     return res.json({ success: true });
   } catch (error) {
     console.log(error.message);
-    res.json({ succes: false, message: error.message });
+    res.json({ success: false, message: error.message });
   }
 };
 
@@ -43,9 +43,9 @@ export const sellerLogout = async (req, res) => {
       secure: process.env.NODE_ENV === "production",
       sameSite: process.env.NODE_ENV === "production" ? "none" : "strict"
     });
-    res.json({ success: true, message: "Logged Out" });
+    res.json({ success: true, message: "Logged Out Successfully" });
   } catch (error) {
     console.log(error.message);
-    res.json({ succes: false, message: error.message });
+    res.json({ success: false, message: error.message });
   }
 };

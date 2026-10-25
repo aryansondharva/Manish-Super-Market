@@ -1,5 +1,21 @@
 import multer from "multer";
+import fs from "fs";
+import path from "path";
 
-export const upload = multer({
-  storage: multer.diskStorage({})
+const uploadDir = "uploads";
+if (!fs.existsSync(uploadDir)) {
+  fs.mkdirSync(uploadDir, { recursive: true });
+}
+
+const storage = multer.diskStorage({
+  destination: (req, file, cb) => {
+    cb(null, uploadDir);
+  },
+  filename: (req, file, cb) => {
+    const ext = path.extname(file.originalname) || ".png";
+    const uniqueSuffix = Date.now() + "-" + Math.round(Math.random() * 1e9);
+    cb(null, uniqueSuffix + ext);
+  }
 });
+
+export const upload = multer({ storage });

@@ -1,18 +1,25 @@
 import jwt from "jsonwebtoken";
 
 const authSeller = async (req, res, next) => {
-  const { sellerToken } = req.cookies;
+  const sellerToken =
+    req.cookies?.sellerToken ||
+    req.headers["seller-token"] ||
+    req.headers["authorization"]?.replace("Bearer ", "");
 
   if (!sellerToken) {
-    return res.json({ success: false, message: "Not Authorized" });
+    return res.json({ success: false, message: "Not Authorized as Seller/Admin" });
   }
 
   try {
-    const tokenDecode = jwt.verify(sellerToken, process.env.JWT_SECRET);
-    if (tokenDecode.email === process.env.SELLER_EMAIL) {
+    const tokenDecode = jwt.verify(
+      sellerToken,
+      process.env.JWT_SECRET || "grocery_secret_jwt_key_2026_xyz"
+    );
+    const sellerEmail = process.env.SELLER_EMAIL || "admin@grocery.com";
+    if (tokenDecode.email === sellerEmail) {
       next();
     } else {
-      return res.json({ success: false, message: "Not Authorized" });
+      return res.json({ success: false, message: "Not Authorized as Seller" });
     }
   } catch (error) {
     res.json({ success: false, message: error.message });
