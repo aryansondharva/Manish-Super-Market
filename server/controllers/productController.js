@@ -137,3 +137,101 @@ export const deleteProduct = async (req, res) => {
     res.json({ success: false, message: error.message });
   }
 };
+
+export const updateProduct = async (req, res) => {
+  try {
+    let productData =
+      typeof req.body.productData === "string"
+        ? JSON.parse(req.body.productData)
+        : req.body.productData || req.body;
+
+    const id = req.body.id || req.body._id || productData.id || productData._id;
+
+    if (!id) {
+      return res.json({ success: false, message: "Product ID is required for editing" });
+    }
+
+    const existingProduct = await Product.findById(id);
+    if (!existingProduct) {
+      return res.json({ success: false, message: "Product not found" });
+    }
+
+    const files = req.files || [];
+    let imagesUrl = [];
+
+    if (files.length > 0) {
+      if (
+        process.env.CLOUDINARY_CLOUD_NAME &&
+        process.env.CLOUDINARY_API_KEY &&
+        process.env.CLOUDINARY_API_SECRET
+      ) {
+        imagesUrl = await Promise.all(
+          files.map(async (item) => {
+            let result = await cloudinary.uploader.upload(item.path, {
+              resource_type: "image"
+            });
+            return result.secure_url;
+          })
+        );
+      } else {
+        const protocol = req.protocol;
+        const host = req.get("host");
+        imagesUrl = files.map((file) => `${protocol}://${host}/uploads/${file.filename}`);
+      }
+    }
+
+    // If client provided image URL
+    if (imagesUrl.length === 0 && productData.image) {
+      if (Array.isArray(productData.image)) {
+        imagesUrl = productData.image.filter(Boolean);
+      } else if (typeof productData.image === "string" && productData.image.trim()) {
+        imagesUrl = [productData.image.trim()];
+      }
+    }
+
+    // Keep existing images if no new images uploaded
+    if (imagesUrl.length === 0) {
+      imagesUrl = existingProduct.image;
+    }
+
+    let descriptionArray = existingProduct.description;
+    if (productData.description !== undefined) {
+      if (Array.isArray(productData.description)) {
+        descriptionArray = productData.description;
+      } else if (typeof productData.description === "string") {
+        descriptionArray = productData.description
+          .split("\n")
+          .map((s) => s.trim())
+          .filter(Boolean);
+      }
+    }
+
+    const updateFields = {
+      name: productData.name !== undefined ? productData.name.trim() : existingProduct.name,
+      category: productData.category !== undefined ? productData.category : existingProduct.category,
+      price: productData.price !== undefined ? Number(productData.price) : existingProduct.price,
+      offerPrice:
+        productData.offerPrice !== undefined
+          ? Number(productData.offerPrice)
+          : existingProduct.offerPrice,
+      description: descriptionArray,
+      image: imagesUrl,
+      inStock:
+        productData.inStock !== undefined
+          ? Boolean(productData.inStock)
+          : existingProduct.inStock
+    };
+
+    const updated = await Product.findByIdAndUpdate(id, updateFields, { new: true });
+
+    return res.json({
+      success: true,
+      message: `Product "${updated.name}" updated successfully!`,
+      product: updated
+    });
+  } catch (error) {
+    console.log("Error in updateProduct:", error.message);
+    return res.json({ success: false, message: error.message });
+  }
+};
+
