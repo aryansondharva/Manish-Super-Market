@@ -155,15 +155,18 @@ const seedInitialData = async () => {
 
     // Seed demo customer if not exists
     const demoCustomer = await User.findOne({ email: "customer@grocery.com" });
+    const strongDemoPass = await bcrypt.hash("Customer@123", 10);
     if (!demoCustomer) {
-      const hashedPassword = await bcrypt.hash("customer123", 10);
       await User.create({
         name: "Alex Customer",
         email: "customer@grocery.com",
-        password: hashedPassword,
+        password: strongDemoPass,
         cartItems: {}
       });
-      console.log("Demo customer account seeded (customer@grocery.com / customer123)");
+      console.log("Demo customer account seeded (customer@grocery.com / Customer@123)");
+    } else {
+      // Ensure demo account has the strong password
+      await User.findByIdAndUpdate(demoCustomer._id, { password: strongDemoPass });
     }
   } catch (error) {
     console.log("Data seeding note:", error.message);
