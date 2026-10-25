@@ -102,47 +102,109 @@ export const assets = {
 
 export const categories = [
   {
-    text: "Organic veggies",
-    path: "Vegetables",
-    image: organic_vegitable_image,
-    bgColor: "#FEF6DA",
+    "text": "Chocolates & Sweets",
+    "name": "Chocolates & Sweets",
+    "path": "Chocolates",
+    "image": "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=400",
+    "bgColor": "#FDF2F8",
+    "description": "Premium Cadbury Silk, dark chocolates, wafers & sweets"
   },
   {
-    text: "Fresh Fruits",
-    path: "Fruits",
-    image: fresh_fruits_image,
-    bgColor: "#FEE0E0",
+    "text": "Cold Drinks & Sodas",
+    "name": "Cold Drinks & Sodas",
+    "path": "Drinks",
+    "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=400",
+    "bgColor": "#F0F5DE",
+    "description": "Chilled soft drinks, juices, energy drinks & mineral waters"
   },
   {
-    text: "Cold Drinks",
-    path: "Drinks",
-    image: bottles_image,
-    bgColor: "#F0F5DE",
+    "text": "Dairy Products",
+    "name": "Dairy Products",
+    "path": "Dairy",
+    "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80&w=400",
+    "bgColor": "#FEE6CD",
+    "description": "Farm-fresh milk, butter, cheese blocks, paneer & curd"
   },
   {
-    text: "Instant Food",
-    path: "Instant",
-    image: maggi_image,
-    bgColor: "#E1F5EC",
+    "text": "Ice Creams & Frozen",
+    "name": "Ice Creams & Frozen",
+    "path": "Ice Cream",
+    "image": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=400",
+    "bgColor": "#EFF6FF",
+    "description": "Amul TriCones, chocobars, kulfis, sundaes & tubs"
   },
   {
-    text: "Dairy Products",
-    path: "Dairy",
-    image: dairy_product_image,
-    bgColor: "#FEE6CD",
+    "text": "Cleaning & Household",
+    "name": "Cleaning & Household",
+    "path": "Cleaning",
+    "image": "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=400",
+    "bgColor": "#F0FDF4",
+    "description": "Harpic, Lizol, Vim dishwash, Domex & Colin cleaners"
   },
   {
-    text: "Bakery & Breads",
-    path: "Bakery",
-    image: bakery_image,
-    bgColor: "#E0F6FE",
+    "text": "Personal & Hair Care",
+    "name": "Personal & Hair Care",
+    "path": "Personal Care",
+    "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=400",
+    "bgColor": "#FAF5FF",
+    "description": "Shampoos, conditioners, hair colours, body washes & skincare"
   },
   {
-    text: "Grains & Cereals",
-    path: "Grains",
-    image: grain_image,
-    bgColor: "#F1E3F9",
+    "text": "Spices, Masalas & Pantry",
+    "name": "Spices, Masalas & Pantry",
+    "path": "Spices",
+    "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=400",
+    "bgColor": "#FEF3C7",
+    "description": "Everest blended masalas, achar spices, pure flours & honey"
   },
+  {
+    "text": "Groceries & Cooking Oils",
+    "name": "Groceries & Cooking Oils",
+    "path": "Grocery",
+    "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=400",
+    "bgColor": "#FFF7ED",
+    "description": "Refined cooking oils, whole wheat atta, grains & crunchy snacks"
+  },
+  {
+    "text": "Instant Food & Desserts",
+    "name": "Instant Food & Desserts",
+    "path": "Instant",
+    "image": "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=400",
+    "bgColor": "#E1F5EC",
+    "description": "Gits dessert mixes, gulab jamun, quick snacks & ready meals"
+  },
+  {
+    "text": "Electrical & Lights",
+    "name": "Electrical & Lights",
+    "path": "Electrical",
+    "image": "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=400",
+    "bgColor": "#FEF9C3",
+    "description": "Wipro LED bulbs, emergency lights, festive string lights & candles"
+  },
+  {
+    "text": "Organic Veggies",
+    "name": "Organic Veggies",
+    "path": "Vegetables",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&q=80&w=400",
+    "bgColor": "#FEF6DA",
+    "description": "Farm-fresh organic leafy vegetables and greens"
+  },
+  {
+    "text": "Fresh Fruits",
+    "name": "Fresh Fruits",
+    "path": "Fruits",
+    "image": "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&q=80&w=400",
+    "bgColor": "#FEE0E0",
+    "description": "Sweet, juicy seasonal and imported fresh fruits"
+  },
+  {
+    "text": "Bakery & Breads",
+    "name": "Bakery & Breads",
+    "path": "Bakery",
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=400",
+    "bgColor": "#E0F6FE",
+    "description": "Whole wheat breads, morning muffins, and fresh buns"
+  }
 ];
 
 export const footerLinks = [
@@ -201,643 +263,4953 @@ export const features = [
 ];
 
 export const dummyProducts = [
-  // Vegetables
   {
-    _id: "gd46g23h",
-    name: "Potato 500g",
-    category: "Vegetables",
-    price: 25,
-    offerPrice: 20,
-    image: [potato_image_1, potato_image_2, potato_image_3, potato_image_4],
-    description: [
-      "Fresh and organic",
-      "Rich in carbohydrates",
-      "Ideal for curries and fries",
+    "_id": "65f000000000000000000001",
+    "code": "P001",
+    "name": "Cadbury Dairy Milk Silk Bubbly",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 90,
+    "offerPrice": 82,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/20006690_49-cadbury-dairy-milk-silk-bubbly-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "gd47g34h",
-    name: "Tomato 1 kg",
-    category: "Vegetables",
-    price: 40,
-    offerPrice: 35,
-    image: [tomato_image],
-    description: [
-      "Juicy and ripe",
-      "Rich in Vitamin C",
-      "Perfect for salads and sauces",
-      "Farm fresh quality",
+    "description": [
+      "100% Genuine & Authentic Cadbury Dairy Milk Silk Bubbly",
+      "Category: Chocolate | Code: P001",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
+    "inStock": true,
+    "purchaseCount": 55,
+    "createdAt": "2026-10-25T08:21:42.412Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
   },
   {
-    _id: "gd48g45h",
-    name: "Carrot 500g",
-    category: "Vegetables",
-    price: 30,
-    offerPrice: 28,
-    image: [carrot_image],
-    description: [
-      "Sweet and crunchy",
-      "Good for eyesight",
-      "Ideal for juices and salads",
+    "_id": "65f000000000000000000002",
+    "code": "P002",
+    "name": "Cadbury Dairy Milk Silk Fruit & Nut",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 90,
+    "offerPrice": 82,
+    "image": [
+      "https://images.openfoodfacts.org/images/products/762/220/227/1861/front_en.9.400.jpg",
+      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "gd49g56h",
-    name: "Spinach 500g",
-    category: "Vegetables",
-    price: 18,
-    offerPrice: 15,
-    image: [spinach_image_1],
-    description: [
-      "Rich in iron",
-      "High in vitamins",
-      "Perfect for soups and salads",
+    "description": [
+      "100% Genuine & Authentic Cadbury Dairy Milk Silk Fruit & Nut",
+      "Category: Chocolate | Code: P002",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
+    "inStock": true,
+    "purchaseCount": 73,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
   },
   {
-    _id: "gd50g67h",
-    name: "Onion 500g",
-    category: "Vegetables",
-    price: 22,
-    offerPrice: 19,
-    image: [onion_image_1],
-    description: [
-      "Fresh and pungent",
-      "Perfect for cooking",
-      "A kitchen staple",
+    "_id": "65f000000000000000000003",
+    "code": "P003",
+    "name": "Cadbury Dairy Milk Silk Chocolate",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 85,
+    "offerPrice": 78,
+    "image": [
+      "https://images.openfoodfacts.org/images/products/762/220/227/1861/front_en.9.400.jpg",
+      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-
-  // Fruits
-  {
-    _id: "ek51j12k",
-    name: "Apple 1 kg",
-    category: "Fruits",
-    price: 120,
-    offerPrice: 110,
-    image: [apple_image],
-    description: [
-      "Crisp and juicy",
-      "Rich in fiber",
-      "Boosts immunity",
-      "Perfect for snacking and desserts",
-      "Organic and farm fresh",
+    "description": [
+      "100% Genuine & Authentic Cadbury Dairy Milk Silk Chocolate",
+      "Category: Chocolate | Code: P003",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
+    "inStock": true,
+    "purchaseCount": 18,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
   },
   {
-    _id: "ek52j23k",
-    name: "Orange 1 kg",
-    category: "Fruits",
-    price: 80,
-    offerPrice: 75,
-    image: [orange_image],
-    description: [
-      "Juicy and sweet",
-      "Rich in Vitamin C",
-      "Perfect for juices and salads",
+    "_id": "65f000000000000000000004",
+    "code": "P004",
+    "name": "Cadbury Dairy Milk Silk Oreo",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 95,
+    "offerPrice": 85,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40120536_17-cadbury-dairy-milk-silk-oreo-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek53j34k",
-    name: "Banana 1 kg",
-    category: "Fruits",
-    price: 50,
-    offerPrice: 45,
-    image: [banana_image_1],
-    description: [
-      "Sweet and ripe",
-      "High in potassium",
-      "Great for smoothies and snacking",
+    "description": [
+      "100% Genuine & Authentic Cadbury Dairy Milk Silk Oreo",
+      "Category: Chocolate | Code: P004",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
+    "inStock": true,
+    "purchaseCount": 47,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
   },
   {
-    _id: "ek54j45k",
-    name: "Mango 1 kg",
-    category: "Fruits",
-
-    price: 150,
-    offerPrice: 140,
-    image: [mango_image_1],
-    description: [
-      "Sweet and flavorful",
-      "Perfect for smoothies and desserts",
-      "Rich in Vitamin A",
+    "_id": "65f000000000000000000005",
+    "code": "P005",
+    "name": "Cadbury Dairy Milk Silk Mousse",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 95,
+    "offerPrice": 85,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40156947_11-cadbury-dairy-milk-silk-mousse-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek55j56k",
-    name: "Grapes 500g",
-    category: "Fruits",
-    price: 70,
-    offerPrice: 65,
-    image: [grapes_image_1],
-    description: [
-      "Fresh and juicy",
-      "Rich in antioxidants",
-      "Perfect for snacking and fruit salads",
+    "description": [
+      "100% Genuine & Authentic Cadbury Dairy Milk Silk Mousse",
+      "Category: Chocolate | Code: P005",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
+    "inStock": true,
+    "purchaseCount": 61,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
   },
-
-  // Dairy
   {
-    _id: "ek56j67k",
-    name: "Amul Milk 1L",
-    category: "Dairy",
-    price: 60,
-    offerPrice: 55,
-    image: [amul_milk_image],
-    description: [
-      "Pure and fresh",
-      "Rich in calcium",
-      "Ideal for tea, coffee, and desserts",
-      "Trusted brand quality",
+    "_id": "65f000000000000000000006",
+    "code": "P006",
+    "name": "Cadbury Dairy Milk Silk Hazelnut",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 95,
+    "offerPrice": 85,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40120537_13-cadbury-dairy-milk-silk-hazelnut-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek57j78k",
-    name: "Paneer 200g",
-    category: "Dairy",
-    price: 90,
-    offerPrice: 85,
-    image: [paneer_image],
-    description: [
-      "Soft and fresh",
-      "Rich in protein",
-      "Ideal for curries and snacks",
+    "description": [
+      "100% Genuine & Authentic Cadbury Dairy Milk Silk Hazelnut",
+      "Category: Chocolate | Code: P006",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
+    "inStock": true,
+    "purchaseCount": 14,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
   },
   {
-    _id: "ek58j89k",
-    name: "Eggs 12 pcs",
-    category: "Dairy",
-    price: 90,
-    offerPrice: 85,
-    image: [eggs_image],
-    description: [
-      "Farm fresh",
-      "Rich in protein",
-      "Ideal for breakfast and baking",
+    "_id": "65f000000000000000000007",
+    "code": "P007",
+    "name": "Cadbury Dairy Milk Silk Brownie",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 95,
+    "offerPrice": 85,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40200843_6-cadbury-dairy-milk-silk-red-velvet-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek59j90k",
-    name: "Paneer 200g",
-    category: "Dairy",
-    price: 90,
-    offerPrice: 85,
-    image: [paneer_image_2],
-    description: [
-      "Soft and fresh",
-      "Rich in protein",
-      "Ideal for curries and snacks",
+    "description": [
+      "100% Genuine & Authentic Cadbury Dairy Milk Silk Brownie",
+      "Category: Chocolate | Code: P007",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
+    "inStock": true,
+    "purchaseCount": 48,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
   },
   {
-    _id: "ek60j01k",
-    name: "Cheese 200g",
-    category: "Dairy",
-    price: 140,
-    offerPrice: 130,
-    image: [cheese_image],
-    description: [
-      "Creamy and delicious",
-      "Perfect for pizzas and sandwiches",
-      "Rich in calcium",
+    "_id": "65f000000000000000000008",
+    "code": "P008",
+    "name": "Cadbury Dairy Milk Silk Ganache",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 95,
+    "offerPrice": 85,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40156947_11-cadbury-dairy-milk-silk-mousse-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-
-  // Drinks
-  {
-    _id: "ek61j12k",
-    name: "Coca-Cola 1.5L",
-    category: "Drinks",
-    price: 80,
-    offerPrice: 75,
-    image: [coca_cola_image],
-    description: [
-      "Refreshing and fizzy",
-      "Perfect for parties and gatherings",
-      "Best served chilled",
+    "description": [
+      "100% Genuine & Authentic Cadbury Dairy Milk Silk Ganache",
+      "Category: Chocolate | Code: P008",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
+    "inStock": true,
+    "purchaseCount": 43,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
   },
   {
-    _id: "ek62j23k",
-    name: "Pepsi 1.5L",
-    category: "Drinks",
-    price: 78,
-    offerPrice: 73,
-    image: [pepsi_image],
-    description: [
-      "Chilled and refreshing",
-      "Perfect for celebrations",
-      "Best served cold",
+    "_id": "65f000000000000000000009",
+    "code": "P009",
+    "name": "Cadbury Dairy Milk classic",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://images.openfoodfacts.org/images/products/762/220/232/9494/front_en.12.400.jpg",
+      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek63j34k",
-    name: "Sprite 1.5L",
-    category: "Drinks",
-    price: 79,
-    offerPrice: 74,
-    image: [sprite_image_1],
-    description: [
-      "Refreshing citrus taste",
-      "Perfect for hot days",
-      "Best served chilled",
+    "description": [
+      "100% Genuine & Authentic Cadbury Dairy Milk classic",
+      "Category: Chocolate | Code: P009",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
+    "inStock": true,
+    "purchaseCount": 18,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
   },
   {
-    _id: "ek64j45k",
-    name: "Fanta 1.5L",
-    category: "Drinks",
-    price: 77,
-    offerPrice: 72,
-    image: [fanta_image_1],
-    description: [
-      "Sweet and fizzy",
-      "Great for parties and gatherings",
-      "Best served cold",
+    "_id": "65f00000000000000000000a",
+    "code": "P010",
+    "name": "Cadbury Dairy Milk Roast Almond",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 50,
+    "offerPrice": 45,
+    "image": [
+      "https://images.openfoodfacts.org/images/products/762/220/232/9494/front_en.12.400.jpg",
+      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek65j56k",
-    name: "7 Up 1.5L",
-    category: "Drinks",
-    price: 76,
-    offerPrice: 71,
-    image: [seven_up_image_1],
-    description: [
-      "Refreshing lemon-lime flavor",
-      "Perfect for refreshing",
-      "Best served chilled",
+    "description": [
+      "100% Genuine & Authentic Cadbury Dairy Milk Roast Almond",
+      "Category: Chocolate | Code: P010",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
+    "inStock": true,
+    "purchaseCount": 46,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
   },
-
-  // Grains
   {
-    _id: "ek66j67k",
-    name: "Basmati Rice 5kg",
-    category: "Grains",
-    price: 550,
-    offerPrice: 520,
-    image: [basmati_rice_image],
-    description: [
-      "Long grain and aromatic",
-      "Perfect for biryani and pulao",
-      "Premium quality",
+    "_id": "65f00000000000000000000b",
+    "code": "P011",
+    "name": "Cadbury Dairy Milk Fruit & Nut",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 50,
+    "offerPrice": 45,
+    "image": [
+      "https://images.openfoodfacts.org/images/products/762/220/227/1861/front_en.9.400.jpg",
+      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek67j78k",
-    name: "Wheat Flour 5kg",
-    category: "Grains",
-    price: 250,
-    offerPrice: 230,
-    image: [wheat_flour_image],
-    description: [
-      "High-quality whole wheat",
-      "Soft and fluffy rotis",
-      "Rich in nutrients",
+    "description": [
+      "100% Genuine & Authentic Cadbury Dairy Milk Fruit & Nut",
+      "Category: Chocolate | Code: P011",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
+    "inStock": true,
+    "purchaseCount": 49,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
   },
   {
-    _id: "ek68j89k",
-    name: "Organic Quinoa 500g",
-    category: "Grains",
-    price: 450,
-    offerPrice: 420,
-    image: [quinoa_image],
-    description: [
-      "High in protein and fiber",
-      "Gluten-free",
-      "Rich in vitamins and minerals",
+    "_id": "65f00000000000000000000c",
+    "code": "P012",
+    "name": "Cadbury Dairy Milk Crackle",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 50,
+    "offerPrice": 45,
+    "image": [
+      "https://images.openfoodfacts.org/images/products/762/220/232/9494/front_en.12.400.jpg",
+      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "ek69j90k",
-    name: "Brown Rice 1kg",
-    category: "Grains",
-    price: 120,
-    offerPrice: 110,
-    image: [brown_rice_image],
-    description: [
-      "Whole grain and nutritious",
-      "Helps in weight management",
-      "Good source of magnesium",
+    "description": [
+      "100% Genuine & Authentic Cadbury Dairy Milk Crackle",
+      "Category: Chocolate | Code: P012",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
+    "inStock": true,
+    "purchaseCount": 80,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
   },
   {
-    _id: "ek70j01k",
-    name: "Barley 1kg",
-    category: "Grains",
-    price: 150,
-    offerPrice: 140,
-    image: [barley_image],
-    description: [
-      "Rich in fiber",
-      "Helps improve digestion",
-      "Low in fat and cholesterol",
+    "_id": "65f00000000000000000000d",
+    "code": "P013",
+    "name": "Cadbury Dairy Milk small bars",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 20,
+    "offerPrice": 18,
+    "image": [
+      "https://images.openfoodfacts.org/images/products/762/220/232/9494/front_en.12.400.jpg",
+      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-
-  // Bakery
-  {
-    _id: "bk01a24z",
-    name: "Brown Bread 400g",
-    category: "Bakery",
-    price: 40,
-    offerPrice: 35,
-    image: [brown_bread_image],
-    description: [
-      "Soft and healthy",
-      "Made from whole wheat",
-      "Ideal for breakfast and sandwiches",
+    "description": [
+      "100% Genuine & Authentic Cadbury Dairy Milk small bars",
+      "Category: Chocolate | Code: P013",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
+    "inStock": true,
+    "purchaseCount": 85,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
   },
   {
-    _id: "bk02b30y",
-    name: "Butter Croissant 100g",
-    category: "Bakery",
-    price: 50,
-    offerPrice: 45,
-    image: [butter_croissant_image],
-    description: [
-      "Flaky and buttery",
-      "Freshly baked",
-      "Perfect for breakfast or snacks",
+    "_id": "65f00000000000000000000e",
+    "code": "P014",
+    "name": "Cadbury Dairy Milk Crispello",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 35,
+    "offerPrice": 30,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40098555_16-cadbury-dairy-milk-crispello-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "bk03c31x",
-    name: "Chocolate Cake 500g",
-    category: "Bakery",
-    price: 350,
-    offerPrice: 325,
-    image: [chocolate_cake_image],
-    description: [
-      "Rich and moist",
-      "Made with premium cocoa",
-      "Ideal for celebrations and parties",
+    "description": [
+      "100% Genuine & Authentic Cadbury Dairy Milk Crispello",
+      "Category: Chocolate | Code: P014",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
+    "inStock": true,
+    "purchaseCount": 49,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
   },
   {
-    _id: "bk04d32w",
-    name: "Whole Bread 400g",
-    category: "Bakery",
-    price: 45,
-    offerPrice: 40,
-    image: [whole_wheat_bread_image],
-    description: [
-      "Healthy and nutritious",
-      "Made with whole wheat flour",
-      "Ideal for sandwiches and toast",
+    "_id": "65f00000000000000000000f",
+    "code": "P015",
+    "name": "Cadbury Bournville Orange 50% Dark",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 110,
+    "offerPrice": 99,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/263539_12-cadbury-bournville-rich-cocoa-dark-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "bk05e33v",
-    name: "Vanilla Muffins 6 pcs",
-    category: "Bakery",
-    price: 100,
-    offerPrice: 90,
-    image: [vanilla_muffins_image],
-    description: [
-      "Soft and fluffy",
-      "Perfect for a quick snack",
-      "Made with real vanilla",
+    "description": [
+      "100% Genuine & Authentic Cadbury Bournville Orange 50% Dark",
+      "Category: Chocolate | Code: P015",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
+    "inStock": true,
+    "purchaseCount": 46,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
   },
-
-  // Instant
   {
-    _id: "in01f25u",
-    name: "Maggi Noodles 280g",
-    category: "Instant",
-
-    price: 55,
-    offerPrice: 50,
-    image: [maggi_image],
-    description: [
-      "Instant and easy to cook",
-      "Delicious taste",
-      "Popular among kids and adults",
+    "_id": "65f000000000000000000010",
+    "code": "P016",
+    "name": "Cadbury Bournville Classic 50% Dark",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 110,
+    "offerPrice": 99,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/263539_12-cadbury-bournville-rich-cocoa-dark-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "in02g26t",
-    name: "Top Ramen 270g",
-    category: "Instant",
-    price: 45,
-    offerPrice: 40,
-    image: [top_ramen_image],
-    description: [
-      "Quick and easy to prepare",
-      "Spicy and flavorful",
-      "Loved by college students and families",
+    "description": [
+      "100% Genuine & Authentic Cadbury Bournville Classic 50% Dark",
+      "Category: Chocolate | Code: P016",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
+    "inStock": true,
+    "purchaseCount": 27,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
   },
   {
-    _id: "in03h27s",
-    name: "Knorr Cup Soup 70g",
-    category: "Instant",
-    price: 35,
-    offerPrice: 30,
-    image: [knorr_soup_image],
-    description: [
-      "Convenient for on-the-go",
-      "Healthy and nutritious",
-      "Variety of flavors",
+    "_id": "65f000000000000000000011",
+    "code": "P017",
+    "name": "Cadbury Bournville Fruit & Nut 50% Dark",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 115,
+    "offerPrice": 105,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40087494_12-cadbury-bournville-fruit-nut-dark-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-  {
-    _id: "in04i28r",
-    name: "Yippee Noodles 260g",
-    category: "Instant",
-    price: 50,
-    offerPrice: 45,
-    image: [yippee_image],
-    description: [
-      "Non-fried noodles for healthier choice",
-      "Tasty and filling",
-      "Convenient for busy schedules",
+    "description": [
+      "100% Genuine & Authentic Cadbury Bournville Fruit & Nut 50% Dark",
+      "Category: Chocolate | Code: P017",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
+    "inStock": true,
+    "purchaseCount": 63,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
   },
   {
-    _id: "in05j29q",
-    name: "Oats Noodles 72g",
-    category: "Instant",
-    price: 40,
-    offerPrice: 35,
-    image: [maggi_oats_image],
-    description: [
-      "Healthy alternative with oats",
-      "Good for digestion",
-      "Perfect for breakfast or snacks",
+    "_id": "65f000000000000000000012",
+    "code": "P018",
+    "name": "Cadbury Bournville Rum & Raisin 50% Dark",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 115,
+    "offerPrice": 105,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40087495_13-cadbury-bournville-cranberry-dark-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
     ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
-];
-
-export const dummyAddress = [
-  {
-    _id: "67b5b9e54ea97f71bbc196a0",
-    userId: "67b5880e4d09769c5ca61644",
-    firstName: "Great",
-    lastName: "Stack",
-    email: "user.greatstack@gmail.com",
-    street: "Street 123",
-    city: "Main City",
-    state: "New State",
-    zipcode: 123456,
-    country: "IN",
-    phone: "1234567890",
-  },
-];
-
-export const dummyOrders = [
-  {
-    _id: "67e2589a8f87e63366786400",
-    userId: "67b5880e4d09769c5ca61644",
-    items: [
-      {
-        product: dummyProducts[3],
-        quantity: 2,
-        _id: "67e2589a8f87e63366786401",
-      },
+    "description": [
+      "100% Genuine & Authentic Cadbury Bournville Rum & Raisin 50% Dark",
+      "Category: Chocolate | Code: P018",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
     ],
-    amount: 89,
-    address: dummyAddress[0],
-    status: "Order Placed",
-    paymentType: "Online",
-    isPaid: true,
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
+    "inStock": true,
+    "purchaseCount": 21,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
   },
   {
-    _id: "67e258798f87e633667863f2",
-    userId: "67b5880e4d09769c5ca61644",
-    items: [
-      {
-        product: dummyProducts[0],
-        quantity: 1,
-        _id: "67e258798f87e633667863f3",
-      },
-      {
-        product: dummyProducts[1],
-        quantity: 1,
-        _id: "67e258798f87e633667863f4",
-      },
+    "_id": "65f000000000000000000013",
+    "code": "P019",
+    "name": "Cadbury Bournville Cranberry 50% Dark",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 115,
+    "offerPrice": 105,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40087495_13-cadbury-bournville-cranberry-dark-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
     ],
-    amount: 43,
-    address: dummyAddress[0],
-    status: "Order Placed",
-    paymentType: "COD",
-    isPaid: false,
-    createdAt: "2025-03-25T07:17:13.068Z",
-    updatedAt: "2025-03-25T07:17:13.068Z",
+    "description": [
+      "100% Genuine & Authentic Cadbury Bournville Cranberry 50% Dark",
+      "Category: Chocolate | Code: P019",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 27,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
   },
+  {
+    "_id": "65f000000000000000000014",
+    "code": "P020",
+    "name": "Cadbury 5 Star original",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 20,
+    "offerPrice": 18,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012484_20-cadbury-5-star-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Cadbury 5 Star original",
+      "Category: Chocolate | Code: P020",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 82,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000015",
+    "code": "P021",
+    "name": "Cadbury 5 Star 3D",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 35,
+    "offerPrice": 30,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40094767_15-cadbury-5-star-3d-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Cadbury 5 Star 3D",
+      "Category: Chocolate | Code: P021",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 67,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000016",
+    "code": "P022",
+    "name": "Cadbury 5 Star Oreo",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 35,
+    "offerPrice": 30,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40200844_7-cadbury-5-star-oreo-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Cadbury 5 Star Oreo",
+      "Category: Chocolate | Code: P022",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 45,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000017",
+    "code": "P023",
+    "name": "Cadbury Fuse",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 40,
+    "offerPrice": 35,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40094768_13-cadbury-fuse-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Cadbury Fuse",
+      "Category: Chocolate | Code: P023",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 45,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000018",
+    "code": "P024",
+    "name": "Cadbury Perk",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 10,
+    "offerPrice": 9,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012490_18-cadbury-perk-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Cadbury Perk",
+      "Category: Chocolate | Code: P024",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 73,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000019",
+    "code": "P025",
+    "name": "Cadbury 5 Star softer bar",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 20,
+    "offerPrice": 18,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012484_20-cadbury-5-star-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Cadbury 5 Star softer bar",
+      "Category: Chocolate | Code: P025",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 41,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000001a",
+    "code": "P026",
+    "name": "Amul Dark chocolate bar",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 120,
+    "offerPrice": 108,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40085437_10-amul-dark-chocolate.jpg",
+      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Dark chocolate bar",
+      "Category: Chocolate | Code: P026",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 67,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000001b",
+    "code": "P027",
+    "name": "Nestle KitKat Delights Choco Lava",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40231599_2-nestle-kitkat-dessert-delight-choco-pudding.jpg",
+      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Nestle KitKat Delights Choco Lava",
+      "Category: Chocolate | Code: P027",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 21,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000001c",
+    "code": "P028",
+    "name": "Nestle KitKat Delights Dark",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40231600_2-nestle-kitkat-dessert-delight-rich-choco-fudge.jpg",
+      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Nestle KitKat Delights Dark",
+      "Category: Chocolate | Code: P028",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 71,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000001d",
+    "code": "P029",
+    "name": "Nestle KitKat Delights Rich",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40231600_2-nestle-kitkat-dessert-delight-rich-choco-fudge.jpg",
+      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Nestle KitKat Delights Rich",
+      "Category: Chocolate | Code: P029",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 59,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000001e",
+    "code": "P030",
+    "name": "Nestle KitKat Delights Hazelnut",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40231599_2-nestle-kitkat-dessert-delight-choco-pudding.jpg",
+      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Nestle KitKat Delights Hazelnut",
+      "Category: Chocolate | Code: P030",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 34,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000001f",
+    "code": "P031",
+    "name": "Nestle KitKat Share & Snap",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 80,
+    "offerPrice": 72,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40192806_8-nestle-kitkat-share-bag-pack.jpg",
+      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Nestle KitKat Share & Snap",
+      "Category: Chocolate | Code: P031",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 16,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000020",
+    "code": "P032",
+    "name": "Nestle KitKat standard bars",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 30,
+    "offerPrice": 27,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Nestle KitKat standard bars",
+      "Category: Chocolate | Code: P032",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 83,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000021",
+    "code": "P033",
+    "name": "Nestle KitKat 2 Finger",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 15,
+    "offerPrice": 14,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Nestle KitKat 2 Finger",
+      "Category: Chocolate | Code: P033",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 22,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000022",
+    "code": "P034",
+    "name": "Nestle KitKat 4 Finger",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 30,
+    "offerPrice": 27,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Nestle KitKat 4 Finger",
+      "Category: Chocolate | Code: P034",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 23,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000023",
+    "code": "P035",
+    "name": "Nestle KitKat Pops",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 50,
+    "offerPrice": 45,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40192806_8-nestle-kitkat-share-bag-pack.jpg",
+      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Nestle KitKat Pops",
+      "Category: Chocolate | Code: P035",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 50,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000024",
+    "code": "P036",
+    "name": "Nestle Munch",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 10,
+    "offerPrice": 9,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012503_18-nestle-munch-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Nestle Munch",
+      "Category: Chocolate | Code: P036",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 77,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000025",
+    "code": "P037",
+    "name": "Nestle Munch Max",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 20,
+    "offerPrice": 18,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40120538_10-nestle-munch-max-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Nestle Munch Max",
+      "Category: Chocolate | Code: P037",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 70,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000026",
+    "code": "P038",
+    "name": "Milkybar Original",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 20,
+    "offerPrice": 18,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012500_18-nestle-milkybar-white-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Milkybar Original",
+      "Category: Chocolate | Code: P038",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 35,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000027",
+    "code": "P039",
+    "name": "Milkybar assorted variants",
+    "category": "Chocolates",
+    "subCategory": "Chocolate",
+    "price": 30,
+    "offerPrice": 26,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012500_18-nestle-milkybar-white-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Milkybar assorted variants",
+      "Category: Chocolate | Code: P039",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 78,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000028",
+    "code": "P040",
+    "name": "Coca-Cola Diet Coke cans 300ml",
+    "category": "Drinks",
+    "subCategory": "Beverages",
+    "price": 40,
+    "offerPrice": 38,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251014_14-diet-coke-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Coca-Cola Diet Coke cans 300ml",
+      "Category: Beverages | Code: P040",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 72,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000029",
+    "code": "P041",
+    "name": "Coca-Cola classic 750ml bottle",
+    "category": "Drinks",
+    "subCategory": "Beverages",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Coca-Cola classic 750ml bottle",
+      "Category: Beverages | Code: P041",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 79,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000002a",
+    "code": "P042",
+    "name": "Sprite refreshing lemon-lime 750ml",
+    "category": "Drinks",
+    "subCategory": "Beverages",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251042_11-sprite-soft-drink-lime-flavoured.jpg",
+      "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Sprite refreshing lemon-lime 750ml",
+      "Category: Beverages | Code: P042",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 54,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000002b",
+    "code": "P043",
+    "name": "Thums Up charged soft drink 750ml",
+    "category": "Drinks",
+    "subCategory": "Beverages",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251034_12-thums-up-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Thums Up charged soft drink 750ml",
+      "Category: Beverages | Code: P043",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 71,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000002c",
+    "code": "P044",
+    "name": "Fanta orange fruity soda 750ml",
+    "category": "Drinks",
+    "subCategory": "Beverages",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251030_10-fanta-soft-drink-orange-flavoured.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Fanta orange fruity soda 750ml",
+      "Category: Beverages | Code: P044",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 76,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000002d",
+    "code": "P045",
+    "name": "Maaza mango drink 600ml",
+    "category": "Drinks",
+    "subCategory": "Beverages",
+    "price": 42,
+    "offerPrice": 38,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/265691_11-maaza-mango-drink.jpg",
+      "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Maaza mango drink 600ml",
+      "Category: Beverages | Code: P045",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 12,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000002e",
+    "code": "P046",
+    "name": "Minute Maid pulpy orange juice 1L",
+    "category": "Drinks",
+    "subCategory": "Beverages",
+    "price": 80,
+    "offerPrice": 72,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/265694_10-minute-maid-pulpy-orange-juice.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Minute Maid pulpy orange juice 1L",
+      "Category: Beverages | Code: P046",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 16,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000002f",
+    "code": "P047",
+    "name": "Kinley Strong Club Soda 750ml",
+    "category": "Drinks",
+    "subCategory": "Beverages",
+    "price": 20,
+    "offerPrice": 18,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/265698_10-kinley-club-soda.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Kinley Strong Club Soda 750ml",
+      "Category: Beverages | Code: P047",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 27,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000030",
+    "code": "P048",
+    "name": "Kinley drinking water 1L bottle",
+    "category": "Drinks",
+    "subCategory": "Beverages",
+    "price": 20,
+    "offerPrice": 18,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/265696_9-kinley-packaged-drinking-water.jpg",
+      "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Kinley drinking water 1L bottle",
+      "Category: Beverages | Code: P048",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 18,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000031",
+    "code": "P049",
+    "name": "Monster Energy original can 350ml",
+    "category": "Drinks",
+    "subCategory": "Beverages",
+    "price": 125,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40120540_10-monster-energy-drink.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Monster Energy original can 350ml",
+      "Category: Beverages | Code: P049",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 10,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000032",
+    "code": "P050",
+    "name": "Monster Ultra Zero Sugar can 350ml",
+    "category": "Drinks",
+    "subCategory": "Beverages",
+    "price": 125,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40156950_8-monster-energy-ultra-zero-sugar.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Monster Ultra Zero Sugar can 350ml",
+      "Category: Beverages | Code: P050",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 17,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000033",
+    "code": "P051",
+    "name": "Red Bull Energy Drink can 250ml",
+    "category": "Drinks",
+    "subCategory": "Beverages",
+    "price": 125,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/265700_15-red-bull-energy-drink.jpg",
+      "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Red Bull Energy Drink can 250ml",
+      "Category: Beverages | Code: P051",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 59,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000034",
+    "code": "P052",
+    "name": "Hell Energy Zero can 250ml",
+    "category": "Drinks",
+    "subCategory": "Beverages",
+    "price": 65,
+    "offerPrice": 58,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40182800_4-hell-energy-drink.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Hell Energy Zero can 250ml",
+      "Category: Beverages | Code: P052",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 46,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000035",
+    "code": "P053",
+    "name": "Hell Energy classic original can 250ml",
+    "category": "Drinks",
+    "subCategory": "Beverages",
+    "price": 65,
+    "offerPrice": 58,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40182800_4-hell-energy-drink.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Hell Energy classic original can 250ml",
+      "Category: Beverages | Code: P053",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 75,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000036",
+    "code": "P054",
+    "name": "Sosyo authentic fizzy drink bottle",
+    "category": "Drinks",
+    "subCategory": "Beverages",
+    "price": 35,
+    "offerPrice": 30,
+    "image": [
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Sosyo authentic fizzy drink bottle",
+      "Category: Beverages | Code: P054",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 24,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000037",
+    "code": "P055",
+    "name": "Aquafina Packaged drinking water 1L",
+    "category": "Drinks",
+    "subCategory": "Beverages",
+    "price": 20,
+    "offerPrice": 18,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100000004_15-aquafina-packaged-drinking-water.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Aquafina Packaged drinking water 1L",
+      "Category: Beverages | Code: P055",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 83,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000038",
+    "code": "P056",
+    "name": "Bisleri lemon-lime fizzy soda 600ml",
+    "category": "Drinks",
+    "subCategory": "Beverages",
+    "price": 30,
+    "offerPrice": 26,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100000002_18-bisleri-packaged-drinking-water.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Bisleri lemon-lime fizzy soda 600ml",
+      "Category: Beverages | Code: P056",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 53,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000039",
+    "code": "P057",
+    "name": "Bisleri Pop sparkling beverage",
+    "category": "Drinks",
+    "subCategory": "Beverages",
+    "price": 35,
+    "offerPrice": 30,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100000002_18-bisleri-packaged-drinking-water.jpg",
+      "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Bisleri Pop sparkling beverage",
+      "Category: Beverages | Code: P057",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 10,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000003a",
+    "code": "P058",
+    "name": "Amul Pasteurised Butter 500g",
+    "category": "Dairy",
+    "subCategory": "Dairy / chilled",
+    "price": 275,
+    "offerPrice": 255,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100005470_19-amul-butter-pasteurised.jpg",
+      "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Pasteurised Butter 500g",
+      "Category: Dairy / chilled | Code: P058",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 43,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000003b",
+    "code": "P059",
+    "name": "Amul Processed Cheese Blocks 200g",
+    "category": "Dairy",
+    "subCategory": "Dairy / chilled",
+    "price": 140,
+    "offerPrice": 128,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/104758_10-amul-processed-cheese-block.jpg",
+      "https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Processed Cheese Blocks 200g",
+      "Category: Dairy / chilled | Code: P059",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 10,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000003c",
+    "code": "P060",
+    "name": "Amul Masti Dahi Curd Tub 400g",
+    "category": "Dairy",
+    "subCategory": "Dairy / chilled",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/104764_11-amul-masti-dahi.jpg",
+      "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Masti Dahi Curd Tub 400g",
+      "Category: Dairy / chilled | Code: P060",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 29,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000003d",
+    "code": "P061",
+    "name": "Amul Fresh Malai Paneer 200g",
+    "category": "Dairy",
+    "subCategory": "Dairy / chilled",
+    "price": 95,
+    "offerPrice": 88,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/279586_12-amul-fresh-malai-paneer.jpg",
+      "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Fresh Malai Paneer 200g",
+      "Category: Dairy / chilled | Code: P061",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 58,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000003e",
+    "code": "P062",
+    "name": "Amul Taaza / Gold Milk Pouch 500ml",
+    "category": "Dairy",
+    "subCategory": "Dairy / chilled",
+    "price": 34,
+    "offerPrice": 32,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/306926_4-amul-taaza-fresh-toned-milk.jpg",
+      "https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Taaza / Gold Milk Pouch 500ml",
+      "Category: Dairy / chilled | Code: P062",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 72,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000003f",
+    "code": "P063",
+    "name": "Amul Kesar Shrikhand Tub 250g",
+    "category": "Dairy",
+    "subCategory": "Dairy / chilled",
+    "price": 60,
+    "offerPrice": 54,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/104760_8-amul-shrikhand-kesar.jpg",
+      "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Kesar Shrikhand Tub 250g",
+      "Category: Dairy / chilled | Code: P063",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 14,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000040",
+    "code": "P064",
+    "name": "Amul Masti Spiced Buttermilk 200ml",
+    "category": "Dairy",
+    "subCategory": "Dairy / chilled",
+    "price": 15,
+    "offerPrice": 14,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/279585_10-amul-masti-buttermilk-spiced.jpg",
+      "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Masti Spiced Buttermilk 200ml",
+      "Category: Dairy / chilled | Code: P064",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 79,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000041",
+    "code": "P065",
+    "name": "Fresh Chilled Dairy Paneer Packet",
+    "category": "Dairy",
+    "subCategory": "Dairy / chilled",
+    "price": 85,
+    "offerPrice": 78,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/279586_12-amul-fresh-malai-paneer.jpg",
+      "https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Fresh Chilled Dairy Paneer Packet",
+      "Category: Dairy / chilled | Code: P065",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 59,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000042",
+    "code": "P066",
+    "name": "Amul TriCone Chocolate Cone",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40019280_10-amul-ice-cream-tricone-chocolate.jpg",
+      "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul TriCone Chocolate Cone",
+      "Category: Ice cream / frozen | Code: P066",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 75,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000043",
+    "code": "P067",
+    "name": "Amul TriCone Classic Cone",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 40,
+    "offerPrice": 36,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40019280_10-amul-ice-cream-tricone-chocolate.jpg",
+      "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul TriCone Classic Cone",
+      "Category: Ice cream / frozen | Code: P067",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 61,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000044",
+    "code": "P068",
+    "name": "Amul TriCone Butterscotch Cone",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40019281_10-amul-ice-cream-tricone-butterscotch.jpg",
+      "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul TriCone Butterscotch Cone",
+      "Category: Ice cream / frozen | Code: P068",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 50,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000045",
+    "code": "P069",
+    "name": "Amul TriCone Cookie & Cream Cone",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 50,
+    "offerPrice": 45,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40019280_10-amul-ice-cream-tricone-chocolate.jpg",
+      "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul TriCone Cookie & Cream Cone",
+      "Category: Ice cream / frozen | Code: P069",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 64,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000046",
+    "code": "P070",
+    "name": "Amul Frostik Chocolate Crunch Bar",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 40,
+    "offerPrice": 35,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40019282_9-amul-frostik-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Frostik Chocolate Crunch Bar",
+      "Category: Ice cream / frozen | Code: P070",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 75,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000047",
+    "code": "P071",
+    "name": "Amul Chocobar Probiotic Ice Cream",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 25,
+    "offerPrice": 22,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40019283_8-amul-chocobar-ice-cream.jpg",
+      "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Chocobar Probiotic Ice Cream",
+      "Category: Ice cream / frozen | Code: P071",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 82,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000048",
+    "code": "P072",
+    "name": "Amul Rajbhog Shahi Kulfi Stick",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 35,
+    "offerPrice": 30,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40019284_9-amul-rajbhog-kulfi.jpg",
+      "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Rajbhog Shahi Kulfi Stick",
+      "Category: Ice cream / frozen | Code: P072",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 46,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000049",
+    "code": "P073",
+    "name": "Amul Pista Malai Kulfi Stick",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 35,
+    "offerPrice": 30,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40019285_8-amul-pista-malai-kulfi.jpg",
+      "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Pista Malai Kulfi Stick",
+      "Category: Ice cream / frozen | Code: P073",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 48,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000004a",
+    "code": "P074",
+    "name": "Amul Badam Almond Kulfi Stick",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 35,
+    "offerPrice": 30,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40019285_8-amul-pista-malai-kulfi.jpg",
+      "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Badam Almond Kulfi Stick",
+      "Category: Ice cream / frozen | Code: P074",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 34,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000004b",
+    "code": "P075",
+    "name": "Amul Creamy Flavoured Stick Bar",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 20,
+    "offerPrice": 18,
+    "image": [
+      "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Creamy Flavoured Stick Bar",
+      "Category: Ice cream / frozen | Code: P075",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 67,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000004c",
+    "code": "P076",
+    "name": "Amul Cookie Ice Cream Sandwich",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 35,
+    "offerPrice": 30,
+    "image": [
+      "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Cookie Ice Cream Sandwich",
+      "Category: Ice cream / frozen | Code: P076",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 80,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000004d",
+    "code": "P077",
+    "name": "Amul Ice Cream Cup Assorted",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 25,
+    "offerPrice": 22,
+    "image": [
+      "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Ice Cream Cup Assorted",
+      "Category: Ice cream / frozen | Code: P077",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 35,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000004e",
+    "code": "P078",
+    "name": "Citrus Orange Fruity Ice Candy",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 15,
+    "offerPrice": 12,
+    "image": [
+      "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Citrus Orange Fruity Ice Candy",
+      "Category: Ice cream / frozen | Code: P078",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 75,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000004f",
+    "code": "P079",
+    "name": "Alphonso Mango Juicy Ice Candy",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 15,
+    "offerPrice": 12,
+    "image": [
+      "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Alphonso Mango Juicy Ice Candy",
+      "Category: Ice cream / frozen | Code: P079",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 61,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000050",
+    "code": "P080",
+    "name": "Strawberry Pink Chilled Ice Candy",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 15,
+    "offerPrice": 12,
+    "image": [
+      "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Strawberry Pink Chilled Ice Candy",
+      "Category: Ice cream / frozen | Code: P080",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 64,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000051",
+    "code": "P081",
+    "name": "Creamy Vanilla Milk Ice Bar",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 20,
+    "offerPrice": 18,
+    "image": [
+      "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Creamy Vanilla Milk Ice Bar",
+      "Category: Ice cream / frozen | Code: P081",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 11,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000052",
+    "code": "P082",
+    "name": "Chocolate Dips Choco Stick Bar",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 30,
+    "offerPrice": 26,
+    "image": [
+      "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Chocolate Dips Choco Stick Bar",
+      "Category: Ice cream / frozen | Code: P082",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 27,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000053",
+    "code": "P083",
+    "name": "Amul Vanilla Sugar Free Cup 100ml",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 40,
+    "offerPrice": 36,
+    "image": [
+      "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Vanilla Sugar Free Cup 100ml",
+      "Category: Ice cream / frozen | Code: P083",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 87,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000054",
+    "code": "P084",
+    "name": "Amul Kesar Pista Sugar Free Cup 100ml",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Kesar Pista Sugar Free Cup 100ml",
+      "Category: Ice cream / frozen | Code: P084",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 74,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000055",
+    "code": "P085",
+    "name": "Amul Sugar Free Assorted Ice Cream",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Sugar Free Assorted Ice Cream",
+      "Category: Ice cream / frozen | Code: P085",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 27,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000056",
+    "code": "P086",
+    "name": "Amul Tender Coconut Ice Cream Cup",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 40,
+    "offerPrice": 35,
+    "image": [
+      "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Tender Coconut Ice Cream Cup",
+      "Category: Ice cream / frozen | Code: P086",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 66,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000057",
+    "code": "P087",
+    "name": "Amul Black Currant Trufru Ice Cream",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 40,
+    "offerPrice": 35,
+    "image": [
+      "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Black Currant Trufru Ice Cream",
+      "Category: Ice cream / frozen | Code: P087",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 21,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000058",
+    "code": "P088",
+    "name": "Amul Fresh Strawberry Ice Cream Cup",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 35,
+    "offerPrice": 30,
+    "image": [
+      "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Fresh Strawberry Ice Cream Cup",
+      "Category: Ice cream / frozen | Code: P088",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 35,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000059",
+    "code": "P089",
+    "name": "Amul Chocolate Brownie Ice Cream Cup",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Chocolate Brownie Ice Cream Cup",
+      "Category: Ice cream / frozen | Code: P089",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 49,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000005a",
+    "code": "P090",
+    "name": "Amul Royal Sundae Assorted Cup",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 50,
+    "offerPrice": 45,
+    "image": [
+      "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Royal Sundae Assorted Cup",
+      "Category: Ice cream / frozen | Code: P090",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 56,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000005b",
+    "code": "P091",
+    "name": "Amul Cookies & Cream Ice Cream Cup",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 40,
+    "offerPrice": 35,
+    "image": [
+      "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Cookies & Cream Ice Cream Cup",
+      "Category: Ice cream / frozen | Code: P091",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 48,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000005c",
+    "code": "P092",
+    "name": "Amul King Alphonso Mango Cup",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 35,
+    "offerPrice": 30,
+    "image": [
+      "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul King Alphonso Mango Cup",
+      "Category: Ice cream / frozen | Code: P092",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 19,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000005d",
+    "code": "P093",
+    "name": "Amul Butterscotch Crunch Cup",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 35,
+    "offerPrice": 30,
+    "image": [
+      "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Butterscotch Crunch Cup",
+      "Category: Ice cream / frozen | Code: P093",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 14,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000005e",
+    "code": "P094",
+    "name": "Amul Shahi Rajbhog Ice Cream Cup",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 40,
+    "offerPrice": 35,
+    "image": [
+      "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Shahi Rajbhog Ice Cream Cup",
+      "Category: Ice cream / frozen | Code: P094",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 71,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000005f",
+    "code": "P095",
+    "name": "Amul Gourmet Delight Ice Cream Cup",
+    "category": "Ice Cream",
+    "subCategory": "Ice cream / frozen",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Gourmet Delight Ice Cream Cup",
+      "Category: Ice cream / frozen | Code: P095",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 35,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000060",
+    "code": "P096",
+    "name": "Amul Diced Mozzarella Blend Cheese 200g",
+    "category": "Dairy",
+    "subCategory": "Dairy / frozen",
+    "price": 130,
+    "offerPrice": 118,
+    "image": [
+      "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Diced Mozzarella Blend Cheese 200g",
+      "Category: Dairy / frozen | Code: P096",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 28,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000061",
+    "code": "P097",
+    "name": "Amul Margherita Cheese Pizza Ready Meal",
+    "category": "Instant",
+    "subCategory": "Frozen ready meals",
+    "price": 160,
+    "offerPrice": 145,
+    "image": [
+      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Margherita Cheese Pizza Ready Meal",
+      "Category: Frozen ready meals | Code: P097",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 67,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000062",
+    "code": "P098",
+    "name": "Harpic Power Plus 10X Toilet Cleaner 1L",
+    "category": "Cleaning",
+    "subCategory": "Home cleaning",
+    "price": 215,
+    "offerPrice": 195,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266946_17-harpic-power-plus-toilet-cleaner-original.jpg",
+      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Harpic Power Plus 10X Toilet Cleaner 1L",
+      "Category: Home cleaning | Code: P098",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 37,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000063",
+    "code": "P099",
+    "name": "Harpic Bathroom Ultra 10X Cleaner 500ml",
+    "category": "Cleaning",
+    "subCategory": "Home cleaning",
+    "price": 110,
+    "offerPrice": 99,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40003738_10-harpic-bathroom-cleaner-lemon.jpg",
+      "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Harpic Bathroom Ultra 10X Cleaner 500ml",
+      "Category: Home cleaning | Code: P099",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 87,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000064",
+    "code": "P100",
+    "name": "Harpic Bathroom Cleaner Floral 500ml",
+    "category": "Cleaning",
+    "subCategory": "Home cleaning",
+    "price": 105,
+    "offerPrice": 95,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40003738_10-harpic-bathroom-cleaner-lemon.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Harpic Bathroom Cleaner Floral 500ml",
+      "Category: Home cleaning | Code: P100",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 75,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000065",
+    "code": "P101",
+    "name": "Lizol Disinfectant Floor Cleaner Citrus Green 1L",
+    "category": "Cleaning",
+    "subCategory": "Home cleaning",
+    "price": 220,
+    "offerPrice": 199,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Lizol Disinfectant Floor Cleaner Citrus Green 1L",
+      "Category: Home cleaning | Code: P101",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 59,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000066",
+    "code": "P102",
+    "name": "Lizol Floral Floor Cleaner Pink 1L",
+    "category": "Cleaning",
+    "subCategory": "Home cleaning",
+    "price": 220,
+    "offerPrice": 199,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266951_18-lizol-disinfectant-floor-cleaner-floral.jpg",
+      "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Lizol Floral Floor Cleaner Pink 1L",
+      "Category: Home cleaning | Code: P102",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 85,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000067",
+    "code": "P103",
+    "name": "Domex Fresh Guard Toilet Cleaner Blue 750ml",
+    "category": "Cleaning",
+    "subCategory": "Home cleaning",
+    "price": 165,
+    "offerPrice": 148,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266960_13-domex-fresh-guard-disinfectant-toilet-cleaner.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Domex Fresh Guard Toilet Cleaner Blue 750ml",
+      "Category: Home cleaning | Code: P103",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 48,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000068",
+    "code": "P104",
+    "name": "Shakti Pink Floor Disinfectant Liquid 1L",
+    "category": "Cleaning",
+    "subCategory": "Home cleaning",
+    "price": 80,
+    "offerPrice": 70,
+    "image": [
+      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Shakti Pink Floor Disinfectant Liquid 1L",
+      "Category: Home cleaning | Code: P104",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 76,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000069",
+    "code": "P105",
+    "name": "Vim Dishwash Gel Lemon 500ml Bottle",
+    "category": "Cleaning",
+    "subCategory": "Dishwashing",
+    "price": 115,
+    "offerPrice": 102,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Vim Dishwash Gel Lemon 500ml Bottle",
+      "Category: Dishwashing | Code: P105",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 54,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000006a",
+    "code": "P106",
+    "name": "Colin Glass & Surface Cleaner Spray 500ml",
+    "category": "Cleaning",
+    "subCategory": "Home cleaning",
+    "price": 115,
+    "offerPrice": 104,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266980_14-colin-glass-surface-cleaner.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Colin Glass & Surface Cleaner Spray 500ml",
+      "Category: Home cleaning | Code: P106",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 85,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000006b",
+    "code": "P107",
+    "name": "Klin-N-Care Pine Floor Cleaner Concentrate",
+    "category": "Cleaning",
+    "subCategory": "Home cleaning",
+    "price": 90,
+    "offerPrice": 79,
+    "image": [
+      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Klin-N-Care Pine Floor Cleaner Concentrate",
+      "Category: Home cleaning | Code: P107",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 12,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000006c",
+    "code": "P108",
+    "name": "Klin-N-Care Cleaning Liquid Orange 1L",
+    "category": "Cleaning",
+    "subCategory": "Home cleaning",
+    "price": 95,
+    "offerPrice": 82,
+    "image": [
+      "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Klin-N-Care Cleaning Liquid Orange 1L",
+      "Category: Home cleaning | Code: P108",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 51,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000006d",
+    "code": "P109",
+    "name": "Klin-N-Care Multi-Surface Cleaner Clear 500ml",
+    "category": "Cleaning",
+    "subCategory": "Home cleaning",
+    "price": 85,
+    "offerPrice": 75,
+    "image": [
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Klin-N-Care Multi-Surface Cleaner Clear 500ml",
+      "Category: Home cleaning | Code: P109",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 77,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000006e",
+    "code": "P110",
+    "name": "Rin Fabric Whitener Bleach 250ml",
+    "category": "Cleaning",
+    "subCategory": "Home cleaning",
+    "price": 40,
+    "offerPrice": 36,
+    "image": [
+      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Rin Fabric Whitener Bleach 250ml",
+      "Category: Home cleaning | Code: P110",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 75,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000006f",
+    "code": "P111",
+    "name": "Godrej Spic & Span Bathroom Cleaner 500ml",
+    "category": "Cleaning",
+    "subCategory": "Home cleaning",
+    "price": 95,
+    "offerPrice": 85,
+    "image": [
+      "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Godrej Spic & Span Bathroom Cleaner 500ml",
+      "Category: Home cleaning | Code: P111",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 33,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000070",
+    "code": "P112",
+    "name": "L’Oreal Paris Casting Creme Gloss 500 Brown",
+    "category": "Personal Care",
+    "subCategory": "Hair colour",
+    "price": 349,
+    "offerPrice": 310,
+    "image": [
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic L’Oreal Paris Casting Creme Gloss 500 Brown",
+      "Category: Hair colour | Code: P112",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 72,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000071",
+    "code": "P113",
+    "name": "L’Oreal Paris Casting Creme Gloss 400 Dark Brown",
+    "category": "Personal Care",
+    "subCategory": "Hair colour",
+    "price": 349,
+    "offerPrice": 310,
+    "image": [
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic L’Oreal Paris Casting Creme Gloss 400 Dark Brown",
+      "Category: Hair colour | Code: P113",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 47,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000072",
+    "code": "P114",
+    "name": "L’Oreal Paris Casting Creme Gloss 300 Darkest Brown",
+    "category": "Personal Care",
+    "subCategory": "Hair colour",
+    "price": 349,
+    "offerPrice": 310,
+    "image": [
+      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic L’Oreal Paris Casting Creme Gloss 300 Darkest Brown",
+      "Category: Hair colour | Code: P114",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 63,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000073",
+    "code": "P115",
+    "name": "L’Oreal Paris Casting Creme Gloss 200 Ebony Black",
+    "category": "Personal Care",
+    "subCategory": "Hair colour",
+    "price": 349,
+    "offerPrice": 310,
+    "image": [
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic L’Oreal Paris Casting Creme Gloss 200 Ebony Black",
+      "Category: Hair colour | Code: P115",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 60,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000074",
+    "code": "P116",
+    "name": "L’Oreal Paris Casting Creme Gloss 316 Burgundy",
+    "category": "Personal Care",
+    "subCategory": "Hair colour",
+    "price": 349,
+    "offerPrice": 310,
+    "image": [
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic L’Oreal Paris Casting Creme Gloss 316 Burgundy",
+      "Category: Hair colour | Code: P116",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 43,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000075",
+    "code": "P117",
+    "name": "Garnier Color Naturals Shade 4 Brown",
+    "category": "Personal Care",
+    "subCategory": "Hair colour",
+    "price": 219,
+    "offerPrice": 195,
+    "image": [
+      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Garnier Color Naturals Shade 4 Brown",
+      "Category: Hair colour | Code: P117",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 57,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000076",
+    "code": "P118",
+    "name": "Garnier Color Naturals Shade 3 Darkest Brown",
+    "category": "Personal Care",
+    "subCategory": "Hair colour",
+    "price": 219,
+    "offerPrice": 195,
+    "image": [
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Garnier Color Naturals Shade 3 Darkest Brown",
+      "Category: Hair colour | Code: P118",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 83,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000077",
+    "code": "P119",
+    "name": "Garnier Color Naturals Shade 5.32 Caramel Brown",
+    "category": "Personal Care",
+    "subCategory": "Hair colour",
+    "price": 219,
+    "offerPrice": 195,
+    "image": [
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Garnier Color Naturals Shade 5.32 Caramel Brown",
+      "Category: Hair colour | Code: P119",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 64,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000078",
+    "code": "P120",
+    "name": "Garnier Color Naturals Assorted Creme Shade",
+    "category": "Personal Care",
+    "subCategory": "Hair colour",
+    "price": 219,
+    "offerPrice": 195,
+    "image": [
+      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Garnier Color Naturals Assorted Creme Shade",
+      "Category: Hair colour | Code: P120",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 61,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000079",
+    "code": "P121",
+    "name": "Domex Disinfectant Bleach Toilet Bottle 500ml",
+    "category": "Cleaning",
+    "subCategory": "Home cleaning",
+    "price": 110,
+    "offerPrice": 99,
+    "image": [
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Domex Disinfectant Bleach Toilet Bottle 500ml",
+      "Category: Home cleaning | Code: P121",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 33,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000007a",
+    "code": "P122",
+    "name": "Comfort Fabric Conditioner Morning Fresh Blue 860ml",
+    "category": "Cleaning",
+    "subCategory": "Laundry",
+    "price": 240,
+    "offerPrice": 215,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266990_12-comfort-fabric-conditioner-morning-fresh.jpg",
+      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Comfort Fabric Conditioner Morning Fresh Blue 860ml",
+      "Category: Laundry | Code: P122",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 16,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000007b",
+    "code": "P123",
+    "name": "Comfort Fabric Conditioner Lily Fresh Pink 860ml",
+    "category": "Cleaning",
+    "subCategory": "Laundry",
+    "price": 240,
+    "offerPrice": 215,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266991_12-comfort-fabric-conditioner-lily-fresh.jpg",
+      "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Comfort Fabric Conditioner Lily Fresh Pink 860ml",
+      "Category: Laundry | Code: P123",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 21,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000007c",
+    "code": "P124",
+    "name": "Vim Anti-Germ Dishwashing Bar 3-in-1 Pack",
+    "category": "Cleaning",
+    "subCategory": "Dishwashing",
+    "price": 35,
+    "offerPrice": 30,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266972_15-vim-dishwash-bar-lemon.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Vim Anti-Germ Dishwashing Bar 3-in-1 Pack",
+      "Category: Dishwashing | Code: P124",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 72,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000007d",
+    "code": "P125",
+    "name": "Dettol Original Germ Protection Handwash Refill 675ml",
+    "category": "Personal Care",
+    "subCategory": "Personal care",
+    "price": 109,
+    "offerPrice": 98,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Dettol Original Germ Protection Handwash Refill 675ml",
+      "Category: Personal care | Code: P125",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 47,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000007e",
+    "code": "P126",
+    "name": "Dettol Skincare Moisturising Handwash Pump 200ml",
+    "category": "Personal Care",
+    "subCategory": "Personal care",
+    "price": 99,
+    "offerPrice": 89,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267001_14-dettol-skincare-liquid-handwash.jpg",
+      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Dettol Skincare Moisturising Handwash Pump 200ml",
+      "Category: Personal care | Code: P126",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 56,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000007f",
+    "code": "P127",
+    "name": "Dettol Antiseptic Liquid Disinfectant 250ml",
+    "category": "Personal Care",
+    "subCategory": "Personal care",
+    "price": 145,
+    "offerPrice": 132,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267002_16-dettol-antiseptic-liquid.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Dettol Antiseptic Liquid Disinfectant 250ml",
+      "Category: Personal care | Code: P127",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 53,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000080",
+    "code": "P128",
+    "name": "Stayfree Secure Cottony Soft XL Pads 18s",
+    "category": "Personal Care",
+    "subCategory": "Feminine care",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267010_13-stayfree-secure-cottony-wings-sanitary-pads.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Stayfree Secure Cottony Soft XL Pads 18s",
+      "Category: Feminine care | Code: P128",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 62,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000081",
+    "code": "P129",
+    "name": "Stayfree Secure Wings Regular Pads 14s",
+    "category": "Personal Care",
+    "subCategory": "Feminine care",
+    "price": 90,
+    "offerPrice": 80,
+    "image": [
+      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Stayfree Secure Wings Regular Pads 14s",
+      "Category: Feminine care | Code: P129",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 47,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000082",
+    "code": "P130",
+    "name": "Stayfree Advanced All Night XL Pads 14s",
+    "category": "Personal Care",
+    "subCategory": "Feminine care",
+    "price": 175,
+    "offerPrice": 155,
+    "image": [
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Stayfree Advanced All Night XL Pads 14s",
+      "Category: Feminine care | Code: P130",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 16,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000083",
+    "code": "P131",
+    "name": "Stayfree Advanced Nights Ultra Comfort Pads",
+    "category": "Personal Care",
+    "subCategory": "Feminine care",
+    "price": 185,
+    "offerPrice": 165,
+    "image": [
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Stayfree Advanced Nights Ultra Comfort Pads",
+      "Category: Feminine care | Code: P131",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 73,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000084",
+    "code": "P132",
+    "name": "Stayfree Advanced Ultra Thin Sanitary Pads",
+    "category": "Personal Care",
+    "subCategory": "Feminine care",
+    "price": 195,
+    "offerPrice": 175,
+    "image": [
+      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Stayfree Advanced Ultra Thin Sanitary Pads",
+      "Category: Feminine care | Code: P132",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 19,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000085",
+    "code": "P133",
+    "name": "Whisper Choice Wings XL Sanitary Pads 18s",
+    "category": "Personal Care",
+    "subCategory": "Feminine care",
+    "price": 120,
+    "offerPrice": 105,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267020_14-whisper-choice-wings-sanitary-pads.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Whisper Choice Wings XL Sanitary Pads 18s",
+      "Category: Feminine care | Code: P133",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 24,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000086",
+    "code": "P134",
+    "name": "Whisper Choice Wings XXL Long Pads 14s",
+    "category": "Personal Care",
+    "subCategory": "Feminine care",
+    "price": 135,
+    "offerPrice": 120,
+    "image": [
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Whisper Choice Wings XXL Long Pads 14s",
+      "Category: Feminine care | Code: P134",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 67,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000087",
+    "code": "P135",
+    "name": "Whisper Ultra Clean XL Sanitary Pads 15s",
+    "category": "Personal Care",
+    "subCategory": "Feminine care",
+    "price": 180,
+    "offerPrice": 160,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267022_15-whisper-ultra-clean-sanitary-pads.jpg",
+      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Whisper Ultra Clean XL Sanitary Pads 15s",
+      "Category: Feminine care | Code: P135",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 83,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000088",
+    "code": "P136",
+    "name": "Whisper Assorted Soft Skin Pads Pack",
+    "category": "Personal Care",
+    "subCategory": "Feminine care",
+    "price": 170,
+    "offerPrice": 150,
+    "image": [
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Whisper Assorted Soft Skin Pads Pack",
+      "Category: Feminine care | Code: P136",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 60,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000089",
+    "code": "P137",
+    "name": "Pampers Baby-Dry Happy Sleep Diaper Pants M",
+    "category": "Personal Care",
+    "subCategory": "Baby care",
+    "price": 499,
+    "offerPrice": 429,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267030_16-pampers-all-round-protection-diaper-pants.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Pampers Baby-Dry Happy Sleep Diaper Pants M",
+      "Category: Baby care | Code: P137",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 61,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000008a",
+    "code": "P138",
+    "name": "Godrej AER Room Spray Fresh Lush Green 240ml",
+    "category": "Personal Care",
+    "subCategory": "Deodorant",
+    "price": 179,
+    "offerPrice": 155,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40112800_8-godrej-aer-room-spray-fresh-lush-green.jpg",
+      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Godrej AER Room Spray Fresh Lush Green 240ml",
+      "Category: Deodorant | Code: P138",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 85,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000008b",
+    "code": "P139",
+    "name": "L’Oreal Paris Fall Resist 3X Shampoo 340ml",
+    "category": "Personal Care",
+    "subCategory": "Hair care",
+    "price": 320,
+    "offerPrice": 285,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267040_13-loreal-paris-fall-resist-3x-anti-hairfall-shampoo.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic L’Oreal Paris Fall Resist 3X Shampoo 340ml",
+      "Category: Hair care | Code: P139",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 27,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000008c",
+    "code": "P140",
+    "name": "L’Oreal Extraordinary Oil Nourishing Shampoo 340ml",
+    "category": "Personal Care",
+    "subCategory": "Hair care",
+    "price": 330,
+    "offerPrice": 295,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267042_11-loreal-paris-extraordinary-oil-shampoo.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic L’Oreal Extraordinary Oil Nourishing Shampoo 340ml",
+      "Category: Hair care | Code: P140",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 13,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000008d",
+    "code": "P141",
+    "name": "L’Oreal Paris Total Repair 5 Shampoo 340ml",
+    "category": "Personal Care",
+    "subCategory": "Hair care",
+    "price": 320,
+    "offerPrice": 285,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267041_14-loreal-paris-total-repair-5-repairing-shampoo.jpg",
+      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic L’Oreal Paris Total Repair 5 Shampoo 340ml",
+      "Category: Hair care | Code: P141",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 66,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000008e",
+    "code": "P142",
+    "name": "L’Oreal Paris Dream Lengths Restoring Shampoo 340ml",
+    "category": "Personal Care",
+    "subCategory": "Hair care",
+    "price": 340,
+    "offerPrice": 299,
+    "image": [
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic L’Oreal Paris Dream Lengths Restoring Shampoo 340ml",
+      "Category: Hair care | Code: P142",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 39,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000008f",
+    "code": "P143",
+    "name": "Fogg Master Intense Body Spray 120ml",
+    "category": "Personal Care",
+    "subCategory": "Hair care",
+    "price": 230,
+    "offerPrice": 199,
+    "image": [
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Fogg Master Intense Body Spray 120ml",
+      "Category: Hair care | Code: P143",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 40,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000090",
+    "code": "P144",
+    "name": "Dove Hair Fall Rescue Shampoo 340ml",
+    "category": "Personal Care",
+    "subCategory": "Skin care",
+    "price": 340,
+    "offerPrice": 299,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267050_15-dove-hair-fall-rescue-shampoo.jpg",
+      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Dove Hair Fall Rescue Shampoo 340ml",
+      "Category: Skin care | Code: P144",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 62,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000091",
+    "code": "P145",
+    "name": "Dove Intense Repair Keratin Shampoo 340ml",
+    "category": "Personal Care",
+    "subCategory": "Skin care",
+    "price": 340,
+    "offerPrice": 299,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267051_14-dove-intense-repair-shampoo.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Dove Intense Repair Keratin Shampoo 340ml",
+      "Category: Skin care | Code: P145",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 65,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000092",
+    "code": "P146",
+    "name": "Tresemme Keratin Smooth Argan Oil Shampoo 340ml",
+    "category": "Personal Care",
+    "subCategory": "Hair care",
+    "price": 360,
+    "offerPrice": 315,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267060_13-tresemme-keratin-smooth-shampoo.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Tresemme Keratin Smooth Argan Oil Shampoo 340ml",
+      "Category: Hair care | Code: P146",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 14,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000093",
+    "code": "P147",
+    "name": "Tresemme Keratin Smooth Conditioner 190ml",
+    "category": "Personal Care",
+    "subCategory": "Hair care",
+    "price": 280,
+    "offerPrice": 245,
+    "image": [
+      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Tresemme Keratin Smooth Conditioner 190ml",
+      "Category: Hair care | Code: P147",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 17,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000094",
+    "code": "P148",
+    "name": "Head & Shoulders Clean & Balanced Shampoo 340ml",
+    "category": "Personal Care",
+    "subCategory": "Hair care",
+    "price": 340,
+    "offerPrice": 299,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267070_15-head-shoulders-anti-dandruff-shampoo.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Head & Shoulders Clean & Balanced Shampoo 340ml",
+      "Category: Hair care | Code: P148",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 21,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000095",
+    "code": "P149",
+    "name": "Sunsilk Black Shine Nourishing Shampoo 340ml",
+    "category": "Personal Care",
+    "subCategory": "Hair care",
+    "price": 250,
+    "offerPrice": 219,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267080_14-sunsilk-black-shine-shampoo.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Sunsilk Black Shine Nourishing Shampoo 340ml",
+      "Category: Hair care | Code: P149",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 77,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000096",
+    "code": "P150",
+    "name": "Lux Soft Rose Moisturising Body Wash 250ml",
+    "category": "Personal Care",
+    "subCategory": "Skin care",
+    "price": 180,
+    "offerPrice": 155,
+    "image": [
+      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Lux Soft Rose Moisturising Body Wash 250ml",
+      "Category: Skin care | Code: P150",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 48,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000097",
+    "code": "P151",
+    "name": "Pears Pure & Gentle Green Lemon Oil Body Wash 250ml",
+    "category": "Personal Care",
+    "subCategory": "Skin care",
+    "price": 195,
+    "offerPrice": 169,
+    "image": [
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Pears Pure & Gentle Green Lemon Oil Body Wash 250ml",
+      "Category: Skin care | Code: P151",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 82,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000098",
+    "code": "P152",
+    "name": "Plum Shower Gel Body Wash Refreshing 250ml",
+    "category": "Personal Care",
+    "subCategory": "Skin care",
+    "price": 280,
+    "offerPrice": 239,
+    "image": [
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Plum Shower Gel Body Wash Refreshing 250ml",
+      "Category: Skin care | Code: P152",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 37,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f000000000000000000099",
+    "code": "P153",
+    "name": "Ghar Magic Natural Glow Body Wash 300ml",
+    "category": "Personal Care",
+    "subCategory": "Skin care",
+    "price": 249,
+    "offerPrice": 215,
+    "image": [
+      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Ghar Magic Natural Glow Body Wash 300ml",
+      "Category: Skin care | Code: P153",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 22,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000009a",
+    "code": "P154",
+    "name": "Fogg Marco Fragrance Body Spray 150ml",
+    "category": "Personal Care",
+    "subCategory": "Deodorant",
+    "price": 250,
+    "offerPrice": 215,
+    "image": [
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Fogg Marco Fragrance Body Spray 150ml",
+      "Category: Deodorant | Code: P154",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 18,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000009b",
+    "code": "P155",
+    "name": "Cetaphil Gentle Skin Cleanser Wash 125ml",
+    "category": "Personal Care",
+    "subCategory": "Skin care",
+    "price": 399,
+    "offerPrice": 349,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40130000_10-cetaphil-gentle-skin-cleanser.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Cetaphil Gentle Skin Cleanser Wash 125ml",
+      "Category: Skin care | Code: P155",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 62,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000009c",
+    "code": "P156",
+    "name": "Cetaphil Daily Hydrating Moisturizing Lotion 100ml",
+    "category": "Personal Care",
+    "subCategory": "Skin care",
+    "price": 440,
+    "offerPrice": 389,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40130001_9-cetaphil-daily-advance-ultra-hydrating-lotion.jpg",
+      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Cetaphil Daily Hydrating Moisturizing Lotion 100ml",
+      "Category: Skin care | Code: P156",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 63,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000009d",
+    "code": "P157",
+    "name": "Cetaphil Intensive Moisturising Rich Cream 80g",
+    "category": "Personal Care",
+    "subCategory": "Skin care",
+    "price": 475,
+    "offerPrice": 420,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40130002_9-cetaphil-moisturising-cream.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Cetaphil Intensive Moisturising Rich Cream 80g",
+      "Category: Skin care | Code: P157",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 17,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000009e",
+    "code": "P158",
+    "name": "VWash Plus Expert Intimate Hygiene Wash 100ml",
+    "category": "Personal Care",
+    "subCategory": "Feminine care",
+    "price": 180,
+    "offerPrice": 155,
+    "image": [
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic VWash Plus Expert Intimate Hygiene Wash 100ml",
+      "Category: Feminine care | Code: P158",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 70,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f00000000000000000009f",
+    "code": "P159",
+    "name": "Moov Fast Pain Relief Spray 50g",
+    "category": "Personal Care",
+    "subCategory": "Skin care",
+    "price": 160,
+    "offerPrice": 144,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267100_12-moov-pain-relief-specialist-spray.jpg",
+      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Moov Fast Pain Relief Spray 50g",
+      "Category: Skin care | Code: P159",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 64,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f0000000000000000000a0",
+    "code": "P160",
+    "name": "Livon Anti-Frizz Hair Serum Vitamin E 100ml",
+    "category": "Personal Care",
+    "subCategory": "Hair care",
+    "price": 275,
+    "offerPrice": 239,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267110_13-livon-hair-serum-for-women.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Livon Anti-Frizz Hair Serum Vitamin E 100ml",
+      "Category: Hair care | Code: P160",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 17,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f0000000000000000000a1",
+    "code": "P161",
+    "name": "Livon Hair Serum Travel Mini Pack 50ml",
+    "category": "Personal Care",
+    "subCategory": "Hair care",
+    "price": 150,
+    "offerPrice": 132,
+    "image": [
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Livon Hair Serum Travel Mini Pack 50ml",
+      "Category: Hair care | Code: P161",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 71,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f0000000000000000000a2",
+    "code": "P162",
+    "name": "Garnier Bright Complete Vitamin C Glow Cream 45g",
+    "category": "Personal Care",
+    "subCategory": "Skin care",
+    "price": 199,
+    "offerPrice": 175,
+    "image": [
+      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Garnier Bright Complete Vitamin C Glow Cream 45g",
+      "Category: Skin care | Code: P162",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 37,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f0000000000000000000a3",
+    "code": "P163",
+    "name": "Garnier Skin Naturals Moisturising Face Cream Tub",
+    "category": "Personal Care",
+    "subCategory": "Skin care",
+    "price": 220,
+    "offerPrice": 195,
+    "image": [
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Garnier Skin Naturals Moisturising Face Cream Tub",
+      "Category: Skin care | Code: P163",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 58,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f0000000000000000000a4",
+    "code": "P164",
+    "name": "Boroline Ayurvedic Antiseptic Cream 40g",
+    "category": "Personal Care",
+    "subCategory": "Skin care",
+    "price": 50,
+    "offerPrice": 45,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267120_11-boroline-antiseptic-ayurvedic-cream.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Boroline Ayurvedic Antiseptic Cream 40g",
+      "Category: Skin care | Code: P164",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 38,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f0000000000000000000a5",
+    "code": "P165",
+    "name": "Clean & Clear Foaming Face Wash 100ml",
+    "category": "Personal Care",
+    "subCategory": "Skin care",
+    "price": 160,
+    "offerPrice": 140,
+    "image": [
+      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Clean & Clear Foaming Face Wash 100ml",
+      "Category: Skin care | Code: P165",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 37,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f0000000000000000000a6",
+    "code": "P166",
+    "name": "Clean & Clear Morning Energy Skin Cleanser 100ml",
+    "category": "Personal Care",
+    "subCategory": "Skin care",
+    "price": 165,
+    "offerPrice": 145,
+    "image": [
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Clean & Clear Morning Energy Skin Cleanser 100ml",
+      "Category: Skin care | Code: P166",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 89,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f0000000000000000000a7",
+    "code": "P167",
+    "name": "Himalaya Purifying Neem Face Wash 100ml",
+    "category": "Personal Care",
+    "subCategory": "Skin care",
+    "price": 150,
+    "offerPrice": 130,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267130_16-himalaya-purifying-neem-face-wash.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Himalaya Purifying Neem Face Wash 100ml",
+      "Category: Skin care | Code: P167",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 53,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f0000000000000000000a8",
+    "code": "P168",
+    "name": "Vaseline Deep Moisture Body Lotion 200ml",
+    "category": "Personal Care",
+    "subCategory": "Skin care",
+    "price": 235,
+    "offerPrice": 199,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267140_15-vaseline-intensive-care-deep-moisture-body-lotion.jpg",
+      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Vaseline Deep Moisture Body Lotion 200ml",
+      "Category: Skin care | Code: P168",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 32,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f0000000000000000000a9",
+    "code": "P169",
+    "name": "Clinic Plus Strong & Long Health Shampoo 340ml",
+    "category": "Personal Care",
+    "subCategory": "Hair care",
+    "price": 210,
+    "offerPrice": 189,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267150_14-clinic-plus-strong-long-health-shampoo.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Clinic Plus Strong & Long Health Shampoo 340ml",
+      "Category: Hair care | Code: P169",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 12,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f0000000000000000000aa",
+    "code": "P170",
+    "name": "Classic Soft Touch Cold Cream & Cosmetic Care",
+    "category": "Personal Care",
+    "subCategory": "Oral / skin care",
+    "price": 95,
+    "offerPrice": 82,
+    "image": [
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Classic Soft Touch Cold Cream & Cosmetic Care",
+      "Category: Oral / skin care | Code: P170",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 46,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f0000000000000000000ab",
+    "code": "P171",
+    "name": "Everest Chhole Masala Authentic Spice 100g",
+    "category": "Spices",
+    "subCategory": "Spices",
+    "price": 56,
+    "offerPrice": 50,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267200_14-everest-masala-chhole.jpg",
+      "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Everest Chhole Masala Authentic Spice 100g",
+      "Category: Spices | Code: P171",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 28,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f0000000000000000000ac",
+    "code": "P172",
+    "name": "Everest South Indian Sambhar Masala 100g",
+    "category": "Spices",
+    "subCategory": "Spices",
+    "price": 55,
+    "offerPrice": 49,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267201_14-everest-masala-sambhar.jpg",
+      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Everest South Indian Sambhar Masala 100g",
+      "Category: Spices | Code: P172",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 47,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f0000000000000000000ad",
+    "code": "P173",
+    "name": "Everest Kitchen King All Purpose Masala 100g",
+    "category": "Spices",
+    "subCategory": "Spices",
+    "price": 68,
+    "offerPrice": 60,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267202_15-everest-masala-kitchen-king.jpg",
+      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Everest Kitchen King All Purpose Masala 100g",
+      "Category: Spices | Code: P173",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 37,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f0000000000000000000ae",
+    "code": "P174",
+    "name": "Everest Bombay Pav Bhaji Masala 100g",
+    "category": "Spices",
+    "subCategory": "Spices",
+    "price": 62,
+    "offerPrice": 55,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267203_14-everest-masala-pav-bhaji.jpg",
+      "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Everest Bombay Pav Bhaji Masala 100g",
+      "Category: Spices | Code: P174",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 11,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f0000000000000000000af",
+    "code": "P175",
+    "name": "Everest Royal Garam Masala 100g",
+    "category": "Spices",
+    "subCategory": "Spices",
+    "price": 74,
+    "offerPrice": 66,
+    "image": [
+      "https://images.openfoodfacts.org/images/products/890/178/641/1009/front_en.15.400.jpg",
+      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Everest Royal Garam Masala 100g",
+      "Category: Spices | Code: P175",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 47,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f0000000000000000000b0",
+    "code": "P176",
+    "name": "Everest Tangy Chat Masala 100g",
+    "category": "Spices",
+    "subCategory": "Spices",
+    "price": 52,
+    "offerPrice": 46,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267205_13-everest-masala-chaat.jpg",
+      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Everest Tangy Chat Masala 100g",
+      "Category: Spices | Code: P176",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 40,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.413Z"
+  },
+  {
+    "_id": "65f0000000000000000000b1",
+    "code": "P177",
+    "name": "Everest Dry Mango Powder Amchur 100g",
+    "category": "Spices",
+    "subCategory": "Spices",
+    "price": 65,
+    "offerPrice": 58,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267206_12-everest-dry-mango-powder-amchur.jpg",
+      "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Everest Dry Mango Powder Amchur 100g",
+      "Category: Spices | Code: P177",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 84,
+    "createdAt": "2026-10-25T08:21:42.413Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000b2",
+    "code": "P178",
+    "name": "Everest Roasted Cumin Powder Jeera 100g",
+    "category": "Spices",
+    "subCategory": "Spices",
+    "price": 78,
+    "offerPrice": 70,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267207_13-everest-cumin-powder-jeera.jpg",
+      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Everest Roasted Cumin Powder Jeera 100g",
+      "Category: Spices | Code: P178",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 24,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000b3",
+    "code": "P179",
+    "name": "Everest Kashmiri Lal Red Chilli Powder 100g",
+    "category": "Spices",
+    "subCategory": "Spices",
+    "price": 75,
+    "offerPrice": 67,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267208_14-everest-chilli-powder-kashmiri-lal.jpg",
+      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Everest Kashmiri Lal Red Chilli Powder 100g",
+      "Category: Spices | Code: P179",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 38,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000b4",
+    "code": "P180",
+    "name": "Everest Special Chicken Masala 100g",
+    "category": "Spices",
+    "subCategory": "Spices",
+    "price": 68,
+    "offerPrice": 60,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267209_13-everest-masala-chicken.jpg",
+      "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Everest Special Chicken Masala 100g",
+      "Category: Spices | Code: P180",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 50,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000b5",
+    "code": "P181",
+    "name": "Everest Meat Masala Spice Mix 100g",
+    "category": "Spices",
+    "subCategory": "Spices",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267210_13-everest-masala-meat.jpg",
+      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Everest Meat Masala Spice Mix 100g",
+      "Category: Spices | Code: P181",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 75,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000b6",
+    "code": "P182",
+    "name": "Everest Shahi Biryani Masala 50g",
+    "category": "Spices",
+    "subCategory": "Spices",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267211_12-everest-shahi-biryani-masala.jpg",
+      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Everest Shahi Biryani Masala 50g",
+      "Category: Spices | Code: P182",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 83,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000b7",
+    "code": "P183",
+    "name": "Everest Shahi Paneer Masala 50g",
+    "category": "Spices",
+    "subCategory": "Spices",
+    "price": 50,
+    "offerPrice": 44,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267212_12-everest-shahi-paneer-masala.jpg",
+      "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Everest Shahi Paneer Masala 50g",
+      "Category: Spices | Code: P183",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 19,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000b8",
+    "code": "P184",
+    "name": "Everest Pani Puri Masala Mint Spice 50g",
+    "category": "Spices",
+    "subCategory": "Spices",
+    "price": 45,
+    "offerPrice": 39,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267213_11-everest-pani-puri-masala.jpg",
+      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Everest Pani Puri Masala Mint Spice 50g",
+      "Category: Spices | Code: P184",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 37,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000b9",
+    "code": "P185",
+    "name": "Dolphin White Wax Candles Mombatti Box 12s",
+    "category": "Electrical",
+    "subCategory": "Household",
+    "price": 50,
+    "offerPrice": 42,
+    "image": [
+      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Dolphin White Wax Candles Mombatti Box 12s",
+      "Category: Household | Code: P185",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 61,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000ba",
+    "code": "P186",
+    "name": "Wipro Garnet Emergency Rechargeable LED Bulb 10W",
+    "category": "Electrical",
+    "subCategory": "Electrical",
+    "price": 450,
+    "offerPrice": 380,
+    "image": [
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Wipro Garnet Emergency Rechargeable LED Bulb 10W",
+      "Category: Electrical | Code: P186",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 58,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000bb",
+    "code": "P187",
+    "name": "Wipro Garnet Bright B22 LED Bulb Cool White 9W",
+    "category": "Electrical",
+    "subCategory": "Electrical",
+    "price": 120,
+    "offerPrice": 95,
+    "image": [
+      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Wipro Garnet Bright B22 LED Bulb Cool White 9W",
+      "Category: Electrical | Code: P187",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 56,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000bc",
+    "code": "P188",
+    "name": "Wipro Garnet Energy Saver LED Bulb 12W",
+    "category": "Electrical",
+    "subCategory": "Electrical",
+    "price": 150,
+    "offerPrice": 119,
+    "image": [
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Wipro Garnet Energy Saver LED Bulb 12W",
+      "Category: Electrical | Code: P188",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 32,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000bd",
+    "code": "P189",
+    "name": "Well Clean Disinfectant Bleaching Powder 500g",
+    "category": "Cleaning",
+    "subCategory": "Household",
+    "price": 60,
+    "offerPrice": 50,
+    "image": [
+      "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Well Clean Disinfectant Bleaching Powder 500g",
+      "Category: Household | Code: P189",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 67,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000be",
+    "code": "P190",
+    "name": "Wipro Festilite Decorative Warm String Fairy Lights",
+    "category": "Electrical",
+    "subCategory": "Electrical",
+    "price": 299,
+    "offerPrice": 239,
+    "image": [
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Wipro Festilite Decorative Warm String Fairy Lights",
+      "Category: Electrical | Code: P190",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 19,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000bf",
+    "code": "P191",
+    "name": "Classic Stainless Steel Kitchen Storage Container Can",
+    "category": "Electrical",
+    "subCategory": "Household",
+    "price": 180,
+    "offerPrice": 149,
+    "image": [
+      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Classic Stainless Steel Kitchen Storage Container Can",
+      "Category: Household | Code: P191",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 31,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000c0",
+    "code": "P192",
+    "name": "Gits Gulab Jamun Instant Dessert Mix 200g",
+    "category": "Instant",
+    "subCategory": "Instant dessert",
+    "price": 115,
+    "offerPrice": 99,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267300_14-gits-instant-mix-gulab-jamun.jpg",
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Gits Gulab Jamun Instant Dessert Mix 200g",
+      "Category: Instant dessert | Code: P192",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 21,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000c1",
+    "code": "P193",
+    "name": "Gits Rasgulla & Jalebi Sweet Dessert Mix 200g",
+    "category": "Instant",
+    "subCategory": "Instant dessert",
+    "price": 115,
+    "offerPrice": 99,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267301_13-gits-instant-mix-jalebi.jpg",
+      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Gits Rasgulla & Jalebi Sweet Dessert Mix 200g",
+      "Category: Instant dessert | Code: P193",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 62,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000c2",
+    "code": "P194",
+    "name": "Traditional Indian Gulab Jamun Sweet Box 500g",
+    "category": "Instant",
+    "subCategory": "Instant dessert",
+    "price": 160,
+    "offerPrice": 140,
+    "image": [
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Traditional Indian Gulab Jamun Sweet Box 500g",
+      "Category: Instant dessert | Code: P194",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 69,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000c3",
+    "code": "P195",
+    "name": "Vishesh Gujarati Mango Achar Masala Sambhar 200g",
+    "category": "Spices",
+    "subCategory": "Spices / pantry",
+    "price": 85,
+    "offerPrice": 75,
+    "image": [
+      "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Vishesh Gujarati Mango Achar Masala Sambhar 200g",
+      "Category: Spices / pantry | Code: P195",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 53,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000c4",
+    "code": "P196",
+    "name": "Vishesh Pure Singoda Water Chestnut Atta 500g",
+    "category": "Spices",
+    "subCategory": "Spices / pantry",
+    "price": 120,
+    "offerPrice": 105,
+    "image": [
+      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Vishesh Pure Singoda Water Chestnut Atta 500g",
+      "Category: Spices / pantry | Code: P196",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 13,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000c5",
+    "code": "P197",
+    "name": "Vishesh Farali Rajgira Atta Amaranth Flour 500g",
+    "category": "Spices",
+    "subCategory": "Spices / pantry",
+    "price": 110,
+    "offerPrice": 98,
+    "image": [
+      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Vishesh Farali Rajgira Atta Amaranth Flour 500g",
+      "Category: Spices / pantry | Code: P197",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 59,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000c6",
+    "code": "P198",
+    "name": "Ramdev Special Spicy Achar Masala 250g",
+    "category": "Spices",
+    "subCategory": "Spices / pantry",
+    "price": 95,
+    "offerPrice": 85,
+    "image": [
+      "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Ramdev Special Spicy Achar Masala 250g",
+      "Category: Spices / pantry | Code: P198",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 78,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000c7",
+    "code": "P199",
+    "name": "Pure Organic Wild Forest Honey Glass Jar 500g",
+    "category": "Spices",
+    "subCategory": "Spices / pantry",
+    "price": 240,
+    "offerPrice": 210,
+    "image": [
+      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Pure Organic Wild Forest Honey Glass Jar 500g",
+      "Category: Spices / pantry | Code: P199",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 48,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000c8",
+    "code": "P200",
+    "name": "Premium Multigrain Sharbati Wheat Atta 1kg",
+    "category": "Spices",
+    "subCategory": "Spices / pantry",
+    "price": 65,
+    "offerPrice": 58,
+    "image": [
+      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Premium Multigrain Sharbati Wheat Atta 1kg",
+      "Category: Spices / pantry | Code: P200",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 27,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000c9",
+    "code": "P201",
+    "name": "Aromatic Pure Haldi Turmeric Spice Powder 200g",
+    "category": "Spices",
+    "subCategory": "Spices / pantry",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Aromatic Pure Haldi Turmeric Spice Powder 200g",
+      "Category: Spices / pantry | Code: P201",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 50,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000ca",
+    "code": "P202",
+    "name": "Gits Traditional Basundi Instant Mix 125g",
+    "category": "Instant",
+    "subCategory": "Instant dessert",
+    "price": 105,
+    "offerPrice": 92,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267305_11-gits-instant-mix-basundi.jpg",
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Gits Traditional Basundi Instant Mix 125g",
+      "Category: Instant dessert | Code: P202",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 30,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000cb",
+    "code": "P203",
+    "name": "Glucon-D Pure Glucose Energy Drink Regular 500g",
+    "category": "Drinks",
+    "subCategory": "Health drink",
+    "price": 130,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267310_15-glucon-d-instant-energy-drink-regular.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Glucon-D Pure Glucose Energy Drink Regular 500g",
+      "Category: Health drink | Code: P203",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 55,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000cc",
+    "code": "P204",
+    "name": "Glucon-D Tangy Orange Flavour Energy Drink 500g",
+    "category": "Drinks",
+    "subCategory": "Health drink",
+    "price": 145,
+    "offerPrice": 128,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267311_15-glucon-d-instant-energy-drink-tangy-orange.jpg",
+      "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Glucon-D Tangy Orange Flavour Energy Drink 500g",
+      "Category: Health drink | Code: P204",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 16,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000cd",
+    "code": "P205",
+    "name": "Navratna Ayurvedic Cool Herbal Hair Oil 300ml",
+    "category": "Personal Care",
+    "subCategory": "Health / OTC",
+    "price": 160,
+    "offerPrice": 139,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267320_14-navratna-ayurvedic-cool-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Navratna Ayurvedic Cool Herbal Hair Oil 300ml",
+      "Category: Health / OTC | Code: P205",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 54,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000ce",
+    "code": "P206",
+    "name": "Pure Boric Acid I.P. Powder Carrom & Kitchen 100g",
+    "category": "Personal Care",
+    "subCategory": "Health / OTC",
+    "price": 40,
+    "offerPrice": 35,
+    "image": [
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Pure Boric Acid I.P. Powder Carrom & Kitchen 100g",
+      "Category: Health / OTC | Code: P206",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 12,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000cf",
+    "code": "P207",
+    "name": "Ayurvedic Herbal Green Balm Headache Relief 25g",
+    "category": "Personal Care",
+    "subCategory": "Health / OTC",
+    "price": 45,
+    "offerPrice": 39,
+    "image": [
+      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Ayurvedic Herbal Green Balm Headache Relief 25g",
+      "Category: Health / OTC | Code: P207",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 53,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000d0",
+    "code": "P208",
+    "name": "Parachute 100% Pure Coconut Oil Blue Bottle 250ml",
+    "category": "Personal Care",
+    "subCategory": "Hair care",
+    "price": 110,
+    "offerPrice": 98,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267330_16-parachute-100-pure-coconut-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Parachute 100% Pure Coconut Oil Blue Bottle 250ml",
+      "Category: Hair care | Code: P208",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 16,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000d1",
+    "code": "P209",
+    "name": "Parachute Advansed Aloe Vera Enriched Coconut Oil 250ml",
+    "category": "Personal Care",
+    "subCategory": "Hair care",
+    "price": 135,
+    "offerPrice": 119,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267331_14-parachute-advansed-aloe-vera-enriched-coconut-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Parachute Advansed Aloe Vera Enriched Coconut Oil 250ml",
+      "Category: Hair care | Code: P209",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 77,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000d2",
+    "code": "P210",
+    "name": "Nihar Naturals Shanti Amla Hair Oil 300ml",
+    "category": "Personal Care",
+    "subCategory": "Hair care",
+    "price": 95,
+    "offerPrice": 82,
+    "image": [
+      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Nihar Naturals Shanti Amla Hair Oil 300ml",
+      "Category: Hair care | Code: P210",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 46,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000d3",
+    "code": "P211",
+    "name": "Kesh King Ayurvedic Herbal Medicinal Hair Oil 100ml",
+    "category": "Personal Care",
+    "subCategory": "Hair care",
+    "price": 170,
+    "offerPrice": 148,
+    "image": [
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Kesh King Ayurvedic Herbal Medicinal Hair Oil 100ml",
+      "Category: Hair care | Code: P211",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 79,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000d4",
+    "code": "P212",
+    "name": "Farm Fresh Chakki Fresh Whole Wheat Atta 5kg",
+    "category": "Grocery",
+    "subCategory": "Grocery",
+    "price": 235,
+    "offerPrice": 215,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/126906_10-aashirvaad-sharbati-atta-100-mp-chakki-atta.jpg",
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Farm Fresh Chakki Fresh Whole Wheat Atta 5kg",
+      "Category: Grocery | Code: P212",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 32,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000d5",
+    "code": "P213",
+    "name": "Fortune Sunlite Refined Sunflower Cooking Oil 1L",
+    "category": "Grocery",
+    "subCategory": "Grocery",
+    "price": 155,
+    "offerPrice": 138,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/274145_14-fortune-sunlite-refined-sunflower-oil.jpg",
+      "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Fortune Sunlite Refined Sunflower Cooking Oil 1L",
+      "Category: Grocery | Code: P213",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 47,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000d6",
+    "code": "P214",
+    "name": "Fortune Sunlite Cooking Oil Refill Pouch 1L",
+    "category": "Grocery",
+    "subCategory": "Grocery",
+    "price": 148,
+    "offerPrice": 132,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/274145_14-fortune-sunlite-refined-sunflower-oil.jpg",
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Fortune Sunlite Cooking Oil Refill Pouch 1L",
+      "Category: Grocery | Code: P214",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 54,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000d7",
+    "code": "P215",
+    "name": "Pure Filtered Mustard & Groundnut Cooking Oil Tin 5L",
+    "category": "Grocery",
+    "subCategory": "Grocery",
+    "price": 799,
+    "offerPrice": 720,
+    "image": [
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Pure Filtered Mustard & Groundnut Cooking Oil Tin 5L",
+      "Category: Grocery | Code: P215",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 72,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000d8",
+    "code": "P216",
+    "name": "King’s Pure Refined Soybean Cooking Oil 1L",
+    "category": "Grocery",
+    "subCategory": "Grocery",
+    "price": 150,
+    "offerPrice": 135,
+    "image": [
+      "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic King’s Pure Refined Soybean Cooking Oil 1L",
+      "Category: Grocery | Code: P216",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 83,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000d9",
+    "code": "P217",
+    "name": "King’s Rich Filtered Groundnut Cooking Oil 1L",
+    "category": "Grocery",
+    "subCategory": "Grocery",
+    "price": 185,
+    "offerPrice": 168,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic King’s Rich Filtered Groundnut Cooking Oil 1L",
+      "Category: Grocery | Code: P217",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 57,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000da",
+    "code": "P218",
+    "name": "Saptashali Kachi Ghani Mustard Oil 1L Bottle",
+    "category": "Grocery",
+    "subCategory": "Grocery",
+    "price": 165,
+    "offerPrice": 149,
+    "image": [
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Saptashali Kachi Ghani Mustard Oil 1L Bottle",
+      "Category: Grocery | Code: P218",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 44,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000db",
+    "code": "P219",
+    "name": "New Maruti Crispy Seasoned Fryums & Tins 200g",
+    "category": "Grocery",
+    "subCategory": "Grocery",
+    "price": 75,
+    "offerPrice": 65,
+    "image": [
+      "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic New Maruti Crispy Seasoned Fryums & Tins 200g",
+      "Category: Grocery | Code: P219",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 58,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000dc",
+    "code": "P220",
+    "name": "Crunchy Ratlami Sev & Namkeen Snack Pack 400g",
+    "category": "Grocery",
+    "subCategory": "Grocery",
+    "price": 95,
+    "offerPrice": 85,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Crunchy Ratlami Sev & Namkeen Snack Pack 400g",
+      "Category: Grocery | Code: P220",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 81,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000dd",
+    "code": "P221",
+    "name": "Gulab Pure Filtered Groundnut Cooking Oil Can 5L",
+    "category": "Grocery",
+    "subCategory": "Grocery",
+    "price": 890,
+    "offerPrice": 810,
+    "image": [
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Gulab Pure Filtered Groundnut Cooking Oil Can 5L",
+      "Category: Grocery | Code: P221",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 77,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000de",
+    "code": "P222",
+    "name": "Nature Fresh Acti-Lite Healthy Cooking Oil Pouch 1L",
+    "category": "Grocery",
+    "subCategory": "Grocery",
+    "price": 150,
+    "offerPrice": 135,
+    "image": [
+      "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Nature Fresh Acti-Lite Healthy Cooking Oil Pouch 1L",
+      "Category: Grocery | Code: P222",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 80,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000df",
+    "code": "P223",
+    "name": "Dabur Amla Nourishing Vitamin C Hair Oil 275ml",
+    "category": "Personal Care",
+    "subCategory": "Hair care",
+    "price": 160,
+    "offerPrice": 139,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Dabur Amla Nourishing Vitamin C Hair Oil 275ml",
+      "Category: Hair care | Code: P223",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 89,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000e0",
+    "code": "P224",
+    "name": "Dabur Vatika Enriched Olive & Almond Hair Oil 200ml",
+    "category": "Personal Care",
+    "subCategory": "Hair care",
+    "price": 145,
+    "offerPrice": 128,
+    "image": [
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Dabur Vatika Enriched Olive & Almond Hair Oil 200ml",
+      "Category: Hair care | Code: P224",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 89,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000e1",
+    "code": "P225",
+    "name": "Colgate Strong Teeth Calcium Dental Cream 200g",
+    "category": "Personal Care",
+    "subCategory": "Oral care",
+    "price": 110,
+    "offerPrice": 98,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
+      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Colgate Strong Teeth Calcium Dental Cream 200g",
+      "Category: Oral care | Code: P225",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 67,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000e2",
+    "code": "P226",
+    "name": "Colgate Herbal Salt & Neem Protective Toothpaste 200g",
+    "category": "Personal Care",
+    "subCategory": "Oral care",
+    "price": 120,
+    "offerPrice": 105,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267361_15-colgate-herbal-toothpaste-with-neem-eucalyptus-chamomile.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Colgate Herbal Salt & Neem Protective Toothpaste 200g",
+      "Category: Oral care | Code: P226",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 75,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000e3",
+    "code": "P227",
+    "name": "Colgate Cibaca Top Anti-Cavity Toothpaste 175g",
+    "category": "Personal Care",
+    "subCategory": "Oral care",
+    "price": 65,
+    "offerPrice": 55,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267362_12-colgate-cibaca-anti-cavity-toothpaste.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Colgate Cibaca Top Anti-Cavity Toothpaste 175g",
+      "Category: Oral care | Code: P227",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 13,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000e4",
+    "code": "P228",
+    "name": "Close Up Red Hot Fresh Toothpaste Gel 150g",
+    "category": "Personal Care",
+    "subCategory": "Oral care",
+    "price": 115,
+    "offerPrice": 99,
+    "image": [
+      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Close Up Red Hot Fresh Toothpaste Gel 150g",
+      "Category: Oral care | Code: P228",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 54,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000e5",
+    "code": "P229",
+    "name": "Red Bull Energy Drink Cans Multipack 4x250ml",
+    "category": "Drinks",
+    "subCategory": "Beverages",
+    "price": 480,
+    "offerPrice": 429,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/265700_15-red-bull-energy-drink.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Genuine & Authentic Red Bull Energy Drink Cans Multipack 4x250ml",
+      "Category: Beverages | Code: P229",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 87,
+    "createdAt": "2026-10-25T08:21:42.414Z",
+    "updatedAt": "2026-10-25T08:21:42.414Z"
+  }
 ];

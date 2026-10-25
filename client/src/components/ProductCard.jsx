@@ -41,6 +41,14 @@ const ProductsCard = ({ product }) => {
             }`}
             src={product.image[0]}
             alt={product.name}
+            onError={(e) => {
+              e.currentTarget.onerror = null;
+              if (product?.image?.[1]) {
+                e.currentTarget.src = product.image[1];
+              } else {
+                e.currentTarget.src = "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400";
+              }
+            }}
           />
         </div>
         <div className="text-gray-500/60 text-sm">

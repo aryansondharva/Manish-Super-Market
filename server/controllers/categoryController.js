@@ -5,8 +5,88 @@ import Product from "../models/Product.js";
 // Initial default categories for Manish Super Market
 export const initialDefaultCategories = [
   {
-    text: "Organic veggies",
-    name: "Organic veggies",
+    text: "Chocolates & Sweets",
+    name: "Chocolates & Sweets",
+    path: "Chocolates",
+    image: "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=400",
+    bgColor: "#FDF2F8",
+    description: "Premium Cadbury Silk, dark chocolates, wafers & sweets"
+  },
+  {
+    text: "Cold Drinks & Sodas",
+    name: "Cold Drinks & Sodas",
+    path: "Drinks",
+    image: "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=400",
+    bgColor: "#F0F5DE",
+    description: "Chilled soft drinks, juices, energy drinks & mineral waters"
+  },
+  {
+    text: "Dairy Products",
+    name: "Dairy Products",
+    path: "Dairy",
+    image: "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80&w=400",
+    bgColor: "#FEE6CD",
+    description: "Farm-fresh milk, butter, cheese blocks, paneer & curd"
+  },
+  {
+    text: "Ice Creams & Frozen",
+    name: "Ice Creams & Frozen",
+    path: "Ice Cream",
+    image: "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=400",
+    bgColor: "#EFF6FF",
+    description: "Amul TriCones, chocobars, kulfis, sundaes & tubs"
+  },
+  {
+    text: "Cleaning & Household",
+    name: "Cleaning & Household",
+    path: "Cleaning",
+    image: "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=400",
+    bgColor: "#F0FDF4",
+    description: "Harpic, Lizol, Vim dishwash, Domex & Colin cleaners"
+  },
+  {
+    text: "Personal & Hair Care",
+    name: "Personal & Hair Care",
+    path: "Personal Care",
+    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=400",
+    bgColor: "#FAF5FF",
+    description: "Shampoos, conditioners, hair colours, body washes & skincare"
+  },
+  {
+    text: "Spices, Masalas & Pantry",
+    name: "Spices, Masalas & Pantry",
+    path: "Spices",
+    image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=400",
+    bgColor: "#FEF3C7",
+    description: "Everest blended masalas, achar spices, pure flours & honey"
+  },
+  {
+    text: "Groceries & Cooking Oils",
+    name: "Groceries & Cooking Oils",
+    path: "Grocery",
+    image: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=400",
+    bgColor: "#FFF7ED",
+    description: "Refined cooking oils, whole wheat atta, grains & crunchy snacks"
+  },
+  {
+    text: "Instant Food & Desserts",
+    name: "Instant Food & Desserts",
+    path: "Instant",
+    image: "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=400",
+    bgColor: "#E1F5EC",
+    description: "Gits dessert mixes, gulab jamun, quick snacks & ready meals"
+  },
+  {
+    text: "Electrical & Lights",
+    name: "Electrical & Lights",
+    path: "Electrical",
+    image: "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=400",
+    bgColor: "#FEF9C3",
+    description: "Wipro LED bulbs, emergency lights, festive string lights & candles"
+  },
+  {
+    text: "Organic Veggies",
+    name: "Organic Veggies",
     path: "Vegetables",
     image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&q=80&w=400",
     bgColor: "#FEF6DA",
@@ -21,44 +101,12 @@ export const initialDefaultCategories = [
     description: "Sweet, juicy seasonal and imported fresh fruits"
   },
   {
-    text: "Cold Drinks",
-    name: "Cold Drinks",
-    path: "Drinks",
-    image: "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?auto=format&fit=crop&q=80&w=400",
-    bgColor: "#F0F5DE",
-    description: "Soft drinks, iced teas, fruit juices, and mocktails"
-  },
-  {
-    text: "Instant Food",
-    name: "Instant Food",
-    path: "Instant",
-    image: "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=400",
-    bgColor: "#E1F5EC",
-    description: "Quick noodles, soups, pastas, and ready-to-eat meals"
-  },
-  {
-    text: "Dairy Products",
-    name: "Dairy Products",
-    path: "Dairy",
-    image: "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80&w=400",
-    bgColor: "#FEE6CD",
-    description: "Fresh farm milk, artisanal cheese, paneer, and curd"
-  },
-  {
     text: "Bakery & Breads",
     name: "Bakery & Breads",
     path: "Bakery",
     image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=400",
     bgColor: "#E0F6FE",
     description: "Whole wheat breads, morning muffins, and fresh buns"
-  },
-  {
-    text: "Grains & Cereals",
-    name: "Grains & Cereals",
-    path: "Grains",
-    image: "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=400",
-    bgColor: "#F1E3F9",
-    description: "Basmati rice, whole wheat atta, pulses, and healthy cereals"
   }
 ];
 
