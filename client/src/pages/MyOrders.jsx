@@ -4,10 +4,24 @@ import { assets } from "../assets/assets";
 import { Link } from "react-router-dom";
 import toast from "react-hot-toast";
 
-const formatOrderDateTime = (dateStr) => {
-  if (!dateStr) return "Just now";
-  const d = new Date(dateStr);
-  if (isNaN(d.getTime())) return "Recently";
+// Deterministic date resolver: uses createdAt, date, or ObjectId timestamp (NEVER Date.now())
+const getOrderDate = (order) => {
+  if (!order) return null;
+  if (order.createdAt) return new Date(order.createdAt);
+  if (order.date) return new Date(order.date);
+  if (order._id) {
+    try {
+      const hex = order._id.toString().substring(0, 8);
+      const ts = parseInt(hex, 16) * 1000;
+      if (!isNaN(ts) && ts > 0) return new Date(ts);
+    } catch (e) {}
+  }
+  return null;
+};
+
+const formatOrderDateTime = (order) => {
+  const d = getOrderDate(order);
+  if (!d || isNaN(d.getTime())) return "Recently Placed";
   return d.toLocaleString("en-IN", {
     day: "numeric",
     month: "short",
@@ -37,6 +51,16 @@ function MyOrders() {
   const { currency, user, axios } = useAppContext();
   const [myOrders, setMyOrders] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [cancellingId, setCancellingId] = useState(null);
+  const [currentTime, setCurrentTime] = useState(Date.now());
+
+  // 1-second live ticker for remaining 5-minute cancellation window
+  useEffect(() => {
+    const ticker = setInterval(() => {
+      setCurrentTime(Date.now());
+    }, 1000);
+    return () => clearInterval(ticker);
+  }, []);
 
   const fetchUserOrders = async () => {
     try {
@@ -64,6 +88,40 @@ function MyOrders() {
     }
   }, [user]);
 
+  // Cancel order within 5 minutes
+  const handleCancelOrder = async (orderId) => {
+    if (!window.confirm("Are you sure you want to cancel this order? This action cannot be undone.")) {
+      return;
+    }
+    setCancellingId(orderId);
+    try {
+      const { data } = await axios.post("/api/order/cancel", { orderId });
+      if (data.success) {
+        toast.success("Order cancelled successfully");
+        setMyOrders((prev) =>
+          prev.map((o) => (o._id === orderId ? { ...o, status: "Cancelled" } : o))
+        );
+      } else {
+        toast.error(data.message || "Could not cancel order");
+      }
+    } catch (error) {
+      toast.error(error.message || "Failed to cancel order");
+    } finally {
+      setCancellingId(null);
+    }
+  };
+
+  // Compute remaining cancellation window in seconds (5 minutes = 300s)
+  const getRemainingCancelSeconds = (order) => {
+    if (order.status === "Cancelled" || order.status === "Delivered") return 0;
+    const orderDate = getOrderDate(order);
+    if (!orderDate) return 0;
+    const elapsedMs = currentTime - orderDate.getTime();
+    const fiveMinMs = 5 * 60 * 1000;
+    const remainingMs = fiveMinMs - elapsedMs;
+    return Math.max(0, Math.floor(remainingMs / 1000));
+  };
+
   if (!user) {
     return (
       <div className="py-20 text-center max-w-md mx-auto">
@@ -72,7 +130,7 @@ function MyOrders() {
         </div>
         <h2 className="text-xl font-bold text-gray-800">Sign in to view your orders</h2>
         <p className="text-xs text-gray-500 mt-2 mb-6">
-          Track active grocery deliveries and view purchase history by logging in.
+          Track active grocery deliveries, store pickups, and order history by logging in.
         </p>
         <Link
           to="/"
@@ -90,7 +148,7 @@ function MyOrders() {
         <div>
           <h1 className="text-2xl font-bold text-gray-800">My Orders</h1>
           <p className="text-xs text-gray-500 mt-0.5">
-            Real-time tracking of your grocery deliveries and order details.
+            Real-time tracking of Manish Super Market orders, home delivery, and store pickup.
           </p>
         </div>
         <button
@@ -119,114 +177,161 @@ function MyOrders() {
         </div>
       ) : (
         <div className="space-y-6 mt-6">
-          {myOrders.map((order, index) => (
-            <div
-              key={order._id || index}
-              className="border border-gray-200 bg-white rounded-2xl p-5 sm:p-6 shadow-xs overflow-hidden transition hover:shadow-md"
-            >
-              {/* Order Header */}
-              <div className="flex flex-wrap justify-between items-start pb-4 border-b border-gray-100 text-xs gap-3">
-                <div className="space-y-1">
-                  <div className="flex items-center gap-2">
-                    <span className="text-gray-400">Order ID:</span>
-                    <span className="font-mono font-bold text-gray-900 bg-gray-100 px-2 py-0.5 rounded">
-                      #{order._id?.slice(-8).toUpperCase()}
+          {myOrders.map((order, index) => {
+            const isPickup = order.fulfillmentType === "Pickup";
+            const remainingCancelSecs = getRemainingCancelSeconds(order);
+            const canCancel = remainingCancelSecs > 0 && order.status !== "Cancelled" && order.status !== "Delivered";
+
+            return (
+              <div
+                key={order._id || index}
+                className="border border-gray-200 bg-white rounded-2xl p-5 sm:p-6 shadow-xs overflow-hidden transition hover:shadow-md"
+              >
+                {/* Order Header */}
+                <div className="flex flex-wrap justify-between items-start pb-4 border-b border-gray-100 text-xs gap-3">
+                  <div className="space-y-1">
+                    <div className="flex items-center gap-2">
+                      <span className="text-gray-400">Order ID:</span>
+                      <span className="font-mono font-bold text-gray-900 bg-gray-100 px-2 py-0.5 rounded">
+                        #{order._id?.slice(-8).toUpperCase()}
+                      </span>
+
+                      {/* Fulfillment Method Tag */}
+                      <span
+                        className={`px-2.5 py-0.5 rounded-full font-bold text-[10px] uppercase tracking-wider ${
+                          isPickup
+                            ? "bg-purple-100 text-purple-800 border border-purple-200"
+                            : "bg-blue-100 text-blue-800 border border-blue-200"
+                        }`}
+                      >
+                        {isPickup ? "🏪 Store Pickup" : "🏠 Home Delivery"}
+                      </span>
+                    </div>
+
+                    <p className="text-[11px] text-gray-500 flex items-center gap-1">
+                      <span>🕒 Placed:</span>
+                      <span className="font-medium text-gray-700">
+                        {formatOrderDateTime(order)}
+                      </span>
+                    </p>
+                  </div>
+
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="px-2.5 py-1 bg-gray-100 text-gray-700 rounded-full font-medium text-[11px]">
+                      {order.paymentType === "COD" ? "💵 Cash on Delivery" : "💳 Online Payment"}
+                    </span>
+                    <span
+                      className={`px-3 py-1 rounded-full font-semibold border text-xs ${getStatusBadgeClass(
+                        order.status || "Order Placed"
+                      )}`}
+                    >
+                      ● {order.status || "Order Placed"}
+                    </span>
+
+                    {/* 5-Minute Cancellation Button */}
+                    {canCancel && (
+                      <button
+                        type="button"
+                        onClick={() => handleCancelOrder(order._id)}
+                        disabled={cancellingId === order._id}
+                        className="px-3 py-1 bg-rose-50 hover:bg-rose-100 text-rose-700 border border-rose-200 rounded-full font-semibold text-xs transition cursor-pointer flex items-center gap-1.5 shadow-2xs"
+                        title="You can cancel this order within 5 minutes of placing"
+                      >
+                        <span>✕ Cancel Order</span>
+                        <span className="bg-rose-200/80 px-1.5 py-0.2 rounded text-[10px] font-mono">
+                          {Math.floor(remainingCancelSecs / 60)}:{(remainingCancelSecs % 60).toString().padStart(2, "0")}
+                        </span>
+                      </button>
+                    )}
+                  </div>
+                </div>
+
+                {/* Items List */}
+                <div className="divide-y divide-gray-100 my-2">
+                  {order.items?.map((item, itemIdx) => {
+                    const product = item?.product;
+                    const imageSrc =
+                      (Array.isArray(product?.image) ? product?.image[0] : product?.image) ||
+                      assets.upload_area;
+
+                    return (
+                      <div
+                        key={itemIdx}
+                        className="flex items-center justify-between py-3 gap-3"
+                      >
+                        <div className="flex items-center gap-3">
+                          <div className="w-14 h-14 bg-gray-50 border border-gray-100 rounded-xl p-1 flex items-center justify-center shrink-0 overflow-hidden">
+                            <img
+                              src={imageSrc}
+                              alt={product?.name || "Product"}
+                              className="w-full h-full object-contain"
+                              onError={(e) => {
+                                e.target.src = assets.upload_area;
+                              }}
+                            />
+                          </div>
+                          <div>
+                            <p className="font-semibold text-sm text-gray-800">
+                              {product?.name || "Grocery Item"}
+                            </p>
+                            <p className="text-xs text-gray-500">
+                              Quantity: <span className="text-gray-800 font-bold">× {item?.quantity || 1}</span>
+                              {" "}• {currency}{product?.offerPrice || product?.price || 0} each
+                            </p>
+                          </div>
+                        </div>
+
+                        <p className="font-bold text-sm text-gray-900">
+                          {currency}
+                          {(product?.offerPrice || product?.price || 0) * (item?.quantity || 1)}
+                        </p>
+                      </div>
+                    );
+                  })}
+                </div>
+
+                {/* Order Footer & Pickup / Delivery details */}
+                <div className="pt-4 border-t border-gray-100 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 text-xs">
+                  <div className="text-gray-600 space-y-0.5">
+                    {isPickup ? (
+                      <div className="p-2.5 bg-emerald-50/70 border border-emerald-200 rounded-xl space-y-0.5">
+                        <p className="font-bold text-emerald-950 flex items-center gap-1">
+                          <span>🏪</span> Store Pickup at Manish Super Market
+                        </p>
+                        <p className="text-[11px] text-emerald-800">
+                          Please come to the shop counter with your Order ID (<strong>#{order._id?.slice(-8).toUpperCase()}</strong>) to collect your order.
+                        </p>
+                      </div>
+                    ) : (
+                      <>
+                        <p className="font-semibold text-gray-800">📍 Delivering to:</p>
+                        {order?.address ? (
+                          <p className="text-gray-600 text-[11px]">
+                            <span className="font-medium text-gray-800">
+                              {order.address.firstName} {order.address.lastName}
+                            </span>
+                            {" • "}
+                            {order.address.street}, {order.address.city}, {order.address.state} {order.address.zipcode}
+                            {" • 📞 "}
+                            <span className="font-medium">{order.address.phone}</span>
+                          </p>
+                        ) : (
+                          <p className="text-gray-400 italic text-[11px]">Home Delivery Address</p>
+                        )}
+                      </>
+                    )}
+                  </div>
+
+                  <div className="text-left sm:text-right shrink-0 bg-gray-50 px-3.5 py-2 rounded-xl border border-gray-200">
+                    <span className="text-gray-500 text-[11px] block">Grand Total</span>
+                    <span className="font-extrabold text-base text-primary">
+                      {currency}{order.amount}
                     </span>
                   </div>
-                  <p className="text-[11px] text-gray-500 flex items-center gap-1">
-                    <span>🕒 Placed:</span>
-                    <span className="font-medium text-gray-700">
-                      {formatOrderDateTime(order.createdAt)}
-                    </span>
-                  </p>
-                </div>
-
-                <div className="flex items-center gap-2.5">
-                  <span className="px-2.5 py-1 bg-gray-100 text-gray-700 rounded-full font-medium text-[11px]">
-                    {order.paymentType === "COD" ? "💵 Cash on Delivery" : "💳 Online Payment"}
-                  </span>
-                  <span
-                    className={`px-3 py-1 rounded-full font-semibold border text-xs ${getStatusBadgeClass(
-                      order.status || "Order Placed"
-                    )}`}
-                  >
-                    ● {order.status || "Order Placed"}
-                  </span>
                 </div>
               </div>
-
-              {/* Items List */}
-              <div className="divide-y divide-gray-100 my-2">
-                {order.items?.map((item, itemIdx) => {
-                  const product = item?.product;
-                  const imageSrc =
-                    (Array.isArray(product?.image) ? product?.image[0] : product?.image) ||
-                    assets.upload_area;
-
-                  return (
-                    <div
-                      key={itemIdx}
-                      className="flex items-center justify-between py-3 gap-3"
-                    >
-                      <div className="flex items-center gap-3">
-                        <div className="w-14 h-14 bg-gray-50 border border-gray-100 rounded-xl p-1 flex items-center justify-center shrink-0 overflow-hidden">
-                          <img
-                            src={imageSrc}
-                            alt={product?.name || "Product"}
-                            className="w-full h-full object-contain"
-                            onError={(e) => {
-                              e.target.src = assets.upload_area;
-                            }}
-                          />
-                        </div>
-                        <div>
-                          <p className="font-semibold text-sm text-gray-800">
-                            {product?.name || "Grocery Item"}
-                          </p>
-                          <p className="text-xs text-gray-500">
-                            Quantity: <span className="text-gray-800 font-bold">× {item?.quantity || 1}</span>
-                            {" "}• {currency}{product?.offerPrice || product?.price || 0} each
-                          </p>
-                        </div>
-                      </div>
-
-                      <p className="font-bold text-sm text-gray-900">
-                        {currency}
-                        {(product?.offerPrice || product?.price || 0) * (item?.quantity || 1)}
-                      </p>
-                    </div>
-                  );
-                })}
-              </div>
-
-              {/* Delivery Address & Order Footer */}
-              <div className="pt-4 border-t border-gray-100 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 text-xs">
-                <div className="text-gray-600 space-y-0.5">
-                  <p className="font-semibold text-gray-800">📍 Delivering to:</p>
-                  {order?.address ? (
-                    <p className="text-gray-600 text-[11px]">
-                      <span className="font-medium text-gray-800">
-                        {order.address.firstName} {order.address.lastName}
-                      </span>
-                      {" • "}
-                      {order.address.street}, {order.address.city}, {order.address.state} {order.address.zipcode}
-                      {" • 📞 "}
-                      <span className="font-medium">{order.address.phone}</span>
-                    </p>
-                  ) : (
-                    <p className="text-gray-400 italic text-[11px]">Saved Delivery Address</p>
-                  )}
-                </div>
-
-                <div className="text-left sm:text-right shrink-0 bg-gray-50 px-3.5 py-2 rounded-xl border border-gray-200">
-                  <span className="text-gray-500 text-[11px] block">Grand Total</span>
-                  <span className="font-extrabold text-base text-primary">
-                    {currency}{order.amount}
-                  </span>
-                </div>
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       )}
     </div>

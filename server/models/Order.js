@@ -26,8 +26,12 @@ const orderSchema = new mongoose.Schema(
     },
     address: {
       type: String,
-      required: true,
       ref: "address"
+    },
+    fulfillmentType: {
+      type: String,
+      enum: ["Delivery", "Pickup"],
+      default: "Delivery"
     },
     status: {
       type: String,
@@ -41,6 +45,13 @@ const orderSchema = new mongoose.Schema(
       type: Boolean,
       required: true,
       default: false
+    },
+    cancelledAt: {
+      type: Date
+    },
+    cancellationReason: {
+      type: String,
+      default: ""
     },
     createdAt: {
       type: Date,

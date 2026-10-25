@@ -3,10 +3,24 @@ import { useAppContext } from "../../context/AppContext";
 import { assets } from "../../assets/assets";
 import toast from "react-hot-toast";
 
-const formatOrderDateTime = (dateStr) => {
-  if (!dateStr) return "Just now";
-  const d = new Date(dateStr);
-  if (isNaN(d.getTime())) return "Recently";
+const getOrderDate = (order) => {
+  if (!order) return null;
+  if (typeof order === "string") return new Date(order);
+  if (order.createdAt) return new Date(order.createdAt);
+  if (order.date) return new Date(order.date);
+  if (order._id) {
+    try {
+      const hex = order._id.toString().substring(0, 8);
+      const ts = parseInt(hex, 16) * 1000;
+      if (!isNaN(ts) && ts > 0) return new Date(ts);
+    } catch (e) {}
+  }
+  return null;
+};
+
+const formatOrderDateTime = (order) => {
+  const d = getOrderDate(order);
+  if (!d || isNaN(d.getTime())) return "Recently";
   return d.toLocaleString("en-IN", {
     day: "numeric",
     month: "short",
@@ -272,16 +286,25 @@ function Orders() {
                       📦
                     </div>
                     <div>
-                      <div className="flex items-center gap-2">
+                      <div className="flex items-center gap-2 flex-wrap">
                         <span className="text-xs text-gray-400 font-medium">Order ID:</span>
                         <span className="font-mono text-xs font-bold text-gray-900 bg-gray-100 px-2 py-0.5 rounded">
                           #{order._id?.slice(-8).toUpperCase()}
+                        </span>
+                        <span
+                          className={`px-2.5 py-0.5 rounded-full font-bold text-[10px] uppercase tracking-wider ${
+                            order.fulfillmentType === "Pickup"
+                              ? "bg-purple-100 text-purple-800 border border-purple-200"
+                              : "bg-blue-100 text-blue-800 border border-blue-200"
+                          }`}
+                        >
+                          {order.fulfillmentType === "Pickup" ? "🏪 Store Pickup" : "🏠 Home Delivery"}
                         </span>
                       </div>
                       <p className="text-xs text-gray-500 mt-0.5 flex items-center gap-1">
                         <span>🕒 Ordered At:</span>
                         <span className="font-semibold text-gray-700">
-                          {formatOrderDateTime(order.createdAt)}
+                          {formatOrderDateTime(order)}
                         </span>
                       </p>
                     </div>
@@ -382,40 +405,69 @@ function Orders() {
                     </div>
                   </div>
 
-                  {/* Real Delivery Address & Customer Info */}
-                  <div className="p-4 bg-gray-50/80 rounded-xl border border-gray-200 text-xs space-y-1.5 h-fit">
-                    <p className="font-bold uppercase tracking-wider text-gray-500 text-[11px] mb-2">
-                      📍 Real Delivery Destination
-                    </p>
-
-                    {addr.street ? (
-                      <>
-                        <p className="font-bold text-sm text-gray-900">
-                          👤 {addr.firstName} {addr.lastName}
+                  {/* Real Delivery Address & Customer Info / Store Pickup */}
+                  {order.fulfillmentType === "Pickup" ? (
+                    <div className="p-4 bg-purple-50/70 rounded-xl border border-purple-200 text-xs space-y-1.5 h-fit">
+                      <div className="flex items-center justify-between mb-1">
+                        <p className="font-bold uppercase tracking-wider text-purple-900 text-[11px] flex items-center gap-1">
+                          <span>🏪</span> Customer Store Pickup
                         </p>
-                        <p className="text-gray-700 leading-relaxed">
-                          🏠 {addr.street}, {addr.city}
-                        </p>
-                        <p className="text-gray-700">
-                          🌐 {addr.state} - <span className="font-mono font-semibold">{addr.zipcode}</span>, {addr.country || "India"}
-                        </p>
-                        <div className="pt-2 border-t border-gray-200 mt-2 flex flex-wrap gap-3 text-[11px]">
-                          <span className="text-gray-800 font-semibold">
-                            📞 Phone: <span className="text-primary font-bold">{addr.phone}</span>
-                          </span>
-                          {addr.email && (
-                            <span className="text-gray-500">
-                              ✉️ {addr.email}
-                            </span>
-                          )}
-                        </div>
-                      </>
-                    ) : (
-                      <div className="text-gray-400 italic py-2">
-                        No address provided for this order.
+                        <span className="px-2 py-0.5 bg-purple-600 text-white text-[10px] font-bold rounded-full">
+                          TAKE FROM SHOP
+                        </span>
                       </div>
-                    )}
-                  </div>
+                      <p className="font-bold text-sm text-purple-950">
+                        👤 {addr.firstName || order.userId?.firstName || "Customer"} {addr.lastName || order.userId?.lastName || ""}
+                      </p>
+                      <p className="text-purple-800 text-xs leading-relaxed">
+                        Customer placed order from home and will come directly to Manish Super Market counter to pick up.
+                      </p>
+                      <div className="pt-2 border-t border-purple-200 mt-2 flex flex-wrap gap-3 text-[11px]">
+                        <span className="text-purple-950 font-bold">
+                          📞 Phone: <span className="text-primary font-bold">{addr.phone || order.userId?.phone || "N/A"}</span>
+                        </span>
+                        {(addr.email || order.userId?.email) && (
+                          <span className="text-purple-700">
+                            ✉️ {addr.email || order.userId?.email}
+                          </span>
+                        )}
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="p-4 bg-gray-50/80 rounded-xl border border-gray-200 text-xs space-y-1.5 h-fit">
+                      <p className="font-bold uppercase tracking-wider text-gray-500 text-[11px] mb-2">
+                        📍 Real Delivery Destination
+                      </p>
+
+                      {addr.street ? (
+                        <>
+                          <p className="font-bold text-sm text-gray-900">
+                            👤 {addr.firstName} {addr.lastName}
+                          </p>
+                          <p className="text-gray-700 leading-relaxed">
+                            🏠 {addr.street}, {addr.city}
+                          </p>
+                          <p className="text-gray-700">
+                            🌐 {addr.state} - <span className="font-mono font-semibold">{addr.zipcode}</span>, {addr.country || "India"}
+                          </p>
+                          <div className="pt-2 border-t border-gray-200 mt-2 flex flex-wrap gap-3 text-[11px]">
+                            <span className="text-gray-800 font-semibold">
+                              📞 Phone: <span className="text-primary font-bold">{addr.phone}</span>
+                            </span>
+                            {addr.email && (
+                              <span className="text-gray-500">
+                                ✉️ {addr.email}
+                              </span>
+                            )}
+                          </div>
+                        </>
+                      ) : (
+                        <div className="text-gray-400 italic py-2">
+                          No address provided for this order.
+                        </div>
+                      )}
+                    </div>
+                  )}
                 </div>
               </div>
             );

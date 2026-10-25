@@ -25,6 +25,7 @@ const Cart = () => {
   const [addresses, setAddresses] = useState([]);
   const [showAddress, setShowAddress] = useState(false);
   const [selectedAddress, setSelectedAddress] = useState(null);
+  const [fulfillmentType, setFulfillmentType] = useState("Delivery"); // "Delivery" | "Pickup"
   const [paymentOption, setPaymentOption] = useState("COD");
   const [loading, setLoading] = useState(false);
 
@@ -162,15 +163,15 @@ const Cart = () => {
         setShowProfileModal(true);
         return toast.error("Please complete your profile (First & Last Name, Phone Number) before placing your order");
       }
-      if (!selectedAddress) {
-        toast.error("Please add and select a delivery address before placing your order");
+      if (fulfillmentType === "Delivery" && !selectedAddress) {
+        toast.error("Please add and select a delivery address for Home Delivery");
         navigate("/add-address");
         return;
       }
 
       setLoading(true);
 
-      const addressPayload = selectedAddress._id ? selectedAddress._id : selectedAddress;
+      const addressPayload = selectedAddress?._id ? selectedAddress._id : selectedAddress;
 
       if (paymentOption === "COD") {
         const { data } = await axios.post("/api/order/cod", {
@@ -179,7 +180,8 @@ const Cart = () => {
             product: item._id,
             quantity: item.quantity
           })),
-          address: addressPayload
+          address: addressPayload,
+          fulfillmentType
         });
 
         if (data.success) {
@@ -201,7 +203,8 @@ const Cart = () => {
             product: item._id,
             quantity: item.quantity
           })),
-          address: addressPayload
+          address: addressPayload,
+          fulfillmentType
         });
 
         if (data.success && data.url) {
@@ -411,22 +414,88 @@ const Cart = () => {
           </div>
         )}
 
-        {/* Delivery Address (Requirement 2: Address Required) */}
+        {/* Order Method: Home Delivery vs Store Pickup (Manish Super Market Special Feature) */}
         <div className="mb-5">
-          <div className="flex justify-between items-center mb-1.5">
-            <p className="text-xs font-bold text-gray-500 uppercase tracking-wider">
-              Delivery Address *
-            </p>
-            {addresses.length > 0 && (
-              <button
-                type="button"
-                onClick={() => setShowAddress(!showAddress)}
-                className="text-xs text-primary font-semibold hover:underline cursor-pointer"
-              >
-                Change
-              </button>
-            )}
+          <p className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">
+            Fulfillment Method
+          </p>
+          <div className="grid grid-cols-2 gap-2">
+            <button
+              type="button"
+              onClick={() => setFulfillmentType("Delivery")}
+              className={`p-3 text-xs font-semibold rounded-xl border transition text-left cursor-pointer flex flex-col gap-1 ${
+                fulfillmentType === "Delivery"
+                  ? "border-primary bg-primary/10 text-primary shadow-2xs ring-1 ring-primary"
+                  : "border-gray-200 text-gray-700 hover:bg-gray-50"
+              }`}
+            >
+              <div className="flex items-center gap-1.5 font-bold">
+                <span>🏠</span>
+                <span>Home Delivery</span>
+              </div>
+              <span className="text-[10px] text-gray-500 font-normal">
+                Delivered to your home
+              </span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setFulfillmentType("Pickup")}
+              className={`p-3 text-xs font-semibold rounded-xl border transition text-left cursor-pointer flex flex-col gap-1 ${
+                fulfillmentType === "Pickup"
+                  ? "border-primary bg-primary/10 text-primary shadow-2xs ring-1 ring-primary"
+                  : "border-gray-200 text-gray-700 hover:bg-gray-50"
+              }`}
+            >
+              <div className="flex items-center gap-1.5 font-bold">
+                <span>🏪</span>
+                <span>Store Pickup</span>
+              </div>
+              <span className="text-[10px] text-gray-500 font-normal">
+                Order online, take from shop
+              </span>
+            </button>
           </div>
+        </div>
+
+        {/* Store Pickup Notice */}
+        {fulfillmentType === "Pickup" ? (
+          <div className="mb-5 p-3.5 bg-emerald-50 rounded-xl border border-emerald-200 text-xs text-emerald-950 space-y-2">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <span className="text-xl">🏬</span>
+                <div>
+                  <p className="font-bold text-emerald-950">Manish Super Market Counter</p>
+                  <p className="text-[11px] text-emerald-800">Order from home & take your order from the shop!</p>
+                </div>
+              </div>
+              <span className="px-2 py-0.5 bg-emerald-600 text-white text-[10px] font-bold rounded-full">
+                READY IN 15M
+              </span>
+            </div>
+            <div className="bg-white/90 p-2.5 rounded-lg border border-emerald-100 text-[11px] text-gray-700 space-y-1">
+              <p>📍 <strong>Pickup Spot:</strong> Manish Super Market - Store Counter</p>
+              <p>⏱️ <strong>Ready In:</strong> ~15-20 minutes after order confirmation</p>
+              <p>✅ <strong>Quick Pickup:</strong> Just mention your Order ID at the counter to collect your fresh groceries!</p>
+            </div>
+          </div>
+        ) : (
+          /* Delivery Address (Requirement 2: Address Required for Home Delivery) */
+          <div className="mb-5">
+            <div className="flex justify-between items-center mb-1.5">
+              <p className="text-xs font-bold text-gray-500 uppercase tracking-wider">
+                Delivery Address *
+              </p>
+              {addresses.length > 0 && (
+                <button
+                  type="button"
+                  onClick={() => setShowAddress(!showAddress)}
+                  className="text-xs text-primary font-semibold hover:underline cursor-pointer"
+                >
+                  Change
+                </button>
+              )}
+            </div>
 
           {selectedAddress ? (
             <div className="p-3 bg-gray-50 rounded-xl border border-gray-200 text-xs text-gray-700">
@@ -493,6 +562,7 @@ const Cart = () => {
             </div>
           )}
         </div>
+        )}
 
         {/* Payment Method */}
         <div className="mb-5">

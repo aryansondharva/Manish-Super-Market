@@ -4,9 +4,41 @@ import stripe from "stripe";
 import User from "../models/User.js";
 import Address from "../models/Address.js";
 
+// Helper to resolve stable creation date
+const resolveOrderWithTimestamp = (order) => {
+  const obj = order.toObject ? order.toObject() : { ...order };
+  if (!obj.createdAt) {
+    if (obj._id) {
+      try {
+        const hex = obj._id.toString().substring(0, 8);
+        const ts = parseInt(hex, 16) * 1000;
+        if (!isNaN(ts) && ts > 0) {
+          obj.createdAt = new Date(ts);
+        }
+      } catch (e) {}
+    }
+  }
+  return obj;
+};
+
+// Automatic one-time self-healing of legacy orders missing createdAt
+const healLegacyOrders = async () => {
+  try {
+    const legacyOrders = await Order.find({ createdAt: { $exists: false } }).limit(50);
+    for (const lo of legacyOrders) {
+      try {
+        const hex = lo._id.toString().substring(0, 8);
+        const ts = parseInt(hex, 16) * 1000;
+        const d = new Date(ts);
+        await Order.findByIdAndUpdate(lo._id, { createdAt: d, updatedAt: d });
+      } catch (e) {}
+    }
+  } catch (e) {}
+};
+
 export const placeOrderCOD = async (req, res) => {
   try {
-    const { userId, items, address } = req.body;
+    const { userId, items, address, fulfillmentType } = req.body;
     const finalUserId = userId || req.user?._id;
 
     if (!finalUserId) {
@@ -34,12 +66,64 @@ export const placeOrderCOD = async (req, res) => {
       });
     }
 
-    if (!address) {
-      return res.json({
-        success: false,
-        requireAddress: true,
-        message: "Please add and select a valid delivery address before placing your order."
-      });
+    const isPickup = fulfillmentType === "Pickup";
+
+    let addressId = typeof address === "object" && address !== null ? address._id : address;
+    let validAddress = null;
+
+    if (addressId) {
+      validAddress = await Address.findById(addressId);
+    }
+
+    if (isPickup) {
+      // Store Pickup: Self-pickup at Manish Super Market
+      if (!validAddress) {
+        validAddress = await Address.findOne({
+          userId: finalUserId,
+          street: "Manish Super Market Counter (Self-Pickup)"
+        });
+
+        if (!validAddress) {
+          validAddress = await Address.create({
+            firstName,
+            lastName,
+            email: userDoc.email,
+            street: "Manish Super Market Counter (Self-Pickup)",
+            city: "Shop Counter Pickup",
+            state: "Store Counter",
+            zipcode: "380001",
+            country: "India",
+            phone,
+            userId: finalUserId
+          });
+        }
+        addressId = validAddress._id;
+      }
+    } else {
+      // Home Delivery: require street address
+      if (!validAddress && typeof address === "object" && address !== null && address.street) {
+        validAddress = await Address.create({
+          firstName: address.firstName || firstName,
+          lastName: address.lastName || lastName,
+          email: address.email || userDoc.email,
+          street: address.street,
+          city: address.city,
+          state: address.state,
+          zipcode: address.zipcode,
+          country: address.country || "India",
+          phone: address.phone || phone,
+          userId: finalUserId
+        });
+        addressId = validAddress._id;
+      }
+
+      if (!validAddress) {
+        return res.json({
+          success: false,
+          requireAddress: true,
+          message: "Valid delivery address not found. Please add your real address before checkout."
+        });
+      }
     }
 
     let amount = 0;
@@ -52,39 +136,6 @@ export const placeOrderCOD = async (req, res) => {
     // 2% tax
     amount += Math.floor(amount * 0.02);
 
-    let addressId = typeof address === "object" && address !== null ? address._id : address;
-
-    // Verify address in MongoDB
-    let validAddress = null;
-    if (addressId) {
-      validAddress = await Address.findById(addressId);
-    }
-
-    // If an address object was passed directly without prior ID
-    if (!validAddress && typeof address === "object" && address !== null && address.street) {
-      validAddress = await Address.create({
-        firstName: address.firstName || firstName,
-        lastName: address.lastName || lastName,
-        email: address.email || userDoc.email,
-        street: address.street,
-        city: address.city,
-        state: address.state,
-        zipcode: address.zipcode,
-        country: address.country || "India",
-        phone: address.phone || phone,
-        userId: finalUserId
-      });
-      addressId = validAddress._id;
-    }
-
-    if (!validAddress) {
-      return res.json({
-        success: false,
-        requireAddress: true,
-        message: "Valid delivery address not found. Please add your real address before checkout."
-      });
-    }
-
     const orderTime = new Date();
 
     const order = await Order.create({
@@ -92,6 +143,7 @@ export const placeOrderCOD = async (req, res) => {
       items,
       amount,
       address: addressId,
+      fulfillmentType: isPickup ? "Pickup" : "Delivery",
       paymentType: "COD",
       isPaid: false,
       status: "Order Placed",
@@ -104,7 +156,9 @@ export const placeOrderCOD = async (req, res) => {
 
     return res.json({
       success: true,
-      message: "Order placed successfully via Cash on Delivery!",
+      message: isPickup
+        ? "Order placed successfully! Please come and take your order from the shop counter."
+        : "Order placed successfully via Cash on Delivery!",
       orderId: order._id,
       createdAt: order.createdAt
     });
@@ -116,9 +170,8 @@ export const placeOrderCOD = async (req, res) => {
 
 export const placeOrderStripe = async (req, res) => {
   try {
-    const { userId, items, address } = req.body;
+    const { userId, items, address, fulfillmentType } = req.body;
     const finalUserId = userId || req.user?._id;
-    const { origin } = req.headers;
 
     if (!finalUserId) {
       return res.json({ success: false, message: "User authentication required" });
@@ -145,16 +198,11 @@ export const placeOrderStripe = async (req, res) => {
       });
     }
 
-    if (!address) {
-      return res.json({
-        success: false,
-        requireAddress: true,
-        message: "Please add and select a valid delivery address before placing your order."
-      });
-    }
+    const isPickup = fulfillmentType === "Pickup";
 
     let productData = [];
     let amount = 0;
+
     for (const item of items) {
       const product = await Product.findById(item.product);
       if (product) {
@@ -174,28 +222,53 @@ export const placeOrderStripe = async (req, res) => {
       validAddress = await Address.findById(addressId);
     }
 
-    if (!validAddress && typeof address === "object" && address !== null && address.street) {
-      validAddress = await Address.create({
-        firstName: address.firstName || firstName,
-        lastName: address.lastName || lastName,
-        email: address.email || userDoc.email,
-        street: address.street,
-        city: address.city,
-        state: address.state,
-        zipcode: address.zipcode,
-        country: address.country || "India",
-        phone: address.phone || phone,
-        userId: finalUserId
-      });
-      addressId = validAddress._id;
-    }
+    if (isPickup) {
+      if (!validAddress) {
+        validAddress = await Address.findOne({
+          userId: finalUserId,
+          street: "Manish Super Market Counter (Self-Pickup)"
+        });
 
-    if (!validAddress) {
-      return res.json({
-        success: false,
-        requireAddress: true,
-        message: "Valid delivery address not found. Please add your real address before checkout."
-      });
+        if (!validAddress) {
+          validAddress = await Address.create({
+            firstName,
+            lastName,
+            email: userDoc.email,
+            street: "Manish Super Market Counter (Self-Pickup)",
+            city: "Shop Counter Pickup",
+            state: "Store Counter",
+            zipcode: "380001",
+            country: "India",
+            phone,
+            userId: finalUserId
+          });
+        }
+        addressId = validAddress._id;
+      }
+    } else {
+      if (!validAddress && typeof address === "object" && address !== null && address.street) {
+        validAddress = await Address.create({
+          firstName: address.firstName || firstName,
+          lastName: address.lastName || lastName,
+          email: address.email || userDoc.email,
+          street: address.street,
+          city: address.city,
+          state: address.state,
+          zipcode: address.zipcode,
+          country: address.country || "India",
+          phone: address.phone || phone,
+          userId: finalUserId
+        });
+        addressId = validAddress._id;
+      }
+
+      if (!validAddress) {
+        return res.json({
+          success: false,
+          requireAddress: true,
+          message: "Valid delivery address not found. Please add your real address before checkout."
+        });
+      }
     }
 
     const orderTime = new Date();
@@ -205,6 +278,7 @@ export const placeOrderStripe = async (req, res) => {
       items,
       amount,
       address: addressId,
+      fulfillmentType: isPickup ? "Pickup" : "Delivery",
       paymentType: "Online",
       isPaid: false,
       status: "Order Placed",
@@ -215,7 +289,7 @@ export const placeOrderStripe = async (req, res) => {
     if (!process.env.STRIPE_SECRET_KEY) {
       return res.json({
         success: false,
-        message: "Stripe key not configured. Please use COD (Cash On Delivery)."
+        message: "Online payments (Stripe) are currently disabled. Please select Cash on Delivery (COD)."
       });
     }
 
@@ -227,7 +301,7 @@ export const placeOrderStripe = async (req, res) => {
           product_data: {
             name: item.name
           },
-          unit_amount: Math.floor(item.price + item.price * 0.02) * 100
+          unit_amount: Math.round(item.price * 100)
         },
         quantity: item.quantity
       };
@@ -236,13 +310,14 @@ export const placeOrderStripe = async (req, res) => {
     const session = await stripeInstance.checkout.sessions.create({
       line_items: lineItems,
       mode: "payment",
-      success_url: `${origin}/loader?next=my-orders`,
-      cancel_url: `${origin}/cart`,
+      success_url: `${process.env.FRONTEND_URL || "http://localhost:5173"}/my-orders`,
+      cancel_url: `${process.env.FRONTEND_URL || "http://localhost:5173"}/cart`,
       metadata: {
         orderId: order._id.toString(),
-        userId: finalUserId
+        userId: finalUserId.toString()
       }
     });
+
     return res.json({ success: true, url: session.url });
   } catch (error) {
     console.log("Error in placeOrderStripe:", error.message);
@@ -292,6 +367,10 @@ export const getUserOrder = async (req, res) => {
     if (!userId) {
       return res.json({ success: true, orders: [] });
     }
+
+    // heal any legacy orders in the background
+    healLegacyOrders();
+
     const orders = await Order.find({
       userId,
       $or: [{ paymentType: "COD" }, { isPaid: true }]
@@ -299,7 +378,10 @@ export const getUserOrder = async (req, res) => {
       .populate("items.product")
       .populate("address")
       .sort({ createdAt: -1 });
-    return res.json({ success: true, orders });
+
+    const processedOrders = orders.map(resolveOrderWithTimestamp);
+
+    return res.json({ success: true, orders: processedOrders });
   } catch (error) {
     console.log("Error in getUserOrder:", error.message);
     return res.json({ success: false, message: error.message });
@@ -308,14 +390,86 @@ export const getUserOrder = async (req, res) => {
 
 export const getAllOrders = async (req, res) => {
   try {
+    healLegacyOrders();
+
     const orders = await Order.find({})
       .populate("items.product")
       .populate("address")
       .populate("userId", "name firstName lastName email phone")
       .sort({ createdAt: -1 });
-    return res.json({ success: true, orders });
+
+    const processedOrders = orders.map(resolveOrderWithTimestamp);
+
+    return res.json({ success: true, orders: processedOrders });
   } catch (error) {
     console.log("Error in getAllOrders:", error.message);
+    return res.json({ success: false, message: error.message });
+  }
+};
+
+// Customer 5-minute order cancellation
+export const cancelOrder = async (req, res) => {
+  try {
+    const { orderId, reason } = req.body;
+    const currentUserId = req.user?._id;
+
+    if (!orderId) {
+      return res.json({ success: false, message: "Order ID is required" });
+    }
+
+    const order = await Order.findById(orderId);
+    if (!order) {
+      return res.json({ success: false, message: "Order not found" });
+    }
+
+    // Verify ownership
+    if (currentUserId && order.userId?.toString() !== currentUserId.toString()) {
+      return res.json({ success: false, message: "Unauthorized to cancel this order" });
+    }
+
+    if (order.status === "Cancelled") {
+      return res.json({ success: false, message: "Order is already cancelled" });
+    }
+
+    if (order.status === "Delivered") {
+      return res.json({ success: false, message: "Delivered orders cannot be cancelled" });
+    }
+
+    // Check order placement timestamp
+    let orderTime = order.createdAt;
+    if (!orderTime && order._id) {
+      try {
+        const hex = order._id.toString().substring(0, 8);
+        const ts = parseInt(hex, 16) * 1000;
+        if (!isNaN(ts) && ts > 0) orderTime = new Date(ts);
+      } catch (e) {}
+    }
+    if (!orderTime) orderTime = new Date();
+
+    const elapsedMs = Date.now() - new Date(orderTime).getTime();
+    const fiveMinutesMs = 5 * 60 * 1000;
+
+    if (elapsedMs > fiveMinutesMs) {
+      const elapsedMins = Math.floor(elapsedMs / 60000);
+      return res.json({
+        success: false,
+        message: `Cancellation window expired. Orders can only be cancelled within 5 minutes of placing (Order was placed ${elapsedMins} minute${elapsedMins === 1 ? "" : "s"} ago).`
+      });
+    }
+
+    order.status = "Cancelled";
+    order.cancelledAt = new Date();
+    order.cancellationReason = reason || "Cancelled by customer within 5-minute window";
+    order.updatedAt = new Date();
+    await order.save();
+
+    return res.json({
+      success: true,
+      message: "Order has been successfully cancelled.",
+      order
+    });
+  } catch (error) {
+    console.log("Error in cancelOrder:", error.message);
     return res.json({ success: false, message: error.message });
   }
 };
