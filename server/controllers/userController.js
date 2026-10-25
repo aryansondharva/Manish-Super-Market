@@ -20,6 +20,11 @@ const formatUserResponse = (user) => {
   };
 };
 
+export const normalizePhone = (phone) => {
+  if (!phone) return "";
+  return phone.toString().replace(/[\s\-()]/g, "").trim();
+};
+
 export const validateStrongPassword = (password) => {
   if (!password || typeof password !== "string") {
     return "Password is required.";
@@ -49,14 +54,32 @@ export const register = async (req, res) => {
       return res.json({ success: false, message: "Missing required registration details" });
     }
 
+    const cleanEmail = (email || "").trim().toLowerCase();
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!cleanEmail || !emailRegex.test(cleanEmail)) {
+      return res.json({ success: false, message: "Please enter a valid email address." });
+    }
+
+    const cleanPhone = normalizePhone(phone);
+    if (!cleanPhone || cleanPhone.length < 7) {
+      return res.json({ success: false, message: "Please enter a valid phone number (at least 7 digits)." });
+    }
+
     const passwordError = validateStrongPassword(password);
     if (passwordError) {
       return res.json({ success: false, message: passwordError });
     }
 
-    const existingUser = await User.findOne({ email });
-    if (existingUser) {
-      return res.json({ success: false, message: "User already exists with this email" });
+    // Check unique email
+    const existingEmail = await User.findOne({ email: cleanEmail });
+    if (existingEmail) {
+      return res.json({ success: false, message: "An account already exists with this email address." });
+    }
+
+    // Check unique phone number
+    const existingPhone = await User.findOne({ phone: cleanPhone });
+    if (existingPhone) {
+      return res.json({ success: false, message: "An account already exists with this phone number." });
     }
 
     const fName = (firstName || name?.split(" ")[0] || "").trim();
@@ -68,8 +91,8 @@ export const register = async (req, res) => {
       name: fullName,
       firstName: fName,
       lastName: lName,
-      phone: (phone || "").trim(),
-      email,
+      phone: cleanPhone,
+      email: cleanEmail,
       password: hashedPassword,
       cartItems: {}
     });
@@ -88,6 +111,15 @@ export const register = async (req, res) => {
       user: formatUserResponse(user)
     });
   } catch (error) {
+    if (error.code === 11000) {
+      const isPhone = error.message.includes("phone") || (error.keyPattern && error.keyPattern.phone);
+      return res.json({
+        success: false,
+        message: isPhone
+          ? "An account already exists with this phone number."
+          : "An account already exists with this email address."
+      });
+    }
     console.log("register error:", error.message);
     res.json({ success: false, message: error.message });
   }
@@ -100,19 +132,31 @@ export const login = async (req, res) => {
     if (!email || !password) {
       return res.json({
         success: false,
-        message: "Email and password are required"
+        message: "Email/Phone and password are required"
       });
     }
-    const user = await User.findOne({ email });
+
+    const identifier = (email || "").trim();
+    const cleanEmail = identifier.toLowerCase();
+    const cleanPhone = normalizePhone(identifier);
+
+    // Support logging in with either unique email or unique phone number
+    const user = await User.findOne({
+      $or: [
+        { email: cleanEmail },
+        ...(cleanPhone && cleanPhone.length >= 7 ? [{ phone: cleanPhone }] : [])
+      ]
+    });
+
     if (!user) {
       return res.json({
         success: false,
-        message: "Invalid email or password"
+        message: "Invalid email/phone or password"
       });
     }
     const isMatch = await bcrypt.compare(password, user.password);
     if (!isMatch) {
-      return res.json({ success: false, message: "Invalid email or password" });
+      return res.json({ success: false, message: "Invalid email/phone or password" });
     }
     const token = jwt.sign({ id: user._id }, getJwtSecret(), {
       expiresIn: "7d"
@@ -137,7 +181,7 @@ export const login = async (req, res) => {
 export const updateProfile = async (req, res) => {
   try {
     const userId = req.user?._id;
-    const { firstName, lastName, phone } = req.body;
+    const { firstName, lastName, phone, email } = req.body;
 
     if (!firstName || !lastName || !phone) {
       return res.json({
@@ -146,7 +190,7 @@ export const updateProfile = async (req, res) => {
       });
     }
 
-    const cleanPhone = phone.trim();
+    const cleanPhone = normalizePhone(phone);
     if (cleanPhone.length < 7) {
       return res.json({
         success: false,
@@ -154,14 +198,43 @@ export const updateProfile = async (req, res) => {
       });
     }
 
+    // Check if another account is already using this phone number
+    const existingPhoneUser = await User.findOne({
+      phone: cleanPhone,
+      _id: { $ne: userId }
+    });
+    if (existingPhoneUser) {
+      return res.json({
+        success: false,
+        message: "This phone number is already registered to another account."
+      });
+    }
+
+    const updateData = {
+      firstName: firstName.trim(),
+      lastName: lastName.trim(),
+      phone: cleanPhone,
+      name: `${firstName.trim()} ${lastName.trim()}`
+    };
+
+    if (email && email.trim()) {
+      const cleanEmail = email.trim().toLowerCase();
+      const existingEmailUser = await User.findOne({
+        email: cleanEmail,
+        _id: { $ne: userId }
+      });
+      if (existingEmailUser) {
+        return res.json({
+          success: false,
+          message: "This email address is already registered to another account."
+        });
+      }
+      updateData.email = cleanEmail;
+    }
+
     const updatedUser = await User.findByIdAndUpdate(
       userId,
-      {
-        firstName: firstName.trim(),
-        lastName: lastName.trim(),
-        phone: cleanPhone,
-        name: `${firstName.trim()} ${lastName.trim()}`
-      },
+      updateData,
       { new: true }
     ).select("-password");
 
@@ -175,6 +248,15 @@ export const updateProfile = async (req, res) => {
       user: formatUserResponse(updatedUser)
     });
   } catch (error) {
+    if (error.code === 11000) {
+      const isPhone = error.message.includes("phone") || (error.keyPattern && error.keyPattern.phone);
+      return res.json({
+        success: false,
+        message: isPhone
+          ? "An account already exists with this phone number."
+          : "An account already exists with this email address."
+      });
+    }
     console.log("updateProfile error:", error.message);
     res.json({ success: false, message: error.message });
   }

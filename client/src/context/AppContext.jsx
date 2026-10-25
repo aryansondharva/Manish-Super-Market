@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { dummyProducts } from "../assets/assets";
+import { dummyProducts, categories as defaultCategories } from "../assets/assets";
 import toast from "react-hot-toast";
 import axios from "axios";
 
@@ -30,8 +30,20 @@ export const AppContextProvider = ({ children }) => {
   const [isSeller, setIsSeller] = useState(null);
   const [showUserLogin, setShowUserLogin] = useState(false);
   const [products, setProducts] = useState([]);
+  const [categories, setCategories] = useState(defaultCategories);
   const [cartItems, setCartItems] = useState({});
   const [searchQuery, setSearchQuery] = useState("");
+
+  const fetchCategories = async () => {
+    try {
+      const { data } = await axios.get("/api/category/list");
+      if (data.success && Array.isArray(data.categories) && data.categories.length > 0) {
+        setCategories(data.categories);
+      }
+    } catch (error) {
+      console.log("fetchCategories note:", error.message);
+    }
+  };
 
   const fetchProducts = async () => {
     try {
@@ -142,6 +154,7 @@ export const AppContextProvider = ({ children }) => {
   useEffect(() => {
     fetchUser();
     fetchProducts();
+    fetchCategories();
     fetchSeller();
   }, []);
 
@@ -177,6 +190,9 @@ export const AppContextProvider = ({ children }) => {
     removeCartItem,
     cartItems,
     products,
+    categories,
+    setCategories,
+    fetchCategories,
     searchQuery,
     setSearchQuery,
     getCartAmmount,

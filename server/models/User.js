@@ -16,12 +16,16 @@ const userSchema = new mongoose.Schema(
     },
     phone: {
       type: String,
-      default: ""
+      unique: true,
+      sparse: true,
+      trim: true
     },
     email: {
       type: String,
       required: true,
-      unique: true
+      unique: true,
+      lowercase: true,
+      trim: true
     },
     password: {
       type: String,
@@ -34,6 +38,10 @@ const userSchema = new mongoose.Schema(
   },
   { minimize: false }
 );
+
+// Explicitly ensure unique indexes on phone and email
+userSchema.index({ email: 1 }, { unique: true });
+userSchema.index({ phone: 1 }, { unique: true, sparse: true });
 
 const User = mongoose.models.user || mongoose.model("user", userSchema);
 

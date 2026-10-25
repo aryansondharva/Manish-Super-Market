@@ -188,14 +188,14 @@ const Login = () => {
 
         <div className="space-y-1">
           <label className="text-xs font-semibold text-gray-600 uppercase">
-            Email Address *
+            {state === "login" ? "Email Address or Phone *" : "Email Address *"}
           </label>
           <input
             onChange={(e) => setEmail(e.target.value)}
             value={email}
-            placeholder="customer@grocery.com"
+            placeholder={state === "login" ? "customer@grocery.com or phone" : "customer@grocery.com"}
             className="border border-gray-300 rounded-lg w-full p-2.5 outline-primary text-sm focus:border-primary transition"
-            type="email"
+            type={state === "login" ? "text" : "email"}
             required
           />
         </div>

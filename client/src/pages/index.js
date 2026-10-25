@@ -9,6 +9,7 @@ import SellerLayout from "./seller/SellerLayout";
 import AddProduct from "./seller/AddProduct";
 import Orders from "./seller/Orders";
 import ProductList from "./seller/ProductList";
+import CategoryList from "./seller/CategoryList";
 export {
   Home,
   AllProducts,
@@ -20,5 +21,6 @@ export {
   SellerLayout,
   AddProduct,
   Orders,
-  ProductList
+  ProductList,
+  CategoryList
 };

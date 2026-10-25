@@ -12,6 +12,8 @@ import productRouter from "./routes/productRoute.js";
 import cartRouter from "./routes/cartRoute.js";
 import addressRouter from "./routes/addressRoute.js";
 import orderRouter from "./routes/orderRoute.js";
+import categoryRouter from "./routes/categoryRoute.js";
+import { seedInitialCategories } from "./controllers/categoryController.js";
 import { stripeWebhooks } from "./controllers/orderController.js";
 import Product from "./models/Product.js";
 import User from "./models/User.js";
@@ -168,6 +170,9 @@ const seedInitialData = async () => {
       // Ensure demo account has the strong password
       await User.findByIdAndUpdate(demoCustomer._id, { password: strongDemoPass });
     }
+
+    // Ensure initial categories are available in database
+    await seedInitialCategories();
   } catch (error) {
     console.log("Data seeding note:", error.message);
   }
@@ -212,6 +217,7 @@ app.use(async (req, res, next) => {
 app.use("/api/user", userRouter);
 app.use("/api/seller", sellerRouter);
 app.use("/api/product", productRouter);
+app.use("/api/category", categoryRouter);
 app.use("/api/cart", cartRouter);
 app.use("/api/address", addressRouter);
 app.use("/api/order", orderRouter);

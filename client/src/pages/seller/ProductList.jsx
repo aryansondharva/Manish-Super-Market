@@ -15,7 +15,7 @@ const ALL_CATEGORY_OPTIONS = [
 ];
 
 function ProductList() {
-  const { products, currency, fetchProducts, axios } = useAppContext();
+  const { products, currency, fetchProducts, axios, categories: storeCategories } = useAppContext();
   const [deletingId, setDeletingId] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -36,11 +36,14 @@ function ProductList() {
 
   const categories = useMemo(() => {
     const list = new Set(ALL_CATEGORY_OPTIONS);
+    (storeCategories || []).forEach((c) => {
+      if (c.path) list.add(c.path);
+    });
     products.forEach((p) => {
       if (p.category) list.add(p.category);
     });
     return ["All", ...Array.from(list)];
-  }, [products]);
+  }, [products, storeCategories]);
 
   const filteredProducts = useMemo(() => {
     return products.filter((product) => {
@@ -420,7 +423,7 @@ function ProductList() {
                     onChange={(e) => setEditForm({ ...editForm, category: e.target.value })}
                     className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm outline-none focus:border-primary focus:ring-1 focus:ring-primary bg-white cursor-pointer"
                   >
-                    {ALL_CATEGORY_OPTIONS.map((cat) => (
+                    {categories.filter((cat) => cat !== "All").map((cat) => (
                       <option key={cat} value={cat}>
                         {cat}
                       </option>
