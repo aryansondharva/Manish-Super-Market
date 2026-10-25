@@ -14,6 +14,8 @@ import addressRouter from "./routes/addressRoute.js";
 import orderRouter from "./routes/orderRoute.js";
 import { stripeWebhooks } from "./controllers/orderController.js";
 import Product from "./models/Product.js";
+import User from "./models/User.js";
+import bcrypt from "bcryptjs";
 
 const app = express();
 const port = process.env.PORT || 4000;
@@ -27,11 +29,11 @@ if (!fs.existsSync(uploadsDir)) {
 await connectDB();
 await connectCloudinary();
 
-// Seed initial grocery products if database is empty
-const seedInitialProducts = async () => {
+// Seed initial grocery products and demo customer if needed
+const seedInitialData = async () => {
   try {
-    const count = await Product.countDocuments();
-    if (count === 0) {
+    const productCount = await Product.countDocuments();
+    if (productCount === 0) {
       console.log("Database has no products. Seeding initial grocery items...");
       const initialItems = [
         {
@@ -148,12 +150,25 @@ const seedInitialProducts = async () => {
       await Product.insertMany(initialItems);
       console.log(`Successfully seeded ${initialItems.length} grocery products!`);
     }
+
+    // Seed demo customer if not exists
+    const demoCustomer = await User.findOne({ email: "customer@grocery.com" });
+    if (!demoCustomer) {
+      const hashedPassword = await bcrypt.hash("customer123", 10);
+      await User.create({
+        name: "Alex Customer",
+        email: "customer@grocery.com",
+        password: hashedPassword,
+        cartItems: {}
+      });
+      console.log("Demo customer account seeded (customer@grocery.com / customer123)");
+    }
   } catch (error) {
-    console.log("Product seeding note:", error.message);
+    console.log("Data seeding note:", error.message);
   }
 };
 
-await seedInitialProducts();
+await seedInitialData();
 
 app.use("/stripe", express.raw({ type: "application/json" }), stripeWebhooks);
 app.get("/", (req, res) => res.send("Grocery Delivery API is Working"));
@@ -164,21 +179,12 @@ app.use(cookieParser());
 // Static folder for uploaded images
 app.use("/uploads", express.static(uploadsDir));
 
-// Robust CORS allowing localhost on any port
+// Dynamic CORS allowing all origins in development
 app.use(
   cors({
     credentials: true,
     origin: (origin, callback) => {
-      if (
-        !origin ||
-        origin.includes("localhost") ||
-        origin.includes("127.0.0.1") ||
-        origin.includes("vercel.app")
-      ) {
-        callback(null, true);
-      } else {
-        callback(null, true);
-      }
+      callback(null, true);
     }
   })
 );

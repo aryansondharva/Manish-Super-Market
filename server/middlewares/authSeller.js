@@ -15,11 +15,11 @@ const authSeller = async (req, res, next) => {
       sellerToken,
       process.env.JWT_SECRET || "grocery_secret_jwt_key_2026_xyz"
     );
-    const sellerEmail = process.env.SELLER_EMAIL || "admin@grocery.com";
-    if (tokenDecode.email === sellerEmail) {
+    const adminEmail = process.env.SELLER_EMAIL || "admin@grocery.com";
+    if (tokenDecode.email === adminEmail) {
       next();
     } else {
-      return res.json({ success: false, message: "Not Authorized as Seller" });
+      return res.json({ success: false, message: "Not Authorized as Admin" });
     }
   } catch (error) {
     res.json({ success: false, message: error.message });

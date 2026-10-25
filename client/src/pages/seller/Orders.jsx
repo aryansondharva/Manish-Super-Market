@@ -63,7 +63,6 @@ function Orders() {
                   <p className="text-xs font-semibold text-gray-400">
                     Order ID: <span className="font-mono text-gray-700">{order._id}</span>
                   </p>
-                  {/* Fixed singular order.items */}
                   {order.items?.map((item, itemIdx) => (
                     <p key={itemIdx} className="text-sm font-medium text-gray-800">
                       {item?.product?.name || "Grocery Item"}{" "}

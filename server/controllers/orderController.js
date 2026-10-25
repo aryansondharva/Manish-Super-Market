@@ -7,6 +7,12 @@ import Address from "../models/Address.js";
 export const placeOrderCOD = async (req, res) => {
   try {
     const { userId, items, address } = req.body;
+    const finalUserId = userId || req.user?._id;
+
+    if (!finalUserId) {
+      return res.json({ success: false, message: "User authentication required to place an order" });
+    }
+
     if (!address || !items || items.length === 0) {
       return res.json({ success: false, message: "Invalid Data: Address and items are required" });
     }
@@ -18,18 +24,36 @@ export const placeOrderCOD = async (req, res) => {
         amount += (product.offerPrice || product.price) * item.quantity;
       }
     }
-    // Add 2% tax
+    // 2% tax
     amount += Math.floor(amount * 0.02);
 
-    let addressId = address;
-    // If address is passed as an object instead of ID, or if it doesn't exist, create/find it
-    if (typeof address === "object" && address !== null) {
-      const newAddr = await Address.create({ ...address, userId });
+    let addressId = typeof address === "object" && address !== null ? address._id : address;
+
+    // Verify or create address in MongoDB
+    let validAddress = null;
+    if (addressId) {
+      validAddress = await Address.findById(addressId);
+    }
+
+    if (!validAddress) {
+      const addrObj = typeof address === "object" && address !== null ? address : {};
+      const newAddr = await Address.create({
+        firstName: addrObj.firstName || "Customer",
+        lastName: addrObj.lastName || "User",
+        email: addrObj.email || "customer@grocery.com",
+        street: addrObj.street || "123 Main Street",
+        city: addrObj.city || "New York",
+        state: addrObj.state || "NY",
+        zipcode: addrObj.zipcode || "10001",
+        country: addrObj.country || "USA",
+        phone: addrObj.phone || "+1 555-0100",
+        userId: finalUserId
+      });
       addressId = newAddr._id;
     }
 
     const order = await Order.create({
-      userId,
+      userId: finalUserId,
       items,
       amount,
       address: addressId,
@@ -37,13 +61,10 @@ export const placeOrderCOD = async (req, res) => {
       status: "Order Placed"
     });
 
-    // Clear user cart if userId is provided
-    if (userId) {
-      try {
-        await User.findByIdAndUpdate(userId, { cartItems: {} });
-      } catch (e) {
-        // Continue even if user model update fails
-      }
+    try {
+      await User.findByIdAndUpdate(finalUserId, { cartItems: {} });
+    } catch (e) {
+      // Ignore if user model update fails
     }
 
     return res.json({
@@ -60,7 +81,13 @@ export const placeOrderCOD = async (req, res) => {
 export const placeOrderStripe = async (req, res) => {
   try {
     const { userId, items, address } = req.body;
+    const finalUserId = userId || req.user?._id;
     const { origin } = req.headers;
+
+    if (!finalUserId) {
+      return res.json({ success: false, message: "User authentication required" });
+    }
+
     if (!address || !items || items.length === 0) {
       return res.json({ success: false, message: "Invalid Data" });
     }
@@ -80,18 +107,40 @@ export const placeOrderStripe = async (req, res) => {
     }
     amount += Math.floor(amount * 0.02);
 
+    let addressId = typeof address === "object" && address !== null ? address._id : address;
+    let validAddress = null;
+    if (addressId) {
+      validAddress = await Address.findById(addressId);
+    }
+    if (!validAddress) {
+      const addrObj = typeof address === "object" && address !== null ? address : {};
+      const newAddr = await Address.create({
+        firstName: addrObj.firstName || "Customer",
+        lastName: addrObj.lastName || "User",
+        email: addrObj.email || "customer@grocery.com",
+        street: addrObj.street || "123 Main Street",
+        city: addrObj.city || "New York",
+        state: addrObj.state || "NY",
+        zipcode: addrObj.zipcode || "10001",
+        country: addrObj.country || "USA",
+        phone: addrObj.phone || "+1 555-0100",
+        userId: finalUserId
+      });
+      addressId = newAddr._id;
+    }
+
     const order = await Order.create({
-      userId,
+      userId: finalUserId,
       items,
       amount,
-      address,
+      address: addressId,
       paymentType: "Online"
     });
 
     if (!process.env.STRIPE_SECRET_KEY) {
       return res.json({
         success: false,
-        message: "Stripe key not configured on server. Please use COD (Cash On Delivery)."
+        message: "Stripe key not configured. Please use COD (Cash On Delivery)."
       });
     }
 
@@ -116,7 +165,7 @@ export const placeOrderStripe = async (req, res) => {
       cancel_url: `${origin}/cart`,
       metadata: {
         orderId: order._id.toString(),
-        userId
+        userId: finalUserId
       }
     });
     return res.json({ success: true, url: session.url });
@@ -165,6 +214,9 @@ export const stripeWebhooks = async (req, res) => {
 export const getUserOrder = async (req, res) => {
   try {
     const userId = req.query?.userId || req.user?._id;
+    if (!userId) {
+      return res.json({ success: true, orders: [] });
+    }
     const orders = await Order.find({
       userId,
       $or: [{ paymentType: "COD" }, { isPaid: true }]

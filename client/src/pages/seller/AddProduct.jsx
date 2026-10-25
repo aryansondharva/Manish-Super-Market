@@ -87,7 +87,6 @@ function AddProduct() {
       const formData = new FormData();
       formData.append("productData", JSON.stringify(productData));
 
-      // Append any uploaded file images
       for (let i = 0; i < files.length; i++) {
         if (files[i]) {
           formData.append("images", files[i]);
@@ -99,10 +98,8 @@ function AddProduct() {
       if (data.success) {
         toast.success("🎉 " + (data.message || "Product added! Live on storefront."));
         setLastAddedProduct(data.product || productData);
-        // CRITICAL: Refresh context products so client side immediately reflects new product
         await fetchProducts();
 
-        // Reset form fields
         setFiles([]);
         setName("");
         setDescription("");

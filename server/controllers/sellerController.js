@@ -17,9 +17,9 @@ export const sellerLogin = async (req, res) => {
         sameSite: process.env.NODE_ENV === "production" ? "none" : "strict",
         maxAge: 7 * 24 * 60 * 60 * 1000
       });
-      return res.json({ success: true, message: "Logged In as Admin", token });
+      return res.json({ success: true, message: "Logged In", token });
     } else {
-      return res.json({ success: false, message: "Invalid Admin Credentials" });
+      return res.json({ success: false, message: "Invalid Credentials" });
     }
   } catch (error) {
     console.log(error.message);
@@ -43,7 +43,7 @@ export const sellerLogout = async (req, res) => {
       secure: process.env.NODE_ENV === "production",
       sameSite: process.env.NODE_ENV === "production" ? "none" : "strict"
     });
-    res.json({ success: true, message: "Logged Out Successfully" });
+    res.json({ success: true, message: "Logged Out" });
   } catch (error) {
     console.log(error.message);
     res.json({ success: false, message: error.message });

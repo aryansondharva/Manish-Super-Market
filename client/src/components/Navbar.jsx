@@ -1,9 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 import { assets } from "../assets/assets";
 import { useAppContext } from "../context/AppContext";
 import toast from "react-hot-toast";
-import axios from "axios";
 
 const Navbar = () => {
   const [open, setOpen] = React.useState(false);
@@ -15,7 +14,7 @@ const Navbar = () => {
     setSearchQuery,
     searchQuery,
     getCartCount,
-    isSeller
+    axios
   } = useAppContext();
 
   const logout = async () => {
@@ -65,7 +64,7 @@ const Navbar = () => {
           All Groceries
         </NavLink>
 
-        <div className="hidden lg:flex items-center text-sm gap-2 border border-gray-300 px-3 py-1 rounded-full focus-within:border-primary transition w-60">
+        <div className="hidden lg:flex items-center text-sm gap-2 border border-gray-300 px-3 py-1 rounded-full focus-within:border-primary transition w-64">
           <input
             className="py-1 w-full bg-transparent outline-none placeholder-gray-400 text-sm"
             type="text"
@@ -75,16 +74,6 @@ const Navbar = () => {
           />
           <img src={assets.search_icon} alt="search" className="w-4 h-4 opacity-60" />
         </div>
-
-        {/* Link / Button to Admin Panel */}
-        <button
-          onClick={() => navigate("/seller")}
-          className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-300 hover:bg-emerald-100 transition cursor-pointer"
-          title="Go to Admin Panel to Add or Manage Items"
-        >
-          <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-          Admin Panel
-        </button>
 
         {/* Cart Icon */}
         <div
@@ -122,12 +111,6 @@ const Navbar = () => {
                 My Orders
               </li>
               <li
-                onClick={() => navigate("/seller")}
-                className="p-2 px-4 hover:bg-primary/10 cursor-pointer text-emerald-700 font-medium"
-              >
-                Admin Panel
-              </li>
-              <li
                 onClick={logout}
                 className="p-2 px-4 hover:bg-red-50 text-red-600 cursor-pointer border-t border-gray-100"
               >
@@ -140,13 +123,6 @@ const Navbar = () => {
 
       {/* Mobile Right Icons */}
       <div className="flex items-center gap-4 sm:hidden">
-        <button
-          onClick={() => navigate("/seller")}
-          className="px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-300"
-        >
-          Admin
-        </button>
-
         <div
           onClick={() => navigate("/cart")}
           className="relative cursor-pointer"
@@ -181,9 +157,6 @@ const Navbar = () => {
           </NavLink>
           <NavLink to="/products" onClick={() => setOpen(false)} className="w-full py-1 font-medium">
             All Groceries
-          </NavLink>
-          <NavLink to="/seller" onClick={() => setOpen(false)} className="w-full py-1 text-emerald-600 font-semibold">
-            Admin Panel (Add & Manage Items)
           </NavLink>
           {user && (
             <NavLink to="/my-orders" onClick={() => setOpen(false)} className="w-full py-1 font-medium">

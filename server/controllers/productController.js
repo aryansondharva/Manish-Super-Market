@@ -28,7 +28,6 @@ export const addProduct = async (req, res) => {
           })
         );
       } else {
-        // Use local static URL
         const protocol = req.protocol;
         const host = req.get("host");
         imagesUrl = files.map((file) => `${protocol}://${host}/uploads/${file.filename}`);
@@ -52,14 +51,13 @@ export const addProduct = async (req, res) => {
       }
     }
 
-    // Default high-quality grocery image if no image provided
+    // Default grocery image fallback
     if (imagesUrl.length === 0) {
       imagesUrl = [
         "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400"
       ];
     }
 
-    // Ensure description is an array of strings
     let descriptionArray = [];
     if (Array.isArray(productData.description)) {
       descriptionArray = productData.description;

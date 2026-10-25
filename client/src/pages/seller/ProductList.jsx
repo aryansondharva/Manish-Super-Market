@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import { useAppContext } from "../../context/AppContext";
 import { assets } from "../../assets/assets";
-import axios from "axios";
 import toast from "react-hot-toast";
 import { Link } from "react-router-dom";
 
 function ProductList() {
-  const { products, currency, fetchProducts } = useAppContext();
+  const { products, currency, fetchProducts, axios } = useAppContext();
   const [deletingId, setDeletingId] = useState(null);
 
   const toggleStock = async (id, inStock) => {

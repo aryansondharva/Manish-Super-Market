@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useAppContext } from "../../context/AppContext";
-import axios from "axios";
 import toast from "react-hot-toast";
 
 function SellerLogin() {
-  const { isSeller, setIsSeller, navigate } = useAppContext();
+  const { isSeller, setIsSeller, navigate, axios } = useAppContext();
 
   const [email, setEmail] = useState("admin@grocery.com");
   const [password, setPassword] = useState("admin123");
@@ -32,7 +31,7 @@ function SellerLogin() {
         toast.error(data.message || "Login failed");
       }
     } catch (error) {
-      toast.error(error.message);
+      toast.error(error.message || "Network Error: Could not reach backend server");
     } finally {
       setLoading(false);
     }
@@ -107,7 +106,7 @@ function SellerLogin() {
           <button
             type="submit"
             disabled={loading}
-            className="bg-primary hover:bg-primary-600 text-white font-medium w-full py-2.5 rounded-lg transition duration-200 cursor-pointer shadow-md text-sm mt-2 flex items-center justify-center gap-2"
+            className="bg-primary hover:bg-primary-600 text-white font-medium w-full py-2.5 rounded-lg transition duration-200 cursor-pointer shadow-md text-sm mt-2 flex items-center justify-center gap-2 disabled:opacity-50"
           >
             {loading ? "Authenticating..." : "Login to Admin Dashboard"}
           </button>

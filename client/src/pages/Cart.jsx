@@ -21,9 +21,9 @@ const Cart = () => {
   } = useAppContext();
 
   const [cartArray, setCartArray] = useState([]);
-  const [addresses, setAddresses] = useState(dummyAddress);
+  const [addresses, setAddresses] = useState([]);
   const [showAddress, setShowAddress] = useState(false);
-  const [selectedAddress, setSelectedAddress] = useState(dummyAddress[0]);
+  const [selectedAddress, setSelectedAddress] = useState(null);
   const [paymentOption, setPaymentOption] = useState("COD");
   const [loading, setLoading] = useState(false);
 
@@ -54,9 +54,15 @@ const Cart = () => {
       if (data.success && Array.isArray(data.addresses) && data.addresses.length > 0) {
         setAddresses(data.addresses);
         setSelectedAddress(data.addresses[0]);
+      } else {
+        // If no addresses in DB yet, fallback to dummyAddress
+        setAddresses(dummyAddress);
+        setSelectedAddress(dummyAddress[0]);
       }
     } catch (error) {
       console.log("getUserAddress note:", error.message);
+      setAddresses(dummyAddress);
+      setSelectedAddress(dummyAddress[0]);
     }
   };
 
@@ -67,6 +73,9 @@ const Cart = () => {
   useEffect(() => {
     if (user && user._id) {
       getUserAddress();
+    } else {
+      setAddresses(dummyAddress);
+      setSelectedAddress(dummyAddress[0]);
     }
   }, [user]);
 
@@ -85,6 +94,8 @@ const Cart = () => {
 
       setLoading(true);
 
+      const addressPayload = selectedAddress._id ? selectedAddress._id : selectedAddress;
+
       if (paymentOption === "COD") {
         const { data } = await axios.post("/api/order/cod", {
           userId: user._id,
@@ -92,7 +103,7 @@ const Cart = () => {
             product: item._id,
             quantity: item.quantity
           })),
-          address: selectedAddress
+          address: addressPayload
         });
 
         if (data.success) {
@@ -109,7 +120,7 @@ const Cart = () => {
             product: item._id,
             quantity: item.quantity
           })),
-          address: selectedAddress
+          address: addressPayload
         });
 
         if (data.success && data.url) {
