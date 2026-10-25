@@ -23,7 +23,7 @@ axios.interceptors.request.use((config) => {
 export const AppContext = createContext();
 
 export const AppContextProvider = ({ children }) => {
-  const currency = import.meta.env.VITE_CURRENCY || "$";
+  const currency = import.meta.env.VITE_CURRENCY || "₹";
 
   const navigate = useNavigate();
   const [user, setUser] = useState(null);
@@ -79,6 +79,12 @@ export const AppContextProvider = ({ children }) => {
   };
 
   const addToCart = (itemId) => {
+    const product = products.find((p) => p._id === itemId);
+    if (product && product.inStock === false) {
+      toast.error("Sorry, this item is currently out of stock!", { id: "stock-toast" });
+      return;
+    }
+
     let cartData = structuredClone(cartItems || {});
     if (cartData[itemId]) {
       cartData[itemId] += 1;

@@ -148,6 +148,12 @@ const Cart = () => {
       if (cartArray.length === 0) {
         return toast.error("Your cart is empty. Please add items to buy.");
       }
+      const outOfStockItem = cartArray.find((item) => item.inStock === false);
+      if (outOfStockItem) {
+        return toast.error(
+          `"${outOfStockItem.name}" is currently out of stock. Please remove it from your cart to proceed.`
+        );
+      }
       if (!user) {
         setShowUserLogin(true);
         return toast.error("Please log in to complete your purchase");
@@ -280,9 +286,16 @@ const Cart = () => {
                     alt={product.name}
                   />
                   <div className="min-w-0 flex-1">
-                    <p className="text-xs text-primary font-medium uppercase tracking-wider">
-                      {product.category}
-                    </p>
+                    <div className="flex items-center gap-2">
+                      <p className="text-xs text-primary font-medium uppercase tracking-wider">
+                        {product.category}
+                      </p>
+                      {product.inStock === false && (
+                        <span className="px-2 py-0.5 bg-rose-100 text-rose-700 text-[10px] font-bold rounded">
+                          Out of Stock
+                        </span>
+                      )}
+                    </div>
                     <p className="font-semibold text-gray-800 text-sm sm:text-base truncate">
                       {product.name}
                     </p>

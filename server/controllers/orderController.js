@@ -54,28 +54,38 @@ export const placeOrderCOD = async (req, res) => {
 
     let addressId = typeof address === "object" && address !== null ? address._id : address;
 
-    // Verify or create address in MongoDB
+    // Verify address in MongoDB
     let validAddress = null;
     if (addressId) {
       validAddress = await Address.findById(addressId);
     }
 
-    if (!validAddress) {
-      const addrObj = typeof address === "object" && address !== null ? address : {};
-      const newAddr = await Address.create({
-        firstName: addrObj.firstName || "Customer",
-        lastName: addrObj.lastName || "User",
-        email: addrObj.email || "customer@grocery.com",
-        street: addrObj.street || "123 Main Street",
-        city: addrObj.city || "New York",
-        state: addrObj.state || "NY",
-        zipcode: addrObj.zipcode || "10001",
-        country: addrObj.country || "USA",
-        phone: addrObj.phone || "+1 555-0100",
+    // If an address object was passed directly without prior ID
+    if (!validAddress && typeof address === "object" && address !== null && address.street) {
+      validAddress = await Address.create({
+        firstName: address.firstName || firstName,
+        lastName: address.lastName || lastName,
+        email: address.email || userDoc.email,
+        street: address.street,
+        city: address.city,
+        state: address.state,
+        zipcode: address.zipcode,
+        country: address.country || "India",
+        phone: address.phone || phone,
         userId: finalUserId
       });
-      addressId = newAddr._id;
+      addressId = validAddress._id;
     }
+
+    if (!validAddress) {
+      return res.json({
+        success: false,
+        requireAddress: true,
+        message: "Valid delivery address not found. Please add your real address before checkout."
+      });
+    }
+
+    const orderTime = new Date();
 
     const order = await Order.create({
       userId: finalUserId,
@@ -83,19 +93,20 @@ export const placeOrderCOD = async (req, res) => {
       amount,
       address: addressId,
       paymentType: "COD",
-      status: "Order Placed"
+      isPaid: false,
+      status: "Order Placed",
+      createdAt: orderTime,
+      updatedAt: orderTime
     });
 
-    try {
-      await User.findByIdAndUpdate(finalUserId, { cartItems: {} });
-    } catch (e) {
-      // Ignore if user model update fails
-    }
+    // Clear user's cart in DB
+    await User.findByIdAndUpdate(finalUserId, { cartItems: {} });
 
     return res.json({
       success: true,
-      message: "Order Placed Successfully",
-      orderId: order._id
+      message: "Order placed successfully via Cash on Delivery!",
+      orderId: order._id,
+      createdAt: order.createdAt
     });
   } catch (error) {
     console.log("Error in placeOrderCOD:", error.message);
@@ -162,29 +173,43 @@ export const placeOrderStripe = async (req, res) => {
     if (addressId) {
       validAddress = await Address.findById(addressId);
     }
-    if (!validAddress) {
-      const addrObj = typeof address === "object" && address !== null ? address : {};
-      const newAddr = await Address.create({
-        firstName: addrObj.firstName || "Customer",
-        lastName: addrObj.lastName || "User",
-        email: addrObj.email || "customer@grocery.com",
-        street: addrObj.street || "123 Main Street",
-        city: addrObj.city || "New York",
-        state: addrObj.state || "NY",
-        zipcode: addrObj.zipcode || "10001",
-        country: addrObj.country || "USA",
-        phone: addrObj.phone || "+1 555-0100",
+
+    if (!validAddress && typeof address === "object" && address !== null && address.street) {
+      validAddress = await Address.create({
+        firstName: address.firstName || firstName,
+        lastName: address.lastName || lastName,
+        email: address.email || userDoc.email,
+        street: address.street,
+        city: address.city,
+        state: address.state,
+        zipcode: address.zipcode,
+        country: address.country || "India",
+        phone: address.phone || phone,
         userId: finalUserId
       });
-      addressId = newAddr._id;
+      addressId = validAddress._id;
     }
+
+    if (!validAddress) {
+      return res.json({
+        success: false,
+        requireAddress: true,
+        message: "Valid delivery address not found. Please add your real address before checkout."
+      });
+    }
+
+    const orderTime = new Date();
 
     const order = await Order.create({
       userId: finalUserId,
       items,
       amount,
       address: addressId,
-      paymentType: "Online"
+      paymentType: "Online",
+      isPaid: false,
+      status: "Order Placed",
+      createdAt: orderTime,
+      updatedAt: orderTime
     });
 
     if (!process.env.STRIPE_SECRET_KEY) {
@@ -198,7 +223,7 @@ export const placeOrderStripe = async (req, res) => {
     const lineItems = productData.map((item) => {
       return {
         price_data: {
-          currency: "usd",
+          currency: "inr",
           product_data: {
             name: item.name
           },
@@ -247,7 +272,7 @@ export const stripeWebhooks = async (req, res) => {
           payment_intent: paymnetIntentId
         });
         const { orderId, userId } = session.data[0].metadata;
-        await Order.findByIdAndUpdate(orderId, { isPaid: true });
+        await Order.findByIdAndUpdate(orderId, { isPaid: true, updatedAt: new Date() });
         await User.findByIdAndUpdate(userId, { cartItems: {} });
         break;
       }
@@ -283,15 +308,46 @@ export const getUserOrder = async (req, res) => {
 
 export const getAllOrders = async (req, res) => {
   try {
-    const orders = await Order.find({
-      $or: [{ paymentType: "COD" }, { isPaid: true }]
-    })
+    const orders = await Order.find({})
       .populate("items.product")
       .populate("address")
+      .populate("userId", "name firstName lastName email phone")
       .sort({ createdAt: -1 });
     return res.json({ success: true, orders });
   } catch (error) {
     console.log("Error in getAllOrders:", error.message);
+    return res.json({ success: false, message: error.message });
+  }
+};
+
+// Admin order status update
+export const updateOrderStatus = async (req, res) => {
+  try {
+    const { orderId, status, isPaid } = req.body;
+    if (!orderId) {
+      return res.json({ success: false, message: "Order ID is required" });
+    }
+
+    const updateFields = { updatedAt: new Date() };
+    if (status) updateFields.status = status;
+    if (typeof isPaid === "boolean") updateFields.isPaid = isPaid;
+
+    const order = await Order.findByIdAndUpdate(orderId, updateFields, { new: true })
+      .populate("items.product")
+      .populate("address")
+      .populate("userId", "name firstName lastName email phone");
+
+    if (!order) {
+      return res.json({ success: false, message: "Order not found" });
+    }
+
+    return res.json({
+      success: true,
+      message: `Order #${orderId.slice(-6)} status updated to "${order.status}"`,
+      order
+    });
+  } catch (error) {
+    console.log("Error in updateOrderStatus:", error.message);
     return res.json({ success: false, message: error.message });
   }
 };

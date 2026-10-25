@@ -39,7 +39,7 @@ const sampleGroceryImages = [
 ];
 
 function AddProduct() {
-  const { axios, fetchProducts, navigate } = useAppContext();
+  const { axios, fetchProducts, navigate, currency } = useAppContext();
 
   const [files, setFiles] = useState([]);
   const [imageUrl, setImageUrl] = useState("");
@@ -135,7 +135,7 @@ function AddProduct() {
                 "{lastAddedProduct.name}" is now live in the store!
               </p>
               <p className="text-xs text-emerald-700">
-                Category: {lastAddedProduct.category} | Price: ${lastAddedProduct.offerPrice || lastAddedProduct.price}
+                Category: {lastAddedProduct.category} | Price: {currency}{lastAddedProduct.offerPrice || lastAddedProduct.price}
               </p>
             </div>
           </div>
@@ -278,14 +278,14 @@ function AddProduct() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
           <div className="space-y-1">
             <label className="text-sm font-semibold text-gray-700" htmlFor="product-price">
-              Regular Price ($) *
+              Regular Price (₹) *
             </label>
             <input
               id="product-price"
               type="number"
-              step="0.01"
+              step="1"
               min="0"
-              placeholder="e.g. 15.00"
+              placeholder="e.g. 150"
               className="w-full outline-none py-2 px-3 rounded-lg border border-gray-300 text-sm focus:border-primary transition"
               required
               onChange={(e) => setPrice(e.target.value)}
@@ -295,14 +295,14 @@ function AddProduct() {
 
           <div className="space-y-1">
             <label className="text-sm font-semibold text-gray-700" htmlFor="offer-price">
-              Discounted / Selling Price ($) *
+              Discounted / Selling Price (₹) *
             </label>
             <input
               id="offer-price"
               type="number"
-              step="0.01"
+              step="1"
               min="0"
-              placeholder="e.g. 12.50"
+              placeholder="e.g. 120"
               className="w-full outline-none py-2 px-3 rounded-lg border border-gray-300 text-sm focus:border-primary transition"
               required
               onChange={(e) => setOfferPrice(e.target.value)}

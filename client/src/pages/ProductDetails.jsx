@@ -80,10 +80,17 @@ function ProductDetails() {
                 MRP: {currency}
                 {product.price}
               </p>
-              <p className="text-2xl font-medium">
-                MRP: {currency}
-                {product.offerPrice}
-              </p>
+              <div className="flex items-center gap-3">
+                <p className="text-2xl font-medium">
+                  MRP: {currency}
+                  {product.offerPrice}
+                </p>
+                {product?.inStock === false && (
+                  <span className="px-2.5 py-0.5 bg-rose-100 text-rose-700 text-xs font-bold rounded-md uppercase tracking-wide">
+                    Out of Stock
+                  </span>
+                )}
+              </div>
               <span className="text-gray-500/70">(inclusive of all taxes)</span>
             </div>
 
@@ -94,23 +101,37 @@ function ProductDetails() {
               ))}
             </ul>
 
-            <div className="flex items-center mt-10 gap-4 text-base">
-              <button
-                className="w-full py-3.5 cursor-pointer font-medium bg-gray-100 text-gray-800/80 hover:bg-gray-200 transition"
-                onClick={() => addToCart(product?._id)}
-              >
-                Add to Cart
-              </button>
-              <button
-                onClick={() => {
-                  addToCart(product?._id);
-                  navigate("/cart");
-                }}
-                className="w-full py-3.5 cursor-pointer font-medium bg-primary text-white hover:bg-primary transition"
-              >
-                Buy now
-              </button>
-            </div>
+            {product?.inStock === false ? (
+              <div className="w-full mt-10">
+                <button
+                  disabled
+                  className="w-full py-3.5 font-semibold bg-gray-200 text-gray-500 rounded-lg cursor-not-allowed text-center select-none"
+                >
+                  ✕ Currently Out of Stock
+                </button>
+                <p className="text-xs text-gray-400 mt-2 text-center">
+                  This product is currently out of stock. Please check back later!
+                </p>
+              </div>
+            ) : (
+              <div className="flex items-center mt-10 gap-4 text-base">
+                <button
+                  className="w-full py-3.5 cursor-pointer font-medium bg-gray-100 text-gray-800/80 hover:bg-gray-200 transition rounded-lg"
+                  onClick={() => addToCart(product?._id)}
+                >
+                  Add to Cart
+                </button>
+                <button
+                  onClick={() => {
+                    addToCart(product?._id);
+                    navigate("/cart");
+                  }}
+                  className="w-full py-3.5 cursor-pointer font-medium bg-primary text-white hover:bg-primary transition rounded-lg"
+                >
+                  Buy now
+                </button>
+              </div>
+            )}
           </div>
         </div>
         <div className="flex flex-col items-center mt-20">
@@ -120,9 +141,9 @@ function ProductDetails() {
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 lg:grid-cols-5 mt-6 w-full">
             {relatedProducts
-              .filter((product) => product?.inStock)
+              .slice(0, 5)
               .map((prod, index) => (
-                <ProductsCard key={index} product={prod} />
+                <ProductsCard key={prod._id || index} product={prod} />
               ))}
           </div>
           <button

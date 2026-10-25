@@ -5,10 +5,13 @@ import { useAppContext } from "../context/AppContext";
 const ProductsCard = ({ product }) => {
   const { currency, addToCart, removeCartItem, cartItems, navigate } =
     useAppContext();
+
+  const isInStock = product?.inStock !== false;
+
   return (
     product && (
       <div
-        className="border border-gray-500/20 rounded-md md:px-4 px-2.5 py-2.5 bg-white w-full min-w-0 flex flex-col justify-between"
+        className="relative border border-gray-500/20 rounded-md md:px-4 px-2.5 py-2.5 bg-white w-full min-w-0 flex flex-col justify-between group/card hover:shadow-sm transition"
         onClick={() => {
           navigate(
             `/products/${product?.category.toLowerCase()}/${product._id}`
@@ -16,9 +19,18 @@ const ProductsCard = ({ product }) => {
           scrollTo(0, 0);
         }}
       >
-        <div className="group cursor-pointer flex items-center justify-center px-2">
+        {/* Out of Stock Floating Badge */}
+        {!isInStock && (
+          <span className="absolute top-2 left-2 z-10 px-2 py-0.5 bg-rose-600 text-white text-[10px] font-bold rounded-md tracking-wide shadow-xs uppercase">
+            Out of Stock
+          </span>
+        )}
+
+        <div className="group cursor-pointer flex items-center justify-center px-2 relative">
           <img
-            className="group-hover:scale-105 transition max-w-24 md:max-w-36 h-24 md:h-32 object-contain"
+            className={`group-hover:scale-105 transition max-w-24 md:max-w-36 h-24 md:h-32 object-contain ${
+              !isInStock ? "opacity-75 grayscale-30" : ""
+            }`}
             src={product.image[0]}
             alt={product.name}
           />
@@ -55,7 +67,11 @@ const ProductsCard = ({ product }) => {
                 e.stopPropagation();
               }}
             >
-              {!cartItems[product._id] ? (
+              {!isInStock ? (
+                <span className="inline-block px-2 sm:px-2.5 py-1 text-[11px] sm:text-xs font-semibold text-rose-600 bg-rose-50 border border-rose-200 rounded select-none">
+                  Out of Stock
+                </span>
+              ) : !cartItems[product._id] ? (
                 <button
                   className="flex items-center justify-center gap-1 bg-primary/10 border border-primary/40 md:w-[80px] w-[58px] sm:w-[64px] h-[32px] sm:h-[34px] rounded cursor-pointer hover:bg-primary/20 transition text-xs sm:text-sm font-medium"
                   onClick={() => addToCart(product._id)}
