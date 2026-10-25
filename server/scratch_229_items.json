@@ -1,0 +1,918 @@
+[
+  {
+    "id": "P001",
+    "name": "Cadbury Dairy Milk Silk Bubbly"
+  },
+  {
+    "id": "P002",
+    "name": "Cadbury Dairy Milk Silk Fruit & Nut"
+  },
+  {
+    "id": "P003",
+    "name": "Cadbury Dairy Milk Silk Chocolate"
+  },
+  {
+    "id": "P004",
+    "name": "Cadbury Dairy Milk Silk Oreo"
+  },
+  {
+    "id": "P005",
+    "name": "Cadbury Dairy Milk Silk Mousse"
+  },
+  {
+    "id": "P006",
+    "name": "Cadbury Dairy Milk Silk Hazelnut"
+  },
+  {
+    "id": "P007",
+    "name": "Cadbury Dairy Milk Silk Brownie"
+  },
+  {
+    "id": "P008",
+    "name": "Cadbury Dairy Milk Silk Ganache"
+  },
+  {
+    "id": "P009",
+    "name": "Cadbury Dairy Milk classic"
+  },
+  {
+    "id": "P010",
+    "name": "Cadbury Dairy Milk Roast Almond"
+  },
+  {
+    "id": "P011",
+    "name": "Cadbury Dairy Milk Fruit & Nut"
+  },
+  {
+    "id": "P012",
+    "name": "Cadbury Dairy Milk Crackle"
+  },
+  {
+    "id": "P013",
+    "name": "Cadbury Dairy Milk small bars"
+  },
+  {
+    "id": "P014",
+    "name": "Cadbury Dairy Milk Crispello"
+  },
+  {
+    "id": "P015",
+    "name": "Cadbury Bournville Orange 50% Dark"
+  },
+  {
+    "id": "P016",
+    "name": "Cadbury Bournville Classic 50% Dark"
+  },
+  {
+    "id": "P017",
+    "name": "Cadbury Bournville Fruit & Nut 50% Dark"
+  },
+  {
+    "id": "P018",
+    "name": "Cadbury Bournville Rum & Raisin 50% Dark"
+  },
+  {
+    "id": "P019",
+    "name": "Cadbury Bournville Cranberry 50% Dark"
+  },
+  {
+    "id": "P020",
+    "name": "Cadbury 5 Star original"
+  },
+  {
+    "id": "P021",
+    "name": "Cadbury 5 Star 3D"
+  },
+  {
+    "id": "P022",
+    "name": "Cadbury 5 Star Oreo"
+  },
+  {
+    "id": "P023",
+    "name": "Cadbury Fuse"
+  },
+  {
+    "id": "P024",
+    "name": "Cadbury Perk"
+  },
+  {
+    "id": "P025",
+    "name": "Cadbury 5 Star softer bar"
+  },
+  {
+    "id": "P026",
+    "name": "Amul Dark chocolate bar"
+  },
+  {
+    "id": "P027",
+    "name": "Nestle KitKat Delights Choco Lava"
+  },
+  {
+    "id": "P028",
+    "name": "Nestle KitKat Delights Dark"
+  },
+  {
+    "id": "P029",
+    "name": "Nestle KitKat Delights Rich"
+  },
+  {
+    "id": "P030",
+    "name": "Nestle KitKat Delights Hazelnut"
+  },
+  {
+    "id": "P031",
+    "name": "Nestle KitKat Share & Snap"
+  },
+  {
+    "id": "P032",
+    "name": "Nestle KitKat standard bars"
+  },
+  {
+    "id": "P033",
+    "name": "Nestle KitKat 2 Finger"
+  },
+  {
+    "id": "P034",
+    "name": "Nestle KitKat 4 Finger"
+  },
+  {
+    "id": "P035",
+    "name": "Nestle KitKat Pops"
+  },
+  {
+    "id": "P036",
+    "name": "Nestle Munch"
+  },
+  {
+    "id": "P037",
+    "name": "Nestle Munch Max"
+  },
+  {
+    "id": "P038",
+    "name": "Other Milkybar Original"
+  },
+  {
+    "id": "P039",
+    "name": "Other Milkybar assorted variants"
+  },
+  {
+    "id": "P040",
+    "name": "Coca-Cola Diet Coke cans"
+  },
+  {
+    "id": "P041",
+    "name": "Coca-Cola Coca-Cola bottles"
+  },
+  {
+    "id": "P042",
+    "name": "Coca-Cola Sprite bottles"
+  },
+  {
+    "id": "P043",
+    "name": "Coca-Cola Thums Up bottles"
+  },
+  {
+    "id": "P044",
+    "name": "Coca-Cola Fanta bottles"
+  },
+  {
+    "id": "P045",
+    "name": "Coca-Cola Maaza bottles"
+  },
+  {
+    "id": "P046",
+    "name": "Coca-Cola Minute Maid / juice drinks"
+  },
+  {
+    "id": "P047",
+    "name": "Coca-Cola Kinley Strong Soda bottles"
+  },
+  {
+    "id": "P048",
+    "name": "Coca-Cola Kinley drinking water bottles"
+  },
+  {
+    "id": "P049",
+    "name": "Monster Monster Energy original can"
+  },
+  {
+    "id": "P050",
+    "name": "Monster Monster Ultra Zero Sugar can"
+  },
+  {
+    "id": "P051",
+    "name": "Red Bull Red Bull Energy Drink can"
+  },
+  {
+    "id": "P052",
+    "name": "Hell Hell Energy Zero can"
+  },
+  {
+    "id": "P053",
+    "name": "Hell Hell Energy original can"
+  },
+  {
+    "id": "P054",
+    "name": "Sosyo Sosyo fizzy drink bottles"
+  },
+  {
+    "id": "P055",
+    "name": "Aquafina Packaged drinking water bottles"
+  },
+  {
+    "id": "P056",
+    "name": "Bisleri / other Lemon-lime fizzy drink bottles"
+  },
+  {
+    "id": "P057",
+    "name": "Bisleri / other Other juice / flavoured beverages"
+  },
+  {
+    "id": "P058",
+    "name": "Amul Pasteurised butter"
+  },
+  {
+    "id": "P059",
+    "name": "Amul Processed cheese blocks"
+  },
+  {
+    "id": "P060",
+    "name": "Amul Masti dahi / curd tubs"
+  },
+  {
+    "id": "P061",
+    "name": "Amul Paneer packs"
+  },
+  {
+    "id": "P062",
+    "name": "Amul Milk pouches (assorted)"
+  },
+  {
+    "id": "P063",
+    "name": "Amul Shrikhand tubs"
+  },
+  {
+    "id": "P064",
+    "name": "Amul Buttermilk / dairy pouches"
+  },
+  {
+    "id": "P065",
+    "name": "Other Fresh chilled dairy packets (brand unclear)"
+  },
+  {
+    "id": "P066",
+    "name": "Amul TriCone Chocolate"
+  },
+  {
+    "id": "P067",
+    "name": "Amul TriCone Classic"
+  },
+  {
+    "id": "P068",
+    "name": "Amul TriCone Butterscotch"
+  },
+  {
+    "id": "P069",
+    "name": "Amul TriCone assorted other flavours"
+  },
+  {
+    "id": "P070",
+    "name": "Amul Frostik chocolate bar"
+  },
+  {
+    "id": "P071",
+    "name": "Amul Chocobar probiotic"
+  },
+  {
+    "id": "P072",
+    "name": "Amul Kulfi / Rajbhog-style stick"
+  },
+  {
+    "id": "P073",
+    "name": "Amul Kulfi pista-style stick"
+  },
+  {
+    "id": "P074",
+    "name": "Amul Kulfi almond/badam-style stick"
+  },
+  {
+    "id": "P075",
+    "name": "Amul Creamy stick / flavoured bars"
+  },
+  {
+    "id": "P076",
+    "name": "Amul Ice cream sandwiches / cookie sandwiches"
+  },
+  {
+    "id": "P077",
+    "name": "Amul Ice cream cup assorted"
+  },
+  {
+    "id": "P078",
+    "name": "Other Orange ice candy"
+  },
+  {
+    "id": "P079",
+    "name": "Other Mango ice candy"
+  },
+  {
+    "id": "P080",
+    "name": "Other Pink ice candy"
+  },
+  {
+    "id": "P081",
+    "name": "Other Milk / vanilla ice bar"
+  },
+  {
+    "id": "P082",
+    "name": "Other Chocolate-dipped stick bar"
+  },
+  {
+    "id": "P083",
+    "name": "Amul Ice cream cup Vanilla Sugar Free"
+  },
+  {
+    "id": "P084",
+    "name": "Amul Ice cream cup Kesar Pista Sugar Free"
+  },
+  {
+    "id": "P085",
+    "name": "Amul Ice cream cup assorted Sugar Free"
+  },
+  {
+    "id": "P086",
+    "name": "Amul Ice cream cup Tender Coconut"
+  },
+  {
+    "id": "P087",
+    "name": "Amul Ice cream cup Black Currant / Trufru"
+  },
+  {
+    "id": "P088",
+    "name": "Amul Ice cream cup Strawberry"
+  },
+  {
+    "id": "P089",
+    "name": "Amul Ice cream cup Chocolate Brownie"
+  },
+  {
+    "id": "P090",
+    "name": "Amul Ice cream cup Sundae assorted"
+  },
+  {
+    "id": "P091",
+    "name": "Amul Ice cream cup Cookies & Cream"
+  },
+  {
+    "id": "P092",
+    "name": "Amul Ice cream cup Mango"
+  },
+  {
+    "id": "P093",
+    "name": "Amul Ice cream cup Butterscotch"
+  },
+  {
+    "id": "P094",
+    "name": "Amul Ice cream cup Rajbhog"
+  },
+  {
+    "id": "P095",
+    "name": "Amul Ice cream cup other flavours"
+  },
+  {
+    "id": "P096",
+    "name": "Amul Diced cheese pack"
+  },
+  {
+    "id": "P097",
+    "name": "Amul Pizzat Margherita"
+  },
+  {
+    "id": "P098",
+    "name": "Harpic Power Plus 10X toilet cleaner"
+  },
+  {
+    "id": "P099",
+    "name": "Harpic Bathroom Ultra 10X toilet cleaner"
+  },
+  {
+    "id": "P100",
+    "name": "Harpic Bathroom cleaner assorted"
+  },
+  {
+    "id": "P101",
+    "name": "Lizol Floor cleaner green"
+  },
+  {
+    "id": "P102",
+    "name": "Lizol Floor cleaner pink"
+  },
+  {
+    "id": "P103",
+    "name": "Domex Toilet cleaner blue"
+  },
+  {
+    "id": "P104",
+    "name": "Shakti Pink floor / cleaning liquid"
+  },
+  {
+    "id": "P105",
+    "name": "Vim Dishwash liquid lemon"
+  },
+  {
+    "id": "P106",
+    "name": "Colin Glass cleaner spray"
+  },
+  {
+    "id": "P107",
+    "name": "Klin-N-Care Floor cleaner concentrate"
+  },
+  {
+    "id": "P108",
+    "name": "Klin-N-Care Cleaning liquid orange"
+  },
+  {
+    "id": "P109",
+    "name": "Klin-N-Care Cleaning concentrate clear"
+  },
+  {
+    "id": "P110",
+    "name": "Rin Bleach / fabric whitener"
+  },
+  {
+    "id": "P111",
+    "name": "Godrej Spic bathroom cleaner"
+  },
+  {
+    "id": "P112",
+    "name": "L’Oreal Casting Creme Gloss 500"
+  },
+  {
+    "id": "P113",
+    "name": "L’Oreal Casting Creme Gloss 400"
+  },
+  {
+    "id": "P114",
+    "name": "L’Oreal Casting Creme Gloss 300"
+  },
+  {
+    "id": "P115",
+    "name": "L’Oreal Casting Creme Gloss 200"
+  },
+  {
+    "id": "P116",
+    "name": "L’Oreal Casting Creme Gloss 316"
+  },
+  {
+    "id": "P117",
+    "name": "Garnier Color Naturals shade 4"
+  },
+  {
+    "id": "P118",
+    "name": "Garnier Color Naturals shade 3"
+  },
+  {
+    "id": "P119",
+    "name": "Garnier Color Naturals shade 5.32"
+  },
+  {
+    "id": "P120",
+    "name": "Garnier Color Naturals assorted shades"
+  },
+  {
+    "id": "P121",
+    "name": "Domex Toilet cleaner bottle"
+  },
+  {
+    "id": "P122",
+    "name": "Comfort Fabric Conditioner Blue"
+  },
+  {
+    "id": "P123",
+    "name": "Comfort Fabric Conditioner Pink"
+  },
+  {
+    "id": "P124",
+    "name": "Vim Dishwashing powder / bar pack"
+  },
+  {
+    "id": "P125",
+    "name": "Dettol Original antiseptic / handwash refill"
+  },
+  {
+    "id": "P126",
+    "name": "Dettol Skincare handwash"
+  },
+  {
+    "id": "P127",
+    "name": "Dettol Antiseptic jar / container"
+  },
+  {
+    "id": "P128",
+    "name": "Stayfree Secure XL"
+  },
+  {
+    "id": "P129",
+    "name": "Stayfree Secure other sizes"
+  },
+  {
+    "id": "P130",
+    "name": "Stayfree Advanced XL"
+  },
+  {
+    "id": "P131",
+    "name": "Stayfree Advanced Nights"
+  },
+  {
+    "id": "P132",
+    "name": "Stayfree Advanced assorted"
+  },
+  {
+    "id": "P133",
+    "name": "Whisper Choice XL"
+  },
+  {
+    "id": "P134",
+    "name": "Whisper Choice XXL"
+  },
+  {
+    "id": "P135",
+    "name": "Whisper Ultra XL"
+  },
+  {
+    "id": "P136",
+    "name": "Whisper Assorted sanitary pads"
+  },
+  {
+    "id": "P137",
+    "name": "Pampers Happy Sleep diaper packs"
+  },
+  {
+    "id": "P138",
+    "name": "AER / Godrej AER spray assorted fragrances"
+  },
+  {
+    "id": "P139",
+    "name": "L’Oreal Fall Resist 3X shampoo"
+  },
+  {
+    "id": "P140",
+    "name": "L’Oreal Extraordinary Oil shampoo"
+  },
+  {
+    "id": "P141",
+    "name": "L’Oreal Total Repair 5 shampoo"
+  },
+  {
+    "id": "P142",
+    "name": "L’Oreal Dream Lengths / other shampoo"
+  },
+  {
+    "id": "P143",
+    "name": "Other Fogg body spray / fragrance assorted"
+  },
+  {
+    "id": "P144",
+    "name": "Dove Hair Fall Rescue shampoo"
+  },
+  {
+    "id": "P145",
+    "name": "Dove Intense Repair shampoo"
+  },
+  {
+    "id": "P146",
+    "name": "Tresemme Keratin Smooth / assorted shampoo"
+  },
+  {
+    "id": "P147",
+    "name": "Tresemme Conditioner assorted"
+  },
+  {
+    "id": "P148",
+    "name": "Head & Shoulders Clean & Balanced / assorted shampoo"
+  },
+  {
+    "id": "P149",
+    "name": "Sunsilk Shampoo assorted variants"
+  },
+  {
+    "id": "P150",
+    "name": "Lux Body wash assorted fragrances"
+  },
+  {
+    "id": "P151",
+    "name": "Pears Body wash green"
+  },
+  {
+    "id": "P152",
+    "name": "Plum Body wash assorted"
+  },
+  {
+    "id": "P153",
+    "name": "Ghar Magic Body Wash"
+  },
+  {
+    "id": "P154",
+    "name": "Fogg Body spray assorted"
+  },
+  {
+    "id": "P155",
+    "name": "Cetaphil Gentle Skin Cleanser"
+  },
+  {
+    "id": "P156",
+    "name": "Cetaphil Moisturizing Lotion"
+  },
+  {
+    "id": "P157",
+    "name": "Cetaphil Moisturising Cream"
+  },
+  {
+    "id": "P158",
+    "name": "VWash Hygiene wash"
+  },
+  {
+    "id": "P159",
+    "name": "Moov Pain relief spray"
+  },
+  {
+    "id": "P160",
+    "name": "Livon Hair Serum"
+  },
+  {
+    "id": "P161",
+    "name": "Livon Hair serum display small bottles"
+  },
+  {
+    "id": "P162",
+    "name": "Garnier Bright Complete / light complete creams"
+  },
+  {
+    "id": "P163",
+    "name": "Garnier Face creams in tubs"
+  },
+  {
+    "id": "P164",
+    "name": "Boroline Antiseptic cream"
+  },
+  {
+    "id": "P165",
+    "name": "Clean & Clear Face Wash assorted"
+  },
+  {
+    "id": "P166",
+    "name": "Clean & Clear Skin care cleanser"
+  },
+  {
+    "id": "P167",
+    "name": "Himalaya Face wash assorted"
+  },
+  {
+    "id": "P168",
+    "name": "Vaseline Moisturiser / body lotion assorted"
+  },
+  {
+    "id": "P169",
+    "name": "Clinic Plus Hair oil / shampoo"
+  },
+  {
+    "id": "P170",
+    "name": "Other Cream and cosmetic boxes (unreadable)"
+  },
+  {
+    "id": "P171",
+    "name": "Everest Chhole Masala"
+  },
+  {
+    "id": "P172",
+    "name": "Everest Sambhar Masala"
+  },
+  {
+    "id": "P173",
+    "name": "Everest Kitchen King Masala"
+  },
+  {
+    "id": "P174",
+    "name": "Everest Pav Bhaji Masala"
+  },
+  {
+    "id": "P175",
+    "name": "Everest Garam Masala"
+  },
+  {
+    "id": "P176",
+    "name": "Everest Chaat Masala"
+  },
+  {
+    "id": "P177",
+    "name": "Everest Dry Mango Powder / Amchur"
+  },
+  {
+    "id": "P178",
+    "name": "Everest Cumin powder / Jeera"
+  },
+  {
+    "id": "P179",
+    "name": "Everest Kashmiri Lal Red Chilli Powder"
+  },
+  {
+    "id": "P180",
+    "name": "Everest Chicken Masala"
+  },
+  {
+    "id": "P181",
+    "name": "Everest Meat Masala"
+  },
+  {
+    "id": "P182",
+    "name": "Everest Shahi Biryani Masala"
+  },
+  {
+    "id": "P183",
+    "name": "Everest Shahi Paneer Masala"
+  },
+  {
+    "id": "P184",
+    "name": "Everest Pani Puri Masala"
+  },
+  {
+    "id": "P185",
+    "name": "Dolphin Candles / Mombatti assorted size boxes"
+  },
+  {
+    "id": "P186",
+    "name": "Wipro Garnet Emergency LED Bulb 10W"
+  },
+  {
+    "id": "P187",
+    "name": "Wipro Garnet LED bulb 9W"
+  },
+  {
+    "id": "P188",
+    "name": "Wipro Garnet LED bulb other"
+  },
+  {
+    "id": "P189",
+    "name": "Well Clean Bleaching powder"
+  },
+  {
+    "id": "P190",
+    "name": "Wipro Festilite string light box"
+  },
+  {
+    "id": "P191",
+    "name": "Other Metal container / small hardware cans"
+  },
+  {
+    "id": "P192",
+    "name": "Gits Gulab Jamun Instant Mix"
+  },
+  {
+    "id": "P193",
+    "name": "Gits Other Gits Instant Mix"
+  },
+  {
+    "id": "P194",
+    "name": "Other Dessert mix / Gulab Jamun boxed mixes"
+  },
+  {
+    "id": "P195",
+    "name": "Vishesh Achar Masala"
+  },
+  {
+    "id": "P196",
+    "name": "Vishesh Singoda Atta"
+  },
+  {
+    "id": "P197",
+    "name": "Vishesh Rajgira Atta"
+  },
+  {
+    "id": "P198",
+    "name": "Ramdev Achar Masala"
+  },
+  {
+    "id": "P199",
+    "name": "Other Honey jars"
+  },
+  {
+    "id": "P200",
+    "name": "Other Assorted flour / atta packets"
+  },
+  {
+    "id": "P201",
+    "name": "Other Spice powder assorted"
+  },
+  {
+    "id": "P202",
+    "name": "Gits Basundi Instant Mix"
+  },
+  {
+    "id": "P203",
+    "name": "Glucon-D Regular pack"
+  },
+  {
+    "id": "P204",
+    "name": "Glucon-D Orange flavour pack"
+  },
+  {
+    "id": "P205",
+    "name": "Navratna Hair oil / cooling oil packs"
+  },
+  {
+    "id": "P206",
+    "name": "Other Boric Acid I.P. boxes"
+  },
+  {
+    "id": "P207",
+    "name": "Other Small green-and-white medicinal balm jars"
+  },
+  {
+    "id": "P208",
+    "name": "Parachute 100% Pure Coconut Oil blue bottles"
+  },
+  {
+    "id": "P209",
+    "name": "Parachute Aloe Vera variant bottles"
+  },
+  {
+    "id": "P210",
+    "name": "Hair oil (other) Amla hair oil bottles"
+  },
+  {
+    "id": "P211",
+    "name": "Hair oil (other) Herbal hair oil bottles"
+  },
+  {
+    "id": "P212",
+    "name": "Other Orange flour / grocery bags (brand unreadable)"
+  },
+  {
+    "id": "P213",
+    "name": "Other Cooking oil clear bottles"
+  },
+  {
+    "id": "P214",
+    "name": "Other Cooking oil refill pouches"
+  },
+  {
+    "id": "P215",
+    "name": "Other Assorted cooking oil tins"
+  },
+  {
+    "id": "P216",
+    "name": "King’s Cooking oil bottles"
+  },
+  {
+    "id": "P217",
+    "name": "King’s Cooking oil dark red bottles"
+  },
+  {
+    "id": "P218",
+    "name": "Saptashali Cooking oil bottles"
+  },
+  {
+    "id": "P219",
+    "name": "New Maruti Food containers / seasoning tins"
+  },
+  {
+    "id": "P220",
+    "name": "Other Sev / Namkeen packs"
+  },
+  {
+    "id": "P221",
+    "name": "Other Cooking oil large bottles"
+  },
+  {
+    "id": "P222",
+    "name": "Other Natural cooking oil packs"
+  },
+  {
+    "id": "P223",
+    "name": "Dabur Amla Hair Oil"
+  },
+  {
+    "id": "P224",
+    "name": "Dabur Hair oil other"
+  },
+  {
+    "id": "P225",
+    "name": "Colgate Strong Teeth toothpaste"
+  },
+  {
+    "id": "P226",
+    "name": "Colgate Salt Neem toothpaste"
+  },
+  {
+    "id": "P227",
+    "name": "Colgate Cibaca toothpaste"
+  },
+  {
+    "id": "P228",
+    "name": "Other Toothpaste cartons assorted"
+  },
+  {
+    "id": "P229",
+    "name": "Red Bull Energy drink cans"
+  }
+]

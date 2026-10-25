@@ -47,41 +47,40 @@ const isPickupOrder = (order) => {
   );
 };
 
-const getStatusDetails = (status, isPickup) => {
+const getStatusBadge = (status, isPickup) => {
   const s = (status || "").toLowerCase();
   if (s.includes("cancel")) {
     return {
-      title: "Order Cancelled",
-      subtitle: "This order was cancelled within the confirmation window",
-      icon: "✕",
-      iconClass: "border-rose-400 bg-rose-50 text-rose-600",
-      badgeColor: "text-rose-600 bg-rose-50"
+      label: "Cancelled",
+      badgeClass: "bg-red-50 text-red-700 border-red-200",
+      dotClass: "bg-red-500"
     };
   }
   if (s.includes("delivered") || s.includes("collected") || s.includes("completed")) {
     return {
-      title: isPickup ? "Order Collected" : "Delivered Successfully",
-      subtitle: isPickup ? "Handed over at Manish Super Market" : "Delivered to your doorstep",
-      icon: "✓",
-      iconClass: "border-emerald-500 bg-emerald-50 text-emerald-600",
-      badgeColor: "text-emerald-700 bg-emerald-50"
+      label: isPickup ? "Collected" : "Delivered",
+      badgeClass: "bg-emerald-50 text-emerald-800 border-emerald-200",
+      dotClass: "bg-emerald-500"
     };
   }
   if (s.includes("ready") || s.includes("out for delivery")) {
     return {
-      title: isPickup ? "Ready for Pickup!" : "Out for Delivery",
-      subtitle: isPickup ? "Waiting for you at the store counter" : "Our delivery rider is on the way",
-      icon: isPickup ? "🏪" : "🚚",
-      iconClass: "border-blue-500 bg-blue-50 text-blue-600",
-      badgeColor: "text-blue-700 bg-blue-50"
+      label: isPickup ? "Ready for Pickup" : "Out for Delivery",
+      badgeClass: "bg-blue-50 text-blue-800 border-blue-200",
+      dotClass: "bg-blue-500"
+    };
+  }
+  if (s.includes("packing") || s.includes("packed")) {
+    return {
+      label: "Packing Items",
+      badgeClass: "bg-indigo-50 text-indigo-800 border-indigo-200",
+      dotClass: "bg-indigo-500"
     };
   }
   return {
-    title: "Your Order is Successful",
-    subtitle: isPickup ? "We are packing your items at the store" : "We have received your order",
-    icon: "✓",
-    iconClass: "border-emerald-500 bg-emerald-50 text-emerald-600",
-    badgeColor: "text-emerald-700 bg-emerald-50"
+    label: "Order Placed",
+    badgeClass: "bg-amber-50 text-amber-800 border-amber-200",
+    dotClass: "bg-amber-500"
   };
 };
 
@@ -92,6 +91,7 @@ function MyOrders() {
   const [cancellingId, setCancellingId] = useState(null);
   const [currentTime, setCurrentTime] = useState(Date.now());
   const [activeTab, setActiveTab] = useState("all");
+  const [expandedOrders, setExpandedOrders] = useState({});
 
   // Live 1-second ticker for 5-minute cancellation window
   useEffect(() => {
@@ -126,6 +126,13 @@ function MyOrders() {
       setLoading(false);
     }
   }, [user]);
+
+  const toggleExpand = (orderId) => {
+    setExpandedOrders((prev) => ({
+      ...prev,
+      [orderId]: !prev[orderId]
+    }));
+  };
 
   // Cancel order within 5 minutes
   const handleCancelOrder = async (orderId) => {
@@ -162,7 +169,7 @@ function MyOrders() {
 
   const copyOrderId = (id) => {
     navigator.clipboard.writeText(id);
-    toast.success("Order ID copied to clipboard!");
+    toast.success("Order ID copied");
   };
 
   const handleReorderAll = (order) => {
@@ -208,270 +215,281 @@ function MyOrders() {
           to="/"
           className="inline-block px-6 py-2.5 bg-primary text-white font-semibold text-xs rounded-xl shadow-xs"
         >
-          Sign In
+          Sign In / Register
         </Link>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen pb-24 pt-4 px-3 sm:px-6 bg-gray-50/60">
-      <div className="max-w-md mx-auto space-y-4">
-        {/* Mobile Top Navigation Header */}
-        <div className="flex items-center justify-between pt-2 pb-1">
-          <Link
-            to="/"
-            className="flex items-center gap-1.5 text-gray-700 font-semibold text-sm hover:text-primary transition"
-          >
-            <span className="text-lg leading-none">‹</span>
-            <span>My Orders</span>
-          </Link>
+    <div className="min-h-screen pb-24 pt-4 px-3 sm:px-6 max-w-2xl mx-auto">
+      {/* Top Header */}
+      <div className="flex items-center justify-between pb-3 border-b border-gray-200">
+        <div>
+          <h1 className="text-xl sm:text-2xl font-bold text-gray-900">My Orders</h1>
+          <p className="text-xs text-gray-500">Track and reorder your groceries</p>
+        </div>
+        <button
+          onClick={fetchUserOrders}
+          className="px-3 py-1.5 text-xs font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 transition cursor-pointer flex items-center gap-1 shadow-2xs"
+        >
+          <span>↻</span> Refresh
+        </button>
+      </div>
+
+      {/* Filter Tabs (Blinkit style pill filters) */}
+      <div className="flex items-center gap-2 py-3 overflow-x-auto scrollbar-none text-xs">
+        {[
+          { id: "all", label: `All (${myOrders.length})` },
+          { id: "active", label: "Active" },
+          { id: "pickup", label: "Store Pickups" },
+          { id: "completed", label: "Delivered" }
+        ].map((tab) => (
           <button
-            onClick={fetchUserOrders}
-            className="text-xs text-primary font-medium hover:underline flex items-center gap-1 cursor-pointer"
+            key={tab.id}
+            onClick={() => setActiveTab(tab.id)}
+            className={`px-3.5 py-1.5 rounded-full transition whitespace-nowrap cursor-pointer text-xs font-medium ${
+              activeTab === tab.id
+                ? "bg-gray-900 text-white shadow-xs"
+                : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+            }`}
           >
-            <span>↻</span> Refresh
+            {tab.label}
           </button>
+        ))}
+      </div>
+
+      {/* Orders List */}
+      {loading ? (
+        <div className="py-20 text-center text-xs text-gray-400">Loading your orders...</div>
+      ) : filteredOrders.length === 0 ? (
+        <div className="bg-white border border-gray-200 rounded-2xl p-10 text-center mt-4 space-y-3 shadow-xs">
+          <p className="text-4xl">🛒</p>
+          <h3 className="font-bold text-base text-gray-900">No orders here</h3>
+          <p className="text-xs text-gray-500 max-w-xs mx-auto">
+            Browse our grocery categories and place your first order!
+          </p>
+          <Link
+            to="/products"
+            className="inline-block mt-2 px-5 py-2 bg-primary hover:bg-primary-600 text-white text-xs font-semibold rounded-xl shadow-xs transition"
+          >
+            Start Shopping
+          </Link>
         </div>
+      ) : (
+        <div className="space-y-4 mt-2">
+          {filteredOrders.map((order, index) => {
+            const isPickup = isPickupOrder(order);
+            const remainingCancelSecs = getRemainingCancelSeconds(order);
+            const canCancel = remainingCancelSecs > 0 && order.status !== "Cancelled" && order.status !== "Delivered";
+            const shortId = order._id?.slice(-8).toUpperCase() || "ORD";
+            const badge = getStatusBadge(order.status, isPickup);
+            const isExpanded = !!expandedOrders[order._id];
 
-        {/* Filter Pills */}
-        <div className="flex items-center gap-2 overflow-x-auto scrollbar-none py-1">
-          {[
-            { id: "all", label: `All (${myOrders.length})` },
-            { id: "active", label: "Active" },
-            { id: "pickup", label: "Store Pickups" },
-            { id: "completed", label: "Delivered" }
-          ].map((tab) => (
-            <button
-              key={tab.id}
-              onClick={() => setActiveTab(tab.id)}
-              className={`px-3 py-1.5 rounded-full text-xs transition cursor-pointer shrink-0 font-medium ${
-                activeTab === tab.id
-                  ? "bg-primary text-white shadow-xs"
-                  : "bg-white text-gray-600 border border-gray-200 hover:bg-gray-50"
-              }`}
-            >
-              {tab.label}
-            </button>
-          ))}
-        </div>
+            const itemsCount = (order.items || []).reduce((acc, it) => acc + (it.quantity || 1), 0);
+            const firstItemName = order.items?.[0]?.product?.name || "Grocery Item";
+            const itemNamesPreview = (order.items || []).map((it) => it.product?.name).filter(Boolean).slice(0, 2).join(", ");
+            const moreItemsCount = Math.max(0, (order.items || []).length - 2);
 
-        {/* Orders Feed */}
-        {loading ? (
-          <div className="py-20 text-center text-xs text-gray-400">Loading your orders...</div>
-        ) : filteredOrders.length === 0 ? (
-          <div className="bg-white rounded-3xl p-8 text-center border border-gray-200/80 shadow-xs space-y-3 mt-4">
-            <p className="text-4xl">🛒</p>
-            <h3 className="font-bold text-base text-gray-800">No orders here</h3>
-            <p className="text-xs text-gray-500">Pick fresh groceries and place your order today!</p>
-            <Link
-              to="/products"
-              className="inline-block mt-2 px-5 py-2 bg-primary text-white text-xs font-semibold rounded-full shadow-xs"
-            >
-              Shop Groceries
-            </Link>
-          </div>
-        ) : (
-          <div className="space-y-5">
-            {filteredOrders.map((order, index) => {
-              const isPickup = isPickupOrder(order);
-              const remainingCancelSecs = getRemainingCancelSeconds(order);
-              const canCancel = remainingCancelSecs > 0 && order.status !== "Cancelled" && order.status !== "Delivered";
-              const shortId = order._id?.slice(-8).toUpperCase() || "ORD";
-              const statusInfo = getStatusDetails(order.status, isPickup);
+            return (
+              <div
+                key={order._id || index}
+                className="bg-white rounded-2xl border border-gray-200 shadow-xs hover:border-gray-300 transition overflow-hidden"
+              >
+                {/* 1. BLINKIT-STYLE COMPACT CARD BODY */}
+                <div className="p-4 sm:p-5 space-y-3.5">
+                  {/* Top Header Row */}
+                  <div className="flex items-center justify-between gap-3">
+                    <div className="flex items-center gap-2.5 min-w-0">
+                      <div className="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-800 flex items-center justify-center font-bold text-base shrink-0 border border-emerald-100">
+                        {isPickup ? "🏪" : "🛒"}
+                      </div>
+                      <div className="min-w-0">
+                        <div className="flex items-center gap-2">
+                          <h3 className="font-bold text-sm text-gray-900 truncate">
+                            Manish Super Market
+                          </h3>
+                          <button
+                            onClick={() => copyOrderId(order._id)}
+                            className="text-[11px] font-mono text-gray-400 hover:text-gray-700 bg-gray-100 px-1.5 py-0.5 rounded cursor-pointer shrink-0"
+                            title="Click to copy ID"
+                          >
+                            #{shortId}
+                          </button>
+                        </div>
+                        <p className="text-[11px] text-gray-500">
+                          {formatOrderDateTime(order)}
+                        </p>
+                      </div>
+                    </div>
 
-              const subtotal = (order.items || []).reduce((acc, it) => {
-                const p = it.product;
-                const price = p?.offerPrice || p?.price || 0;
-                return acc + price * (it.quantity || 1);
-              }, 0);
-
-              return (
-                <div
-                  key={order._id || index}
-                  className="bg-white rounded-3xl border border-gray-200/80 shadow-sm p-6 space-y-5 transition hover:shadow-md"
-                >
-                  {/* 1. HERO SUCCESS / STATUS BADGE (Matches Mobile App Reference) */}
-                  <div className="text-center space-y-2 pt-1">
-                    <div
-                      className={`w-14 h-14 rounded-full border-2 flex items-center justify-center mx-auto text-2xl font-bold transition ${statusInfo.iconClass}`}
+                    {/* Status Badge */}
+                    <span
+                      className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold border shrink-0 ${badge.badgeClass}`}
                     >
-                      {statusInfo.icon}
-                    </div>
-
-                    <div>
-                      <h2 className="text-lg font-bold text-gray-900">
-                        {statusInfo.title}
-                      </h2>
-                      <p className="text-xs text-gray-500 mt-0.5">
-                        {statusInfo.subtitle}
-                      </p>
-                    </div>
-
-                    <div className="pt-0.5">
-                      <button
-                        onClick={() => copyOrderId(order._id)}
-                        className="inline-flex items-center gap-1.5 px-3 py-1 bg-gray-50 hover:bg-gray-100 rounded-full text-xs font-mono font-medium text-gray-600 transition border border-gray-200 cursor-pointer"
-                        title="Click to copy Order ID"
-                      >
-                        <span>Order ID:</span>
-                        <strong className="text-primary font-semibold">#{shortId}</strong>
-                        <span className="text-[10px] text-gray-400">📋</span>
-                      </button>
-                    </div>
-                  </div>
-
-                  {/* Clean Divider */}
-                  <div className="border-t border-gray-100" />
-
-                  {/* 2. ESTIMATED DELIVERY / STORE PICKUP STRIP */}
-                  <div className="flex items-center gap-2.5 text-xs text-gray-600">
-                    <span className="text-base">{isPickup ? "🏪" : "🚚"}</span>
-                    <span className="font-medium text-gray-800">
-                      {isPickup
-                        ? "Store Pickup at Manish Super Market"
-                        : "Estimated Delivery: Today, within 20-30 mins"}
+                      <span className={`w-1.5 h-1.5 rounded-full ${badge.dotClass}`} />
+                      {badge.label}
                     </span>
                   </div>
 
-                  {/* 3. HIGHLIGHT CARD (Store Pickup PIN or Delivery Address) */}
-                  {isPickup ? (
-                    <div className="bg-gradient-to-r from-emerald-50 to-teal-50 border border-emerald-200/80 rounded-2xl p-4 text-emerald-950 space-y-1">
-                      <div className="flex items-center justify-between">
-                        <span className="text-xs font-bold uppercase tracking-wider text-emerald-800">
-                          Pickup Counter PIN
-                        </span>
-                        <span className="px-2.5 py-0.5 bg-emerald-600 text-white font-mono font-bold text-xs rounded-full shadow-2xs">
-                          #{shortId}
-                        </span>
+                  {/* Product Thumbnail Strip & Item Summary */}
+                  <div className="flex items-center justify-between gap-3 pt-1">
+                    <div className="flex items-center gap-3 min-w-0">
+                      {/* Product Images Row */}
+                      <div className="flex items-center -space-x-2 shrink-0">
+                        {(order.items || []).slice(0, 3).map((it, idx) => {
+                          const imgSrc =
+                            (Array.isArray(it.product?.image) ? it.product?.image[0] : it.product?.image) ||
+                            assets.upload_area;
+                          return (
+                            <img
+                              key={idx}
+                              src={imgSrc}
+                              alt={it.product?.name || "Product"}
+                              className="w-12 h-12 rounded-xl object-contain p-1 border border-gray-200 bg-white shadow-2xs"
+                              onError={(e) => {
+                                e.target.src = assets.upload_area;
+                              }}
+                            />
+                          );
+                        })}
                       </div>
-                      <p className="text-xs text-emerald-800/90 leading-relaxed pt-0.5">
-                        Please present your PIN <strong>#{shortId}</strong> at the Manish Super Market counter to collect your order.
-                      </p>
-                    </div>
-                  ) : (
-                    order?.address && (
-                      <div className="bg-blue-50/70 border border-blue-200/80 rounded-2xl p-3.5 text-xs text-blue-900 space-y-0.5">
-                        <span className="font-bold text-blue-950 block">Delivery Address</span>
-                        <p className="text-blue-800 leading-snug">
-                          {order.address.street}, {order.address.city}
+
+                      {/* Item Names Text */}
+                      <div className="min-w-0">
+                        <p className="text-xs font-semibold text-gray-800 truncate">
+                          {itemNamesPreview}
+                          {moreItemsCount > 0 ? ` +${moreItemsCount} more` : ""}
                         </p>
-                        <p className="text-blue-600 text-[11px]">
-                          Contact: {order.address.phone}
+                        <p className="text-[11px] text-gray-500">
+                          {itemsCount} {itemsCount === 1 ? "item" : "items"} • {order.paymentType === "COD" ? "Cash on Delivery" : "Paid Online"}
                         </p>
                       </div>
-                    )
-                  )}
-
-                  {/* 4. ITEMS LIST */}
-                  <div className="space-y-3 pt-1">
-                    <h4 className="text-xs font-bold uppercase tracking-wider text-gray-400">
-                      Ordered Items
-                    </h4>
-                    <div className="space-y-2.5">
-                      {order.items?.map((item, itemIdx) => {
-                        const product = item?.product;
-                        const imageSrc =
-                          (Array.isArray(product?.image) ? product?.image[0] : product?.image) ||
-                          assets.upload_area;
-                        const unitPrice = product?.offerPrice || product?.price || 0;
-                        const quantity = item?.quantity || 1;
-
-                        return (
-                          <div
-                            key={itemIdx}
-                            className="flex items-center justify-between gap-3 text-xs"
-                          >
-                            <div className="flex items-center gap-3 min-w-0">
-                              <img
-                                src={imageSrc}
-                                alt={product?.name || "Grocery"}
-                                className="w-11 h-11 rounded-xl object-contain p-1 border border-gray-100 bg-gray-50 shrink-0"
-                                onError={(e) => {
-                                  e.target.src = assets.upload_area;
-                                }}
-                              />
-                              <div className="min-w-0">
-                                <p className="font-semibold text-gray-900 truncate">
-                                  {product?.name || "Grocery Item"}
-                                </p>
-                                <p className="text-gray-500 text-[11px]">
-                                  Qty: {quantity} • {currency}{unitPrice} each
-                                </p>
-                              </div>
-                            </div>
-                            <span className="font-bold text-gray-900 shrink-0">
-                              {currency}{unitPrice * quantity}
-                            </span>
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </div>
-
-                  {/* 5. PRICE SUMMARY (Itemized Breakdown matching Reference) */}
-                  <div className="border-t border-gray-100 pt-4 space-y-2 text-xs">
-                    <h4 className="font-bold text-gray-900 text-xs">Price Summary</h4>
-
-                    <div className="flex justify-between text-gray-600">
-                      <span>Item Total</span>
-                      <span>{currency}{subtotal}</span>
                     </div>
 
-                    <div className="flex justify-between text-gray-600">
-                      <span>Delivery Charges</span>
-                      <span className="text-emerald-600 font-semibold">FREE</span>
-                    </div>
-
-                    <div className="border-t border-dashed border-gray-200 pt-2 flex justify-between items-center text-sm font-bold text-gray-900">
-                      <span>Grand Total</span>
-                      <span className="text-base text-primary font-extrabold">
+                    {/* Grand Total */}
+                    <div className="text-right shrink-0">
+                      <span className="text-sm sm:text-base font-extrabold text-gray-900 block">
                         {currency}{order.amount}
                       </span>
                     </div>
+                  </div>
 
-                    <div className="flex justify-between text-[11px] text-gray-400 pt-0.5">
-                      <span>Payment Method</span>
-                      <span className="font-medium text-gray-600">
-                        {order.paymentType === "COD" ? "Cash on Delivery" : "Online Payment"}
+                  {/* Fulfillment Subline */}
+                  <div className="flex items-center justify-between gap-2 px-3 py-2 bg-gray-50 rounded-xl text-xs text-gray-600">
+                    {isPickup ? (
+                      <div className="flex items-center justify-between w-full">
+                        <span className="flex items-center gap-1.5 text-emerald-950 font-medium">
+                          <span>🏪</span>
+                          <span>Store Counter Pickup</span>
+                        </span>
+                        <span className="bg-emerald-100 text-emerald-900 font-mono font-bold px-2 py-0.5 rounded text-[11px]">
+                          PIN: #{shortId}
+                        </span>
+                      </div>
+                    ) : (
+                      <span className="truncate flex items-center gap-1.5 text-gray-700">
+                        <span>🚚</span>
+                        <span className="truncate">
+                          Deliver to:{" "}
+                          <strong>
+                            {order.address?.street ? `${order.address.street}, ${order.address.city}` : "Home Delivery"}
+                          </strong>
+                        </span>
                       </span>
+                    )}
+                  </div>
+
+                  {/* Action Buttons: Cancel, View Details, Reorder */}
+                  <div className="pt-2 border-t border-gray-100 flex items-center justify-between gap-2">
+                    <button
+                      onClick={() => toggleExpand(order._id)}
+                      className="text-xs font-semibold text-primary hover:underline flex items-center gap-1 cursor-pointer py-1"
+                    >
+                      <span>{isExpanded ? "Hide Bill ▲" : "View Bill Details ▼"}</span>
+                    </button>
+
+                    <div className="flex items-center gap-2">
+                      {/* 5-Min Cancellation button */}
+                      {canCancel && (
+                        <button
+                          onClick={() => handleCancelOrder(order._id)}
+                          disabled={cancellingId === order._id}
+                          className="px-3 py-1.5 bg-rose-50 hover:bg-rose-100 text-rose-700 border border-rose-200 rounded-xl text-xs font-semibold transition cursor-pointer"
+                        >
+                          {cancellingId === order._id
+                            ? "Cancelling..."
+                            : `Cancel (${Math.floor(remainingCancelSecs / 60)}:${(remainingCancelSecs % 60).toString().padStart(2, "0")})`}
+                        </button>
+                      )}
+
+                      {/* Reorder Button (Blinkit style primary action) */}
+                      <button
+                        onClick={() => handleReorderAll(order)}
+                        className="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs rounded-xl transition shadow-xs cursor-pointer flex items-center gap-1.5"
+                      >
+                        <span>🛒</span>
+                        <span>Reorder</span>
+                      </button>
                     </div>
                   </div>
-
-                  {/* 6. MOBILE ACTIONS: CANCEL (5 MIN) & REORDER */}
-                  <div className="pt-2 space-y-2">
-                    {canCancel && (
-                      <button
-                        onClick={() => handleCancelOrder(order._id)}
-                        disabled={cancellingId === order._id}
-                        className="w-full py-2.5 bg-rose-50 hover:bg-rose-100 text-rose-700 font-semibold text-xs rounded-2xl border border-rose-200 transition cursor-pointer flex items-center justify-center gap-1.5"
-                      >
-                        <span>✕ Cancel Order</span>
-                        <span className="bg-rose-200/70 px-2 py-0.5 rounded-full font-mono text-[10px]">
-                          {Math.floor(remainingCancelSecs / 60)}:{(remainingCancelSecs % 60).toString().padStart(2, "0")} left
-                        </span>
-                      </button>
-                    )}
-
-                    <button
-                      onClick={() => handleReorderAll(order)}
-                      className="w-full py-3 bg-primary hover:bg-primary-600 text-white font-semibold text-xs rounded-2xl shadow-xs transition cursor-pointer flex items-center justify-center gap-2"
-                    >
-                      <span>🛒</span>
-                      <span>Reorder Items</span>
-                    </button>
-                  </div>
-
-                  {/* Timestamp footer */}
-                  <p className="text-[10px] text-gray-400 text-center pt-1">
-                    Placed on {formatOrderDateTime(order)}
-                  </p>
                 </div>
-              );
-            })}
-          </div>
-        )}
-      </div>
+
+                {/* 2. EXPANDABLE BILL / RECEIPT DETAILS (Shows only on click) */}
+                {isExpanded && (
+                  <div className="bg-gray-50/70 border-t border-gray-100 p-4 sm:p-5 space-y-4 animate-in fade-in duration-200">
+                    {/* Itemized Rows */}
+                    <div className="space-y-2">
+                      <h4 className="text-[11px] font-bold uppercase tracking-wider text-gray-500">
+                        Itemized Breakdown
+                      </h4>
+                      <div className="divide-y divide-gray-200/60 bg-white rounded-xl border border-gray-200/80 p-3 space-y-2">
+                        {order.items?.map((it, idx) => {
+                          const p = it.product;
+                          const price = p?.offerPrice || p?.price || 0;
+                          const qty = it.quantity || 1;
+                          return (
+                            <div key={idx} className="flex justify-between items-center text-xs pt-1.5 first:pt-0">
+                              <div>
+                                <p className="font-semibold text-gray-800">{p?.name || "Product"}</p>
+                                <p className="text-gray-400 text-[11px]">Qty: {qty} × {currency}{price}</p>
+                              </div>
+                              <span className="font-bold text-gray-900">{currency}{price * qty}</span>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+
+                    {/* Price Summary */}
+                    <div className="bg-white rounded-xl border border-gray-200/80 p-3 space-y-1.5 text-xs">
+                      <div className="flex justify-between text-gray-600">
+                        <span>Items Total</span>
+                        <span>{currency}{order.amount}</span>
+                      </div>
+                      <div className="flex justify-between text-gray-600">
+                        <span>Delivery Fee</span>
+                        <span className="text-emerald-600 font-semibold">FREE</span>
+                      </div>
+                      <div className="border-t border-dashed border-gray-200 pt-1.5 flex justify-between font-bold text-gray-900 text-sm">
+                        <span>Grand Total</span>
+                        <span className="text-emerald-700">{currency}{order.amount}</span>
+                      </div>
+                    </div>
+
+                    {/* Additional Delivery / Pickup Notes */}
+                    <p className="text-[11px] text-gray-500 text-center">
+                      {isPickup
+                        ? `Pickup PIN #${shortId} • Collect from Manish Super Market main counter`
+                        : `Delivery to ${order.address?.street || "your registered address"}`}
+                    </p>
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }

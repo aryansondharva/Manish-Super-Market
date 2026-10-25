@@ -1,0 +1,1834 @@
+[
+  {
+    "id": "P001",
+    "name": "Cadbury Dairy Milk Silk Bubbly",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 90,
+    "offer": 82
+  },
+  {
+    "id": "P002",
+    "name": "Cadbury Dairy Milk Silk Fruit & Nut",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 90,
+    "offer": 82
+  },
+  {
+    "id": "P003",
+    "name": "Cadbury Dairy Milk Silk Chocolate",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 85,
+    "offer": 78
+  },
+  {
+    "id": "P004",
+    "name": "Cadbury Dairy Milk Silk Oreo",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 95,
+    "offer": 85
+  },
+  {
+    "id": "P005",
+    "name": "Cadbury Dairy Milk Silk Mousse",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 95,
+    "offer": 85
+  },
+  {
+    "id": "P006",
+    "name": "Cadbury Dairy Milk Silk Hazelnut",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 95,
+    "offer": 85
+  },
+  {
+    "id": "P007",
+    "name": "Cadbury Dairy Milk Silk Brownie",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 95,
+    "offer": 85
+  },
+  {
+    "id": "P008",
+    "name": "Cadbury Dairy Milk Silk Ganache",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 95,
+    "offer": 85
+  },
+  {
+    "id": "P009",
+    "name": "Cadbury Dairy Milk classic",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 45,
+    "offer": 40
+  },
+  {
+    "id": "P010",
+    "name": "Cadbury Dairy Milk Roast Almond",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 50,
+    "offer": 45
+  },
+  {
+    "id": "P011",
+    "name": "Cadbury Dairy Milk Fruit & Nut",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 50,
+    "offer": 45
+  },
+  {
+    "id": "P012",
+    "name": "Cadbury Dairy Milk Crackle",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 50,
+    "offer": 45
+  },
+  {
+    "id": "P013",
+    "name": "Cadbury Dairy Milk small bars",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 20,
+    "offer": 18
+  },
+  {
+    "id": "P014",
+    "name": "Cadbury Dairy Milk Crispello",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 35,
+    "offer": 30
+  },
+  {
+    "id": "P015",
+    "name": "Cadbury Bournville Orange 50% Dark",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 110,
+    "offer": 99
+  },
+  {
+    "id": "P016",
+    "name": "Cadbury Bournville Classic 50% Dark",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 110,
+    "offer": 99
+  },
+  {
+    "id": "P017",
+    "name": "Cadbury Bournville Fruit & Nut 50% Dark",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 115,
+    "offer": 105
+  },
+  {
+    "id": "P018",
+    "name": "Cadbury Bournville Rum & Raisin 50% Dark",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 115,
+    "offer": 105
+  },
+  {
+    "id": "P019",
+    "name": "Cadbury Bournville Cranberry 50% Dark",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 115,
+    "offer": 105
+  },
+  {
+    "id": "P020",
+    "name": "Cadbury 5 Star original",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 20,
+    "offer": 18
+  },
+  {
+    "id": "P021",
+    "name": "Cadbury 5 Star 3D",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 35,
+    "offer": 30
+  },
+  {
+    "id": "P022",
+    "name": "Cadbury 5 Star Oreo",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 35,
+    "offer": 30
+  },
+  {
+    "id": "P023",
+    "name": "Cadbury Fuse",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 40,
+    "offer": 35
+  },
+  {
+    "id": "P024",
+    "name": "Cadbury Perk",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 10,
+    "offer": 9
+  },
+  {
+    "id": "P025",
+    "name": "Cadbury 5 Star softer bar",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 20,
+    "offer": 18
+  },
+  {
+    "id": "P026",
+    "name": "Amul Dark chocolate bar",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 120,
+    "offer": 108
+  },
+  {
+    "id": "P027",
+    "name": "Nestle KitKat Delights Choco Lava",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 60,
+    "offer": 52
+  },
+  {
+    "id": "P028",
+    "name": "Nestle KitKat Delights Dark",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 60,
+    "offer": 52
+  },
+  {
+    "id": "P029",
+    "name": "Nestle KitKat Delights Rich",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 60,
+    "offer": 52
+  },
+  {
+    "id": "P030",
+    "name": "Nestle KitKat Delights Hazelnut",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 60,
+    "offer": 52
+  },
+  {
+    "id": "P031",
+    "name": "Nestle KitKat Share & Snap",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 80,
+    "offer": 72
+  },
+  {
+    "id": "P032",
+    "name": "Nestle KitKat standard bars",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 30,
+    "offer": 27
+  },
+  {
+    "id": "P033",
+    "name": "Nestle KitKat 2 Finger",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 15,
+    "offer": 14
+  },
+  {
+    "id": "P034",
+    "name": "Nestle KitKat 4 Finger",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 30,
+    "offer": 27
+  },
+  {
+    "id": "P035",
+    "name": "Nestle KitKat Pops",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 50,
+    "offer": 45
+  },
+  {
+    "id": "P036",
+    "name": "Nestle Munch",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 10,
+    "offer": 9
+  },
+  {
+    "id": "P037",
+    "name": "Nestle Munch Max",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 20,
+    "offer": 18
+  },
+  {
+    "id": "P038",
+    "name": "Milkybar Original",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 20,
+    "offer": 18
+  },
+  {
+    "id": "P039",
+    "name": "Milkybar assorted variants",
+    "cat": "Chocolates",
+    "sub": "Chocolate",
+    "price": 30,
+    "offer": 26
+  },
+  {
+    "id": "P040",
+    "name": "Coca-Cola Diet Coke cans 300ml",
+    "cat": "Drinks",
+    "sub": "Beverages",
+    "price": 40,
+    "offer": 38
+  },
+  {
+    "id": "P041",
+    "name": "Coca-Cola classic 750ml bottle",
+    "cat": "Drinks",
+    "sub": "Beverages",
+    "price": 45,
+    "offer": 40
+  },
+  {
+    "id": "P042",
+    "name": "Sprite refreshing lemon-lime 750ml",
+    "cat": "Drinks",
+    "sub": "Beverages",
+    "price": 45,
+    "offer": 40
+  },
+  {
+    "id": "P043",
+    "name": "Thums Up charged soft drink 750ml",
+    "cat": "Drinks",
+    "sub": "Beverages",
+    "price": 45,
+    "offer": 40
+  },
+  {
+    "id": "P044",
+    "name": "Fanta orange fruity soda 750ml",
+    "cat": "Drinks",
+    "sub": "Beverages",
+    "price": 45,
+    "offer": 40
+  },
+  {
+    "id": "P045",
+    "name": "Maaza mango drink 600ml",
+    "cat": "Drinks",
+    "sub": "Beverages",
+    "price": 42,
+    "offer": 38
+  },
+  {
+    "id": "P046",
+    "name": "Minute Maid pulpy orange juice 1L",
+    "cat": "Drinks",
+    "sub": "Beverages",
+    "price": 80,
+    "offer": 72
+  },
+  {
+    "id": "P047",
+    "name": "Kinley Strong Club Soda 750ml",
+    "cat": "Drinks",
+    "sub": "Beverages",
+    "price": 20,
+    "offer": 18
+  },
+  {
+    "id": "P048",
+    "name": "Kinley drinking water 1L bottle",
+    "cat": "Drinks",
+    "sub": "Beverages",
+    "price": 20,
+    "offer": 18
+  },
+  {
+    "id": "P049",
+    "name": "Monster Energy original can 350ml",
+    "cat": "Drinks",
+    "sub": "Beverages",
+    "price": 125,
+    "offer": 115
+  },
+  {
+    "id": "P050",
+    "name": "Monster Ultra Zero Sugar can 350ml",
+    "cat": "Drinks",
+    "sub": "Beverages",
+    "price": 125,
+    "offer": 115
+  },
+  {
+    "id": "P051",
+    "name": "Red Bull Energy Drink can 250ml",
+    "cat": "Drinks",
+    "sub": "Beverages",
+    "price": 125,
+    "offer": 115
+  },
+  {
+    "id": "P052",
+    "name": "Hell Energy Zero can 250ml",
+    "cat": "Drinks",
+    "sub": "Beverages",
+    "price": 65,
+    "offer": 58
+  },
+  {
+    "id": "P053",
+    "name": "Hell Energy classic original can 250ml",
+    "cat": "Drinks",
+    "sub": "Beverages",
+    "price": 65,
+    "offer": 58
+  },
+  {
+    "id": "P054",
+    "name": "Sosyo authentic fizzy drink bottle",
+    "cat": "Drinks",
+    "sub": "Beverages",
+    "price": 35,
+    "offer": 30
+  },
+  {
+    "id": "P055",
+    "name": "Aquafina Packaged drinking water 1L",
+    "cat": "Drinks",
+    "sub": "Beverages",
+    "price": 20,
+    "offer": 18
+  },
+  {
+    "id": "P056",
+    "name": "Bisleri lemon-lime fizzy soda 600ml",
+    "cat": "Drinks",
+    "sub": "Beverages",
+    "price": 30,
+    "offer": 26
+  },
+  {
+    "id": "P057",
+    "name": "Bisleri Pop sparkling beverage",
+    "cat": "Drinks",
+    "sub": "Beverages",
+    "price": 35,
+    "offer": 30
+  },
+  {
+    "id": "P058",
+    "name": "Amul Pasteurised Butter 500g",
+    "cat": "Dairy",
+    "sub": "Dairy / chilled",
+    "price": 275,
+    "offer": 255
+  },
+  {
+    "id": "P059",
+    "name": "Amul Processed Cheese Blocks 200g",
+    "cat": "Dairy",
+    "sub": "Dairy / chilled",
+    "price": 140,
+    "offer": 128
+  },
+  {
+    "id": "P060",
+    "name": "Amul Masti Dahi Curd Tub 400g",
+    "cat": "Dairy",
+    "sub": "Dairy / chilled",
+    "price": 45,
+    "offer": 40
+  },
+  {
+    "id": "P061",
+    "name": "Amul Fresh Malai Paneer 200g",
+    "cat": "Dairy",
+    "sub": "Dairy / chilled",
+    "price": 95,
+    "offer": 88
+  },
+  {
+    "id": "P062",
+    "name": "Amul Taaza / Gold Milk Pouch 500ml",
+    "cat": "Dairy",
+    "sub": "Dairy / chilled",
+    "price": 34,
+    "offer": 32
+  },
+  {
+    "id": "P063",
+    "name": "Amul Kesar Shrikhand Tub 250g",
+    "cat": "Dairy",
+    "sub": "Dairy / chilled",
+    "price": 60,
+    "offer": 54
+  },
+  {
+    "id": "P064",
+    "name": "Amul Masti Spiced Buttermilk 200ml",
+    "cat": "Dairy",
+    "sub": "Dairy / chilled",
+    "price": 15,
+    "offer": 14
+  },
+  {
+    "id": "P065",
+    "name": "Fresh Chilled Dairy Paneer Packet",
+    "cat": "Dairy",
+    "sub": "Dairy / chilled",
+    "price": 85,
+    "offer": 78
+  },
+  {
+    "id": "P066",
+    "name": "Amul TriCone Chocolate Cone",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 45,
+    "offer": 40
+  },
+  {
+    "id": "P067",
+    "name": "Amul TriCone Classic Cone",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 40,
+    "offer": 36
+  },
+  {
+    "id": "P068",
+    "name": "Amul TriCone Butterscotch Cone",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 45,
+    "offer": 40
+  },
+  {
+    "id": "P069",
+    "name": "Amul TriCone Cookie & Cream Cone",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 50,
+    "offer": 45
+  },
+  {
+    "id": "P070",
+    "name": "Amul Frostik Chocolate Crunch Bar",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 40,
+    "offer": 35
+  },
+  {
+    "id": "P071",
+    "name": "Amul Chocobar Probiotic Ice Cream",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 25,
+    "offer": 22
+  },
+  {
+    "id": "P072",
+    "name": "Amul Rajbhog Shahi Kulfi Stick",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 35,
+    "offer": 30
+  },
+  {
+    "id": "P073",
+    "name": "Amul Pista Malai Kulfi Stick",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 35,
+    "offer": 30
+  },
+  {
+    "id": "P074",
+    "name": "Amul Badam Almond Kulfi Stick",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 35,
+    "offer": 30
+  },
+  {
+    "id": "P075",
+    "name": "Amul Creamy Flavoured Stick Bar",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 20,
+    "offer": 18
+  },
+  {
+    "id": "P076",
+    "name": "Amul Cookie Ice Cream Sandwich",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 35,
+    "offer": 30
+  },
+  {
+    "id": "P077",
+    "name": "Amul Ice Cream Cup Assorted",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 25,
+    "offer": 22
+  },
+  {
+    "id": "P078",
+    "name": "Citrus Orange Fruity Ice Candy",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 15,
+    "offer": 12
+  },
+  {
+    "id": "P079",
+    "name": "Alphonso Mango Juicy Ice Candy",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 15,
+    "offer": 12
+  },
+  {
+    "id": "P080",
+    "name": "Strawberry Pink Chilled Ice Candy",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 15,
+    "offer": 12
+  },
+  {
+    "id": "P081",
+    "name": "Creamy Vanilla Milk Ice Bar",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 20,
+    "offer": 18
+  },
+  {
+    "id": "P082",
+    "name": "Chocolate Dips Choco Stick Bar",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 30,
+    "offer": 26
+  },
+  {
+    "id": "P083",
+    "name": "Amul Vanilla Sugar Free Cup 100ml",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 40,
+    "offer": 36
+  },
+  {
+    "id": "P084",
+    "name": "Amul Kesar Pista Sugar Free Cup 100ml",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 45,
+    "offer": 40
+  },
+  {
+    "id": "P085",
+    "name": "Amul Sugar Free Assorted Ice Cream",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 45,
+    "offer": 40
+  },
+  {
+    "id": "P086",
+    "name": "Amul Tender Coconut Ice Cream Cup",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 40,
+    "offer": 35
+  },
+  {
+    "id": "P087",
+    "name": "Amul Black Currant Trufru Ice Cream",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 40,
+    "offer": 35
+  },
+  {
+    "id": "P088",
+    "name": "Amul Fresh Strawberry Ice Cream Cup",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 35,
+    "offer": 30
+  },
+  {
+    "id": "P089",
+    "name": "Amul Chocolate Brownie Ice Cream Cup",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 45,
+    "offer": 40
+  },
+  {
+    "id": "P090",
+    "name": "Amul Royal Sundae Assorted Cup",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 50,
+    "offer": 45
+  },
+  {
+    "id": "P091",
+    "name": "Amul Cookies & Cream Ice Cream Cup",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 40,
+    "offer": 35
+  },
+  {
+    "id": "P092",
+    "name": "Amul King Alphonso Mango Cup",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 35,
+    "offer": 30
+  },
+  {
+    "id": "P093",
+    "name": "Amul Butterscotch Crunch Cup",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 35,
+    "offer": 30
+  },
+  {
+    "id": "P094",
+    "name": "Amul Shahi Rajbhog Ice Cream Cup",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 40,
+    "offer": 35
+  },
+  {
+    "id": "P095",
+    "name": "Amul Gourmet Delight Ice Cream Cup",
+    "cat": "Ice Cream",
+    "sub": "Ice cream / frozen",
+    "price": 45,
+    "offer": 40
+  },
+  {
+    "id": "P096",
+    "name": "Amul Diced Mozzarella Blend Cheese 200g",
+    "cat": "Dairy",
+    "sub": "Dairy / frozen",
+    "price": 130,
+    "offer": 118
+  },
+  {
+    "id": "P097",
+    "name": "Amul Margherita Cheese Pizza Ready Meal",
+    "cat": "Instant",
+    "sub": "Frozen ready meals",
+    "price": 160,
+    "offer": 145
+  },
+  {
+    "id": "P098",
+    "name": "Harpic Power Plus 10X Toilet Cleaner 1L",
+    "cat": "Cleaning",
+    "sub": "Home cleaning",
+    "price": 215,
+    "offer": 195
+  },
+  {
+    "id": "P099",
+    "name": "Harpic Bathroom Ultra 10X Cleaner 500ml",
+    "cat": "Cleaning",
+    "sub": "Home cleaning",
+    "price": 110,
+    "offer": 99
+  },
+  {
+    "id": "P100",
+    "name": "Harpic Bathroom Cleaner Floral 500ml",
+    "cat": "Cleaning",
+    "sub": "Home cleaning",
+    "price": 105,
+    "offer": 95
+  },
+  {
+    "id": "P101",
+    "name": "Lizol Disinfectant Floor Cleaner Citrus Green 1L",
+    "cat": "Cleaning",
+    "sub": "Home cleaning",
+    "price": 220,
+    "offer": 199
+  },
+  {
+    "id": "P102",
+    "name": "Lizol Floral Floor Cleaner Pink 1L",
+    "cat": "Cleaning",
+    "sub": "Home cleaning",
+    "price": 220,
+    "offer": 199
+  },
+  {
+    "id": "P103",
+    "name": "Domex Fresh Guard Toilet Cleaner Blue 750ml",
+    "cat": "Cleaning",
+    "sub": "Home cleaning",
+    "price": 165,
+    "offer": 148
+  },
+  {
+    "id": "P104",
+    "name": "Shakti Pink Floor Disinfectant Liquid 1L",
+    "cat": "Cleaning",
+    "sub": "Home cleaning",
+    "price": 80,
+    "offer": 70
+  },
+  {
+    "id": "P105",
+    "name": "Vim Dishwash Gel Lemon 500ml Bottle",
+    "cat": "Cleaning",
+    "sub": "Dishwashing",
+    "price": 115,
+    "offer": 102
+  },
+  {
+    "id": "P106",
+    "name": "Colin Glass & Surface Cleaner Spray 500ml",
+    "cat": "Cleaning",
+    "sub": "Home cleaning",
+    "price": 115,
+    "offer": 104
+  },
+  {
+    "id": "P107",
+    "name": "Klin-N-Care Pine Floor Cleaner Concentrate",
+    "cat": "Cleaning",
+    "sub": "Home cleaning",
+    "price": 90,
+    "offer": 79
+  },
+  {
+    "id": "P108",
+    "name": "Klin-N-Care Cleaning Liquid Orange 1L",
+    "cat": "Cleaning",
+    "sub": "Home cleaning",
+    "price": 95,
+    "offer": 82
+  },
+  {
+    "id": "P109",
+    "name": "Klin-N-Care Multi-Surface Cleaner Clear 500ml",
+    "cat": "Cleaning",
+    "sub": "Home cleaning",
+    "price": 85,
+    "offer": 75
+  },
+  {
+    "id": "P110",
+    "name": "Rin Fabric Whitener Bleach 250ml",
+    "cat": "Cleaning",
+    "sub": "Home cleaning",
+    "price": 40,
+    "offer": 36
+  },
+  {
+    "id": "P111",
+    "name": "Godrej Spic & Span Bathroom Cleaner 500ml",
+    "cat": "Cleaning",
+    "sub": "Home cleaning",
+    "price": 95,
+    "offer": 85
+  },
+  {
+    "id": "P112",
+    "name": "L’Oreal Paris Casting Creme Gloss 500 Brown",
+    "cat": "Personal Care",
+    "sub": "Hair colour",
+    "price": 349,
+    "offer": 310
+  },
+  {
+    "id": "P113",
+    "name": "L’Oreal Paris Casting Creme Gloss 400 Dark Brown",
+    "cat": "Personal Care",
+    "sub": "Hair colour",
+    "price": 349,
+    "offer": 310
+  },
+  {
+    "id": "P114",
+    "name": "L’Oreal Paris Casting Creme Gloss 300 Darkest Brown",
+    "cat": "Personal Care",
+    "sub": "Hair colour",
+    "price": 349,
+    "offer": 310
+  },
+  {
+    "id": "P115",
+    "name": "L’Oreal Paris Casting Creme Gloss 200 Ebony Black",
+    "cat": "Personal Care",
+    "sub": "Hair colour",
+    "price": 349,
+    "offer": 310
+  },
+  {
+    "id": "P116",
+    "name": "L’Oreal Paris Casting Creme Gloss 316 Burgundy",
+    "cat": "Personal Care",
+    "sub": "Hair colour",
+    "price": 349,
+    "offer": 310
+  },
+  {
+    "id": "P117",
+    "name": "Garnier Color Naturals Shade 4 Brown",
+    "cat": "Personal Care",
+    "sub": "Hair colour",
+    "price": 219,
+    "offer": 195
+  },
+  {
+    "id": "P118",
+    "name": "Garnier Color Naturals Shade 3 Darkest Brown",
+    "cat": "Personal Care",
+    "sub": "Hair colour",
+    "price": 219,
+    "offer": 195
+  },
+  {
+    "id": "P119",
+    "name": "Garnier Color Naturals Shade 5.32 Caramel Brown",
+    "cat": "Personal Care",
+    "sub": "Hair colour",
+    "price": 219,
+    "offer": 195
+  },
+  {
+    "id": "P120",
+    "name": "Garnier Color Naturals Assorted Creme Shade",
+    "cat": "Personal Care",
+    "sub": "Hair colour",
+    "price": 219,
+    "offer": 195
+  },
+  {
+    "id": "P121",
+    "name": "Domex Disinfectant Bleach Toilet Bottle 500ml",
+    "cat": "Cleaning",
+    "sub": "Home cleaning",
+    "price": 110,
+    "offer": 99
+  },
+  {
+    "id": "P122",
+    "name": "Comfort Fabric Conditioner Morning Fresh Blue 860ml",
+    "cat": "Cleaning",
+    "sub": "Laundry",
+    "price": 240,
+    "offer": 215
+  },
+  {
+    "id": "P123",
+    "name": "Comfort Fabric Conditioner Lily Fresh Pink 860ml",
+    "cat": "Cleaning",
+    "sub": "Laundry",
+    "price": 240,
+    "offer": 215
+  },
+  {
+    "id": "P124",
+    "name": "Vim Anti-Germ Dishwashing Bar 3-in-1 Pack",
+    "cat": "Cleaning",
+    "sub": "Dishwashing",
+    "price": 35,
+    "offer": 30
+  },
+  {
+    "id": "P125",
+    "name": "Dettol Original Germ Protection Handwash Refill 675ml",
+    "cat": "Personal Care",
+    "sub": "Personal care",
+    "price": 109,
+    "offer": 98
+  },
+  {
+    "id": "P126",
+    "name": "Dettol Skincare Moisturising Handwash Pump 200ml",
+    "cat": "Personal Care",
+    "sub": "Personal care",
+    "price": 99,
+    "offer": 89
+  },
+  {
+    "id": "P127",
+    "name": "Dettol Antiseptic Liquid Disinfectant 250ml",
+    "cat": "Personal Care",
+    "sub": "Personal care",
+    "price": 145,
+    "offer": 132
+  },
+  {
+    "id": "P128",
+    "name": "Stayfree Secure Cottony Soft XL Pads 18s",
+    "cat": "Personal Care",
+    "sub": "Feminine care",
+    "price": 140,
+    "offer": 125
+  },
+  {
+    "id": "P129",
+    "name": "Stayfree Secure Wings Regular Pads 14s",
+    "cat": "Personal Care",
+    "sub": "Feminine care",
+    "price": 90,
+    "offer": 80
+  },
+  {
+    "id": "P130",
+    "name": "Stayfree Advanced All Night XL Pads 14s",
+    "cat": "Personal Care",
+    "sub": "Feminine care",
+    "price": 175,
+    "offer": 155
+  },
+  {
+    "id": "P131",
+    "name": "Stayfree Advanced Nights Ultra Comfort Pads",
+    "cat": "Personal Care",
+    "sub": "Feminine care",
+    "price": 185,
+    "offer": 165
+  },
+  {
+    "id": "P132",
+    "name": "Stayfree Advanced Ultra Thin Sanitary Pads",
+    "cat": "Personal Care",
+    "sub": "Feminine care",
+    "price": 195,
+    "offer": 175
+  },
+  {
+    "id": "P133",
+    "name": "Whisper Choice Wings XL Sanitary Pads 18s",
+    "cat": "Personal Care",
+    "sub": "Feminine care",
+    "price": 120,
+    "offer": 105
+  },
+  {
+    "id": "P134",
+    "name": "Whisper Choice Wings XXL Long Pads 14s",
+    "cat": "Personal Care",
+    "sub": "Feminine care",
+    "price": 135,
+    "offer": 120
+  },
+  {
+    "id": "P135",
+    "name": "Whisper Ultra Clean XL Sanitary Pads 15s",
+    "cat": "Personal Care",
+    "sub": "Feminine care",
+    "price": 180,
+    "offer": 160
+  },
+  {
+    "id": "P136",
+    "name": "Whisper Assorted Soft Skin Pads Pack",
+    "cat": "Personal Care",
+    "sub": "Feminine care",
+    "price": 170,
+    "offer": 150
+  },
+  {
+    "id": "P137",
+    "name": "Pampers Baby-Dry Happy Sleep Diaper Pants M",
+    "cat": "Personal Care",
+    "sub": "Baby care",
+    "price": 499,
+    "offer": 429
+  },
+  {
+    "id": "P138",
+    "name": "Godrej AER Room Spray Fresh Lush Green 240ml",
+    "cat": "Personal Care",
+    "sub": "Deodorant",
+    "price": 179,
+    "offer": 155
+  },
+  {
+    "id": "P139",
+    "name": "L’Oreal Paris Fall Resist 3X Shampoo 340ml",
+    "cat": "Personal Care",
+    "sub": "Hair care",
+    "price": 320,
+    "offer": 285
+  },
+  {
+    "id": "P140",
+    "name": "L’Oreal Extraordinary Oil Nourishing Shampoo 340ml",
+    "cat": "Personal Care",
+    "sub": "Hair care",
+    "price": 330,
+    "offer": 295
+  },
+  {
+    "id": "P141",
+    "name": "L’Oreal Paris Total Repair 5 Shampoo 340ml",
+    "cat": "Personal Care",
+    "sub": "Hair care",
+    "price": 320,
+    "offer": 285
+  },
+  {
+    "id": "P142",
+    "name": "L’Oreal Paris Dream Lengths Restoring Shampoo 340ml",
+    "cat": "Personal Care",
+    "sub": "Hair care",
+    "price": 340,
+    "offer": 299
+  },
+  {
+    "id": "P143",
+    "name": "Fogg Master Intense Body Spray 120ml",
+    "cat": "Personal Care",
+    "sub": "Hair care",
+    "price": 230,
+    "offer": 199
+  },
+  {
+    "id": "P144",
+    "name": "Dove Hair Fall Rescue Shampoo 340ml",
+    "cat": "Personal Care",
+    "sub": "Skin care",
+    "price": 340,
+    "offer": 299
+  },
+  {
+    "id": "P145",
+    "name": "Dove Intense Repair Keratin Shampoo 340ml",
+    "cat": "Personal Care",
+    "sub": "Skin care",
+    "price": 340,
+    "offer": 299
+  },
+  {
+    "id": "P146",
+    "name": "Tresemme Keratin Smooth Argan Oil Shampoo 340ml",
+    "cat": "Personal Care",
+    "sub": "Hair care",
+    "price": 360,
+    "offer": 315
+  },
+  {
+    "id": "P147",
+    "name": "Tresemme Keratin Smooth Conditioner 190ml",
+    "cat": "Personal Care",
+    "sub": "Hair care",
+    "price": 280,
+    "offer": 245
+  },
+  {
+    "id": "P148",
+    "name": "Head & Shoulders Clean & Balanced Shampoo 340ml",
+    "cat": "Personal Care",
+    "sub": "Hair care",
+    "price": 340,
+    "offer": 299
+  },
+  {
+    "id": "P149",
+    "name": "Sunsilk Black Shine Nourishing Shampoo 340ml",
+    "cat": "Personal Care",
+    "sub": "Hair care",
+    "price": 250,
+    "offer": 219
+  },
+  {
+    "id": "P150",
+    "name": "Lux Soft Rose Moisturising Body Wash 250ml",
+    "cat": "Personal Care",
+    "sub": "Skin care",
+    "price": 180,
+    "offer": 155
+  },
+  {
+    "id": "P151",
+    "name": "Pears Pure & Gentle Green Lemon Oil Body Wash 250ml",
+    "cat": "Personal Care",
+    "sub": "Skin care",
+    "price": 195,
+    "offer": 169
+  },
+  {
+    "id": "P152",
+    "name": "Plum Shower Gel Body Wash Refreshing 250ml",
+    "cat": "Personal Care",
+    "sub": "Skin care",
+    "price": 280,
+    "offer": 239
+  },
+  {
+    "id": "P153",
+    "name": "Ghar Magic Natural Glow Body Wash 300ml",
+    "cat": "Personal Care",
+    "sub": "Skin care",
+    "price": 249,
+    "offer": 215
+  },
+  {
+    "id": "P154",
+    "name": "Fogg Marco Fragrance Body Spray 150ml",
+    "cat": "Personal Care",
+    "sub": "Deodorant",
+    "price": 250,
+    "offer": 215
+  },
+  {
+    "id": "P155",
+    "name": "Cetaphil Gentle Skin Cleanser Wash 125ml",
+    "cat": "Personal Care",
+    "sub": "Skin care",
+    "price": 399,
+    "offer": 349
+  },
+  {
+    "id": "P156",
+    "name": "Cetaphil Daily Hydrating Moisturizing Lotion 100ml",
+    "cat": "Personal Care",
+    "sub": "Skin care",
+    "price": 440,
+    "offer": 389
+  },
+  {
+    "id": "P157",
+    "name": "Cetaphil Intensive Moisturising Rich Cream 80g",
+    "cat": "Personal Care",
+    "sub": "Skin care",
+    "price": 475,
+    "offer": 420
+  },
+  {
+    "id": "P158",
+    "name": "VWash Plus Expert Intimate Hygiene Wash 100ml",
+    "cat": "Personal Care",
+    "sub": "Feminine care",
+    "price": 180,
+    "offer": 155
+  },
+  {
+    "id": "P159",
+    "name": "Moov Fast Pain Relief Spray 50g",
+    "cat": "Personal Care",
+    "sub": "Skin care",
+    "price": 160,
+    "offer": 144
+  },
+  {
+    "id": "P160",
+    "name": "Livon Anti-Frizz Hair Serum Vitamin E 100ml",
+    "cat": "Personal Care",
+    "sub": "Hair care",
+    "price": 275,
+    "offer": 239
+  },
+  {
+    "id": "P161",
+    "name": "Livon Hair Serum Travel Mini Pack 50ml",
+    "cat": "Personal Care",
+    "sub": "Hair care",
+    "price": 150,
+    "offer": 132
+  },
+  {
+    "id": "P162",
+    "name": "Garnier Bright Complete Vitamin C Glow Cream 45g",
+    "cat": "Personal Care",
+    "sub": "Skin care",
+    "price": 199,
+    "offer": 175
+  },
+  {
+    "id": "P163",
+    "name": "Garnier Skin Naturals Moisturising Face Cream Tub",
+    "cat": "Personal Care",
+    "sub": "Skin care",
+    "price": 220,
+    "offer": 195
+  },
+  {
+    "id": "P164",
+    "name": "Boroline Ayurvedic Antiseptic Cream 40g",
+    "cat": "Personal Care",
+    "sub": "Skin care",
+    "price": 50,
+    "offer": 45
+  },
+  {
+    "id": "P165",
+    "name": "Clean & Clear Foaming Face Wash 100ml",
+    "cat": "Personal Care",
+    "sub": "Skin care",
+    "price": 160,
+    "offer": 140
+  },
+  {
+    "id": "P166",
+    "name": "Clean & Clear Morning Energy Skin Cleanser 100ml",
+    "cat": "Personal Care",
+    "sub": "Skin care",
+    "price": 165,
+    "offer": 145
+  },
+  {
+    "id": "P167",
+    "name": "Himalaya Purifying Neem Face Wash 100ml",
+    "cat": "Personal Care",
+    "sub": "Skin care",
+    "price": 150,
+    "offer": 130
+  },
+  {
+    "id": "P168",
+    "name": "Vaseline Deep Moisture Body Lotion 200ml",
+    "cat": "Personal Care",
+    "sub": "Skin care",
+    "price": 235,
+    "offer": 199
+  },
+  {
+    "id": "P169",
+    "name": "Clinic Plus Strong & Long Health Shampoo 340ml",
+    "cat": "Personal Care",
+    "sub": "Hair care",
+    "price": 210,
+    "offer": 189
+  },
+  {
+    "id": "P170",
+    "name": "Classic Soft Touch Cold Cream & Cosmetic Care",
+    "cat": "Personal Care",
+    "sub": "Oral / skin care",
+    "price": 95,
+    "offer": 82
+  },
+  {
+    "id": "P171",
+    "name": "Everest Chhole Masala Authentic Spice 100g",
+    "cat": "Spices",
+    "sub": "Spices",
+    "price": 56,
+    "offer": 50
+  },
+  {
+    "id": "P172",
+    "name": "Everest South Indian Sambhar Masala 100g",
+    "cat": "Spices",
+    "sub": "Spices",
+    "price": 55,
+    "offer": 49
+  },
+  {
+    "id": "P173",
+    "name": "Everest Kitchen King All Purpose Masala 100g",
+    "cat": "Spices",
+    "sub": "Spices",
+    "price": 68,
+    "offer": 60
+  },
+  {
+    "id": "P174",
+    "name": "Everest Bombay Pav Bhaji Masala 100g",
+    "cat": "Spices",
+    "sub": "Spices",
+    "price": 62,
+    "offer": 55
+  },
+  {
+    "id": "P175",
+    "name": "Everest Royal Garam Masala 100g",
+    "cat": "Spices",
+    "sub": "Spices",
+    "price": 74,
+    "offer": 66
+  },
+  {
+    "id": "P176",
+    "name": "Everest Tangy Chat Masala 100g",
+    "cat": "Spices",
+    "sub": "Spices",
+    "price": 52,
+    "offer": 46
+  },
+  {
+    "id": "P177",
+    "name": "Everest Dry Mango Powder Amchur 100g",
+    "cat": "Spices",
+    "sub": "Spices",
+    "price": 65,
+    "offer": 58
+  },
+  {
+    "id": "P178",
+    "name": "Everest Roasted Cumin Powder Jeera 100g",
+    "cat": "Spices",
+    "sub": "Spices",
+    "price": 78,
+    "offer": 70
+  },
+  {
+    "id": "P179",
+    "name": "Everest Kashmiri Lal Red Chilli Powder 100g",
+    "cat": "Spices",
+    "sub": "Spices",
+    "price": 75,
+    "offer": 67
+  },
+  {
+    "id": "P180",
+    "name": "Everest Special Chicken Masala 100g",
+    "cat": "Spices",
+    "sub": "Spices",
+    "price": 68,
+    "offer": 60
+  },
+  {
+    "id": "P181",
+    "name": "Everest Meat Masala Spice Mix 100g",
+    "cat": "Spices",
+    "sub": "Spices",
+    "price": 70,
+    "offer": 62
+  },
+  {
+    "id": "P182",
+    "name": "Everest Shahi Biryani Masala 50g",
+    "cat": "Spices",
+    "sub": "Spices",
+    "price": 55,
+    "offer": 48
+  },
+  {
+    "id": "P183",
+    "name": "Everest Shahi Paneer Masala 50g",
+    "cat": "Spices",
+    "sub": "Spices",
+    "price": 50,
+    "offer": 44
+  },
+  {
+    "id": "P184",
+    "name": "Everest Pani Puri Masala Mint Spice 50g",
+    "cat": "Spices",
+    "sub": "Spices",
+    "price": 45,
+    "offer": 39
+  },
+  {
+    "id": "P185",
+    "name": "Dolphin White Wax Candles Mombatti Box 12s",
+    "cat": "Electrical",
+    "sub": "Household",
+    "price": 50,
+    "offer": 42
+  },
+  {
+    "id": "P186",
+    "name": "Wipro Garnet Emergency Rechargeable LED Bulb 10W",
+    "cat": "Electrical",
+    "sub": "Electrical",
+    "price": 450,
+    "offer": 380
+  },
+  {
+    "id": "P187",
+    "name": "Wipro Garnet Bright B22 LED Bulb Cool White 9W",
+    "cat": "Electrical",
+    "sub": "Electrical",
+    "price": 120,
+    "offer": 95
+  },
+  {
+    "id": "P188",
+    "name": "Wipro Garnet Energy Saver LED Bulb 12W",
+    "cat": "Electrical",
+    "sub": "Electrical",
+    "price": 150,
+    "offer": 119
+  },
+  {
+    "id": "P189",
+    "name": "Well Clean Disinfectant Bleaching Powder 500g",
+    "cat": "Cleaning",
+    "sub": "Household",
+    "price": 60,
+    "offer": 50
+  },
+  {
+    "id": "P190",
+    "name": "Wipro Festilite Decorative Warm String Fairy Lights",
+    "cat": "Electrical",
+    "sub": "Electrical",
+    "price": 299,
+    "offer": 239
+  },
+  {
+    "id": "P191",
+    "name": "Classic Stainless Steel Kitchen Storage Container Can",
+    "cat": "Electrical",
+    "sub": "Household",
+    "price": 180,
+    "offer": 149
+  },
+  {
+    "id": "P192",
+    "name": "Gits Gulab Jamun Instant Dessert Mix 200g",
+    "cat": "Instant",
+    "sub": "Instant dessert",
+    "price": 115,
+    "offer": 99
+  },
+  {
+    "id": "P193",
+    "name": "Gits Rasgulla & Jalebi Sweet Dessert Mix 200g",
+    "cat": "Instant",
+    "sub": "Instant dessert",
+    "price": 115,
+    "offer": 99
+  },
+  {
+    "id": "P194",
+    "name": "Traditional Indian Gulab Jamun Sweet Box 500g",
+    "cat": "Instant",
+    "sub": "Instant dessert",
+    "price": 160,
+    "offer": 140
+  },
+  {
+    "id": "P195",
+    "name": "Vishesh Gujarati Mango Achar Masala Sambhar 200g",
+    "cat": "Spices",
+    "sub": "Spices / pantry",
+    "price": 85,
+    "offer": 75
+  },
+  {
+    "id": "P196",
+    "name": "Vishesh Pure Singoda Water Chestnut Atta 500g",
+    "cat": "Spices",
+    "sub": "Spices / pantry",
+    "price": 120,
+    "offer": 105
+  },
+  {
+    "id": "P197",
+    "name": "Vishesh Farali Rajgira Atta Amaranth Flour 500g",
+    "cat": "Spices",
+    "sub": "Spices / pantry",
+    "price": 110,
+    "offer": 98
+  },
+  {
+    "id": "P198",
+    "name": "Ramdev Special Spicy Achar Masala 250g",
+    "cat": "Spices",
+    "sub": "Spices / pantry",
+    "price": 95,
+    "offer": 85
+  },
+  {
+    "id": "P199",
+    "name": "Pure Organic Wild Forest Honey Glass Jar 500g",
+    "cat": "Spices",
+    "sub": "Spices / pantry",
+    "price": 240,
+    "offer": 210
+  },
+  {
+    "id": "P200",
+    "name": "Premium Multigrain Sharbati Wheat Atta 1kg",
+    "cat": "Spices",
+    "sub": "Spices / pantry",
+    "price": 65,
+    "offer": 58
+  },
+  {
+    "id": "P201",
+    "name": "Aromatic Pure Haldi Turmeric Spice Powder 200g",
+    "cat": "Spices",
+    "sub": "Spices / pantry",
+    "price": 55,
+    "offer": 48
+  },
+  {
+    "id": "P202",
+    "name": "Gits Traditional Basundi Instant Mix 125g",
+    "cat": "Instant",
+    "sub": "Instant dessert",
+    "price": 105,
+    "offer": 92
+  },
+  {
+    "id": "P203",
+    "name": "Glucon-D Pure Glucose Energy Drink Regular 500g",
+    "cat": "Drinks",
+    "sub": "Health drink",
+    "price": 130,
+    "offer": 115
+  },
+  {
+    "id": "P204",
+    "name": "Glucon-D Tangy Orange Flavour Energy Drink 500g",
+    "cat": "Drinks",
+    "sub": "Health drink",
+    "price": 145,
+    "offer": 128
+  },
+  {
+    "id": "P205",
+    "name": "Navratna Ayurvedic Cool Herbal Hair Oil 300ml",
+    "cat": "Personal Care",
+    "sub": "Health / OTC",
+    "price": 160,
+    "offer": 139
+  },
+  {
+    "id": "P206",
+    "name": "Pure Boric Acid I.P. Powder Carrom & Kitchen 100g",
+    "cat": "Personal Care",
+    "sub": "Health / OTC",
+    "price": 40,
+    "offer": 35
+  },
+  {
+    "id": "P207",
+    "name": "Ayurvedic Herbal Green Balm Headache Relief 25g",
+    "cat": "Personal Care",
+    "sub": "Health / OTC",
+    "price": 45,
+    "offer": 39
+  },
+  {
+    "id": "P208",
+    "name": "Parachute 100% Pure Coconut Oil Blue Bottle 250ml",
+    "cat": "Personal Care",
+    "sub": "Hair care",
+    "price": 110,
+    "offer": 98
+  },
+  {
+    "id": "P209",
+    "name": "Parachute Advansed Aloe Vera Enriched Coconut Oil 250ml",
+    "cat": "Personal Care",
+    "sub": "Hair care",
+    "price": 135,
+    "offer": 119
+  },
+  {
+    "id": "P210",
+    "name": "Nihar Naturals Shanti Amla Hair Oil 300ml",
+    "cat": "Personal Care",
+    "sub": "Hair care",
+    "price": 95,
+    "offer": 82
+  },
+  {
+    "id": "P211",
+    "name": "Kesh King Ayurvedic Herbal Medicinal Hair Oil 100ml",
+    "cat": "Personal Care",
+    "sub": "Hair care",
+    "price": 170,
+    "offer": 148
+  },
+  {
+    "id": "P212",
+    "name": "Farm Fresh Chakki Fresh Whole Wheat Atta 5kg",
+    "cat": "Grocery",
+    "sub": "Grocery",
+    "price": 235,
+    "offer": 215
+  },
+  {
+    "id": "P213",
+    "name": "Fortune Sunlite Refined Sunflower Cooking Oil 1L",
+    "cat": "Grocery",
+    "sub": "Grocery",
+    "price": 155,
+    "offer": 138
+  },
+  {
+    "id": "P214",
+    "name": "Fortune Sunlite Cooking Oil Refill Pouch 1L",
+    "cat": "Grocery",
+    "sub": "Grocery",
+    "price": 148,
+    "offer": 132
+  },
+  {
+    "id": "P215",
+    "name": "Pure Filtered Mustard & Groundnut Cooking Oil Tin 5L",
+    "cat": "Grocery",
+    "sub": "Grocery",
+    "price": 799,
+    "offer": 720
+  },
+  {
+    "id": "P216",
+    "name": "King’s Pure Refined Soybean Cooking Oil 1L",
+    "cat": "Grocery",
+    "sub": "Grocery",
+    "price": 150,
+    "offer": 135
+  },
+  {
+    "id": "P217",
+    "name": "King’s Rich Filtered Groundnut Cooking Oil 1L",
+    "cat": "Grocery",
+    "sub": "Grocery",
+    "price": 185,
+    "offer": 168
+  },
+  {
+    "id": "P218",
+    "name": "Saptashali Kachi Ghani Mustard Oil 1L Bottle",
+    "cat": "Grocery",
+    "sub": "Grocery",
+    "price": 165,
+    "offer": 149
+  },
+  {
+    "id": "P219",
+    "name": "New Maruti Crispy Seasoned Fryums & Tins 200g",
+    "cat": "Grocery",
+    "sub": "Grocery",
+    "price": 75,
+    "offer": 65
+  },
+  {
+    "id": "P220",
+    "name": "Crunchy Ratlami Sev & Namkeen Snack Pack 400g",
+    "cat": "Grocery",
+    "sub": "Grocery",
+    "price": 95,
+    "offer": 85
+  },
+  {
+    "id": "P221",
+    "name": "Gulab Pure Filtered Groundnut Cooking Oil Can 5L",
+    "cat": "Grocery",
+    "sub": "Grocery",
+    "price": 890,
+    "offer": 810
+  },
+  {
+    "id": "P222",
+    "name": "Nature Fresh Acti-Lite Healthy Cooking Oil Pouch 1L",
+    "cat": "Grocery",
+    "sub": "Grocery",
+    "price": 150,
+    "offer": 135
+  },
+  {
+    "id": "P223",
+    "name": "Dabur Amla Nourishing Vitamin C Hair Oil 275ml",
+    "cat": "Personal Care",
+    "sub": "Hair care",
+    "price": 160,
+    "offer": 139
+  },
+  {
+    "id": "P224",
+    "name": "Dabur Vatika Enriched Olive & Almond Hair Oil 200ml",
+    "cat": "Personal Care",
+    "sub": "Hair care",
+    "price": 145,
+    "offer": 128
+  },
+  {
+    "id": "P225",
+    "name": "Colgate Strong Teeth Calcium Dental Cream 200g",
+    "cat": "Personal Care",
+    "sub": "Oral care",
+    "price": 110,
+    "offer": 98
+  },
+  {
+    "id": "P226",
+    "name": "Colgate Herbal Salt & Neem Protective Toothpaste 200g",
+    "cat": "Personal Care",
+    "sub": "Oral care",
+    "price": 120,
+    "offer": 105
+  },
+  {
+    "id": "P227",
+    "name": "Colgate Cibaca Top Anti-Cavity Toothpaste 175g",
+    "cat": "Personal Care",
+    "sub": "Oral care",
+    "price": 65,
+    "offer": 55
+  },
+  {
+    "id": "P228",
+    "name": "Close Up Red Hot Fresh Toothpaste Gel 150g",
+    "cat": "Personal Care",
+    "sub": "Oral care",
+    "price": 115,
+    "offer": 99
+  },
+  {
+    "id": "P229",
+    "name": "Red Bull Energy Drink Cans Multipack 4x250ml",
+    "cat": "Drinks",
+    "sub": "Beverages",
+    "price": 480,
+    "offer": 429
+  }
+]

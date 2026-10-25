@@ -39,10 +39,6 @@ const userSchema = new mongoose.Schema(
   { minimize: false }
 );
 
-// Explicitly ensure unique indexes on phone and email
-userSchema.index({ email: 1 }, { unique: true });
-userSchema.index({ phone: 1 }, { unique: true, sparse: true });
-
 const User = mongoose.models.user || mongoose.model("user", userSchema);
 
 export default User;
