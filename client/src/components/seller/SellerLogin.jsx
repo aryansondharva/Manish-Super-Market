@@ -5,8 +5,8 @@ import toast from "react-hot-toast";
 function SellerLogin() {
   const { isSeller, setIsSeller, navigate, axios } = useAppContext();
 
-  const [email, setEmail] = useState("admin@grocery.com");
-  const [password, setPassword] = useState("admin123");
+  const [email, setEmail] = useState(import.meta.env.DEV ? "admin@grocery.com" : "");
+  const [password, setPassword] = useState(import.meta.env.DEV ? "admin123" : "");
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -59,24 +59,26 @@ function SellerLogin() {
             </p>
           </div>
 
-          <div className="p-3 bg-amber-50 border border-amber-200 rounded-lg text-xs text-amber-800 flex justify-between items-center">
-            <div>
-              <p className="font-semibold">Default Admin Credentials:</p>
-              <p>Email: <span className="font-mono">admin@grocery.com</span></p>
-              <p>Password: <span className="font-mono">admin123</span></p>
+          {import.meta.env.DEV && (
+            <div className="p-3 bg-amber-50 border border-amber-200 rounded-lg text-xs text-amber-800 flex justify-between items-center">
+              <div>
+                <p className="font-semibold">Default Admin Credentials (Dev only):</p>
+                <p>Email: <span className="font-mono">admin@grocery.com</span></p>
+                <p>Password: <span className="font-mono">admin123</span></p>
+              </div>
+              <button
+                type="button"
+                onClick={() => {
+                  setEmail("admin@grocery.com");
+                  setPassword("admin123");
+                  toast.success("Credentials filled!");
+                }}
+                className="px-2.5 py-1 bg-amber-200 hover:bg-amber-300 text-amber-900 font-medium rounded text-xs transition cursor-pointer"
+              >
+                Autofill
+              </button>
             </div>
-            <button
-              type="button"
-              onClick={() => {
-                setEmail("admin@grocery.com");
-                setPassword("admin123");
-                toast.success("Credentials filled!");
-              }}
-              className="px-2.5 py-1 bg-amber-200 hover:bg-amber-300 text-amber-900 font-medium rounded text-xs transition cursor-pointer"
-            >
-              Autofill
-            </button>
-          </div>
+          )}
 
           <div className="space-y-1">
             <label className="text-xs font-semibold text-gray-600 uppercase">

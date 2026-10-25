@@ -6,8 +6,8 @@ const Login = () => {
   const { setShowUserLogin, setUser, axios } = useAppContext();
   const [state, setState] = React.useState("login");
   const [name, setName] = React.useState("");
-  const [email, setEmail] = React.useState("customer@grocery.com");
-  const [password, setPassword] = React.useState("customer123");
+  const [email, setEmail] = React.useState(import.meta.env.DEV ? "customer@grocery.com" : "");
+  const [password, setPassword] = React.useState(import.meta.env.DEV ? "customer123" : "");
   const [loading, setLoading] = React.useState(false);
 
   const fillDemoCustomer = () => {
@@ -72,20 +72,22 @@ const Login = () => {
           </button>
         </div>
 
-        {/* Demo Button */}
-        <div className="p-3 bg-emerald-50 border border-emerald-200 rounded-lg text-xs text-emerald-800 flex justify-between items-center">
-          <div>
-            <p className="font-semibold">Quick Test Account:</p>
-            <p className="font-mono">customer@grocery.com / customer123</p>
+        {/* Demo Button - Development Only */}
+        {import.meta.env.DEV && (
+          <div className="p-3 bg-emerald-50 border border-emerald-200 rounded-lg text-xs text-emerald-800 flex justify-between items-center">
+            <div>
+              <p className="font-semibold">Quick Test Account (Dev only):</p>
+              <p className="font-mono">customer@grocery.com / customer123</p>
+            </div>
+            <button
+              type="button"
+              onClick={fillDemoCustomer}
+              className="px-2.5 py-1 bg-emerald-200 hover:bg-emerald-300 text-emerald-900 font-medium rounded text-xs transition cursor-pointer"
+            >
+              Autofill
+            </button>
           </div>
-          <button
-            type="button"
-            onClick={fillDemoCustomer}
-            className="px-2.5 py-1 bg-emerald-200 hover:bg-emerald-300 text-emerald-900 font-medium rounded text-xs transition cursor-pointer"
-          >
-            Autofill
-          </button>
-        </div>
+        )}
 
         {state === "register" && (
           <div className="space-y-1">
