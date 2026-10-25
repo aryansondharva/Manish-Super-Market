@@ -44,7 +44,7 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 border-b border-gray-200 bg-white relative transition-all sticky top-0 z-20 shadow-xs">
       <NavLink to="/" onClick={() => setOpen(false)} className="flex items-center gap-2">
-        <img className="h-9 cursor-pointer" src={assets.logo} alt="Grocery Store" />
+        <img className="h-9 w-auto object-contain cursor-pointer" src={assets.logo} alt="Manish Super Store" />
       </NavLink>
 
       <div className="hidden sm:flex items-center gap-6 lg:gap-8 font-medium text-sm text-gray-700">
