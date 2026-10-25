@@ -26,8 +26,10 @@ if (!fs.existsSync(uploadsDir)) {
   fs.mkdirSync(uploadsDir, { recursive: true });
 }
 
-await connectDB();
-await connectCloudinary();
+connectCloudinary().catch((err) => console.log("Cloudinary setup note:", err.message));
+connectDB()
+  .then(() => seedInitialData())
+  .catch((err) => console.log("Initial DB connection note:", err.message));
 
 // Seed initial grocery products and demo customer if needed
 const seedInitialData = async () => {
@@ -168,8 +170,6 @@ const seedInitialData = async () => {
   }
 };
 
-await seedInitialData();
-
 app.use("/stripe", express.raw({ type: "application/json" }), stripeWebhooks);
 app.get("/", (req, res) => res.send("Manish Super Store API is Working"));
 
@@ -179,7 +179,7 @@ app.use(cookieParser());
 // Static folder for uploaded images
 app.use("/uploads", express.static(uploadsDir));
 
-// Dynamic CORS allowing all origins in development
+// Dynamic CORS allowing all origins in development and production
 app.use(
   cors({
     credentials: true,
@@ -189,6 +189,23 @@ app.use(
   })
 );
 
+// Ensure database is ready before processing API routes (vital for Vercel serverless cold starts)
+app.use(async (req, res, next) => {
+  if (req.path === "/" || req.path.startsWith("/uploads")) {
+    return next();
+  }
+  try {
+    await connectDB();
+    next();
+  } catch (error) {
+    return res.status(500).json({
+      success: false,
+      message: "Database connection failed. Please ensure MongoDB Atlas Network Access allows 0.0.0.0/0 and MONGODB_URI is correctly configured.",
+      error: error.message
+    });
+  }
+});
+
 app.use("/api/user", userRouter);
 app.use("/api/seller", sellerRouter);
 app.use("/api/product", productRouter);
@@ -196,6 +213,10 @@ app.use("/api/cart", cartRouter);
 app.use("/api/address", addressRouter);
 app.use("/api/order", orderRouter);
 
-app.listen(port, () => {
-  console.log(`server is running on http://localhost:${port}`);
-});
+if (!process.env.VERCEL) {
+  app.listen(port, () => {
+    console.log(`server is running on http://localhost:${port}`);
+  });
+}
+
+export default app;
