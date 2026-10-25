@@ -5,13 +5,17 @@ import toast from "react-hot-toast";
 const Login = () => {
   const { setShowUserLogin, setUser, axios } = useAppContext();
   const [state, setState] = React.useState("login");
-  const [name, setName] = React.useState("");
+  const [firstName, setFirstName] = React.useState("");
+  const [lastName, setLastName] = React.useState("");
+  const [phone, setPhone] = React.useState("");
   const [email, setEmail] = React.useState(import.meta.env.DEV ? "customer@grocery.com" : "");
   const [password, setPassword] = React.useState(import.meta.env.DEV ? "customer123" : "");
   const [loading, setLoading] = React.useState(false);
 
   const fillDemoCustomer = () => {
-    setName("Alex Customer");
+    setFirstName("Alex");
+    setLastName("Customer");
+    setPhone("+1 555-0199");
     setEmail("customer@grocery.com");
     setPassword("customer123");
     toast.success("Filled demo customer credentials!");
@@ -22,7 +26,17 @@ const Login = () => {
     setLoading(true);
     try {
       const endpoint = state === "register" ? "/api/user/register" : "/api/user/login";
-      const payload = state === "register" ? { name, email, password } : { email, password };
+      const payload =
+        state === "register"
+          ? {
+              firstName: firstName.trim(),
+              lastName: lastName.trim(),
+              phone: phone.trim(),
+              name: `${firstName.trim()} ${lastName.trim()}`,
+              email,
+              password
+            }
+          : { email, password };
 
       const { data } = await axios.post(endpoint, payload);
       if (data.success) {
@@ -50,7 +64,7 @@ const Login = () => {
       <form
         onSubmit={onSubmitHandler}
         onClick={(e) => e.stopPropagation()}
-        className="flex flex-col gap-4 p-8 w-full max-w-md rounded-2xl shadow-2xl border border-gray-200 bg-white"
+        className="flex flex-col gap-4 p-6 sm:p-8 w-full max-w-md rounded-2xl shadow-2xl border border-gray-200 bg-white max-h-[90vh] overflow-y-auto"
       >
         <div className="flex justify-between items-center">
           <div>
@@ -66,48 +80,78 @@ const Login = () => {
           <button
             type="button"
             onClick={() => setShowUserLogin(false)}
-            className="text-gray-400 hover:text-gray-600 text-lg cursor-pointer"
+            className="text-gray-400 hover:text-gray-600 cursor-pointer p-1 text-lg font-bold"
           >
             ✕
           </button>
         </div>
 
-        {/* Demo Button - Development Only */}
         {import.meta.env.DEV && (
-          <div className="p-3 bg-emerald-50 border border-emerald-200 rounded-lg text-xs text-emerald-800 flex justify-between items-center">
+          <div className="p-3 bg-blue-50 border border-blue-200 rounded-lg text-xs text-blue-800 flex justify-between items-center">
             <div>
-              <p className="font-semibold">Quick Test Account (Dev only):</p>
+              <p className="font-semibold">Demo Customer (Development):</p>
               <p className="font-mono">customer@grocery.com / customer123</p>
             </div>
             <button
               type="button"
               onClick={fillDemoCustomer}
-              className="px-2.5 py-1 bg-emerald-200 hover:bg-emerald-300 text-emerald-900 font-medium rounded text-xs transition cursor-pointer"
+              className="px-2.5 py-1 bg-blue-600 text-white rounded text-[11px] font-medium hover:bg-blue-700 transition cursor-pointer"
             >
-              Autofill
+              Fill Demo
             </button>
           </div>
         )}
 
         {state === "register" && (
-          <div className="space-y-1">
-            <label className="text-xs font-semibold text-gray-600 uppercase">
-              Full Name
-            </label>
-            <input
-              onChange={(e) => setName(e.target.value)}
-              value={name}
-              placeholder="e.g. Alex Smith"
-              className="border border-gray-300 rounded-lg w-full p-2.5 outline-primary text-sm focus:border-primary transition"
-              type="text"
-              required
-            />
-          </div>
+          <>
+            <div className="grid grid-cols-2 gap-3">
+              <div className="space-y-1">
+                <label className="text-xs font-semibold text-gray-600 uppercase">
+                  First Name *
+                </label>
+                <input
+                  onChange={(e) => setFirstName(e.target.value)}
+                  value={firstName}
+                  placeholder="e.g. Alex"
+                  className="border border-gray-300 rounded-lg w-full p-2.5 outline-primary text-sm focus:border-primary transition"
+                  type="text"
+                  required
+                />
+              </div>
+              <div className="space-y-1">
+                <label className="text-xs font-semibold text-gray-600 uppercase">
+                  Last Name *
+                </label>
+                <input
+                  onChange={(e) => setLastName(e.target.value)}
+                  value={lastName}
+                  placeholder="e.g. Smith"
+                  className="border border-gray-300 rounded-lg w-full p-2.5 outline-primary text-sm focus:border-primary transition"
+                  type="text"
+                  required
+                />
+              </div>
+            </div>
+
+            <div className="space-y-1">
+              <label className="text-xs font-semibold text-gray-600 uppercase">
+                Phone Number *
+              </label>
+              <input
+                onChange={(e) => setPhone(e.target.value)}
+                value={phone}
+                placeholder="e.g. +91 9876543210"
+                className="border border-gray-300 rounded-lg w-full p-2.5 outline-primary text-sm focus:border-primary transition"
+                type="tel"
+                required
+              />
+            </div>
+          </>
         )}
 
         <div className="space-y-1">
           <label className="text-xs font-semibold text-gray-600 uppercase">
-            Email Address
+            Email Address *
           </label>
           <input
             onChange={(e) => setEmail(e.target.value)}
@@ -121,7 +165,7 @@ const Login = () => {
 
         <div className="space-y-1">
           <label className="text-xs font-semibold text-gray-600 uppercase">
-            Password
+            Password *
           </label>
           <input
             onChange={(e) => setPassword(e.target.value)}
@@ -138,10 +182,10 @@ const Login = () => {
           disabled={loading}
           className="bg-primary hover:bg-primary-600 transition text-white w-full py-2.5 rounded-lg text-sm font-semibold shadow-md cursor-pointer mt-2 disabled:opacity-50"
         >
-          {loading ? "Processing..." : state === "register" ? "Create Account" : "Sign In & Continue"}
+          {loading ? "Processing..." : state === "register" ? "Create Account" : "Sign In"}
         </button>
 
-        <div className="text-center text-xs text-gray-500 pt-1">
+        <div className="text-center text-xs text-gray-600 mt-2">
           {state === "register" ? (
             <p>
               Already have an account?{" "}
@@ -150,7 +194,7 @@ const Login = () => {
                 onClick={() => setState("login")}
                 className="text-primary font-semibold hover:underline cursor-pointer"
               >
-                Log In
+                Sign In
               </button>
             </p>
           ) : (
@@ -161,7 +205,7 @@ const Login = () => {
                 onClick={() => setState("register")}
                 className="text-primary font-semibold hover:underline cursor-pointer"
               >
-                Create One
+                Sign Up
               </button>
             </p>
           )}

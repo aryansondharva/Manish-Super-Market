@@ -13,8 +13,33 @@ export const placeOrderCOD = async (req, res) => {
       return res.json({ success: false, message: "User authentication required to place an order" });
     }
 
-    if (!address || !items || items.length === 0) {
-      return res.json({ success: false, message: "Invalid Data: Address and items are required" });
+    if (!items || items.length === 0) {
+      return res.json({ success: false, message: "Your cart is empty. Add items to buy." });
+    }
+
+    const userDoc = await User.findById(finalUserId);
+    if (!userDoc) {
+      return res.json({ success: false, message: "User account not found" });
+    }
+
+    const firstName = (userDoc.firstName || userDoc.name?.split(" ")[0] || "").trim();
+    const lastName = (userDoc.lastName || userDoc.name?.split(" ").slice(1).join(" ") || "").trim();
+    const phone = (userDoc.phone || "").trim();
+
+    if (!firstName || !lastName || !phone) {
+      return res.json({
+        success: false,
+        requireProfile: true,
+        message: "Please complete your profile (First Name, Last Name, and Phone Number) before placing your order."
+      });
+    }
+
+    if (!address) {
+      return res.json({
+        success: false,
+        requireAddress: true,
+        message: "Please add and select a valid delivery address before placing your order."
+      });
     }
 
     let amount = 0;
@@ -88,8 +113,33 @@ export const placeOrderStripe = async (req, res) => {
       return res.json({ success: false, message: "User authentication required" });
     }
 
-    if (!address || !items || items.length === 0) {
-      return res.json({ success: false, message: "Invalid Data" });
+    if (!items || items.length === 0) {
+      return res.json({ success: false, message: "Your cart is empty. Add items to buy." });
+    }
+
+    const userDoc = await User.findById(finalUserId);
+    if (!userDoc) {
+      return res.json({ success: false, message: "User account not found" });
+    }
+
+    const firstName = (userDoc.firstName || userDoc.name?.split(" ")[0] || "").trim();
+    const lastName = (userDoc.lastName || userDoc.name?.split(" ").slice(1).join(" ") || "").trim();
+    const phone = (userDoc.phone || "").trim();
+
+    if (!firstName || !lastName || !phone) {
+      return res.json({
+        success: false,
+        requireProfile: true,
+        message: "Please complete your profile (First Name, Last Name, and Phone Number) before placing your order."
+      });
+    }
+
+    if (!address) {
+      return res.json({
+        success: false,
+        requireAddress: true,
+        message: "Please add and select a valid delivery address before placing your order."
+      });
     }
 
     let productData = [];
