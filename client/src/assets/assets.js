@@ -5211,5 +5211,5285 @@ export const dummyProducts = [
     "purchaseCount": 87,
     "createdAt": "2026-10-25T08:21:42.414Z",
     "updatedAt": "2026-10-25T08:21:42.414Z"
+  },
+  {
+    "_id": "65f0000000000000000000e6",
+    "code": "P230",
+    "name": "Dabur Amla Hair Oil",
+    "category": "Personal Care",
+    "subCategory": "Hair Care & Colour",
+    "price": 130,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Dabur Amla Hair Oil",
+      "Batch 2 Catalog Item | Ref: P230",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 58,
+    "createdAt": "2026-10-25T08:40:26.680Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000e7",
+    "code": "P231",
+    "name": "Dabur Amla Hair Oil (small)",
+    "category": "Personal Care",
+    "subCategory": "Hair Care & Colour",
+    "price": 130,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Dabur Amla Hair Oil (small)",
+      "Batch 2 Catalog Item | Ref: P231",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 52,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000e8",
+    "code": "P232",
+    "name": "Dabur Jasmine Hair Oil",
+    "category": "Personal Care",
+    "subCategory": "Hair Care & Colour",
+    "price": 130,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Dabur Jasmine Hair Oil",
+      "Batch 2 Catalog Item | Ref: P232",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 23,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000e9",
+    "code": "P233",
+    "name": "Parachute Advansed Jasmine Hair Oil",
+    "category": "Personal Care",
+    "subCategory": "Hair Care & Colour",
+    "price": 130,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Parachute Advansed Jasmine Hair Oil",
+      "Batch 2 Catalog Item | Ref: P233",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 40,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000ea",
+    "code": "P234",
+    "name": "Dettol Antiseptic Liquid",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Dettol Antiseptic Liquid",
+      "Batch 2 Catalog Item | Ref: P234",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 40,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000eb",
+    "code": "P235",
+    "name": "Odomos Mosquito Repellent Cream",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Odomos Mosquito Repellent Cream",
+      "Batch 2 Catalog Item | Ref: P235",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 23,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000ec",
+    "code": "P236",
+    "name": "Colgate Strong Teeth Toothpaste",
+    "category": "Personal Care",
+    "subCategory": "Oral Care",
+    "price": 95,
+    "offerPrice": 85,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Colgate Strong Teeth Toothpaste",
+      "Batch 2 Catalog Item | Ref: P236",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 63,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000ed",
+    "code": "P237",
+    "name": "Colgate Salt Neem Toothpaste",
+    "category": "Personal Care",
+    "subCategory": "Oral Care",
+    "price": 95,
+    "offerPrice": 85,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Colgate Salt Neem Toothpaste",
+      "Batch 2 Catalog Item | Ref: P237",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 47,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000ee",
+    "code": "P238",
+    "name": "Colgate Cibaca Toothpaste",
+    "category": "Personal Care",
+    "subCategory": "Oral Care",
+    "price": 95,
+    "offerPrice": 85,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Colgate Cibaca Toothpaste",
+      "Batch 2 Catalog Item | Ref: P238",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 64,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000ef",
+    "code": "P239",
+    "name": "Colgate Active Salt Toothpaste",
+    "category": "Personal Care",
+    "subCategory": "Oral Care",
+    "price": 95,
+    "offerPrice": 85,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Colgate Active Salt Toothpaste",
+      "Batch 2 Catalog Item | Ref: P239",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 64,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000f0",
+    "code": "P240",
+    "name": "Dabur Red Toothpaste",
+    "category": "Personal Care",
+    "subCategory": "Oral Care",
+    "price": 95,
+    "offerPrice": 85,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Dabur Red Toothpaste",
+      "Batch 2 Catalog Item | Ref: P240",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 15,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000f1",
+    "code": "P241",
+    "name": "Sensodyne Toothpaste",
+    "category": "Personal Care",
+    "subCategory": "Oral Care",
+    "price": 95,
+    "offerPrice": 85,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Sensodyne Toothpaste",
+      "Batch 2 Catalog Item | Ref: P241",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 70,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000f2",
+    "code": "P242",
+    "name": "Dant Kanti Toothpaste",
+    "category": "Personal Care",
+    "subCategory": "Oral Care",
+    "price": 95,
+    "offerPrice": 85,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Dant Kanti Toothpaste",
+      "Batch 2 Catalog Item | Ref: P242",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 26,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000f3",
+    "code": "P243",
+    "name": "Meswak Toothpaste",
+    "category": "Personal Care",
+    "subCategory": "Oral Care",
+    "price": 95,
+    "offerPrice": 85,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Meswak Toothpaste",
+      "Batch 2 Catalog Item | Ref: P243",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 23,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000f4",
+    "code": "P244",
+    "name": "Babool Toothpaste",
+    "category": "Personal Care",
+    "subCategory": "Oral Care",
+    "price": 95,
+    "offerPrice": 85,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Babool Toothpaste",
+      "Batch 2 Catalog Item | Ref: P244",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 53,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000f5",
+    "code": "P245",
+    "name": "Packaged rice green bag",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Packaged rice green bag",
+      "Batch 2 Catalog Item | Ref: P245",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 30,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000f6",
+    "code": "P246",
+    "name": "Packaged rice white purple bag",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Packaged rice white purple bag",
+      "Batch 2 Catalog Item | Ref: P246",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 49,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000f7",
+    "code": "P247",
+    "name": "Packaged rice blue bag",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Packaged rice blue bag",
+      "Batch 2 Catalog Item | Ref: P247",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 60,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000f8",
+    "code": "P248",
+    "name": "Packaged rice yellow bag",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Packaged rice yellow bag",
+      "Batch 2 Catalog Item | Ref: P248",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 50,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000f9",
+    "code": "P249",
+    "name": "Red bag grain / cereal",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Red bag grain / cereal",
+      "Batch 2 Catalog Item | Ref: P249",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 23,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000fa",
+    "code": "P250",
+    "name": "Medimix Ayurvedic Soap",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Medimix Ayurvedic Soap",
+      "Batch 2 Catalog Item | Ref: P250",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 35,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000fb",
+    "code": "P251",
+    "name": "Wild Stone Soap",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Wild Stone Soap",
+      "Batch 2 Catalog Item | Ref: P251",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 68,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000fc",
+    "code": "P252",
+    "name": "Pears Pure and Gentle Soap",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Pears Pure and Gentle Soap",
+      "Batch 2 Catalog Item | Ref: P252",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 58,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000fd",
+    "code": "P253",
+    "name": "Liril Soap",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Liril Soap",
+      "Batch 2 Catalog Item | Ref: P253",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 17,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000fe",
+    "code": "P254",
+    "name": "Limda Soap",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Limda Soap",
+      "Batch 2 Catalog Item | Ref: P254",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 54,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f0000000000000000000ff",
+    "code": "P255",
+    "name": "Johnsons Baby Soap",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Johnsons Baby Soap",
+      "Batch 2 Catalog Item | Ref: P255",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 45,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f000000000000000000100",
+    "code": "P256",
+    "name": "Lux Soap",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Lux Soap",
+      "Batch 2 Catalog Item | Ref: P256",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 55,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f000000000000000000101",
+    "code": "P257",
+    "name": "Dove Beauty Bar",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Dove Beauty Bar",
+      "Batch 2 Catalog Item | Ref: P257",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 35,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f000000000000000000102",
+    "code": "P258",
+    "name": "Santoor PureGlo Soap",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Santoor PureGlo Soap",
+      "Batch 2 Catalog Item | Ref: P258",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 23,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f000000000000000000103",
+    "code": "P259",
+    "name": "Good Knight Flash Liquid Vaporiser",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Good Knight Flash Liquid Vaporiser",
+      "Batch 2 Catalog Item | Ref: P259",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 50,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f000000000000000000104",
+    "code": "P260",
+    "name": "All Out Ultra Liquid Vaporiser",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic All Out Ultra Liquid Vaporiser",
+      "Batch 2 Catalog Item | Ref: P260",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 37,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f000000000000000000105",
+    "code": "P261",
+    "name": "Lifebuoy Soap",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Lifebuoy Soap",
+      "Batch 2 Catalog Item | Ref: P261",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 65,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f000000000000000000106",
+    "code": "P262",
+    "name": "Dettol Original Soap",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Dettol Original Soap",
+      "Batch 2 Catalog Item | Ref: P262",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 26,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f000000000000000000107",
+    "code": "P263",
+    "name": "Dettol Skincare Soap",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Dettol Skincare Soap",
+      "Batch 2 Catalog Item | Ref: P263",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 44,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f000000000000000000108",
+    "code": "P264",
+    "name": "Good Knight Flash refill",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Good Knight Flash refill",
+      "Batch 2 Catalog Item | Ref: P264",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 13,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f000000000000000000109",
+    "code": "P265",
+    "name": "All Out Ultra Refill",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic All Out Ultra Refill",
+      "Batch 2 Catalog Item | Ref: P265",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 41,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f00000000000000000010a",
+    "code": "P266",
+    "name": "Lux Soap (various)",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Lux Soap (various)",
+      "Batch 2 Catalog Item | Ref: P266",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 60,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f00000000000000000010b",
+    "code": "P267",
+    "name": "Lifebuoy Soap (various)",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Lifebuoy Soap (various)",
+      "Batch 2 Catalog Item | Ref: P267",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 36,
+    "createdAt": "2026-10-25T08:40:26.681Z",
+    "updatedAt": "2026-10-25T08:40:26.681Z"
+  },
+  {
+    "_id": "65f00000000000000000010c",
+    "code": "P268",
+    "name": "Moti Soap",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Moti Soap",
+      "Batch 2 Catalog Item | Ref: P268",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 56,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000010d",
+    "code": "P269",
+    "name": "Santoor Soap",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Santoor Soap",
+      "Batch 2 Catalog Item | Ref: P269",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 16,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000010e",
+    "code": "P270",
+    "name": "Pears Soap",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Pears Soap",
+      "Batch 2 Catalog Item | Ref: P270",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 36,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000010f",
+    "code": "P271",
+    "name": "Dettol Soap",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Dettol Soap",
+      "Batch 2 Catalog Item | Ref: P271",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 60,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000110",
+    "code": "P272",
+    "name": "Medimix Soap",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Medimix Soap",
+      "Batch 2 Catalog Item | Ref: P272",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 62,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000111",
+    "code": "P273",
+    "name": "Cinthol Soap (pack unclear)",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Cinthol Soap (pack unclear)",
+      "Batch 2 Catalog Item | Ref: P273",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 28,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000112",
+    "code": "P274",
+    "name": "Oreo Biscuit",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Oreo Biscuit",
+      "Batch 2 Catalog Item | Ref: P274",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 71,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000113",
+    "code": "P275",
+    "name": "Cadbury Bournvita Biscuit",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 195,
+    "offerPrice": 175,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Cadbury Bournvita Biscuit",
+      "Batch 2 Catalog Item | Ref: P275",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 32,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000114",
+    "code": "P276",
+    "name": "Lipton Honey Lemon Tea",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 195,
+    "offerPrice": 175,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Lipton Honey Lemon Tea",
+      "Batch 2 Catalog Item | Ref: P276",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 15,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000115",
+    "code": "P277",
+    "name": "Lipton Green Tea",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 195,
+    "offerPrice": 175,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Lipton Green Tea",
+      "Batch 2 Catalog Item | Ref: P277",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 34,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000116",
+    "code": "P278",
+    "name": "Brooke Bond Red Label Tea",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 195,
+    "offerPrice": 175,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Brooke Bond Red Label Tea",
+      "Batch 2 Catalog Item | Ref: P278",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 57,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000117",
+    "code": "P279",
+    "name": "White Fox Roasted Snack",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic White Fox Roasted Snack",
+      "Batch 2 Catalog Item | Ref: P279",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 40,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000118",
+    "code": "P280",
+    "name": "Packaged 250g grocery bag",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Packaged 250g grocery bag",
+      "Batch 2 Catalog Item | Ref: P280",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 48,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000119",
+    "code": "P281",
+    "name": "Nestle Milkmaid Sweetened Condensed Milk",
+    "category": "Dairy",
+    "subCategory": "Dairy & Pure Ghee",
+    "price": 260,
+    "offerPrice": 240,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100005470_19-amul-butter-pasteurised.jpg",
+      "https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Nestle Milkmaid Sweetened Condensed Milk",
+      "Batch 2 Catalog Item | Ref: P281",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 25,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000011a",
+    "code": "P282",
+    "name": "Kelloggs Chocos (pack partly visible)",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Kelloggs Chocos (pack partly visible)",
+      "Batch 2 Catalog Item | Ref: P282",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 40,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000011b",
+    "code": "P283",
+    "name": "Nestle Nescafe Classic Coffee",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 195,
+    "offerPrice": 175,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Nestle Nescafe Classic Coffee",
+      "Batch 2 Catalog Item | Ref: P283",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 48,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000011c",
+    "code": "P284",
+    "name": "Horlicks Health Drink",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 195,
+    "offerPrice": 175,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Horlicks Health Drink",
+      "Batch 2 Catalog Item | Ref: P284",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 52,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000011d",
+    "code": "P285",
+    "name": "Boost Health Drink",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Boost Health Drink",
+      "Batch 2 Catalog Item | Ref: P285",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 55,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000011e",
+    "code": "P286",
+    "name": "Dabur Chyawanprash",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Dabur Chyawanprash",
+      "Batch 2 Catalog Item | Ref: P286",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 46,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000011f",
+    "code": "P287",
+    "name": "Bournvita Health Drink",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 195,
+    "offerPrice": 175,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Bournvita Health Drink",
+      "Batch 2 Catalog Item | Ref: P287",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 30,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000120",
+    "code": "P288",
+    "name": "Instant breakfast / meal pouch",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Instant breakfast / meal pouch",
+      "Batch 2 Catalog Item | Ref: P288",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 13,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000121",
+    "code": "P289",
+    "name": "Protinex / nutrition powder",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Protinex / nutrition powder",
+      "Batch 2 Catalog Item | Ref: P289",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 42,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000122",
+    "code": "P290",
+    "name": "Chocolate health drink powder",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Chocolate health drink powder",
+      "Batch 2 Catalog Item | Ref: P290",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 43,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000123",
+    "code": "P291",
+    "name": "Protein supplement pouch",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Protein supplement pouch",
+      "Batch 2 Catalog Item | Ref: P291",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 64,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000124",
+    "code": "P292",
+    "name": "Red packaged powdered drink mix",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Red packaged powdered drink mix",
+      "Batch 2 Catalog Item | Ref: P292",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 15,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000125",
+    "code": "P293",
+    "name": "Parle-G Original Biscuits",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Parle-G Original Biscuits",
+      "Batch 2 Catalog Item | Ref: P293",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 61,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000126",
+    "code": "P294",
+    "name": "Parle-G Gold Biscuits",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Parle-G Gold Biscuits",
+      "Batch 2 Catalog Item | Ref: P294",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 47,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000127",
+    "code": "P295",
+    "name": "Parle Krackjack Biscuits",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Parle Krackjack Biscuits",
+      "Batch 2 Catalog Item | Ref: P295",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 70,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000128",
+    "code": "P296",
+    "name": "Britannia Bourbon Biscuit",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Britannia Bourbon Biscuit",
+      "Batch 2 Catalog Item | Ref: P296",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 42,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000129",
+    "code": "P297",
+    "name": "Britannia Good Day Biscuits",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Britannia Good Day Biscuits",
+      "Batch 2 Catalog Item | Ref: P297",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 22,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000012a",
+    "code": "P298",
+    "name": "Sunfeast Dark Fantasy Biscuits",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Sunfeast Dark Fantasy Biscuits",
+      "Batch 2 Catalog Item | Ref: P298",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 19,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000012b",
+    "code": "P299",
+    "name": "Cadbury Chocobakes Cookies",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Cadbury Chocobakes Cookies",
+      "Batch 2 Catalog Item | Ref: P299",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 17,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000012c",
+    "code": "P300",
+    "name": "Britannia 50-50 Biscuits",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Britannia 50-50 Biscuits",
+      "Batch 2 Catalog Item | Ref: P300",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 59,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000012d",
+    "code": "P301",
+    "name": "Kinder Schoko-Bons Crispy",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Kinder Schoko-Bons Crispy",
+      "Batch 2 Catalog Item | Ref: P301",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 57,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000012e",
+    "code": "P302",
+    "name": "Oats and Berries Biscuit",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Oats and Berries Biscuit",
+      "Batch 2 Catalog Item | Ref: P302",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 55,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000012f",
+    "code": "P303",
+    "name": "Maggi Pazzta Masala Penne",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Maggi Pazzta Masala Penne",
+      "Batch 2 Catalog Item | Ref: P303",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 46,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000130",
+    "code": "P304",
+    "name": "Maggi Pazzta Cheese Macaroni",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Maggi Pazzta Cheese Macaroni",
+      "Batch 2 Catalog Item | Ref: P304",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 17,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000131",
+    "code": "P305",
+    "name": "Maggi Pazzta Cheesy Tomato Twist",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Maggi Pazzta Cheesy Tomato Twist",
+      "Batch 2 Catalog Item | Ref: P305",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 54,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000132",
+    "code": "P306",
+    "name": "Maggi Masala Noodles",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Maggi Masala Noodles",
+      "Batch 2 Catalog Item | Ref: P306",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 71,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000133",
+    "code": "P307",
+    "name": "Maggi Masala Tastemaker",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Maggi Masala Tastemaker",
+      "Batch 2 Catalog Item | Ref: P307",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 19,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000134",
+    "code": "P308",
+    "name": "Maggi Cuppa Noodles",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Maggi Cuppa Noodles",
+      "Batch 2 Catalog Item | Ref: P308",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 15,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000135",
+    "code": "P309",
+    "name": "Yippee Noodles",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Yippee Noodles",
+      "Batch 2 Catalog Item | Ref: P309",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 27,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000136",
+    "code": "P310",
+    "name": "Instant Ramen / Soba Noodles",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Instant Ramen / Soba Noodles",
+      "Batch 2 Catalog Item | Ref: P310",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 34,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000137",
+    "code": "P311",
+    "name": "Packaged Rusk",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Packaged Rusk",
+      "Batch 2 Catalog Item | Ref: P311",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 35,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000138",
+    "code": "P312",
+    "name": "Rusk 18g extra pack",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Rusk 18g extra pack",
+      "Batch 2 Catalog Item | Ref: P312",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 33,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000139",
+    "code": "P313",
+    "name": "Veeba Mayonnaise",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Veeba Mayonnaise",
+      "Batch 2 Catalog Item | Ref: P313",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 51,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000013a",
+    "code": "P314",
+    "name": "Veeba Pizza Pasta Sauce",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Veeba Pizza Pasta Sauce",
+      "Batch 2 Catalog Item | Ref: P314",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 38,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000013b",
+    "code": "P315",
+    "name": "Knorr Schezwan Sauce",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Knorr Schezwan Sauce",
+      "Batch 2 Catalog Item | Ref: P315",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 47,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000013c",
+    "code": "P316",
+    "name": "Knorr Pizza Pasta Sauce",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Knorr Pizza Pasta Sauce",
+      "Batch 2 Catalog Item | Ref: P316",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 25,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000013d",
+    "code": "P317",
+    "name": "Fric Bergen Pizza Pasta Sauce",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Fric Bergen Pizza Pasta Sauce",
+      "Batch 2 Catalog Item | Ref: P317",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 37,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000013e",
+    "code": "P318",
+    "name": "Fric Bergen Mayonnaise Tandoori",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Fric Bergen Mayonnaise Tandoori",
+      "Batch 2 Catalog Item | Ref: P318",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 27,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000013f",
+    "code": "P319",
+    "name": "Fric Bergen Sandwich Spread",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Fric Bergen Sandwich Spread",
+      "Batch 2 Catalog Item | Ref: P319",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 28,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000140",
+    "code": "P320",
+    "name": "Packaged bakery rusks",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Packaged bakery rusks",
+      "Batch 2 Catalog Item | Ref: P320",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 47,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000141",
+    "code": "P321",
+    "name": "Packaged Toast Rusk",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Packaged Toast Rusk",
+      "Batch 2 Catalog Item | Ref: P321",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 40,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000142",
+    "code": "P322",
+    "name": "Kissan Fresh Tomato Ketchup",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Kissan Fresh Tomato Ketchup",
+      "Batch 2 Catalog Item | Ref: P322",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 50,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000143",
+    "code": "P323",
+    "name": "Maggi Rich Tomato Ketchup",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Maggi Rich Tomato Ketchup",
+      "Batch 2 Catalog Item | Ref: P323",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 34,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000144",
+    "code": "P324",
+    "name": "Veeba Pizza Sauce",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Veeba Pizza Sauce",
+      "Batch 2 Catalog Item | Ref: P324",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 47,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000145",
+    "code": "P325",
+    "name": "Gowardhan Ghee",
+    "category": "Dairy",
+    "subCategory": "Dairy & Pure Ghee",
+    "price": 260,
+    "offerPrice": 240,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100005470_19-amul-butter-pasteurised.jpg",
+      "https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Gowardhan Ghee",
+      "Batch 2 Catalog Item | Ref: P325",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 29,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000146",
+    "code": "P326",
+    "name": "Packaged Flour / Semolina",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Packaged Flour / Semolina",
+      "Batch 2 Catalog Item | Ref: P326",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 45,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000147",
+    "code": "P327",
+    "name": "Chings Secret Soup / Instant Mix",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Chings Secret Soup / Instant Mix",
+      "Batch 2 Catalog Item | Ref: P327",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 42,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000148",
+    "code": "P328",
+    "name": "MTR Instant Mix",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic MTR Instant Mix",
+      "Batch 2 Catalog Item | Ref: P328",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 37,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f000000000000000000149",
+    "code": "P329",
+    "name": "Suhana Instant Mix",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Suhana Instant Mix",
+      "Batch 2 Catalog Item | Ref: P329",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 25,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000014a",
+    "code": "P330",
+    "name": "Kelloggs Noodles or Pasta",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Kelloggs Noodles or Pasta",
+      "Batch 2 Catalog Item | Ref: P330",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 13,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000014b",
+    "code": "P331",
+    "name": "Everest Masala sachet",
+    "category": "Spices",
+    "subCategory": "Salts & Cooking Seasonings",
+    "price": 28,
+    "offerPrice": 25,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267200_14-everest-masala-chhole.jpg",
+      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Everest Masala sachet",
+      "Batch 2 Catalog Item | Ref: P331",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 53,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000014c",
+    "code": "P332",
+    "name": "Maggi Instant Masala pouch",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Maggi Instant Masala pouch",
+      "Batch 2 Catalog Item | Ref: P332",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 31,
+    "createdAt": "2026-10-25T08:40:26.682Z",
+    "updatedAt": "2026-10-25T08:40:26.682Z"
+  },
+  {
+    "_id": "65f00000000000000000014d",
+    "code": "P333",
+    "name": "Cadbury Bournvita Cookie / Snack pack",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 195,
+    "offerPrice": 175,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Cadbury Bournvita Cookie / Snack pack",
+      "Batch 2 Catalog Item | Ref: P333",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 54,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f00000000000000000014e",
+    "code": "P334",
+    "name": "Sunfeast Dark Fantasy Cookies",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Sunfeast Dark Fantasy Cookies",
+      "Batch 2 Catalog Item | Ref: P334",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 41,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f00000000000000000014f",
+    "code": "P335",
+    "name": "Cadbury Gems",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Cadbury Gems",
+      "Batch 2 Catalog Item | Ref: P335",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 52,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000150",
+    "code": "P336",
+    "name": "Packaged Snack Mix Red",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Packaged Snack Mix Red",
+      "Batch 2 Catalog Item | Ref: P336",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 64,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000151",
+    "code": "P337",
+    "name": "Packaged Snack Mix Green",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Packaged Snack Mix Green",
+      "Batch 2 Catalog Item | Ref: P337",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 16,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000152",
+    "code": "P338",
+    "name": "Packaged Snack Mix Yellow",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Packaged Snack Mix Yellow",
+      "Batch 2 Catalog Item | Ref: P338",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 47,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000153",
+    "code": "P339",
+    "name": "Packaged Snack Mix Orange",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Packaged Snack Mix Orange",
+      "Batch 2 Catalog Item | Ref: P339",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 25,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000154",
+    "code": "P340",
+    "name": "Balaji Wafers Ratlami Sev",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Balaji Wafers Ratlami Sev",
+      "Batch 2 Catalog Item | Ref: P340",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 67,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000155",
+    "code": "P341",
+    "name": "Balaji Wafers Aloo Sev",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Balaji Wafers Aloo Sev",
+      "Batch 2 Catalog Item | Ref: P341",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 48,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000156",
+    "code": "P342",
+    "name": "Balaji Wafers Tikha Mitha Mix",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Balaji Wafers Tikha Mitha Mix",
+      "Batch 2 Catalog Item | Ref: P342",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 37,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000157",
+    "code": "P343",
+    "name": "Balaji Wafers Chana Dal",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Balaji Wafers Chana Dal",
+      "Batch 2 Catalog Item | Ref: P343",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 56,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000158",
+    "code": "P344",
+    "name": "Balaji Wafers CrunchEx Cream and Onion",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Balaji Wafers CrunchEx Cream and Onion",
+      "Batch 2 Catalog Item | Ref: P344",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 31,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000159",
+    "code": "P345",
+    "name": "Balaji Wafers CrunchEx Chaat Chaska",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Balaji Wafers CrunchEx Chaat Chaska",
+      "Batch 2 Catalog Item | Ref: P345",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 51,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f00000000000000000015a",
+    "code": "P346",
+    "name": "Balaji Wafers CrunchEx Simply Salted",
+    "category": "Spices",
+    "subCategory": "Salts & Cooking Seasonings",
+    "price": 28,
+    "offerPrice": 25,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267200_14-everest-masala-chhole.jpg",
+      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Balaji Wafers CrunchEx Simply Salted",
+      "Batch 2 Catalog Item | Ref: P346",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 52,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f00000000000000000015b",
+    "code": "P347",
+    "name": "Balaji Wafers CrunchEx Tomato Twist",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Balaji Wafers CrunchEx Tomato Twist",
+      "Batch 2 Catalog Item | Ref: P347",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 26,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f00000000000000000015c",
+    "code": "P348",
+    "name": "Balaji Wafers Rumbles",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Balaji Wafers Rumbles",
+      "Batch 2 Catalog Item | Ref: P348",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 65,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f00000000000000000015d",
+    "code": "P349",
+    "name": "Balaji Wafers Gathiya",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Balaji Wafers Gathiya",
+      "Batch 2 Catalog Item | Ref: P349",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 21,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f00000000000000000015e",
+    "code": "P350",
+    "name": "Real Bites Indori Mix",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Real Bites Indori Mix",
+      "Batch 2 Catalog Item | Ref: P350",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 66,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f00000000000000000015f",
+    "code": "P351",
+    "name": "Real Bites Chivda",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Real Bites Chivda",
+      "Batch 2 Catalog Item | Ref: P351",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 55,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000160",
+    "code": "P352",
+    "name": "Real Bites Sev",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Real Bites Sev",
+      "Batch 2 Catalog Item | Ref: P352",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 28,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000161",
+    "code": "P353",
+    "name": "Garlic Mamra",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Garlic Mamra",
+      "Batch 2 Catalog Item | Ref: P353",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 19,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000162",
+    "code": "P354",
+    "name": "Puffed Rice / Mamra Loose",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Puffed Rice / Mamra Loose",
+      "Batch 2 Catalog Item | Ref: P354",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 55,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000163",
+    "code": "P355",
+    "name": "Godrej Expert Rich Creme Hair Color Sachet",
+    "category": "Personal Care",
+    "subCategory": "Hair Care & Colour",
+    "price": 130,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Godrej Expert Rich Creme Hair Color Sachet",
+      "Batch 2 Catalog Item | Ref: P355",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 61,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000164",
+    "code": "P356",
+    "name": "Garnier Hair Color Sachet",
+    "category": "Personal Care",
+    "subCategory": "Hair Care & Colour",
+    "price": 130,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Garnier Hair Color Sachet",
+      "Batch 2 Catalog Item | Ref: P356",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 61,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000165",
+    "code": "P357",
+    "name": "Dabur Amla Hair Oil Sachet",
+    "category": "Personal Care",
+    "subCategory": "Hair Care & Colour",
+    "price": 130,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Dabur Amla Hair Oil Sachet",
+      "Batch 2 Catalog Item | Ref: P357",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 36,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000166",
+    "code": "P358",
+    "name": "Clinic Plus Shampoo Sachet",
+    "category": "Personal Care",
+    "subCategory": "Hair Care & Colour",
+    "price": 130,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Clinic Plus Shampoo Sachet",
+      "Batch 2 Catalog Item | Ref: P358",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 45,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000167",
+    "code": "P359",
+    "name": "Sunsilk Shampoo Sachet",
+    "category": "Personal Care",
+    "subCategory": "Hair Care & Colour",
+    "price": 130,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Sunsilk Shampoo Sachet",
+      "Batch 2 Catalog Item | Ref: P359",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 50,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000168",
+    "code": "P360",
+    "name": "Pantene Shampoo Sachet",
+    "category": "Personal Care",
+    "subCategory": "Hair Care & Colour",
+    "price": 130,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Pantene Shampoo Sachet",
+      "Batch 2 Catalog Item | Ref: P360",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 44,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000169",
+    "code": "P361",
+    "name": "Head & Shoulders Shampoo Sachet",
+    "category": "Personal Care",
+    "subCategory": "Hair Care & Colour",
+    "price": 130,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Head & Shoulders Shampoo Sachet",
+      "Batch 2 Catalog Item | Ref: P361",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 22,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f00000000000000000016a",
+    "code": "P362",
+    "name": "Amul Kool Cafe Drink",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Amul Kool Cafe Drink",
+      "Batch 2 Catalog Item | Ref: P362",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 27,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f00000000000000000016b",
+    "code": "P363",
+    "name": "Complan Health Drink",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Complan Health Drink",
+      "Batch 2 Catalog Item | Ref: P363",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 20,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f00000000000000000016c",
+    "code": "P364",
+    "name": "Horlicks Protein Plus",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 195,
+    "offerPrice": 175,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Horlicks Protein Plus",
+      "Batch 2 Catalog Item | Ref: P364",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 33,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f00000000000000000016d",
+    "code": "P365",
+    "name": "Nestle Everyday Dairy Whitener (unclear)",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Nestle Everyday Dairy Whitener (unclear)",
+      "Batch 2 Catalog Item | Ref: P365",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 17,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f00000000000000000016e",
+    "code": "P366",
+    "name": "Nestle Milkmaid",
+    "category": "Dairy",
+    "subCategory": "Dairy & Pure Ghee",
+    "price": 260,
+    "offerPrice": 240,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100005470_19-amul-butter-pasteurised.jpg",
+      "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Nestle Milkmaid",
+      "Batch 2 Catalog Item | Ref: P366",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 32,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f00000000000000000016f",
+    "code": "P367",
+    "name": "Nescafe Coffee Jar",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 195,
+    "offerPrice": 175,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Nescafe Coffee Jar",
+      "Batch 2 Catalog Item | Ref: P367",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 55,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000170",
+    "code": "P368",
+    "name": "Ariel Power Gel Liquid Detergent",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Ariel Power Gel Liquid Detergent",
+      "Batch 2 Catalog Item | Ref: P368",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 53,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000171",
+    "code": "P369",
+    "name": "Ariel Matic Detergent Powder",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Ariel Matic Detergent Powder",
+      "Batch 2 Catalog Item | Ref: P369",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 41,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000172",
+    "code": "P370",
+    "name": "Surf Excel Matic Detergent Powder",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Surf Excel Matic Detergent Powder",
+      "Batch 2 Catalog Item | Ref: P370",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 55,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000173",
+    "code": "P371",
+    "name": "Rin Matic Detergent Powder",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Rin Matic Detergent Powder",
+      "Batch 2 Catalog Item | Ref: P371",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 38,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000174",
+    "code": "P372",
+    "name": "Godrej Genteel Detergent Powder",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Godrej Genteel Detergent Powder",
+      "Batch 2 Catalog Item | Ref: P372",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 20,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000175",
+    "code": "P373",
+    "name": "Dettol Sensitive Hand Wash Refill",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Dettol Sensitive Hand Wash Refill",
+      "Batch 2 Catalog Item | Ref: P373",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 18,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000176",
+    "code": "P374",
+    "name": "Pampers Baby Diapers",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Pampers Baby Diapers",
+      "Batch 2 Catalog Item | Ref: P374",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 12,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000177",
+    "code": "P375",
+    "name": "Suhana Veg Biryani Mix",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Suhana Veg Biryani Mix",
+      "Batch 2 Catalog Item | Ref: P375",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 69,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000178",
+    "code": "P376",
+    "name": "Suhana Paneer Tikka Masala Mix",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Suhana Paneer Tikka Masala Mix",
+      "Batch 2 Catalog Item | Ref: P376",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 66,
+    "createdAt": "2026-10-25T08:40:26.683Z",
+    "updatedAt": "2026-10-25T08:40:26.683Z"
+  },
+  {
+    "_id": "65f000000000000000000179",
+    "code": "P377",
+    "name": "Cadbury Gems Chocolate",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Cadbury Gems Chocolate",
+      "Batch 2 Catalog Item | Ref: P377",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 43,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f00000000000000000017a",
+    "code": "P378",
+    "name": "Rin Detergent Powder Sachet",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 10,
+    "offerPrice": 9,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Rin Detergent Powder Sachet",
+      "Batch 2 Catalog Item | Ref: P378",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 68,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f00000000000000000017b",
+    "code": "P379",
+    "name": "Surf Excel Easy Wash Sachet",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 10,
+    "offerPrice": 9,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Surf Excel Easy Wash Sachet",
+      "Batch 2 Catalog Item | Ref: P379",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 33,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f00000000000000000017c",
+    "code": "P380",
+    "name": "Comfort Fabric Conditioner Sachet",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 10,
+    "offerPrice": 9,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Comfort Fabric Conditioner Sachet",
+      "Batch 2 Catalog Item | Ref: P380",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 22,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f00000000000000000017d",
+    "code": "P381",
+    "name": "Tide Detergent Sachet",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 10,
+    "offerPrice": 9,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Tide Detergent Sachet",
+      "Batch 2 Catalog Item | Ref: P381",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 36,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f00000000000000000017e",
+    "code": "P382",
+    "name": "Wheel Detergent Sachet",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 10,
+    "offerPrice": 9,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Wheel Detergent Sachet",
+      "Batch 2 Catalog Item | Ref: P382",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 38,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f00000000000000000017f",
+    "code": "P383",
+    "name": "Clinic Plus Shampoo Sachet",
+    "category": "Personal Care",
+    "subCategory": "Hair Care & Colour",
+    "price": 130,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Clinic Plus Shampoo Sachet",
+      "Batch 2 Catalog Item | Ref: P383",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 31,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f000000000000000000180",
+    "code": "P384",
+    "name": "Dove Shampoo Sachet",
+    "category": "Personal Care",
+    "subCategory": "Hair Care & Colour",
+    "price": 130,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Dove Shampoo Sachet",
+      "Batch 2 Catalog Item | Ref: P384",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 37,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f000000000000000000181",
+    "code": "P385",
+    "name": "Sunsilk Shampoo Sachet",
+    "category": "Personal Care",
+    "subCategory": "Hair Care & Colour",
+    "price": 130,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Sunsilk Shampoo Sachet",
+      "Batch 2 Catalog Item | Ref: P385",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 23,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f000000000000000000182",
+    "code": "P386",
+    "name": "Head and Shoulders Shampoo Sachet",
+    "category": "Personal Care",
+    "subCategory": "Hair Care & Colour",
+    "price": 130,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Head and Shoulders Shampoo Sachet",
+      "Batch 2 Catalog Item | Ref: P386",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 48,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f000000000000000000183",
+    "code": "P387",
+    "name": "Pantene Shampoo Sachet",
+    "category": "Personal Care",
+    "subCategory": "Hair Care & Colour",
+    "price": 130,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Pantene Shampoo Sachet",
+      "Batch 2 Catalog Item | Ref: P387",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 15,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f000000000000000000184",
+    "code": "P388",
+    "name": "Garnier Hair Color Sachet",
+    "category": "Personal Care",
+    "subCategory": "Hair Care & Colour",
+    "price": 130,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Garnier Hair Color Sachet",
+      "Batch 2 Catalog Item | Ref: P388",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 68,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f000000000000000000185",
+    "code": "P389",
+    "name": "Colgate Toothpaste Mini pack",
+    "category": "Personal Care",
+    "subCategory": "Oral Care",
+    "price": 95,
+    "offerPrice": 85,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Colgate Toothpaste Mini pack",
+      "Batch 2 Catalog Item | Ref: P389",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 33,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f000000000000000000186",
+    "code": "P390",
+    "name": "Amul Masti Buttermilk",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Amul Masti Buttermilk",
+      "Batch 2 Catalog Item | Ref: P390",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 23,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f000000000000000000187",
+    "code": "P391",
+    "name": "Amul Kool Cafe",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Amul Kool Cafe",
+      "Batch 2 Catalog Item | Ref: P391",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 13,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f000000000000000000188",
+    "code": "P392",
+    "name": "Amul Kool Flavoured Milk",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Amul Kool Flavoured Milk",
+      "Batch 2 Catalog Item | Ref: P392",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 63,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f000000000000000000189",
+    "code": "P393",
+    "name": "Maaza Mango Drink",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Maaza Mango Drink",
+      "Batch 2 Catalog Item | Ref: P393",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 55,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f00000000000000000018a",
+    "code": "P394",
+    "name": "Frooti Mango Drink",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Frooti Mango Drink",
+      "Batch 2 Catalog Item | Ref: P394",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 16,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f00000000000000000018b",
+    "code": "P395",
+    "name": "Minute Maid Pulpy Orange",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Minute Maid Pulpy Orange",
+      "Batch 2 Catalog Item | Ref: P395",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 19,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f00000000000000000018c",
+    "code": "P396",
+    "name": "Sting Energy Drink",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Sting Energy Drink",
+      "Batch 2 Catalog Item | Ref: P396",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 19,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f00000000000000000018d",
+    "code": "P397",
+    "name": "Runner Energy Drink",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Runner Energy Drink",
+      "Batch 2 Catalog Item | Ref: P397",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 37,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f00000000000000000018e",
+    "code": "P398",
+    "name": "Sprite Bottle",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Sprite Bottle",
+      "Batch 2 Catalog Item | Ref: P398",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 25,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f00000000000000000018f",
+    "code": "P399",
+    "name": "Thums Up Bottle",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Thums Up Bottle",
+      "Batch 2 Catalog Item | Ref: P399",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 56,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f000000000000000000190",
+    "code": "P400",
+    "name": "Power Up Energy Drink",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Power Up Energy Drink",
+      "Batch 2 Catalog Item | Ref: P400",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 20,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f000000000000000000191",
+    "code": "P401",
+    "name": "Kinley Water / Drink",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Kinley Water / Drink",
+      "Batch 2 Catalog Item | Ref: P401",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 12,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f000000000000000000192",
+    "code": "P402",
+    "name": "Coca Cola Bottle",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "100% Original & Authentic Coca Cola Bottle",
+      "Batch 2 Catalog Item | Ref: P402",
+      "Handpicked quality grocery with fast express delivery in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 54,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f000000000000000000193",
+    "code": "P403",
+    "name": "HIT Black mosquito killer aerosol",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: HIT Black mosquito killer aerosol",
+      "Batch 3 Catalog Item | Ref: P403",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 19,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f000000000000000000194",
+    "code": "P404",
+    "name": "HIT Red cockroach killer aerosol",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: HIT Red cockroach killer aerosol",
+      "Batch 3 Catalog Item | Ref: P404",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 49,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f000000000000000000195",
+    "code": "P405",
+    "name": "Good Home 2 in 1 scrub pad & sponge",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Good Home 2 in 1 scrub pad & sponge",
+      "Batch 3 Catalog Item | Ref: P405",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 38,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f000000000000000000196",
+    "code": "P406",
+    "name": "Good Home Steel scrubber pack",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Good Home Steel scrubber pack",
+      "Batch 3 Catalog Item | Ref: P406",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 26,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f000000000000000000197",
+    "code": "P407",
+    "name": "Generic Plastic dustpan set",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Plastic dustpan set",
+      "Batch 3 Catalog Item | Ref: P407",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 24,
+    "createdAt": "2026-10-25T08:40:26.685Z",
+    "updatedAt": "2026-10-25T08:40:26.685Z"
+  },
+  {
+    "_id": "65f000000000000000000198",
+    "code": "P408",
+    "name": "Generic Cotton mop head / cleaning cloth",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Cotton mop head / cleaning cloth",
+      "Batch 3 Catalog Item | Ref: P408",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 54,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f000000000000000000199",
+    "code": "P409",
+    "name": "Ariel Detergent powder sachet",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 10,
+    "offerPrice": 9,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Ariel Detergent powder sachet",
+      "Batch 3 Catalog Item | Ref: P409",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 41,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f00000000000000000019a",
+    "code": "P410",
+    "name": "Excel Easy Wash detergent powder",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Excel Easy Wash detergent powder",
+      "Batch 3 Catalog Item | Ref: P410",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 44,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f00000000000000000019b",
+    "code": "P411",
+    "name": "Tata Salt",
+    "category": "Spices",
+    "subCategory": "Salts & Cooking Seasonings",
+    "price": 28,
+    "offerPrice": 25,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267200_14-everest-masala-chhole.jpg",
+      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Tata Salt",
+      "Batch 3 Catalog Item | Ref: P411",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 45,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f00000000000000000019c",
+    "code": "P412",
+    "name": "Tata Salt Lite",
+    "category": "Spices",
+    "subCategory": "Salts & Cooking Seasonings",
+    "price": 28,
+    "offerPrice": 25,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267200_14-everest-masala-chhole.jpg",
+      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Tata Salt Lite",
+      "Batch 3 Catalog Item | Ref: P412",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 57,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f00000000000000000019d",
+    "code": "P413",
+    "name": "Generic Rock salt / pink salt",
+    "category": "Spices",
+    "subCategory": "Salts & Cooking Seasonings",
+    "price": 28,
+    "offerPrice": 25,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267200_14-everest-masala-chhole.jpg",
+      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Rock salt / pink salt",
+      "Batch 3 Catalog Item | Ref: P413",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 56,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f00000000000000000019e",
+    "code": "P414",
+    "name": "Generic Loose salt pouch",
+    "category": "Spices",
+    "subCategory": "Salts & Cooking Seasonings",
+    "price": 28,
+    "offerPrice": 25,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267200_14-everest-masala-chhole.jpg",
+      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Loose salt pouch",
+      "Batch 3 Catalog Item | Ref: P414",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 27,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f00000000000000000019f",
+    "code": "P415",
+    "name": "Ariel Detergent powder sachet",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 10,
+    "offerPrice": 9,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Ariel Detergent powder sachet",
+      "Batch 3 Catalog Item | Ref: P415",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 57,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001a0",
+    "code": "P416",
+    "name": "Wheel Active 2 in 1 detergent powder",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Wheel Active 2 in 1 detergent powder",
+      "Batch 3 Catalog Item | Ref: P416",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 26,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001a1",
+    "code": "P417",
+    "name": "Wheel Active 2 in 1 2 kg value pack",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Wheel Active 2 in 1 2 kg value pack",
+      "Batch 3 Catalog Item | Ref: P417",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 45,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001a2",
+    "code": "P418",
+    "name": "Tata Rock Salt",
+    "category": "Spices",
+    "subCategory": "Salts & Cooking Seasonings",
+    "price": 28,
+    "offerPrice": 25,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267200_14-everest-masala-chhole.jpg",
+      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Tata Rock Salt",
+      "Batch 3 Catalog Item | Ref: P418",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 27,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001a3",
+    "code": "P419",
+    "name": "Tata Salt Lite",
+    "category": "Spices",
+    "subCategory": "Salts & Cooking Seasonings",
+    "price": 28,
+    "offerPrice": 25,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267200_14-everest-masala-chhole.jpg",
+      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Tata Salt Lite",
+      "Batch 3 Catalog Item | Ref: P419",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 37,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001a4",
+    "code": "P420",
+    "name": "Generic Salt pack orange white",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Salt pack orange white",
+      "Batch 3 Catalog Item | Ref: P420",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 42,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001a5",
+    "code": "P421",
+    "name": "Generic Blue packaged soap / detergent bar",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Blue packaged soap / detergent bar",
+      "Batch 3 Catalog Item | Ref: P421",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 25,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001a6",
+    "code": "P422",
+    "name": "Generic Red packaged soap / detergent bar",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Red packaged soap / detergent bar",
+      "Batch 3 Catalog Item | Ref: P422",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 13,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001a7",
+    "code": "P423",
+    "name": "Generic Green packaged soap / detergent bar",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Green packaged soap / detergent bar",
+      "Batch 3 Catalog Item | Ref: P423",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 26,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001a8",
+    "code": "P424",
+    "name": "Generic White packaged soap bar",
+    "category": "Personal Care",
+    "subCategory": "Baths & Soaps",
+    "price": 55,
+    "offerPrice": 48,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic White packaged soap bar",
+      "Batch 3 Catalog Item | Ref: P424",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 57,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001a9",
+    "code": "P425",
+    "name": "Wheel Active 2 in 1 detergent value pack",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Wheel Active 2 in 1 detergent value pack",
+      "Batch 3 Catalog Item | Ref: P425",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 17,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001aa",
+    "code": "P426",
+    "name": "Generic Incense sticks assorted fragrance packets",
+    "category": "Electrical",
+    "subCategory": "Household & Electricals",
+    "price": 90,
+    "offerPrice": 79,
+    "image": [
+      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Incense sticks assorted fragrance packets",
+      "Batch 3 Catalog Item | Ref: P426",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 28,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001ab",
+    "code": "P427",
+    "name": "Generic Cotton wicks / puja supplies",
+    "category": "Electrical",
+    "subCategory": "Household & Electricals",
+    "price": 90,
+    "offerPrice": 79,
+    "image": [
+      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Cotton wicks / puja supplies",
+      "Batch 3 Catalog Item | Ref: P427",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 40,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001ac",
+    "code": "P428",
+    "name": "Generic Scented incense cones or sticks jar",
+    "category": "Electrical",
+    "subCategory": "Household & Electricals",
+    "price": 90,
+    "offerPrice": 79,
+    "image": [
+      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Scented incense cones or sticks jar",
+      "Batch 3 Catalog Item | Ref: P428",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 35,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001ad",
+    "code": "P429",
+    "name": "Generic Small packet accessories / sachets",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Small packet accessories / sachets",
+      "Batch 3 Catalog Item | Ref: P429",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 33,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001ae",
+    "code": "P430",
+    "name": "Duracell AA battery blister pack",
+    "category": "Electrical",
+    "subCategory": "Household & Electricals",
+    "price": 90,
+    "offerPrice": 79,
+    "image": [
+      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Duracell AA battery blister pack",
+      "Batch 3 Catalog Item | Ref: P430",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 41,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001af",
+    "code": "P431",
+    "name": "Eveready Battery blister pack",
+    "category": "Electrical",
+    "subCategory": "Household & Electricals",
+    "price": 90,
+    "offerPrice": 79,
+    "image": [
+      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Eveready Battery blister pack",
+      "Batch 3 Catalog Item | Ref: P431",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 13,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001b0",
+    "code": "P432",
+    "name": "Kajal Hair colour sachet",
+    "category": "Personal Care",
+    "subCategory": "Hair Care & Colour",
+    "price": 130,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Kajal Hair colour sachet",
+      "Batch 3 Catalog Item | Ref: P432",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 42,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001b1",
+    "code": "P433",
+    "name": "Nupur Henna hair colour pouch",
+    "category": "Personal Care",
+    "subCategory": "Hair Care & Colour",
+    "price": 130,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Nupur Henna hair colour pouch",
+      "Batch 3 Catalog Item | Ref: P433",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 48,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001b2",
+    "code": "P434",
+    "name": "Vatika Hair colour sachet green",
+    "category": "Personal Care",
+    "subCategory": "Hair Care & Colour",
+    "price": 130,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Vatika Hair colour sachet green",
+      "Batch 3 Catalog Item | Ref: P434",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 26,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001b3",
+    "code": "P435",
+    "name": "Clinic Plus Shampoo sachet",
+    "category": "Personal Care",
+    "subCategory": "Hair Care & Colour",
+    "price": 130,
+    "offerPrice": 115,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Clinic Plus Shampoo sachet",
+      "Batch 3 Catalog Item | Ref: P435",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 15,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001b4",
+    "code": "P436",
+    "name": "Generic Glue stick / adhesive tube",
+    "category": "Electrical",
+    "subCategory": "Household & Electricals",
+    "price": 90,
+    "offerPrice": 79,
+    "image": [
+      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Glue stick / adhesive tube",
+      "Batch 3 Catalog Item | Ref: P436",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 50,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001b5",
+    "code": "P437",
+    "name": "Ajanta Digital calendar clock",
+    "category": "Electrical",
+    "subCategory": "Household & Electricals",
+    "price": 90,
+    "offerPrice": 79,
+    "image": [
+      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Ajanta Digital calendar clock",
+      "Batch 3 Catalog Item | Ref: P437",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 28,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001b6",
+    "code": "P438",
+    "name": "Wagh Bakri Premium Leaf Tea",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 195,
+    "offerPrice": 175,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Wagh Bakri Premium Leaf Tea",
+      "Batch 3 Catalog Item | Ref: P438",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 33,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001b7",
+    "code": "P439",
+    "name": "Taj Mahal Leaf tea pouch (blue green)",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 195,
+    "offerPrice": 175,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Taj Mahal Leaf tea pouch (blue green)",
+      "Batch 3 Catalog Item | Ref: P439",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 58,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001b8",
+    "code": "P440",
+    "name": "Bournvita 2X Strength pouch",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 195,
+    "offerPrice": 175,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Bournvita 2X Strength pouch",
+      "Batch 3 Catalog Item | Ref: P440",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 29,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001b9",
+    "code": "P441",
+    "name": "Tang Mango instant drink powder",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Tang Mango instant drink powder",
+      "Batch 3 Catalog Item | Ref: P441",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 15,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001ba",
+    "code": "P442",
+    "name": "Tang Orange instant drink powder",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Tang Orange instant drink powder",
+      "Batch 3 Catalog Item | Ref: P442",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 10,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001bb",
+    "code": "P443",
+    "name": "Tang Other flavour instant drink powder",
+    "category": "Drinks",
+    "subCategory": "Beverages & Health Drinks",
+    "price": 60,
+    "offerPrice": 52,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Tang Other flavour instant drink powder",
+      "Batch 3 Catalog Item | Ref: P443",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 33,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001bc",
+    "code": "P444",
+    "name": "Fortune Sunlite refined sunflower oil can",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Fortune Sunlite refined sunflower oil can",
+      "Batch 3 Catalog Item | Ref: P444",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 28,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001bd",
+    "code": "P445",
+    "name": "Generic Packaged rusk toast",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Packaged rusk toast",
+      "Batch 3 Catalog Item | Ref: P445",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 43,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001be",
+    "code": "P446",
+    "name": "New Lucky Toasted Khari / baked snack",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: New Lucky Toasted Khari / baked snack",
+      "Batch 3 Catalog Item | Ref: P446",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 11,
+    "createdAt": "2026-10-25T08:40:26.686Z",
+    "updatedAt": "2026-10-25T08:40:26.686Z"
+  },
+  {
+    "_id": "65f0000000000000000001bf",
+    "code": "P447",
+    "name": "Protein Sandwich bread",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Protein Sandwich bread",
+      "Batch 3 Catalog Item | Ref: P447",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 39,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
+  },
+  {
+    "_id": "65f0000000000000000001c0",
+    "code": "P448",
+    "name": "Protein Brown bread",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Protein Brown bread",
+      "Batch 3 Catalog Item | Ref: P448",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 36,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
+  },
+  {
+    "_id": "65f0000000000000000001c1",
+    "code": "P449",
+    "name": "Protein Maruti bread",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Protein Maruti bread",
+      "Batch 3 Catalog Item | Ref: P449",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 35,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
+  },
+  {
+    "_id": "65f0000000000000000001c2",
+    "code": "P450",
+    "name": "Protein Crustless sandwich bread",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Protein Crustless sandwich bread",
+      "Batch 3 Catalog Item | Ref: P450",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 50,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
+  },
+  {
+    "_id": "65f0000000000000000001c3",
+    "code": "P451",
+    "name": "Generic Plain bread buns",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Plain bread buns",
+      "Batch 3 Catalog Item | Ref: P451",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 19,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
+  },
+  {
+    "_id": "65f0000000000000000001c4",
+    "code": "P452",
+    "name": "Oral-B Toothbrush",
+    "category": "Personal Care",
+    "subCategory": "Oral Care",
+    "price": 95,
+    "offerPrice": 85,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
+      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Oral-B Toothbrush",
+      "Batch 3 Catalog Item | Ref: P452",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 52,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
+  },
+  {
+    "_id": "65f0000000000000000001c5",
+    "code": "P453",
+    "name": "Sensodyne Toothbrush",
+    "category": "Personal Care",
+    "subCategory": "Oral Care",
+    "price": 95,
+    "offerPrice": 85,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Sensodyne Toothbrush",
+      "Batch 3 Catalog Item | Ref: P453",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 23,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
+  },
+  {
+    "_id": "65f0000000000000000001c6",
+    "code": "P454",
+    "name": "Amul Festive offer JOYO storage container set (promotional display)",
+    "category": "Electrical",
+    "subCategory": "Household & Electricals",
+    "price": 90,
+    "offerPrice": 79,
+    "image": [
+      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Amul Festive offer JOYO storage container set (promotional display)",
+      "Batch 3 Catalog Item | Ref: P454",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 40,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
+  },
+  {
+    "_id": "65f0000000000000000001c7",
+    "code": "P455",
+    "name": "Malkist Cheese crackers",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Malkist Cheese crackers",
+      "Batch 3 Catalog Item | Ref: P455",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 18,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
+  },
+  {
+    "_id": "65f0000000000000000001c8",
+    "code": "P456",
+    "name": "Malkist Chocolate crackers",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Malkist Chocolate crackers",
+      "Batch 3 Catalog Item | Ref: P456",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 25,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
+  },
+  {
+    "_id": "65f0000000000000000001c9",
+    "code": "P457",
+    "name": "Generic Nutrish rusks",
+    "category": "Bakery",
+    "subCategory": "Breads, Biscuits & Rusks",
+    "price": 45,
+    "offerPrice": 40,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Nutrish rusks",
+      "Batch 3 Catalog Item | Ref: P457",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 17,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
+  },
+  {
+    "_id": "65f0000000000000000001ca",
+    "code": "P458",
+    "name": "Generic Soan papdi box",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Soan papdi box",
+      "Batch 3 Catalog Item | Ref: P458",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 51,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
+  },
+  {
+    "_id": "65f0000000000000000001cb",
+    "code": "P459",
+    "name": "Generic Cake / packaged dessert",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Cake / packaged dessert",
+      "Batch 3 Catalog Item | Ref: P459",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 46,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
+  },
+  {
+    "_id": "65f0000000000000000001cc",
+    "code": "P460",
+    "name": "Generic Ready-to-eat snack cup",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Ready-to-eat snack cup",
+      "Batch 3 Catalog Item | Ref: P460",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 22,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
+  },
+  {
+    "_id": "65f0000000000000000001cd",
+    "code": "P461",
+    "name": "Generic Dried dates / dried fruit packs",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Dried dates / dried fruit packs",
+      "Batch 3 Catalog Item | Ref: P461",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 37,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
+  },
+  {
+    "_id": "65f0000000000000000001ce",
+    "code": "P462",
+    "name": "Generic Roasted snack mixture jars",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Roasted snack mixture jars",
+      "Batch 3 Catalog Item | Ref: P462",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 31,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
+  },
+  {
+    "_id": "65f0000000000000000001cf",
+    "code": "P463",
+    "name": "Gits Mini Gulab Jamun open and eat can",
+    "category": "Instant",
+    "subCategory": "Instant Foods & Sauces",
+    "price": 70,
+    "offerPrice": 62,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
+      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Gits Mini Gulab Jamun open and eat can",
+      "Batch 3 Catalog Item | Ref: P463",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 50,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
+  },
+  {
+    "_id": "65f0000000000000000001d0",
+    "code": "P464",
+    "name": "Patanjali Papad / Mathiya pack",
+    "category": "Spices",
+    "subCategory": "Salts & Cooking Seasonings",
+    "price": 28,
+    "offerPrice": 25,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267200_14-everest-masala-chhole.jpg",
+      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Patanjali Papad / Mathiya pack",
+      "Batch 3 Catalog Item | Ref: P464",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 45,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
+  },
+  {
+    "_id": "65f0000000000000000001d1",
+    "code": "P465",
+    "name": "Generic Chorafali papad 200 g",
+    "category": "Spices",
+    "subCategory": "Salts & Cooking Seasonings",
+    "price": 28,
+    "offerPrice": 25,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/267200_14-everest-masala-chhole.jpg",
+      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Chorafali papad 200 g",
+      "Batch 3 Catalog Item | Ref: P465",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 25,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
+  },
+  {
+    "_id": "65f0000000000000000001d2",
+    "code": "P466",
+    "name": "Generic Dry poha / flattened rice loose",
+    "category": "Grocery",
+    "subCategory": "Grains, Snacks & Essentials",
+    "price": 95,
+    "offerPrice": 84,
+    "image": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Dry poha / flattened rice loose",
+      "Batch 3 Catalog Item | Ref: P466",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 59,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
+  },
+  {
+    "_id": "65f0000000000000000001d3",
+    "code": "P467",
+    "name": "Jumbo Long broom (packaged)",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Jumbo Long broom (packaged)",
+      "Batch 3 Catalog Item | Ref: P467",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 22,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
+  },
+  {
+    "_id": "65f0000000000000000001d4",
+    "code": "P468",
+    "name": "Generic Grass broom / coconut-stick broom",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Grass broom / coconut-stick broom",
+      "Batch 3 Catalog Item | Ref: P468",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 34,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
+  },
+  {
+    "_id": "65f0000000000000000001d5",
+    "code": "P469",
+    "name": "Generic Peacock-branded household broom",
+    "category": "Cleaning",
+    "subCategory": "Laundry & Home Hygiene",
+    "price": 140,
+    "offerPrice": 125,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
+      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+    ],
+    "description": [
+      "Authentic Store Product: Generic Peacock-branded household broom",
+      "Batch 3 Catalog Item | Ref: P469",
+      "Guaranteed fresh & high quality with speedy doorstep delivery"
+    ],
+    "inStock": true,
+    "purchaseCount": 26,
+    "createdAt": "2026-10-25T08:40:26.687Z",
+    "updatedAt": "2026-10-25T08:40:26.687Z"
   }
 ];

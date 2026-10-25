@@ -38,9 +38,9 @@ const seedInitialData = async () => {
   try {
     const productCount = await Product.countDocuments();
     if (productCount === 0) {
-      console.log("Database has no products. Seeding 229 catalog grocery items...");
+      console.log("Database has no products. Seeding 469 catalog grocery items...");
       let initialItems = [];
-      const catalogPath = path.resolve("data", "products229.json");
+      const catalogPath = path.resolve("data", "products469.json");
       if (fs.existsSync(catalogPath)) {
         initialItems = JSON.parse(fs.readFileSync(catalogPath, "utf8"));
       }

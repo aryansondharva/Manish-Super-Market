@@ -32,8 +32,8 @@ async function pushToDatabase() {
     const totalCategories = await Category.countDocuments();
     console.log(`Categories updated! Total categories in DB: ${totalCategories}`);
 
-    // Read 229 products
-    const productsData = JSON.parse(fs.readFileSync('data/products229.json', 'utf8'));
+    // Read 469 products
+    const productsData = JSON.parse(fs.readFileSync('data/products469.json', 'utf8'));
     console.log(`Preparing to push ${productsData.length} products to database...`);
 
     // Remove existing seed products if any, then insert all 229 products
