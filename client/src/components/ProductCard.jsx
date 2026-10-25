@@ -19,12 +19,20 @@ const ProductsCard = ({ product }) => {
           scrollTo(0, 0);
         }}
       >
-        {/* Out of Stock Floating Badge */}
-        {!isInStock && (
+        {/* Badges: Out of stock or Daily Milk or Popular */}
+        {!isInStock ? (
           <span className="absolute top-2 left-2 z-10 px-2 py-0.5 bg-rose-600 text-white text-[10px] font-bold rounded-md tracking-wide shadow-xs uppercase">
             Out of Stock
           </span>
-        )}
+        ) : product?.name?.toLowerCase().includes("milk") || product?.category?.toLowerCase() === "dairy" ? (
+          <span className="absolute top-2 left-2 z-10 px-2 py-0.5 bg-blue-600/95 text-white text-[10px] font-bold rounded-md tracking-wide shadow-2xs flex items-center gap-1">
+            <span>🥛</span> Daily Essential
+          </span>
+        ) : product?.purchaseCount > 0 ? (
+          <span className="absolute top-2 left-2 z-10 px-2 py-0.5 bg-amber-500/95 text-white text-[10px] font-bold rounded-md tracking-wide shadow-2xs flex items-center gap-1">
+            <span>🔥</span> Top Pick
+          </span>
+        ) : null}
 
         <div className="group cursor-pointer flex items-center justify-center px-2 relative">
           <img

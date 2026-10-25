@@ -1,5 +1,6 @@
 import { v2 as cloudinary } from "cloudinary";
 import Product from "../models/Product.js";
+import Order from "../models/Order.js";
 
 export const addProduct = async (req, res) => {
   try {
@@ -97,8 +98,73 @@ export const addProduct = async (req, res) => {
 
 export const productList = async (req, res) => {
   try {
-    const products = await Product.find({}).sort({ createdAt: -1 });
-    res.json({ success: true, products });
+    const products = await Product.find({});
+
+    // Calculate actual sales / purchase counts across all non-cancelled orders
+    let purchaseCounts = {};
+    try {
+      const orders = await Order.find({ status: { $ne: "Cancelled" } }).select("items");
+      orders.forEach((order) => {
+        if (Array.isArray(order.items)) {
+          order.items.forEach((item) => {
+            const pid = (item.product?._id || item.product)?.toString();
+            if (pid) {
+              purchaseCounts[pid] = (purchaseCounts[pid] || 0) + (Number(item.quantity) || 1);
+            }
+          });
+        }
+      });
+    } catch (e) {
+      console.log("Error aggregating order purchase counts:", e.message);
+    }
+
+    // Smart Grocery Ranking Algorithm:
+    // 1. Milk products have top priority (everyone buys milk daily)
+    // 2. Other Dairy products (paneer, curd, cheese, butter)
+    // 3. Most purchased / ordered items next
+    // 4. In stock items preferred over out of stock
+    const getProductPriority = (p) => {
+      const name = (p.name || "").toLowerCase();
+      const cat = (p.category || "").toLowerCase();
+      // Milk has supreme #1 priority
+      if (name.includes("milk") || name.includes("doodh") || name.includes("amul milk")) return 1000;
+      // Other daily dairy essentials
+      if (cat === "dairy" || name.includes("paneer") || name.includes("butter") || name.includes("cheese") || name.includes("curd")) return 800;
+      return 0;
+    };
+
+    const enrichedProducts = products.map((p) => {
+      const obj = p.toObject ? p.toObject() : { ...p };
+      obj.purchaseCount = purchaseCounts[obj._id.toString()] || 0;
+      return obj;
+    });
+
+    enrichedProducts.sort((a, b) => {
+      const priorityA = getProductPriority(a);
+      const priorityB = getProductPriority(b);
+
+      // 1. Milk and Dairy on the top side
+      if (priorityA !== priorityB) {
+        return priorityB - priorityA;
+      }
+
+      // 2. Then after show as they purchase (purchase popularity algorithm)
+      const salesA = a.purchaseCount || 0;
+      const salesB = b.purchaseCount || 0;
+      if (salesA !== salesB) {
+        return salesB - salesA;
+      }
+
+      // 3. In stock preference
+      if (a.inStock !== b.inStock) {
+        return a.inStock ? -1 : 1;
+      }
+
+      // 4. Fallback to newest
+      return new Date(b.createdAt || 0) - new Date(a.createdAt || 0);
+    });
+
+    res.json({ success: true, products: enrichedProducts });
   } catch (error) {
     console.log(error.message);
     res.json({ success: false, message: error.message });
