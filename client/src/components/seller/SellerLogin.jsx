@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useAppContext } from "../../context/AppContext";
+import { assets } from "../../assets/assets";
 import toast from "react-hot-toast";
 
 function SellerLogin() {
@@ -48,7 +49,8 @@ function SellerLogin() {
           onSubmit={onSubmitHandler}
           className="flex flex-col gap-5 p-8 sm:p-10 w-full max-w-md rounded-2xl shadow-xl border border-gray-200 bg-white"
         >
-          <div className="text-center space-y-1">
+          <div className="text-center space-y-2">
+            <img src={assets.logo} alt="Manish Super Market" className="h-20 sm:h-24 w-auto mx-auto object-contain mb-2" />
             <span className="inline-block px-3 py-1 bg-emerald-100 text-emerald-800 text-xs font-semibold rounded-full uppercase tracking-wider">
               Management Portal
             </span>

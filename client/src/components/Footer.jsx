@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="px-4 sm:px-6 md:px-16 lg:px-24 xl:px-32 mt-24 bg-primary/10">
       <div className="flex flex-col md:flex-row items-start justify-between gap-10 py-10 border-b border-gray-500/30 text-gray-500">
         <div>
-          <img className="h-10 w-auto object-contain" src={assets.logo} alt="Manish Super Market" />
+          <img className="h-16 sm:h-20 md:h-28 w-auto object-contain" src={assets.logo} alt="Manish Super Market" />
           <p className="max-w-[410px] mt-6">
             We deliver fresh groceries and snacks straight to your door. Trusted
             by thousands, Manish Super Market aims to make your shopping experience simple and

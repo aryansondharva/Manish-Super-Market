@@ -34,9 +34,9 @@ const ProductsCard = ({ product }) => {
           </span>
         ) : null}
 
-        <div className="group cursor-pointer flex items-center justify-center px-2 relative">
+        <div className="group cursor-pointer flex items-center justify-center px-2 py-2 relative">
           <img
-            className={`group-hover:scale-105 transition max-w-24 md:max-w-36 h-24 md:h-32 object-contain ${
+            className={`group-hover:scale-105 transition max-w-28 md:max-w-40 h-28 md:h-36 object-contain ${
               !isInStock ? "opacity-75 grayscale-30" : ""
             }`}
             src={product.image[0]}

@@ -38,7 +38,7 @@ const SellerLayout = () => {
       <header className="flex items-center justify-between px-4 md:px-8 border-b border-gray-200 py-3 bg-white sticky top-0 z-30 shadow-xs">
         <div className="flex items-center gap-4">
           <Link to="/">
-            <img src={assets.logo} alt="Manish Super Market" className="h-8 w-auto object-contain" />
+            <img src={assets.logo} alt="Manish Super Market" className="h-12 sm:h-16 w-auto object-contain" />
           </Link>
           <span className="hidden sm:inline-block px-2.5 py-0.5 bg-emerald-100 text-emerald-800 text-xs font-semibold rounded-full">
             Admin Workspace
