@@ -1608,24 +1608,46 @@ export const dummyProducts = [
   {
     "_id": "65f00000000000000000003e",
     "code": "P062",
-    "name": "Amul Taaza / Gold Milk Pouch 500ml",
+    "name": "Amul Taaza Fresh Toned Milk 500ml",
     "category": "Dairy",
     "subCategory": "Dairy / chilled",
-    "price": 34,
-    "offerPrice": 32,
+    "price": 29,
+    "offerPrice": 29,
     "image": [
-      "https://m.media-amazon.com/images/I/81dbbsmBHTL._AC_UL320_.jpg",
-      "https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-3000-3000,pr-true,f-auto,q-40,dpr-2/cms/product_variant/50adc182-756d-4c3d-8d98-3263122fad28/Amul-Gold-Special-Fresh-Milk-Pouch.jpeg"
+      "https://www.bbassets.com/media/uploads/p/l/40041431_1-amul-taaza-fresh-toned-milk.jpg",
+      "https://cdn.zeptonow.com/production/ik-seo/tr:,ar-1200-1200,pr-true,f-auto,q-80/cms/product_variant/a4b3baa4-23ed-4d3d-9a19-99f190d0645b/Amul-Taaza-Toned-Fresh-Milk-Pouch-500-ml-X-2-Combo.jpg"
     ],
     "description": [
-      "100% Genuine & Authentic Amul Taaza / Gold Milk Pouch 500ml",
+      "100% Genuine & Authentic Amul Taaza Fresh Toned Milk 500ml",
       "Category: Dairy / chilled | Code: P062",
       "Fast express grocery delivery to your doorstep in 30 minutes"
     ],
     "inStock": true,
-    "purchaseCount": 72,
+    "purchaseCount": 95,
     "createdAt": "2026-10-25T08:21:42.413Z",
-    "updatedAt": "2026-10-25T08:21:42.413Z"
+    "updatedAt": "2026-11-02T12:22:19.327Z"
+  },
+  {
+    "_id": "65f0000000000000000001d6",
+    "code": "P470",
+    "name": "Amul Gold Full Cream Fresh Milk 500ml",
+    "category": "Dairy",
+    "subCategory": "Dairy / chilled",
+    "price": 35,
+    "offerPrice": 35,
+    "image": [
+      "https://www.bbassets.com/media/uploads/p/l/40090893_8-amul-amul-gold.jpg",
+      "https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-3000-3000,pr-true,f-auto,q-40,dpr-2/cms/product_variant/50adc182-756d-4c3d-8d98-3263122fad28/Amul-Gold-Special-Fresh-Milk-Pouch.jpeg"
+    ],
+    "description": [
+      "100% Genuine & Authentic Amul Gold Full Cream Fresh Milk 500ml",
+      "Category: Dairy / chilled | Code: P470",
+      "Fast express grocery delivery to your doorstep in 30 minutes"
+    ],
+    "inStock": true,
+    "purchaseCount": 98,
+    "createdAt": "2026-11-02T12:22:19.329Z",
+    "updatedAt": "2026-11-02T12:22:19.329Z"
   },
   {
     "_id": "65f00000000000000000003f",
