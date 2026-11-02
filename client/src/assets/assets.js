@@ -272,8 +272,8 @@ export const dummyProducts = [
     "price": 90,
     "offerPrice": 82,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/20006690_49-cadbury-dairy-milk-silk-bubbly-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71Iml30xIBL._SL1300_.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1777953701494-14084.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury Dairy Milk Silk Bubbly",
@@ -294,8 +294,8 @@ export const dummyProducts = [
     "price": 90,
     "offerPrice": 82,
     "image": [
-      "https://images.openfoodfacts.org/images/products/762/220/227/1861/front_en.9.400.jpg",
-      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71631I5BX1L.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1772003468085-362.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury Dairy Milk Silk Fruit & Nut",
@@ -316,8 +316,8 @@ export const dummyProducts = [
     "price": 85,
     "offerPrice": 78,
     "image": [
-      "https://images.openfoodfacts.org/images/products/762/220/227/1861/front_en.9.400.jpg",
-      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/images/products/sliding_image/321049a.jpg?ts=1699882842",
+      "https://m.media-amazon.com/images/I/71WeEVI1gZL._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury Dairy Milk Silk Chocolate",
@@ -338,8 +338,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 85,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40120536_17-cadbury-dairy-milk-silk-oreo-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1777953701494-14064.jpg",
+      "https://m.media-amazon.com/images/I/71axx6kNMrL._SL1100_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury Dairy Milk Silk Oreo",
@@ -360,8 +360,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 85,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40156947_11-cadbury-dairy-milk-silk-mousse-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/c2469620-6cd1-4568-89b5-04b440c34b14.jpg?ts=1707207131",
+      "https://m.media-amazon.com/images/I/71RAcrPdLhL._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury Dairy Milk Silk Mousse",
@@ -382,8 +382,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 85,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40120537_13-cadbury-dairy-milk-silk-hazelnut-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71VwA4+xeKL._SL1500_.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1772003468085-381.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury Dairy Milk Silk Hazelnut",
@@ -404,8 +404,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 85,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40200843_6-cadbury-dairy-milk-silk-red-velvet-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/504b4f9a-9f0a-492a-a9a6-94881b00e4f6.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product_videos_thumbnails/5193342b-c9c3-4893-b563-0b2ac02854f8.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury Dairy Milk Silk Brownie",
@@ -426,8 +426,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 85,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40156947_11-cadbury-dairy-milk-silk-mousse-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1772003468085-252.jpg",
+      "https://m.media-amazon.com/images/I/61SDUMvpjHL._SL1100_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury Dairy Milk Silk Ganache",
@@ -448,8 +448,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://images.openfoodfacts.org/images/products/762/220/232/9494/front_en.12.400.jpg",
-      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/normal/pro_360323.jpg",
+      "https://m.media-amazon.com/images/I/71JNfJTZV8L._AC_SL1350_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury Dairy Milk classic",
@@ -470,8 +470,8 @@ export const dummyProducts = [
     "price": 50,
     "offerPrice": 45,
     "image": [
-      "https://images.openfoodfacts.org/images/products/762/220/232/9494/front_en.12.400.jpg",
-      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/assets/products/large_images/jpeg/016d6fe9-a970-42c3-b418-f1cdb9f41a81.jpg?ts=1720003159",
+      "https://m.media-amazon.com/images/I/61ct04WQsnL._SL1100_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury Dairy Milk Roast Almond",
@@ -492,8 +492,8 @@ export const dummyProducts = [
     "price": 50,
     "offerPrice": 45,
     "image": [
-      "https://images.openfoodfacts.org/images/products/762/220/227/1861/front_en.9.400.jpg",
-      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/578d3789-fc39-4b12-936d-1290769011cc.jpg?ts=1748930367",
+      "https://m.media-amazon.com/images/I/71m-7cN7r2L._SL1100_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury Dairy Milk Fruit & Nut",
@@ -514,8 +514,8 @@ export const dummyProducts = [
     "price": 50,
     "offerPrice": 45,
     "image": [
-      "https://images.openfoodfacts.org/images/products/762/220/232/9494/front_en.12.400.jpg",
-      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/71eb8093-af54-448b-8ce4-90894ca1ba71.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/sliding_image/428643a.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury Dairy Milk Crackle",
@@ -536,8 +536,8 @@ export const dummyProducts = [
     "price": 20,
     "offerPrice": 18,
     "image": [
-      "https://images.openfoodfacts.org/images/products/762/220/232/9494/front_en.12.400.jpg",
-      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/b8b88969-8f3d-4a16-9a1c-3616acfe52fa.jpg?ts=1744265089",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/c2f474fb-156c-4dfa-8382-a4151c97ac45.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury Dairy Milk small bars",
@@ -558,8 +558,8 @@ export const dummyProducts = [
     "price": 35,
     "offerPrice": 30,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40098555_16-cadbury-dairy-milk-crispello-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/dd90ac89-0d98-4bec-9bf3-e664541a4928.jpg?ts=1743591948",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/rc-upload-1777953701494-15042.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury Dairy Milk Crispello",
@@ -580,8 +580,8 @@ export const dummyProducts = [
     "price": 110,
     "offerPrice": 99,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/263539_12-cadbury-bournville-rich-cocoa-dark-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1777953701494-7743.jpg",
+      "https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-1470-1470,pr-true,f-auto,q-40,dpr-2/cms/product_variant/3920f004-b6b9-4da6-b11d-220ff99c9413/Cadbury-Bournville-Orange-50-Dark-Chocolate-Bar-Combo.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury Bournville Orange 50% Dark",
@@ -602,8 +602,8 @@ export const dummyProducts = [
     "price": 110,
     "offerPrice": 99,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/263539_12-cadbury-bournville-rich-cocoa-dark-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/NI_CATALOG/IMAGES/CIW/2025/1/9/48f82d3f-bbb6-4df6-8a33-1db0b4a1c53d_114_1.png",
+      "https://rukminim2.flixcart.com/image/416/416/xif0q/chocolate/x/f/m/400-bournville-50-dark-chocolate-bar-5-cadbury-original-imagp9ymf7tmjjwh.jpeg?q=70"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury Bournville Classic 50% Dark",
@@ -624,8 +624,8 @@ export const dummyProducts = [
     "price": 115,
     "offerPrice": 105,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40087494_12-cadbury-bournville-fruit-nut-dark-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/583478cb-bea7-4afe-9489-beee19cfac02.jpg?ts=1745397850",
+      "https://www.bbassets.com/media/uploads/p/l/1215894_15-cadbury-bournville-raisin-nuts-dark-chocolate-bar.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury Bournville Fruit & Nut 50% Dark",
@@ -646,8 +646,8 @@ export const dummyProducts = [
     "price": 115,
     "offerPrice": 105,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40087495_13-cadbury-bournville-cranberry-dark-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61+19AKPziL._SL1100_.jpg",
+      "https://m.media-amazon.com/images/I/61wFrhxgHdL._SX679_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury Bournville Rum & Raisin 50% Dark",
@@ -668,8 +668,8 @@ export const dummyProducts = [
     "price": 115,
     "offerPrice": 105,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40087495_13-cadbury-bournville-cranberry-dark-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
+      "https://www.bbassets.com/media/uploads/p/l/1203269_14-cadbury-bournville-cranberry-dark-chocolate-bar.jpg",
+      "https://m.media-amazon.com/images/I/51Jg2c3WZDL._SY300_SX300_QL70_ML2_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury Bournville Cranberry 50% Dark",
@@ -690,8 +690,8 @@ export const dummyProducts = [
     "price": 20,
     "offerPrice": 18,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012484_20-cadbury-5-star-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim2.flixcart.com/image/480/640/xif0q/chocolate/t/w/4/-original-imahpaztaaevgznj.jpeg?q=80",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/337ea77a-4997-413d-9367-71287ed9f359.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury 5 Star original",
@@ -712,8 +712,8 @@ export const dummyProducts = [
     "price": 35,
     "offerPrice": 30,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40094767_15-cadbury-5-star-3d-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/images/products/normal/pro_408356.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/d05a4864-80fc-4edf-9d20-b01d3243277b.jpg?ts=1746098221"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury 5 Star 3D",
@@ -734,8 +734,8 @@ export const dummyProducts = [
     "price": 35,
     "offerPrice": 30,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40200844_7-cadbury-5-star-oreo-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/d4586250-fa8a-4be1-8549-5086aadfef04.jpg?ts=1729854513",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/assets/products/large_images/jpeg/45793f85-e46e-406d-ac95-aeeac0cd143d.jpg?ts=1718101032"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury 5 Star Oreo",
@@ -756,8 +756,8 @@ export const dummyProducts = [
     "price": 40,
     "offerPrice": 35,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40094768_13-cadbury-fuse-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/c5756902323c4ba4a15db29cd157bdbe.jpeg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/assets/products/large_images/jpeg/d1253ea2-e3a9-4d5c-bdcc-b6a26be7d41e.jpg?ts=1719840413"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury Fuse",
@@ -778,8 +778,8 @@ export const dummyProducts = [
     "price": 10,
     "offerPrice": 9,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012490_18-cadbury-perk-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/f25341cf-c876-47e4-ac25-0dc97a6f73dc.jpg?ts=1738568158",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/b2cc55a1-d3e6-4d5f-9973-d2c400b6c8d2.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury Perk",
@@ -800,8 +800,8 @@ export const dummyProducts = [
     "price": 20,
     "offerPrice": 18,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012484_20-cadbury-5-star-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/assets/products/large_images/jpeg/50c15fc4-f44a-464a-a489-b16c9db3b390.jpg?ts=1708254012",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/337ea77a-4997-413d-9367-71287ed9f359.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cadbury 5 Star softer bar",
@@ -822,8 +822,8 @@ export const dummyProducts = [
     "price": 120,
     "offerPrice": 108,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40085437_10-amul-dark-chocolate.jpg",
-      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/bdb85bf0-1c46-42a3-90b4-e93216298636.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/da4207ab-24da-472b-a0e2-19eb399af253.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Dark chocolate bar",
@@ -844,8 +844,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40231599_2-nestle-kitkat-dessert-delight-choco-pudding.jpg",
-      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1771602170375-954.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/53046324-4468-412f-8b93-5b439214ea68.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Nestle KitKat Delights Choco Lava",
@@ -866,8 +866,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40231600_2-nestle-kitkat-dessert-delight-rich-choco-fudge.jpg",
-      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/rc-upload-1772423114429-223.jpg",
+      "https://m.media-amazon.com/images/I/71UQTLlsYlL._AC_SL3840_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Nestle KitKat Delights Dark",
@@ -888,8 +888,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40231600_2-nestle-kitkat-dessert-delight-rich-choco-fudge.jpg",
-      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/eb4c0703-1958-4e5a-ba8d-a1a8d14c109c.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/53046324-4468-412f-8b93-5b439214ea68.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Nestle KitKat Delights Rich",
@@ -910,8 +910,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40231599_2-nestle-kitkat-dessert-delight-choco-pudding.jpg",
-      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/635422e9-711e-4069-aaed-ead1bd6243a4.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/0c184015-aae5-4444-8fc6-a29d2700d265.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Nestle KitKat Delights Hazelnut",
@@ -932,8 +932,8 @@ export const dummyProducts = [
     "price": 80,
     "offerPrice": 72,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40192806_8-nestle-kitkat-share-bag-pack.jpg",
-      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71sczy6vCBL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/514L1h2aheL._AC_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Nestle KitKat Share & Snap",
@@ -954,8 +954,8 @@ export const dummyProducts = [
     "price": 30,
     "offerPrice": 27,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/groot/images/2172022-45228a6e-3.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/843df4ab-2c7a-4cc6-bc0a-7dc873a52ef2.jpg?ts=1730702911"
     ],
     "description": [
       "100% Genuine & Authentic Nestle KitKat standard bars",
@@ -976,8 +976,8 @@ export const dummyProducts = [
     "price": 15,
     "offerPrice": 14,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/images/products/sliding_image/383615a.jpg?ts=1697031499",
+      "https://m.media-amazon.com/images/I/81jXUqo-RtL.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Nestle KitKat 2 Finger",
@@ -998,8 +998,8 @@ export const dummyProducts = [
     "price": 30,
     "offerPrice": 27,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/d4bda614-b79f-4040-8b5f-f5595a6644ab.jpg",
+      "https://m.media-amazon.com/images/I/81l8mt2DABL.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Nestle KitKat 4 Finger",
@@ -1020,8 +1020,8 @@ export const dummyProducts = [
     "price": 50,
     "offerPrice": 45,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40192806_8-nestle-kitkat-share-bag-pack.jpg",
-      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/f260d787ef9d46e7a3d462bc4e0d0ee8.jpeg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1771904678029-745.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Nestle KitKat Pops",
@@ -1042,8 +1042,8 @@ export const dummyProducts = [
     "price": 10,
     "offerPrice": 9,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012503_18-nestle-munch-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/5c16fb64-1fa4-4465-beee-106b535778d7.jpg?ts=1730718174",
+      "https://m.media-amazon.com/images/I/81DGNLbpqSL._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Nestle Munch",
@@ -1064,8 +1064,8 @@ export const dummyProducts = [
     "price": 20,
     "offerPrice": 18,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40120538_10-nestle-munch-max-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/b0b332df-f436-40a9-adfa-725cf638b84d.jpg?ts=1732858428",
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/6f4d0675-734c-4cfb-b83b-85ff71a2fd1c.jpg?ts=1716900877"
     ],
     "description": [
       "100% Genuine & Authentic Nestle Munch Max",
@@ -1086,8 +1086,8 @@ export const dummyProducts = [
     "price": 20,
     "offerPrice": 18,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012500_18-nestle-milkybar-white-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778220050094-9120.jpg",
+      "https://rukminim2.flixcart.com/image/300/300/xif0q/chocolate/e/u/q/80-milky-bar-original-chocolate-1-nestle-original-imagk3hyq9gnhwuf.jpeg"
     ],
     "description": [
       "100% Genuine & Authentic Milkybar Original",
@@ -1108,8 +1108,8 @@ export const dummyProducts = [
     "price": 30,
     "offerPrice": 26,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012500_18-nestle-milkybar-white-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1526081347589-7fa3cb41b4b2?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ab806c95-019f-423b-b1b4-4366199c9847.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/ce0cd663-4c85-4fbc-8060-4f0b9b83461d.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Milkybar assorted variants",
@@ -1130,8 +1130,8 @@ export const dummyProducts = [
     "price": 40,
     "offerPrice": 38,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251014_14-diet-coke-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim1.flixcart.com/image/400/400/kynb6vk0/aerated-drink/a/k/7/-original-imagau2nhx7aytga.jpeg?q=90",
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/9f37152b-2eec-4463-af53-24d766b65c0a.jpg?ts=1726310571"
     ],
     "description": [
       "100% Genuine & Authentic Coca-Cola Diet Coke cans 300ml",
@@ -1152,8 +1152,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/590a7cf3-3f38-4f75-a1d8-358febe6c6e2.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/39cfb928-98d0-4863-aa30-378fc27924ab.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Coca-Cola classic 750ml bottle",
@@ -1174,8 +1174,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251042_11-sprite-soft-drink-lime-flavoured.jpg",
-      "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_312.jpg?ts=1685979454",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/9f13f989-5c5b-4d4a-a3d1-5d6a3d13e299.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Sprite refreshing lemon-lime 750ml",
@@ -1196,8 +1196,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251034_12-thums-up-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/38b87d4a-37f4-4fd8-ac0e-fc4d216090be.jpg",
+      "https://www.bigbasket.com/media/uploads/p/m/1232523_1-thums-up-soft-drink.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Thums Up charged soft drink 750ml",
@@ -1218,8 +1218,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251030_10-fanta-soft-drink-orange-flavoured.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/p/l/251019-6_6-fanta-soft-drink-orange-flavoured.jpg",
+      "https://www.bigbasket.com/media/uploads/p/l/251019_8-fanta-soft-drink-orange-flavoured.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Fanta orange fruity soda 750ml",
@@ -1240,8 +1240,8 @@ export const dummyProducts = [
     "price": 42,
     "offerPrice": 38,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/265691_11-maaza-mango-drink.jpg",
-      "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/e81e6da5-73c8-4f75-af02-b8fee29901a5.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/sliding_image/378457a.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Maaza mango drink 600ml",
@@ -1262,8 +1262,8 @@ export const dummyProducts = [
     "price": 80,
     "offerPrice": 72,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/265694_10-minute-maid-pulpy-orange-juice.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim2.flixcart.com/image/960/1280/xif0q/drinks-juice/z/l/l/-original-imagqh7cybntnems.jpeg?q=60",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/bdc6a097-4224-467b-8308-a6f82d08d071.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Minute Maid pulpy orange juice 1L",
@@ -1284,8 +1284,8 @@ export const dummyProducts = [
     "price": 20,
     "offerPrice": 18,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/265698_10-kinley-club-soda.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://www.bbassets.com/media/uploads/p/l/1200129_6-kinley-club-soda.jpg",
+      "https://m.media-amazon.com/images/I/81l1XCre0WL._SL1200_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Kinley Strong Club Soda 750ml",
@@ -1306,8 +1306,8 @@ export const dummyProducts = [
     "price": 20,
     "offerPrice": 18,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/265696_9-kinley-packaged-drinking-water.jpg",
-      "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71aRb0KxcXL._SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/61SNrAM4oeL.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Kinley drinking water 1L bottle",
@@ -1328,8 +1328,8 @@ export const dummyProducts = [
     "price": 125,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40120540_10-monster-energy-drink.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://5.imimg.com/data5/SELLER/Default/2026/2/583431983/WW/KX/HW/40170691/monster-energy-drink-original-350ml-pack-of-24-500x500.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2025/8/534264852/LL/KE/RR/150567692/350-ml-monster-energy-drink-1000x1000.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Monster Energy original can 350ml",
@@ -1350,8 +1350,8 @@ export const dummyProducts = [
     "price": 125,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40156950_8-monster-energy-ultra-zero-sugar.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/assets/products/sliding_images/jpeg/b9268c7f-5a24-4eb8-9fa3-56ee5841fcd6.jpg?ts=1716876803",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778473839715-865.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Monster Ultra Zero Sugar can 350ml",
@@ -1372,8 +1372,8 @@ export const dummyProducts = [
     "price": 125,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/265700_15-red-bull-energy-drink.jpg",
-      "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/58a43181-b8ee-40fa-ab86-9ba4b6a38b33.jpg",
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/9fcdfdaf-d448-4a99-8d5b-ea784cd3240b.jpg?ts=1710412983"
     ],
     "description": [
       "100% Genuine & Authentic Red Bull Energy Drink can 250ml",
@@ -1394,8 +1394,8 @@ export const dummyProducts = [
     "price": 65,
     "offerPrice": 58,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40182800_4-hell-energy-drink.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/61879b4f632a4fa09569ae4ee24c0159.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/e88e45ef-8b8b-46f7-9f4f-dff3b4c76638.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Hell Energy Zero can 250ml",
@@ -1416,8 +1416,8 @@ export const dummyProducts = [
     "price": 65,
     "offerPrice": 58,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40182800_4-hell-energy-drink.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/bba5ff24-b192-49df-b083-4d05a259a033.jpg",
+      "https://m.media-amazon.com/images/I/71FJeWx8FzL.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Hell Energy classic original can 250ml",
@@ -1438,8 +1438,8 @@ export const dummyProducts = [
     "price": 35,
     "offerPrice": 30,
     "image": [
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&q=80&w=600"
+      "https://www.jiomart.com/images/product/150x150/490507082/sosyo-mixed-fruit-drink-500-ml-product-images-o490507082-p490507082-0-202206141816.jpg",
+      "https://www.bbassets.com/media/uploads/p/l/40361623_2-sosyo-mixed-fruit-flavoured-drink.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Sosyo authentic fizzy drink bottle",
@@ -1460,8 +1460,8 @@ export const dummyProducts = [
     "price": 20,
     "offerPrice": 18,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100000004_15-aquafina-packaged-drinking-water.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/37683acb-6038-43c9-8d6f-a7f4fff12deb.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/a803fff2-aed0-4533-99fa-313a43d04d3c.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Aquafina Packaged drinking water 1L",
@@ -1482,8 +1482,8 @@ export const dummyProducts = [
     "price": 30,
     "offerPrice": 26,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100000002_18-bisleri-packaged-drinking-water.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/ca8181c2-21da-4ed1-9cdc-eb34754e8962.jpg",
+      "https://m.media-amazon.com/images/I/71VWbLxnG2L._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Bisleri lemon-lime fizzy soda 600ml",
@@ -1504,8 +1504,8 @@ export const dummyProducts = [
     "price": 35,
     "offerPrice": 30,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100000002_18-bisleri-packaged-drinking-water.jpg",
-      "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/p/m/1223259_1-bisleri-club-soda-extra-power-refreshing-drink.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/assets/products/sliding_images/jpeg/5bdfc352-d8fc-46a2-85d4-851d61031973.jpg?ts=1726310649"
     ],
     "description": [
       "100% Genuine & Authentic Bisleri Pop sparkling beverage",
@@ -1526,8 +1526,8 @@ export const dummyProducts = [
     "price": 275,
     "offerPrice": 255,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100005470_19-amul-butter-pasteurised.jpg",
-      "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80&w=600"
+      "https://www.jiomart.com/images/product/150x150/490001392/amul-butter-500-g-carton-product-images-o490001392-p490001392-0-202203152128.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2026/1/574025719/EC/RB/VV/23713373/amul-pasteurised-butter-1000x1000.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Pasteurised Butter 500g",
@@ -1548,8 +1548,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 128,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/104758_10-amul-processed-cheese-block.jpg",
-      "https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1777436686892-14079.jpg",
+      "https://cdn.grofers.com/app/images/products/sliding_image/408193a.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Processed Cheese Blocks 200g",
@@ -1570,8 +1570,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/104764_11-amul-masti-dahi.jpg",
-      "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&q=80&w=600"
+      "https://www.bbassets.com/media/uploads/p/m/1207108_1-amul-masti-dahi.jpg",
+      "https://www.bbassets.com/media/uploads/p/l/104851_4-amul-masti-dahi.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Masti Dahi Curd Tub 400g",
@@ -1592,8 +1592,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 88,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/279586_12-amul-fresh-malai-paneer.jpg",
-      "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/p/xl/40096747_8-amul-malai-fresh-paneer.jpg",
+      "https://www.bbassets.com/media/uploads/p/l/279588_7-amul-malai-paneer.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Fresh Malai Paneer 200g",
@@ -1614,8 +1614,8 @@ export const dummyProducts = [
     "price": 34,
     "offerPrice": 32,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/306926_4-amul-taaza-fresh-toned-milk.jpg",
-      "https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81dbbsmBHTL._AC_UL320_.jpg",
+      "https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-3000-3000,pr-true,f-auto,q-40,dpr-2/cms/product_variant/50adc182-756d-4c3d-8d98-3263122fad28/Amul-Gold-Special-Fresh-Milk-Pouch.jpeg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Taaza / Gold Milk Pouch 500ml",
@@ -1636,8 +1636,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 54,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/104760_8-amul-shrikhand-kesar.jpg",
-      "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-1470-1470,pr-true,f-auto,q-40,dpr-2/cms/product_variant/6777e60e-0078-4816-b3e5-a654d2a60e55/Amul-Shrikhand-Kesar-Combo-.jpg",
+      "https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-1500-1500,pr-true,f-auto,q-40,dpr-2/cms/product_variant/e03c5174-4660-4c2f-8965-ae1adaffd405/Amul-Shrikhand-Kesar-Combo-.jpeg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Kesar Shrikhand Tub 250g",
@@ -1658,8 +1658,8 @@ export const dummyProducts = [
     "price": 15,
     "offerPrice": 14,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/279585_10-amul-masti-buttermilk-spiced.jpg",
-      "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81iQoocGwsL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61hJxKmdOAL._SL1288_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Masti Spiced Buttermilk 200ml",
@@ -1680,8 +1680,8 @@ export const dummyProducts = [
     "price": 85,
     "offerPrice": 78,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/279586_12-amul-fresh-malai-paneer.jpg",
-      "https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&q=80&w=600"
+      "https://www.bbassets.com/media/uploads/p/l/279588_7-amul-malai-paneer.jpg",
+      "https://www.bbassets.com/media/uploads/p/l/40096747_8-amul-malai-fresh-paneer.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Fresh Chilled Dairy Paneer Packet",
@@ -1702,8 +1702,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40019280_10-amul-ice-cream-tricone-chocolate.jpg",
-      "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/dbc42518-aebb-4ce3-b070-5e2bef34ea3b.jpg?ts=1739945345",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778250493653-6502.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul TriCone Chocolate Cone",
@@ -1724,8 +1724,8 @@ export const dummyProducts = [
     "price": 40,
     "offerPrice": 36,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40019280_10-amul-ice-cream-tricone-chocolate.jpg",
-      "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778249493182-1235.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/07572db4-c729-4890-9083-13cfc014b840.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul TriCone Classic Cone",
@@ -1746,8 +1746,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40019281_10-amul-ice-cream-tricone-butterscotch.jpg",
-      "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/c0123577-f32c-463a-83fc-21edb55413fe.jpg?ts=1709660130",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/76d6941c-cbec-427f-8b2f-f5d8ee486d84.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul TriCone Butterscotch Cone",
@@ -1768,8 +1768,8 @@ export const dummyProducts = [
     "price": 50,
     "offerPrice": 45,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40019280_10-amul-ice-cream-tricone-chocolate.jpg",
-      "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778222900885-5064.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778473839715-4064.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul TriCone Cookie & Cream Cone",
@@ -1790,8 +1790,8 @@ export const dummyProducts = [
     "price": 40,
     "offerPrice": 35,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40019282_9-amul-frostik-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim2.flixcart.com/image/960/1280/xif0q/ice-cream/1/u/p/-original-imahagfeufwxstxs.jpeg?q=60",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778250493653-6496.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Frostik Chocolate Crunch Bar",
@@ -1812,8 +1812,8 @@ export const dummyProducts = [
     "price": 25,
     "offerPrice": 22,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40019283_8-amul-chocobar-ice-cream.jpg",
-      "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600"
+      "https://www.bbassets.com/media/uploads/p/m/40323665_1-amul-gold-chocobar-probiotic.jpg",
+      "https://www.bbassets.com/media/uploads/p/l/40236559_1-amul-chocobar-probiotic-gold-stick-ice-cream-rich-creamy-flavour.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Chocobar Probiotic Ice Cream",
@@ -1834,8 +1834,8 @@ export const dummyProducts = [
     "price": 35,
     "offerPrice": 30,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40019284_9-amul-rajbhog-kulfi.jpg",
-      "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&q=80&w=600"
+      "https://www.bbassets.com/media/uploads/p/l/40344407_1-amul-raj-bhog-kulfi-ice-cream-stick.jpg",
+      "https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-2000-2000,pr-true,f-auto,q-40,dpr-2/cms/product_variant/2be9a98a-2b11-4770-a56d-f52372a39527/Amul-Kulfi-Raj-Bhog-Ice-Cream-Stick-Combo-.jpeg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Rajbhog Shahi Kulfi Stick",
@@ -1856,8 +1856,8 @@ export const dummyProducts = [
     "price": 35,
     "offerPrice": 30,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40019285_8-amul-pista-malai-kulfi.jpg",
-      "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=600"
+      "https://www.bbassets.com/media/uploads/p/l/40344370_1-amul-pista-malai-kulfi-ice-cream-stick.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/24509b7c-6f4a-473e-9c6e-1271e978bba4.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Pista Malai Kulfi Stick",
@@ -1878,8 +1878,8 @@ export const dummyProducts = [
     "price": 35,
     "offerPrice": 30,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40019285_8-amul-pista-malai-kulfi.jpg",
-      "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600"
+      "https://www.bbassets.com/media/uploads/p/l/40344380_1-amul-badshahi-kulfi-ice-cream-stick.jpg",
+      "https://www.bbassets.com/media/uploads/p/l/40344404_1-amul-amul-aamras-kulfi-ice-cream-stick.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Badam Almond Kulfi Stick",
@@ -1900,7 +1900,8 @@ export const dummyProducts = [
     "price": 20,
     "offerPrice": 18,
     "image": [
-      "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&q=80&w=600"
+      "https://www.bbassets.com/media/uploads/p/l/40344382_1-amul-mawa-malai-kulfi-ice-cream-stick.jpg",
+      "https://www.bbassets.com/media/uploads/p/m/40236559_1-amul-chocobar-probiotic-gold-stick-ice-cream-rich-creamy-flavour.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Creamy Flavoured Stick Bar",
@@ -1921,7 +1922,8 @@ export const dummyProducts = [
     "price": 35,
     "offerPrice": 30,
     "image": [
-      "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=600"
+      "https://www.bbassets.com/media/uploads/p/l/40344390_1-amul-cookie-sub-chocolate-ice-cream.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/d8ad9556-0d0b-4a45-846a-2013e67a1326.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Cookie Ice Cream Sandwich",
@@ -1942,7 +1944,8 @@ export const dummyProducts = [
     "price": 25,
     "offerPrice": 22,
     "image": [
-      "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778473839715-2564.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1777350808106-1444.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Ice Cream Cup Assorted",
@@ -1963,7 +1966,8 @@ export const dummyProducts = [
     "price": 15,
     "offerPrice": 12,
     "image": [
-      "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/assets/products/large_images/jpeg/6453224c-3cdc-4b6e-9a45-27365c0eea7b.jpg?ts=1710408383",
+      "https://m.media-amazon.com/images/I/51vnjK4PkHL.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Citrus Orange Fruity Ice Candy",
@@ -1984,7 +1988,8 @@ export const dummyProducts = [
     "price": 15,
     "offerPrice": 12,
     "image": [
-      "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/b8483415-59b7-4a40-8656-8c5a71e2748b.jpg",
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1200,h_630/NI_CATALOG/IMAGES/ciw/2026/2/11/9ec5da00-e555-44ca-b772-2e47fcd3698d_FTWXYZCC58_MN_11022026.png"
     ],
     "description": [
       "100% Genuine & Authentic Alphonso Mango Juicy Ice Candy",
@@ -2005,7 +2010,8 @@ export const dummyProducts = [
     "price": 15,
     "offerPrice": 12,
     "image": [
-      "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/cd2d3b8d-f7ec-43ae-985b-2f0940eb016e.jpg",
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1200,h_630/NI_CATALOG/IMAGES/CIW/2025/9/2/89d12993-9362-400f-af68-d03d375a49d4_VC_K1883T0Y.png"
     ],
     "description": [
       "100% Genuine & Authentic Strawberry Pink Chilled Ice Candy",
@@ -2026,7 +2032,8 @@ export const dummyProducts = [
     "price": 20,
     "offerPrice": 18,
     "image": [
-      "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/p/l/40323660_2-amul-gold-vanilla-royale-ice-cream.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/0345689da15048e299f4c11024f44286.jpeg"
     ],
     "description": [
       "100% Genuine & Authentic Creamy Vanilla Milk Ice Bar",
@@ -2047,7 +2054,8 @@ export const dummyProducts = [
     "price": 30,
     "offerPrice": 26,
     "image": [
-      "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81wAzSpSUKL._SL1500_.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778498205178-1697.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Chocolate Dips Choco Stick Bar",
@@ -2068,7 +2076,8 @@ export const dummyProducts = [
     "price": 40,
     "offerPrice": 36,
     "image": [
-      "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778222900885-5081.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778473839715-4081.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Vanilla Sugar Free Cup 100ml",
@@ -2089,7 +2098,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/a99e0fcd-227c-4f48-a98b-35e8aa436592.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/670af404-ca37-4656-9110-fc2af837c635.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Kesar Pista Sugar Free Cup 100ml",
@@ -2110,7 +2120,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1777436686892-15484.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/4c803739-5318-4084-903a-40b0a8a759ce.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Sugar Free Assorted Ice Cream",
@@ -2131,7 +2142,8 @@ export const dummyProducts = [
     "price": 40,
     "offerPrice": 35,
     "image": [
-      "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600"
+      "https://www.bbassets.com/media/uploads/p/l/40344388_1-amul-tender-coconut-ice-cream.jpg",
+      "https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-3000-3000,pr-true,f-auto,q-40,dpr-2/cms/product_variant/fdaf4287-7db3-441d-9567-dd325000d927/Amul-Tru-Tender-Coconut-Icecream-Cup.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Tender Coconut Ice Cream Cup",
@@ -2152,7 +2164,8 @@ export const dummyProducts = [
     "price": 40,
     "offerPrice": 35,
     "image": [
-      "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&q=80&w=600"
+      "https://uat.amul.com/files/products/promotion/Black-Currant_with_transparent.png",
+      "https://m.media-amazon.com/images/I/71R20Hj9qLL._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Black Currant Trufru Ice Cream",
@@ -2173,7 +2186,8 @@ export const dummyProducts = [
     "price": 35,
     "offerPrice": 30,
     "image": [
-      "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=600"
+      "https://uat.amul.com/files/products/Amul-Cup-Strawberry.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/rc-upload-1779189758316-6.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Fresh Strawberry Ice Cream Cup",
@@ -2194,7 +2208,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/p/l/40190795_3-amul-chocolate-brownie-ice-cream.jpg",
+      "https://www.bigbasket.com/media/uploads/p/l/40013805_2-amul-ice-cream-chocolate-browne.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Chocolate Brownie Ice Cream Cup",
@@ -2215,7 +2230,8 @@ export const dummyProducts = [
     "price": 50,
     "offerPrice": 45,
     "image": [
-      "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778250493653-6510.jpg",
+      "https://www.bbassets.com/media/uploads/p/l/40344384_1-amul-sundae-chocolate-ice-cream.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Royal Sundae Assorted Cup",
@@ -2236,7 +2252,8 @@ export const dummyProducts = [
     "price": 40,
     "offerPrice": 35,
     "image": [
-      "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/43d74656-199e-4441-983a-57dd4b264f81.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/sliding_image/438913a.jpg?ts=1672030442"
     ],
     "description": [
       "100% Genuine & Authentic Amul Cookies & Cream Ice Cream Cup",
@@ -2257,7 +2274,8 @@ export const dummyProducts = [
     "price": 35,
     "offerPrice": 30,
     "image": [
-      "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-3000-3000,pr-true,f-auto,q-40,dpr-2/cms/product_variant/94a6f8d7-4f2d-457c-8c6a-81279a4b9ff5/Amul-Alphonso-Mango-Ice-Cream-Cup.jpeg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/assets/products/sliding_images/jpeg/c6c0b410-5b81-49b8-ae23-3c4b59b7baa9.jpg?ts=1716873929"
     ],
     "description": [
       "100% Genuine & Authentic Amul King Alphonso Mango Cup",
@@ -2278,7 +2296,8 @@ export const dummyProducts = [
     "price": 35,
     "offerPrice": 30,
     "image": [
-      "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/79be1f40-7864-4ced-95c8-05c9558e8274.jpg",
+      "https://www.bbassets.com/media/uploads/p/l/40344411_1-amul-butterscotch-bliss-ice-cream.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Butterscotch Crunch Cup",
@@ -2299,7 +2318,8 @@ export const dummyProducts = [
     "price": 40,
     "offerPrice": 35,
     "image": [
-      "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778652879489-5527.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1777350808106-1444.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Shahi Rajbhog Ice Cream Cup",
@@ -2320,7 +2340,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778473839715-4081.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778220050094-5470.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Gourmet Delight Ice Cream Cup",
@@ -2341,7 +2362,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 118,
     "image": [
-      "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&q=80&w=600"
+      "https://www.bbassets.com/media/uploads/p/l/40167237_3-amul-diced-cheese-blend.jpg",
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1200,h_630/NI_CATALOG/IMAGES/ciw/2025/12/17/fff18402-2c62-4b55-bb32-683d4b941567_G455OH4Q2V_MN_17122025.png"
     ],
     "description": [
       "100% Genuine & Authentic Amul Diced Mozzarella Blend Cheese 200g",
@@ -2362,7 +2384,8 @@ export const dummyProducts = [
     "price": 160,
     "offerPrice": 145,
     "image": [
-      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778220050094-6642.jpg",
+      "https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-2400-2400,pr-true,f-auto,q-40,dpr-2/cms/product_variant/3ff03985-e34d-4a5c-ac09-a47062af44e5/Amul-Margherita-Pizza.jpeg"
     ],
     "description": [
       "100% Genuine & Authentic Amul Margherita Cheese Pizza Ready Meal",
@@ -2383,8 +2406,8 @@ export const dummyProducts = [
     "price": 215,
     "offerPrice": 195,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266946_17-harpic-power-plus-toilet-cleaner-original.jpg",
-      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim2.flixcart.com/image/480/480/jvwpfgw0/toilet-cleaner/v/t/x/original-1-10x-power-plus-1-litre-harpic-original-imafgp7ddwyz4rfk.jpeg?q=20",
+      "https://www.bigbasket.com/media/uploads/p/xl/40258888_5-harpic-disinfectant-toilet-cleaner-liquid-jasmine-removes-dirt-stains.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Harpic Power Plus 10X Toilet Cleaner 1L",
@@ -2405,8 +2428,8 @@ export const dummyProducts = [
     "price": 110,
     "offerPrice": 99,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40003738_10-harpic-bathroom-cleaner-lemon.jpg",
-      "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ad96f41b-a722-47b8-9bc6-85fc81cb0a28.__CR0,0,970,300_PT0_SX970_V1___.jpg",
+      "https://m.media-amazon.com/images/I/51wS+MioB9L._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Harpic Bathroom Ultra 10X Cleaner 500ml",
@@ -2427,8 +2450,8 @@ export const dummyProducts = [
     "price": 105,
     "offerPrice": 95,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40003738_10-harpic-bathroom-cleaner-lemon.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://www.jiomart.com/images/product/600x600/491167950/harpic-floral-disinfectant-bathroom-cleaner-500-ml-product-images-o491167950-p491167950-0-202209222052.jpg",
+      "https://rukminim2.flixcart.com/image/480/640/xif0q/bathroom-floor-cleaner/t/p/r/floral-1-disinfectant-bathroom-cleaner-liquid-floral-500-500-original-imagkc7agduathq2.jpeg?q=20"
     ],
     "description": [
       "100% Genuine & Authentic Harpic Bathroom Cleaner Floral 500ml",
@@ -2449,8 +2472,8 @@ export const dummyProducts = [
     "price": 220,
     "offerPrice": 199,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61dxworAKcL.jpg",
+      "https://m.media-amazon.com/images/I/71eNLhou5WL.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Lizol Disinfectant Floor Cleaner Citrus Green 1L",
@@ -2471,8 +2494,8 @@ export const dummyProducts = [
     "price": 220,
     "offerPrice": 199,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266951_18-lizol-disinfectant-floor-cleaner-floral.jpg",
-      "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=600"
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/452bb0ef747b3e47d47e41ba8564e0bb",
+      "https://m.media-amazon.com/images/I/51ov1Lo6UdL._SX522_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Lizol Floral Floor Cleaner Pink 1L",
@@ -2493,8 +2516,8 @@ export const dummyProducts = [
     "price": 165,
     "offerPrice": 148,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266960_13-domex-fresh-guard-disinfectant-toilet-cleaner.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/51eSDmlwRfL._SL1000_.jpg",
+      "https://rukminim1.flixcart.com/image/832/832/xif0q/toilet-cleaner/l/5/7/ocean-500-fresh-guard-ocean-fresh-toilet-disinfectant-cleaner-1-original-imaggz6t8ykeyeyq.jpeg?q=70"
     ],
     "description": [
       "100% Genuine & Authentic Domex Fresh Guard Toilet Cleaner Blue 750ml",
@@ -2515,7 +2538,8 @@ export const dummyProducts = [
     "price": 80,
     "offerPrice": 70,
     "image": [
-      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1770705263225-1912.jpg",
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/NI_CATALOG/IMAGES/CIW/2024/9/27/f076567e-6d34-4d2f-bd73-ff35cd245a7c_923650.png"
     ],
     "description": [
       "100% Genuine & Authentic Shakti Pink Floor Disinfectant Liquid 1L",
@@ -2536,8 +2560,8 @@ export const dummyProducts = [
     "price": 115,
     "offerPrice": 102,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/p/l/266962_10-vim-dishwash-liquid-gel-lemon.jpg",
+      "https://m.media-amazon.com/images/I/51rhw--KcDL.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Vim Dishwash Gel Lemon 500ml Bottle",
@@ -2558,8 +2582,8 @@ export const dummyProducts = [
     "price": 115,
     "offerPrice": 104,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266980_14-colin-glass-surface-cleaner.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61PAkjiijnL.jpg",
+      "https://m.media-amazon.com/images/I/613zVCOjxhL.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Colin Glass & Surface Cleaner Spray 500ml",
@@ -2580,7 +2604,8 @@ export const dummyProducts = [
     "price": 90,
     "offerPrice": 79,
     "image": [
-      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/418FKpDMTUL._AC_.jpg",
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/5d3f7632-6cd7-4651-829c-075d26403988.__CR0,0,4068,1667_PT0_SX1464_V1___.png"
     ],
     "description": [
       "100% Genuine & Authentic Klin-N-Care Pine Floor Cleaner Concentrate",
@@ -2601,7 +2626,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 82,
     "image": [
-      "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim2.flixcart.com/image/300/300/xif0q/toilet-cleaner/g/p/e/na-1-5-toilet-cleaner-klinol-action-500ml-best-commode-cleaning-original-imahkc2gchhhhwth.jpeg",
+      "https://rukminim2.flixcart.com/image/320/420/xif0q/toilet-cleaner/v/r/x/na-1-5-toilet-cleaner-klinol-action-500ml-best-commode-cleaning-original-imahkc2gzdz2e28m.jpeg?q=60"
     ],
     "description": [
       "100% Genuine & Authentic Klin-N-Care Cleaning Liquid Orange 1L",
@@ -2622,7 +2648,8 @@ export const dummyProducts = [
     "price": 85,
     "offerPrice": 75,
     "image": [
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/51846qR0ZyL._AC_.jpg",
+      "https://amd.deodap.com/cdn/shop/files/WhatsAppImage2026-04-23at15.35.18_2_1024x1024.jpg?v=1776938887"
     ],
     "description": [
       "100% Genuine & Authentic Klin-N-Care Multi-Surface Cleaner Clear 500ml",
@@ -2643,7 +2670,8 @@ export const dummyProducts = [
     "price": 40,
     "offerPrice": 36,
     "image": [
-      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim2.flixcart.com/image/480/640/xif0q/fabric-whitener/z/p/1/-original-imahntwgwkzyn4hh.jpeg?q=20",
+      "https://rukminim1.flixcart.com/image/832/832/xif0q/liquid-detergent/e/f/1/500-ala-fabric-whitener-ala-bleach-pack-of-1-rin-original-imagn5h7dvvfhjh7.jpeg?q=70"
     ],
     "description": [
       "100% Genuine & Authentic Rin Fabric Whitener Bleach 250ml",
@@ -2664,7 +2692,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 85,
     "image": [
-      "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1775219422417-5.jpg",
+      "https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-1600-1600,pr-true,f-auto,q-40,dpr-2/cms/product_variant/07632132-4266-450d-abfb-bec2831bf7b6/Godrej-Spic-Disinfectant-Toilet-Cleaner-Combo.jpeg"
     ],
     "description": [
       "100% Genuine & Authentic Godrej Spic & Span Bathroom Cleaner 500ml",
@@ -2685,7 +2714,8 @@ export const dummyProducts = [
     "price": 349,
     "offerPrice": 310,
     "image": [
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/sliding_image/489686a.jpg",
+      "https://rukminim2.flixcart.com/image/300/300/k0y6cnk0/hair-color/4/z/g/casting-crme-gloss-small-pack-l-oreal-paris-original-imafkm2y22kykzf6.jpeg"
     ],
     "description": [
       "100% Genuine & Authentic L’Oreal Paris Casting Creme Gloss 500 Brown",
@@ -2706,7 +2736,8 @@ export const dummyProducts = [
     "price": 349,
     "offerPrice": 310,
     "image": [
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81uy6NPlXrL._AC_SL1500_.jpg",
+      "https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-1200-1200,pr-true,f-auto,q-40,dpr-2/cms/product_variant/57e2a5cd-910f-4219-9fee-a0d6ad7f55a4/L-Oreal-Paris-Casting-Creme-Gloss-Small-Pack-400-Dark-Brown.jpeg"
     ],
     "description": [
       "100% Genuine & Authentic L’Oreal Paris Casting Creme Gloss 400 Dark Brown",
@@ -2727,7 +2758,8 @@ export const dummyProducts = [
     "price": 349,
     "offerPrice": 310,
     "image": [
-      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim2.flixcart.com/image/480/640/jmz7csw0/hair-color/j/8/e/casting-creme-gloss-hair-colour-combo-l-oreal-paris-original-imaf9rf9rhgr7bbh.jpeg?q=20",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/sliding_image/458000a.jpg"
     ],
     "description": [
       "100% Genuine & Authentic L’Oreal Paris Casting Creme Gloss 300 Darkest Brown",
@@ -2748,7 +2780,8 @@ export const dummyProducts = [
     "price": 349,
     "offerPrice": 310,
     "image": [
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/assets/products/sliding_images/jpeg/f75fb629-7f96-4f92-b33e-d995d6ae3fe2.jpg?ts=1718180288",
+      "https://rukminim2.flixcart.com/image/480/640/jbcjc7k0/hair-color/n/g/w/casting-creme-gloss-small-pack-l-oreal-paris-original-imafypu3gmmdyqux.jpeg?q=20"
     ],
     "description": [
       "100% Genuine & Authentic L’Oreal Paris Casting Creme Gloss 200 Ebony Black",
@@ -2769,7 +2802,8 @@ export const dummyProducts = [
     "price": 349,
     "offerPrice": 310,
     "image": [
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/28fee736-a9cd-477d-8ee4-2bb85fad4c72.jpg",
+      "https://m.media-amazon.com/images/I/61R4QiGCNQL._AC_SL1200_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic L’Oreal Paris Casting Creme Gloss 316 Burgundy",
@@ -2790,7 +2824,8 @@ export const dummyProducts = [
     "price": 219,
     "offerPrice": 195,
     "image": [
-      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61xNr-b22fL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/710MN52oTJL._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Garnier Color Naturals Shade 4 Brown",
@@ -2811,7 +2846,8 @@ export const dummyProducts = [
     "price": 219,
     "offerPrice": 195,
     "image": [
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/51zrqZnjIRL._SL1001_.jpg",
+      "https://images.apollo247.in/pub/media/catalog/product/8/9/8901526204465__shade_3_darkest_brown_i1.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Garnier Color Naturals Shade 3 Darkest Brown",
@@ -2832,7 +2868,8 @@ export const dummyProducts = [
     "price": 219,
     "offerPrice": 195,
     "image": [
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71hB3Q2YsqL._SL1073_.jpg",
+      "https://m.media-amazon.com/images/I/71IzYlb31yL._SL1112_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Garnier Color Naturals Shade 5.32 Caramel Brown",
@@ -2853,7 +2890,8 @@ export const dummyProducts = [
     "price": 219,
     "offerPrice": 195,
     "image": [
-      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71MiYVDm6LL._SL1117_.jpg",
+      "https://m.media-amazon.com/images/I/71i1XZFTgXL._SL1170_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Garnier Color Naturals Assorted Creme Shade",
@@ -2874,7 +2912,8 @@ export const dummyProducts = [
     "price": 110,
     "offerPrice": 99,
     "image": [
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81taKcH86xL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61wW763n9NL._SL1145_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Domex Disinfectant Bleach Toilet Bottle 500ml",
@@ -2895,8 +2934,8 @@ export const dummyProducts = [
     "price": 240,
     "offerPrice": 215,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266990_12-comfort-fabric-conditioner-morning-fresh.jpg",
-      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61jY0St3PGL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/61vhAsvs-9L._SY250_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Comfort Fabric Conditioner Morning Fresh Blue 860ml",
@@ -2917,8 +2956,8 @@ export const dummyProducts = [
     "price": 240,
     "offerPrice": 215,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266991_12-comfort-fabric-conditioner-lily-fresh.jpg",
-      "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/sliding_image/425045a.jpg?ts=1630055065",
+      "https://m.media-amazon.com/images/I/61KvbI77zmL.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Comfort Fabric Conditioner Lily Fresh Pink 860ml",
@@ -2939,8 +2978,8 @@ export const dummyProducts = [
     "price": 35,
     "offerPrice": 30,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266972_15-vim-dishwash-bar-lemon.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61k3MAoSd-L._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/41R24a4dS4L.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Vim Anti-Germ Dishwashing Bar 3-in-1 Pack",
@@ -2961,8 +3000,8 @@ export const dummyProducts = [
     "price": 109,
     "offerPrice": 98,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/images/products/sliding_image/383351a.jpg?ts=1692619210",
+      "https://m.media-amazon.com/images/I/51EHHsl2bxL.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Dettol Original Germ Protection Handwash Refill 675ml",
@@ -2983,8 +3022,8 @@ export const dummyProducts = [
     "price": 99,
     "offerPrice": 89,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267001_14-dettol-skincare-liquid-handwash.jpg",
-      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/p/l/263976_25-dettol-liquid-handwash-skincare-everyday-protection-ph-balanced-moisturising.jpg",
+      "https://m.media-amazon.com/images/I/61CtGqcOoVL._SL1000_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Dettol Skincare Moisturising Handwash Pump 200ml",
@@ -3005,8 +3044,8 @@ export const dummyProducts = [
     "price": 145,
     "offerPrice": 132,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267002_16-dettol-antiseptic-liquid.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71s-C9IuLvL.jpg",
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/07158541-a345-49ec-a338-20d9c01776fe.__CR0,0,970,600_PT0_SX970_V1___.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Dettol Antiseptic Liquid Disinfectant 250ml",
@@ -3027,8 +3066,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267010_13-stayfree-secure-cottony-wings-sanitary-pads.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71TGXHaEcaL.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_61729.jpg?ts=1692616784"
     ],
     "description": [
       "100% Genuine & Authentic Stayfree Secure Cottony Soft XL Pads 18s",
@@ -3049,7 +3088,8 @@ export const dummyProducts = [
     "price": 90,
     "offerPrice": 80,
     "image": [
-      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/images/products/sliding_image/10890a.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1777953701494-14120.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Stayfree Secure Wings Regular Pads 14s",
@@ -3070,7 +3110,8 @@ export const dummyProducts = [
     "price": 175,
     "offerPrice": 155,
     "image": [
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61mydSi-3ZL._AC_.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_57816.jpg?ts=1692616784"
     ],
     "description": [
       "100% Genuine & Authentic Stayfree Advanced All Night XL Pads 14s",
@@ -3091,7 +3132,8 @@ export const dummyProducts = [
     "price": 185,
     "offerPrice": 165,
     "image": [
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim2.flixcart.com/image/832/832/kc6jyq80/sanitary-pad-pantyliner/g/6/e/advanced-all-night-ultra-comfort-with-secure-cottony-soft-cover-original-imaftcuqyghatvqm.jpeg?q=70",
+      "https://m.media-amazon.com/images/I/61rylpW9HqL.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Stayfree Advanced Nights Ultra Comfort Pads",
@@ -3112,7 +3154,8 @@ export const dummyProducts = [
     "price": 195,
     "offerPrice": 175,
     "image": [
-      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61a+k+hMuTL._SL1000_.jpg",
+      "https://www.bbassets.com/media/uploads/p/l/100521133_19-stayfree-advanced-soft-ultra-thin-sanitary-pads-with-wings-x-large.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Stayfree Advanced Ultra Thin Sanitary Pads",
@@ -3133,8 +3176,8 @@ export const dummyProducts = [
     "price": 120,
     "offerPrice": 105,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267020_14-whisper-choice-wings-sanitary-pads.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61TTb9cvpgL._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/61KtPk+MG4L._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Whisper Choice Wings XL Sanitary Pads 18s",
@@ -3155,7 +3198,8 @@ export const dummyProducts = [
     "price": 135,
     "offerPrice": 120,
     "image": [
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/d9ff9270-eede-4c2d-8064-bb94ab6bd062.jpg",
+      "https://m.media-amazon.com/images/I/61xtTaATvKL.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Whisper Choice Wings XXL Long Pads 14s",
@@ -3176,8 +3220,8 @@ export const dummyProducts = [
     "price": 180,
     "offerPrice": 160,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267022_15-whisper-ultra-clean-sanitary-pads.jpg",
-      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71NyaTGqVIL.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/1e21837d-a5fc-4b0f-a54f-e6c5e363cfd8.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Whisper Ultra Clean XL Sanitary Pads 15s",
@@ -3198,7 +3242,8 @@ export const dummyProducts = [
     "price": 170,
     "offerPrice": 150,
     "image": [
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81gogYWizfL.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778222900885-4725.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Whisper Assorted Soft Skin Pads Pack",
@@ -3219,8 +3264,8 @@ export const dummyProducts = [
     "price": 499,
     "offerPrice": 429,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267030_16-pampers-all-round-protection-diaper-pants.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/34af16f3-4f5d-47f4-bf0a-481b70127c94.jpg",
+      "https://m.media-amazon.com/images/I/71ZCQ4B2mrL._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Pampers Baby-Dry Happy Sleep Diaper Pants M",
@@ -3241,8 +3286,8 @@ export const dummyProducts = [
     "price": 179,
     "offerPrice": 155,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40112800_8-godrej-aer-room-spray-fresh-lush-green.jpg",
-      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/51qUFYxV57L._SL1125_.jpg",
+      "https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-1600-1600,pr-true,f-auto,q-40,dpr-2/cms/product_variant/85a814fa-ab49-4d00-a245-5839838a4741/Godrej-Aer-Fresh-Lush-Green-Room-Freshener-Spray.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Godrej AER Room Spray Fresh Lush Green 240ml",
@@ -3263,8 +3308,8 @@ export const dummyProducts = [
     "price": 320,
     "offerPrice": 285,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267040_13-loreal-paris-fall-resist-3x-anti-hairfall-shampoo.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61fWJ55ie-L.jpg",
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/aca1a00b-6839-4d57-94df-4488d6d09c40.__CR0,0,970,600_PT0_SX970_V1___.jpg"
     ],
     "description": [
       "100% Genuine & Authentic L’Oreal Paris Fall Resist 3X Shampoo 340ml",
@@ -3285,8 +3330,8 @@ export const dummyProducts = [
     "price": 330,
     "offerPrice": 295,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267042_11-loreal-paris-extraordinary-oil-shampoo.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/51U-w3ZIcnL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81wgFDHWpxL._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic L’Oreal Extraordinary Oil Nourishing Shampoo 340ml",
@@ -3307,8 +3352,8 @@ export const dummyProducts = [
     "price": 320,
     "offerPrice": 285,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267041_14-loreal-paris-total-repair-5-repairing-shampoo.jpg",
-      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/images/products/sliding_image/876a.jpg?ts=1704190510",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/9611c406-10dd-4cbd-9233-cb2f18ffd7dd.jpg?ts=1732185860"
     ],
     "description": [
       "100% Genuine & Authentic L’Oreal Paris Total Repair 5 Shampoo 340ml",
@@ -3329,7 +3374,8 @@ export const dummyProducts = [
     "price": 340,
     "offerPrice": 299,
     "image": [
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim2.flixcart.com/image/300/300/xif0q/shampoo/j/u/1/-original-imaheay8d4dvgn7j.jpeg",
+      "https://m.media-amazon.com/images/S/aplus-media/vc/358acdd0-949c-4fde-86ee-6d06ef3e6f69.__CR0,0,300,300_PT0_SX300_V1___.jpg"
     ],
     "description": [
       "100% Genuine & Authentic L’Oreal Paris Dream Lengths Restoring Shampoo 340ml",
@@ -3350,7 +3396,8 @@ export const dummyProducts = [
     "price": 230,
     "offerPrice": 199,
     "image": [
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/e0a02b9e-e057-4a7d-8f6a-ccb5507eb879.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/269b5959-ddf2-4304-b74b-4cfdc5fa51d9.__CR0,0,970,600_PT0_SX970_V1___.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Fogg Master Intense Body Spray 120ml",
@@ -3371,8 +3418,8 @@ export const dummyProducts = [
     "price": 340,
     "offerPrice": 299,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267050_15-dove-hair-fall-rescue-shampoo.jpg",
-      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/51c3ExivW0L._SX522_.jpg",
+      "https://m.media-amazon.com/images/I/51z9VnFIKXL._SL1120_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Dove Hair Fall Rescue Shampoo 340ml",
@@ -3393,8 +3440,8 @@ export const dummyProducts = [
     "price": 340,
     "offerPrice": 299,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267051_14-dove-intense-repair-shampoo.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/510a4cnouOL._SL1120_.jpg",
+      "https://m.media-amazon.com/images/I/51LdMplU87L.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Dove Intense Repair Keratin Shampoo 340ml",
@@ -3415,8 +3462,8 @@ export const dummyProducts = [
     "price": 360,
     "offerPrice": 315,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267060_13-tresemme-keratin-smooth-shampoo.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/51aYLIYD6QL._SL1000_.jpg",
+      "https://rukminim2.flixcart.com/image/960/1280/xif0q/shampoo/1/5/a/-original-imahebx67cqv6tzp.jpeg?q=60"
     ],
     "description": [
       "100% Genuine & Authentic Tresemme Keratin Smooth Argan Oil Shampoo 340ml",
@@ -3437,7 +3484,8 @@ export const dummyProducts = [
     "price": 280,
     "offerPrice": 245,
     "image": [
-      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/517MiI3UJlL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/51hO5vNAg8L._SY606_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Tresemme Keratin Smooth Conditioner 190ml",
@@ -3458,8 +3506,8 @@ export const dummyProducts = [
     "price": 340,
     "offerPrice": 299,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267070_15-head-shoulders-anti-dandruff-shampoo.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/73bfe161-870d-456e-abea-3113a156166a.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/39a9555e-0516-48fb-b71b-d94597668c86.__CR0,0,970,600_PT0_SX970_V1___.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Head & Shoulders Clean & Balanced Shampoo 340ml",
@@ -3480,8 +3528,8 @@ export const dummyProducts = [
     "price": 250,
     "offerPrice": 219,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267080_14-sunsilk-black-shine-shampoo.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/512+xyAPrTL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/510E7iE-AiS._SL1000_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Sunsilk Black Shine Nourishing Shampoo 340ml",
@@ -3502,7 +3550,8 @@ export const dummyProducts = [
     "price": 180,
     "offerPrice": 155,
     "image": [
-      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+      "https://jodiabaazar.com/cdn/shop/files/671f7e3c86facd759c9c372c_1.jpg?v=1774727453",
+      "https://bf1af2.akinoncloudcdn.com/products/2024/09/09/70872/d47da072-e81b-4e92-afe0-c364a782bdc9_size3840_cropCenter.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Lux Soft Rose Moisturising Body Wash 250ml",
@@ -3523,7 +3572,8 @@ export const dummyProducts = [
     "price": 195,
     "offerPrice": 169,
     "image": [
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61tRa+N0PDL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/71ugX5ew42L.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Pears Pure & Gentle Green Lemon Oil Body Wash 250ml",
@@ -3544,7 +3594,8 @@ export const dummyProducts = [
     "price": 280,
     "offerPrice": 239,
     "image": [
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://www.bbassets.com/media/uploads/p/l/40277137_1-plum-bodylovin-everythin-plum-shower-gel-body-wash-fruity-fragrance-moisturises-skin.jpg",
+      "https://m.media-amazon.com/images/I/51MilTQ2RKL._AC_SL1000_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Plum Shower Gel Body Wash Refreshing 250ml",
@@ -3565,7 +3616,8 @@ export const dummyProducts = [
     "price": 249,
     "offerPrice": 215,
     "image": [
-      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-2000-2000,pr-true,f-auto,q-40,dpr-2/cms/product_variant/39ca150d-52e9-423f-bd9d-a7c30b512b1d/Ghar-Soaps-Magic-Body-Wash.jpeg",
+      "https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-2000-2000,pr-true,f-auto,q-40,dpr-2/cms/product_variant/a29088f9-7b27-405a-9448-8b444517a97f/Ghar-Soaps-Magic-Body-Wash.jpeg"
     ],
     "description": [
       "100% Genuine & Authentic Ghar Magic Natural Glow Body Wash 300ml",
@@ -3586,7 +3638,8 @@ export const dummyProducts = [
     "price": 250,
     "offerPrice": 215,
     "image": [
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/41RYf84MCjL._SY300_SX300_QL70_ML2_.jpg",
+      "https://m.media-amazon.com/images/I/61L6DurNozL._SL1119_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Fogg Marco Fragrance Body Spray 150ml",
@@ -3607,8 +3660,8 @@ export const dummyProducts = [
     "price": 399,
     "offerPrice": 349,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40130000_10-cetaphil-gentle-skin-cleanser.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_496038.jpg?ts=1685974488",
+      "https://rukminim2.flixcart.com/image/300/300/ku8pbbk0/cleanser/j/w/o/125-gentle-skin-cleanser-125ml-cetaphil-original-imag7eqvrpwbg78y.jpeg"
     ],
     "description": [
       "100% Genuine & Authentic Cetaphil Gentle Skin Cleanser Wash 125ml",
@@ -3629,8 +3682,8 @@ export const dummyProducts = [
     "price": 440,
     "offerPrice": 389,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40130001_9-cetaphil-daily-advance-ultra-hydrating-lotion.jpg",
-      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61IESLFGwUL._SL1091_.jpg",
+      "https://m.media-amazon.com/images/I/51wLQnu7ZVL._SL1001_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cetaphil Daily Hydrating Moisturizing Lotion 100ml",
@@ -3651,8 +3704,8 @@ export const dummyProducts = [
     "price": 475,
     "offerPrice": 420,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/40130002_9-cetaphil-moisturising-cream.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim2.flixcart.com/image/480/640/xif0q/moisturizer-cream/2/0/p/-original-imagq43jujkq7ezw.jpeg?q=90",
+      "https://m.media-amazon.com/images/I/51dT0vpWF2L._SL1080_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Cetaphil Intensive Moisturising Rich Cream 80g",
@@ -3673,7 +3726,8 @@ export const dummyProducts = [
     "price": 180,
     "offerPrice": 155,
     "image": [
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/b52dbd2e-9ddf-47c5-8091-9b2d7d2bd7c9.jpg",
+      "https://m.media-amazon.com/images/I/81PcWVJmNTL._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic VWash Plus Expert Intimate Hygiene Wash 100ml",
@@ -3694,8 +3748,8 @@ export const dummyProducts = [
     "price": 160,
     "offerPrice": 144,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267100_12-moov-pain-relief-specialist-spray.jpg",
-      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/51weX8ZBarL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/41LAuliu1QL._AC_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Moov Fast Pain Relief Spray 50g",
@@ -3716,8 +3770,8 @@ export const dummyProducts = [
     "price": 275,
     "offerPrice": 239,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267110_13-livon-hair-serum-for-women.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71Qzm95VkPL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71vX6c-1gnS._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Livon Anti-Frizz Hair Serum Vitamin E 100ml",
@@ -3738,7 +3792,8 @@ export const dummyProducts = [
     "price": 150,
     "offerPrice": 132,
     "image": [
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71zPCbLoxqS._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51fxhLY9yLL._SL1001_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Livon Hair Serum Travel Mini Pack 50ml",
@@ -3759,7 +3814,8 @@ export const dummyProducts = [
     "price": 199,
     "offerPrice": 175,
     "image": [
-      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71nUe95xR1L.jpg",
+      "https://www.bigbasket.com/media/uploads/p/l/40277039_1-garnier-bright-complete-vitamin-c-serum-gel-with-lemon-for-instant-brighter-skin.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Garnier Bright Complete Vitamin C Glow Cream 45g",
@@ -3780,7 +3836,8 @@ export const dummyProducts = [
     "price": 220,
     "offerPrice": 195,
     "image": [
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71+weDcn9NL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41QfTcpY4HL._SX300_SY300_QL70_ML2_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Garnier Skin Naturals Moisturising Face Cream Tub",
@@ -3801,8 +3858,8 @@ export const dummyProducts = [
     "price": 50,
     "offerPrice": 45,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267120_11-boroline-antiseptic-ayurvedic-cream.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/710VVx82HUL._SL1200_.jpg",
+      "https://rukminim2.flixcart.com/image/300/300/xif0q/combo-kit/x/k/i/antiseptic-cream-pack-of-2-with-face-care-soap-free-turmeric-original-imagm3hg63gsdfcs.jpeg"
     ],
     "description": [
       "100% Genuine & Authentic Boroline Ayurvedic Antiseptic Cream 40g",
@@ -3823,7 +3880,8 @@ export const dummyProducts = [
     "price": 160,
     "offerPrice": 140,
     "image": [
-      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_372225.jpg?ts=1695451770",
+      "https://www.poojn.in/wp-content/uploads/2025/05/edited-12.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Clean & Clear Foaming Face Wash 100ml",
@@ -3844,7 +3902,8 @@ export const dummyProducts = [
     "price": 165,
     "offerPrice": 145,
     "image": [
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/41GNejVv9HL.jpg",
+      "https://www.gosupps.com/media/catalog/product/cache/25/image/1500x/040ec09b1e35df139433887a97daa66f/6/1/61UIhiM7PHL._SL1000_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Clean & Clear Morning Energy Skin Cleanser 100ml",
@@ -3865,8 +3924,8 @@ export const dummyProducts = [
     "price": 150,
     "offerPrice": 130,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267130_16-himalaya-purifying-neem-face-wash.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://www.shopq.com.bd/public/uploads/all/3Xiu6zbhGhlouN5MeAtGdHFENAYpzirBWAeBGKod.jpg",
+      "https://static-01.daraz.com.bd/p/38126359dd9b9bd4c3a52bbf5c76e96d.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Himalaya Purifying Neem Face Wash 100ml",
@@ -3887,8 +3946,8 @@ export const dummyProducts = [
     "price": 235,
     "offerPrice": 199,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267140_15-vaseline-intensive-care-deep-moisture-body-lotion.jpg",
-      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/51O0hY9H4+L._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/51ah9cG61fL._SL1000_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Vaseline Deep Moisture Body Lotion 200ml",
@@ -3909,8 +3968,8 @@ export const dummyProducts = [
     "price": 210,
     "offerPrice": 189,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267150_14-clinic-plus-strong-long-health-shampoo.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61VxL3Lc3IL._SL1500_.jpg",
+      "https://www.bbassets.com/media/uploads/p/l/100090784_8-clinic-plus-strong-long-health-shampoo.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Clinic Plus Strong & Long Health Shampoo 340ml",
@@ -3931,7 +3990,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 82,
     "image": [
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim1.flixcart.com/image/400/400/xif0q/moisturizer-cream/j/l/j/100-moisturised-soft-skin-cold-cream-100ml-pond-s-cream-original-imahcajqzhyegzz7.jpeg?q=90",
+      "https://m.media-amazon.com/images/I/51Z3upKythL.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Classic Soft Touch Cold Cream & Cosmetic Care",
@@ -3952,8 +4012,8 @@ export const dummyProducts = [
     "price": 56,
     "offerPrice": 50,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267200_14-everest-masala-chhole.jpg",
-      "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81h4Bzwg2+L._SL1500_.jpg",
+      "https://www.buniyaa.com/cdn/shop/files/ed205c66bfe140e795472bfc4d29c45a182b812cfd02b60d2406a3087ef4b2fe_1200x1200.png?v=1779219443"
     ],
     "description": [
       "100% Genuine & Authentic Everest Chhole Masala Authentic Spice 100g",
@@ -3974,8 +4034,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 49,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267201_14-everest-masala-sambhar.jpg",
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/710qyuqKKxL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/714w2iv2VyL._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Everest South Indian Sambhar Masala 100g",
@@ -3996,8 +4056,8 @@ export const dummyProducts = [
     "price": 68,
     "offerPrice": 60,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267202_15-everest-masala-kitchen-king.jpg",
-      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71Kx5janL5L._AC_SY300_SX300_QL70_ML2_.jpg",
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a74a344e-6d07-41d5-bac8-d31316573802.__CR0,0,970,600_PT0_SX970_V1___.png"
     ],
     "description": [
       "100% Genuine & Authentic Everest Kitchen King All Purpose Masala 100g",
@@ -4018,8 +4078,8 @@ export const dummyProducts = [
     "price": 62,
     "offerPrice": 55,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267203_14-everest-masala-pav-bhaji.jpg",
-      "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/S/aplus-media/sota/b1781a5c-fb10-498d-98b0-cc5360c5646c.__CR0,0,300,300_PT0_SX300_V1___.png",
+      "https://m.media-amazon.com/images/I/41o+s5NeuTL._AC_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Everest Bombay Pav Bhaji Masala 100g",
@@ -4040,8 +4100,8 @@ export const dummyProducts = [
     "price": 74,
     "offerPrice": 66,
     "image": [
-      "https://images.openfoodfacts.org/images/products/890/178/641/1009/front_en.15.400.jpg",
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81NIOpC1nML._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51vYfBb8SVL.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Everest Royal Garam Masala 100g",
@@ -4062,8 +4122,8 @@ export const dummyProducts = [
     "price": 52,
     "offerPrice": 46,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267205_13-everest-masala-chaat.jpg",
-      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61MybBFGXjL._AC_SL1000_.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_85126.jpg?ts=1602053247"
     ],
     "description": [
       "100% Genuine & Authentic Everest Tangy Chat Masala 100g",
@@ -4084,8 +4144,8 @@ export const dummyProducts = [
     "price": 65,
     "offerPrice": 58,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267206_12-everest-dry-mango-powder-amchur.jpg",
-      "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71WNx1hlPPL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/010bd15e-0477-4579-b5ae-ca493445f6f1.__CR0,0,970,600_PT0_SX970_V1___.png"
     ],
     "description": [
       "100% Genuine & Authentic Everest Dry Mango Powder Amchur 100g",
@@ -4106,8 +4166,8 @@ export const dummyProducts = [
     "price": 78,
     "offerPrice": 70,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267207_13-everest-cumin-powder-jeera.jpg",
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71WavGDCXQL._AC_SL1200_.jpg",
+      "https://www.bbassets.com/media/uploads/p/l/40060778_3-everest-powder-cumin.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Everest Roasted Cumin Powder Jeera 100g",
@@ -4128,8 +4188,8 @@ export const dummyProducts = [
     "price": 75,
     "offerPrice": 67,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267208_14-everest-chilli-powder-kashmiri-lal.jpg",
-      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/610y+emGmOL._AC_.jpg",
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2699c716-c228-457f-933d-b34c1d57c9aa.__CR0,0,970,600_PT0_SX970_V1___.png"
     ],
     "description": [
       "100% Genuine & Authentic Everest Kashmiri Lal Red Chilli Powder 100g",
@@ -4150,8 +4210,8 @@ export const dummyProducts = [
     "price": 68,
     "offerPrice": 60,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267209_13-everest-masala-chicken.jpg",
-      "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d997f507-1718-491a-b7b6-3531f0633e10.__CR0,0,1024,1024_PT0_SX300_V1___.png",
+      "https://www.jiomart.com/images/product/150x150/rvjcipqhix/everest-spices-chicken-masala-100g-kashmiri-lal-red-chilli-powder-100g-pack-of-2-200g-spice-sprinkler-product-images-orvjcipqhix-p602040411-0-202306011145.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Everest Special Chicken Masala 100g",
@@ -4172,8 +4232,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267210_13-everest-masala-meat.jpg",
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81ojhQhWbUL._AC_SL3840_.jpg",
+      "https://m.media-amazon.com/images/I/51pgTIpza7L._AC_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Everest Meat Masala Spice Mix 100g",
@@ -4194,8 +4254,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267211_12-everest-shahi-biryani-masala.jpg",
-      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/5a70f901-9bb0-43dc-9bab-42b3ce20f750.__CR0,0,1024,1024_PT0_SX300_V1___.png",
+      "https://rukminim1.flixcart.com/image/416/416/ku79vgw0/spice-masala/k/e/z/100-shahi-biryani-masala-2-box-everest-powder-original-imag7ddje3myj52x.jpeg?q=70"
     ],
     "description": [
       "100% Genuine & Authentic Everest Shahi Biryani Masala 50g",
@@ -4216,8 +4276,8 @@ export const dummyProducts = [
     "price": 50,
     "offerPrice": 44,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267212_12-everest-shahi-paneer-masala.jpg",
-      "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80&w=600"
+      "https://www.bbassets.com/media/uploads/p/l/30002498_5-everest-masala-shahi-paneer.jpg",
+      "https://rukminim1.flixcart.com/image/400/400/kpsnzww0/spice-masala/3/a/u/50-shahi-paneer-masala-50g-pack-of-1-pouch-everest-powder-original-imag3yfrxfvv5tsm.jpeg?q=90"
     ],
     "description": [
       "100% Genuine & Authentic Everest Shahi Paneer Masala 50g",
@@ -4238,8 +4298,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 39,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267213_11-everest-pani-puri-masala.jpg",
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81CddsbBqJL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81CddsbBqJL._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Everest Pani Puri Masala Mint Spice 50g",
@@ -4260,7 +4320,8 @@ export const dummyProducts = [
     "price": 50,
     "offerPrice": 42,
     "image": [
-      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61xGQqj9c2L._AC_.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2023/9/346250634/XE/YT/QV/81938709/mombatti-1000x1000.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Dolphin White Wax Candles Mombatti Box 12s",
@@ -4281,7 +4342,8 @@ export const dummyProducts = [
     "price": 450,
     "offerPrice": 380,
     "image": [
-      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/51KxNSPkiKL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/71WJWFTbfaL._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Wipro Garnet Emergency Rechargeable LED Bulb 10W",
@@ -4302,7 +4364,8 @@ export const dummyProducts = [
     "price": 120,
     "offerPrice": 95,
     "image": [
-      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/41m9SIZOsmL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/71HOYKVssRL._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Wipro Garnet Bright B22 LED Bulb Cool White 9W",
@@ -4323,7 +4386,8 @@ export const dummyProducts = [
     "price": 150,
     "offerPrice": 119,
     "image": [
-      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/41BqSLj3UQL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/71T7W5acWWL._SL1250_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Wipro Garnet Energy Saver LED Bulb 12W",
@@ -4344,7 +4408,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 50,
     "image": [
-      "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/41O+YSf8yAL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/71pt+6svAQL._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Well Clean Disinfectant Bleaching Powder 500g",
@@ -4365,7 +4430,8 @@ export const dummyProducts = [
     "price": 299,
     "offerPrice": 239,
     "image": [
-      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/fb8a640f-6ae6-4b91-9e0a-50200aa27d64.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+      "https://m.media-amazon.com/images/I/91X-+A2Xa3L._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Wipro Festilite Decorative Warm String Fairy Lights",
@@ -4386,7 +4452,8 @@ export const dummyProducts = [
     "price": 180,
     "offerPrice": 149,
     "image": [
-      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71SvL0qnOAL._SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/61LKM-NXbxL._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Classic Stainless Steel Kitchen Storage Container Can",
@@ -4407,8 +4474,8 @@ export const dummyProducts = [
     "price": 115,
     "offerPrice": 99,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267300_14-gits-instant-mix-gulab-jamun.jpg",
-      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81bpxtu1UVL._AC_.jpg",
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/dd7a8d6e-b88f-448e-8b03-99a1ad565a98.__CR0,0,970,600_PT0_SX970_V1___.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Gits Gulab Jamun Instant Dessert Mix 200g",
@@ -4429,8 +4496,8 @@ export const dummyProducts = [
     "price": 115,
     "offerPrice": 99,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267301_13-gits-instant-mix-jalebi.jpg",
-      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/dad6eabd-eac5-434e-90d9-24acf2fae0ef.jpg?ts=1708591575",
+      "https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-3000-3000,pr-true,f-auto,q-40,dpr-2/cms/product_variant/59212d1f-57da-42cd-99a8-55653aee2ea3/Gits-Dessert-Mix-Jalebi-With-Maker.jpeg"
     ],
     "description": [
       "100% Genuine & Authentic Gits Rasgulla & Jalebi Sweet Dessert Mix 200g",
@@ -4451,7 +4518,8 @@ export const dummyProducts = [
     "price": 160,
     "offerPrice": 140,
     "image": [
-      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/710hUt2AzLL.jpg",
+      "https://www.bigbasket.com/media/uploads/p/l/215759_2-haldirams-gulab-jamun.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Traditional Indian Gulab Jamun Sweet Box 500g",
@@ -4472,7 +4540,8 @@ export const dummyProducts = [
     "price": 85,
     "offerPrice": 75,
     "image": [
-      "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80&w=600"
+      "https://5.imimg.com/data5/SELLER/Default/2023/2/WE/TD/MW/27174060/mango-achar-masala-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2024/3/403031441/YQ/PN/BS/46242371/dhanhar-vishesh-sambhar-box-3d-1000x1000.png"
     ],
     "description": [
       "100% Genuine & Authentic Vishesh Gujarati Mango Achar Masala Sambhar 200g",
@@ -4493,7 +4562,8 @@ export const dummyProducts = [
     "price": 120,
     "offerPrice": 105,
     "image": [
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+      "https://www.jiomart.com/images/product/150x150/rvobrotaw0/shiva-s-premium-singhara-atta-water-chestnut-flour-shingoda-flour-500-gm-pack-of-4-product-images-orvobrotaw0-p599708695-0-202303221437.jpg",
+      "https://rukminim1.flixcart.com/image/850/1000/kydb3ww0/flour/d/s/l/200-singhara-flour-singada-powder-water-chestnut-atta-100-pure-original-imagam4abah2btxq.jpeg?q=20"
     ],
     "description": [
       "100% Genuine & Authentic Vishesh Pure Singoda Water Chestnut Atta 500g",
@@ -4514,7 +4584,8 @@ export const dummyProducts = [
     "price": 110,
     "offerPrice": 98,
     "image": [
-      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1f31eb61-f2bf-4912-ae29-9b6d80daa90b.__CR0,0,2910,1800_PT0_SX970_V1___.jpg",
+      "https://m.media-amazon.com/images/I/51XgPEFJbEL._AC_SY300_SX300_QL70_ML2_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Vishesh Farali Rajgira Atta Amaranth Flour 500g",
@@ -4535,7 +4606,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 85,
     "image": [
-      "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/5135-9rRPmL.__AC_SR166,182___.jpg",
+      "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/fb96ea61-d55e-4afc-83a0-afba2219e9c0.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Ramdev Special Spicy Achar Masala 250g",
@@ -4556,7 +4628,8 @@ export const dummyProducts = [
     "price": 240,
     "offerPrice": 210,
     "image": [
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81Lf2g0aQHL._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/41CSKNglcML._AC_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Pure Organic Wild Forest Honey Glass Jar 500g",
@@ -4577,7 +4650,8 @@ export const dummyProducts = [
     "price": 65,
     "offerPrice": 58,
     "image": [
-      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/51Gac-ZqzmL._AC_.jpg",
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/03f90cb8-f51a-4ce1-99df-99caff9c636f.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Premium Multigrain Sharbati Wheat Atta 1kg",
@@ -4598,7 +4672,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71MUdAl8beL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/c8e7c425-0763-42ab-b188-74aa3cf8a26e.__CR0,0,2789,1725_PT0_SX970_V1___.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Aromatic Pure Haldi Turmeric Spice Powder 200g",
@@ -4619,8 +4694,8 @@ export const dummyProducts = [
     "price": 105,
     "offerPrice": 92,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267305_11-gits-instant-mix-basundi.jpg",
-      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81+zjPqsD9L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71Uly-2j-uL._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Gits Traditional Basundi Instant Mix 125g",
@@ -4641,8 +4716,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267310_15-glucon-d-instant-energy-drink-regular.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1776510391440-19.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/4a71b4ad-49c7-4829-bc9f-7ce0e64fe334.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Glucon-D Pure Glucose Energy Drink Regular 500g",
@@ -4663,8 +4738,8 @@ export const dummyProducts = [
     "price": 145,
     "offerPrice": 128,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267311_15-glucon-d-instant-energy-drink-tangy-orange.jpg",
-      "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/85add937-c3bf-454b-8b8c-3ce0b6207e14.jpg?ts=1715758352",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/b9c767bb-a8a4-4307-a8bf-bc396ce9ce78.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Glucon-D Tangy Orange Flavour Energy Drink 500g",
@@ -4685,8 +4760,8 @@ export const dummyProducts = [
     "price": 160,
     "offerPrice": 139,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267320_14-navratna-ayurvedic-cool-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71xLwGPj2TL._SL1500_.jpg",
+      "https://www.bbassets.com/media/uploads/p/l/265360_4-navratna-ayurvedic-hair-oil-cool-enriched-with-bhringraj-amla-bhrami-for-head-body-ache-fatigue.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Navratna Ayurvedic Cool Herbal Hair Oil 300ml",
@@ -4707,7 +4782,8 @@ export const dummyProducts = [
     "price": 40,
     "offerPrice": 35,
     "image": [
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/51-7aq1ynxL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/41rrQqkCkFL._SX342_SY445_QL70_ML2_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Pure Boric Acid I.P. Powder Carrom & Kitchen 100g",
@@ -4728,7 +4804,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 39,
     "image": [
-      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71RiKJKKmjL._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/51j1k7+9HUL._AC_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Ayurvedic Herbal Green Balm Headache Relief 25g",
@@ -4749,8 +4826,8 @@ export const dummyProducts = [
     "price": 110,
     "offerPrice": 98,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267330_16-parachute-100-pure-coconut-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://www.jiomart.com/images/product/600x600/490632546/parachute-100-pure-coconut-oil-250-ml-product-images-o490632546-p490632546-0-202204261912.jpg",
+      "https://m.media-amazon.com/images/I/719AUUIv0HL._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Parachute 100% Pure Coconut Oil Blue Bottle 250ml",
@@ -4771,8 +4848,8 @@ export const dummyProducts = [
     "price": 135,
     "offerPrice": 119,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267331_14-parachute-advansed-aloe-vera-enriched-coconut-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/611pIjYkgPL.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product_videos_thumbnails/9a7860dc-1f97-4939-be77-d8fc707a1429.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Parachute Advansed Aloe Vera Enriched Coconut Oil 250ml",
@@ -4793,7 +4870,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 82,
     "image": [
-      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/31955UxSqWL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/71rVUw1SkFL._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Nihar Naturals Shanti Amla Hair Oil 300ml",
@@ -4814,7 +4892,8 @@ export const dummyProducts = [
     "price": 170,
     "offerPrice": 148,
     "image": [
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim2.flixcart.com/image/300/300/xif0q/hair-oil/z/j/9/100-kesh-king-scalp-and-hair-medicine-ayurvedic-oil-pack-of-original-imagnyaeakzgx2hv.jpeg",
+      "https://m.media-amazon.com/images/I/71HzbaJQ8IL._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Kesh King Ayurvedic Herbal Medicinal Hair Oil 100ml",
@@ -4835,8 +4914,8 @@ export const dummyProducts = [
     "price": 235,
     "offerPrice": 215,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/126906_10-aashirvaad-sharbati-atta-100-mp-chakki-atta.jpg",
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/ad9646ef-76f6-4cd0-b679-bd1a8f3c1032.jpg",
+      "https://m.media-amazon.com/images/I/81aQAwUXphL._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Farm Fresh Chakki Fresh Whole Wheat Atta 5kg",
@@ -4857,8 +4936,8 @@ export const dummyProducts = [
     "price": 155,
     "offerPrice": 138,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/274145_14-fortune-sunlite-refined-sunflower-oil.jpg",
-      "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/51TH5xE+2sL.jpg",
+      "https://m.media-amazon.com/images/I/816gJXzYHmL._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Fortune Sunlite Refined Sunflower Cooking Oil 1L",
@@ -4879,8 +4958,8 @@ export const dummyProducts = [
     "price": 148,
     "offerPrice": 132,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/274145_14-fortune-sunlite-refined-sunflower-oil.jpg",
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim2.flixcart.com/image/300/300/xif0q/edible-oil/s/b/f/-original-imahe6jfhnsayykm.jpeg",
+      "https://5.imimg.com/data5/SELLER/Default/2024/7/434062918/XE/WH/BN/5074539/fortune-sunlite-refined-sunflower-oil-1000x1000.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Fortune Sunlite Cooking Oil Refill Pouch 1L",
@@ -4901,7 +4980,8 @@ export const dummyProducts = [
     "price": 799,
     "offerPrice": 720,
     "image": [
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://www.bbassets.com/media/uploads/p/l/40132145_7-fortune-oil-grounutt-activ.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/e6102390-54f6-4fa1-b913-ecfbad15903e.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Pure Filtered Mustard & Groundnut Cooking Oil Tin 5L",
@@ -4922,7 +5002,8 @@ export const dummyProducts = [
     "price": 150,
     "offerPrice": 135,
     "image": [
-      "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim1.flixcart.com/image/832/832/k1wgx3k0/edible-oil/a/w/s/1-soyabean-oil-1-litre-pouch-soyabean-oil-kings-original-imafhdpgd9xgs5ux.jpeg?q=70",
+      "https://m.media-amazon.com/images/I/51EbJuBaL2L._SY300_SX300_QL70_ML2_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic King’s Pure Refined Soybean Cooking Oil 1L",
@@ -4943,7 +5024,8 @@ export const dummyProducts = [
     "price": 185,
     "offerPrice": 168,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+      "https://worldsindia.com/vender/data/product/20230607102536-1132369496.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2022/9/SD/EL/VW/32925118/new-product-1000x1000.jpg"
     ],
     "description": [
       "100% Genuine & Authentic King’s Rich Filtered Groundnut Cooking Oil 1L",
@@ -4964,7 +5046,8 @@ export const dummyProducts = [
     "price": 165,
     "offerPrice": 149,
     "image": [
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://shop.amul.com/s/62fa94df8c13af2e242eba16/6880bce9a11193428d81518f/01-hero-image_multipack-janmay-mustard-oil-1l.png",
+      "https://rukminim2.flixcart.com/image/300/300/xif0q/edible-oil/0/b/g/2-kachi-ghani-pure-mustard-oil-sarson-tel-1-litre-bottle-combo-original-imahkkq2ep6bqtgf.jpeg"
     ],
     "description": [
       "100% Genuine & Authentic Saptashali Kachi Ghani Mustard Oil 1L Bottle",
@@ -4985,7 +5068,8 @@ export const dummyProducts = [
     "price": 75,
     "offerPrice": 65,
     "image": [
-      "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61SYUT7K6KL._SL1122_.jpg",
+      "https://m.media-amazon.com/images/I/514O9MVKf+L.jpg"
     ],
     "description": [
       "100% Genuine & Authentic New Maruti Crispy Seasoned Fryums & Tins 200g",
@@ -5006,7 +5090,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 85,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/51WV8TH-AUL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/91LDXve1prL._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Crunchy Ratlami Sev & Namkeen Snack Pack 400g",
@@ -5027,7 +5112,8 @@ export const dummyProducts = [
     "price": 890,
     "offerPrice": 810,
     "image": [
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/p/l/40031943-2_1-gulab-filter-groundnut-oil.jpg",
+      "https://www.bigbasket.com/media/uploads/p/l/40031943-3_1-gulab-filter-groundnut-oil.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Gulab Pure Filtered Groundnut Cooking Oil Can 5L",
@@ -5048,7 +5134,8 @@ export const dummyProducts = [
     "price": 150,
     "offerPrice": 135,
     "image": [
-      "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim2.flixcart.com/image/300/300/kkzrpu80/edible-oil/d/a/6/1-acti-lite-refined-soyabean-oil-1-litre-pouch-pouch-soyabean-original-imagy7t2avxzqg8v.jpeg",
+      "https://rukminim2.flixcart.com/image/300/300/jzhb24w0/edible-oil/x/2/s/1-acti-lite-refined-soyabean-oil-pouch-1-l-pouch-soyabean-oil-original-imafjhhajdvwyaud.jpeg"
     ],
     "description": [
       "100% Genuine & Authentic Nature Fresh Acti-Lite Healthy Cooking Oil Pouch 1L",
@@ -5069,8 +5156,8 @@ export const dummyProducts = [
     "price": 160,
     "offerPrice": 139,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/41F7mhPrtKL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/91CqwH2dvAL._SL1500_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Dabur Amla Nourishing Vitamin C Hair Oil 275ml",
@@ -5091,7 +5178,8 @@ export const dummyProducts = [
     "price": 145,
     "offerPrice": 128,
     "image": [
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://down-my.img.susercontent.com/file/my-11134207-7r98s-llej0rojxppp87",
+      "https://bf1af2.akinoncloudcdn.com/products/2025/10/20/620650/b301306b-9a1b-4f4c-a229-a7355aa8ee2a.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Dabur Vatika Enriched Olive & Almond Hair Oil 200ml",
@@ -5112,8 +5200,8 @@ export const dummyProducts = [
     "price": 110,
     "offerPrice": 98,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
-      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71hqwqnAJ7L.jpg",
+      "https://m.media-amazon.com/images/I/71ZYL4aH76L.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Colgate Strong Teeth Calcium Dental Cream 200g",
@@ -5134,8 +5222,8 @@ export const dummyProducts = [
     "price": 120,
     "offerPrice": 105,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267361_15-colgate-herbal-toothpaste-with-neem-eucalyptus-chamomile.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/90b566a0-8c49-4f30-9ffc-c2b914d8df27.jpg?ts=1722334574",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_464060.jpg?ts=1695450026"
     ],
     "description": [
       "100% Genuine & Authentic Colgate Herbal Salt & Neem Protective Toothpaste 200g",
@@ -5156,8 +5244,8 @@ export const dummyProducts = [
     "price": 65,
     "offerPrice": 55,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267362_12-colgate-cibaca-anti-cavity-toothpaste.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://www.bbassets.com/media/uploads/p/l/263954_15-colgate-cibaca-toothpaste-anticavity.jpg",
+      "https://m.media-amazon.com/images/I/41E5btyWOXL._SY445_SX342_QL70_ML2_.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Colgate Cibaca Top Anti-Cavity Toothpaste 175g",
@@ -5178,7 +5266,8 @@ export const dummyProducts = [
     "price": 115,
     "offerPrice": 99,
     "image": [
-      "https://images.unsplash.com/photo-1608248597359-536f0490b4bf?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/p/l/266655_17-close-up-everfresh-anti-germ-gel-toothpaste-red-hot.jpg",
+      "https://www.jiomart.com/images/product/600x600/491900488/closeup-ever-fresh-red-hot-gel-toothpaste-150-g-pack-of-3-product-images-o491900488-p590126853-0-202211291914.jpg"
     ],
     "description": [
       "100% Genuine & Authentic Close Up Red Hot Fresh Toothpaste Gel 150g",
@@ -5199,8 +5288,8 @@ export const dummyProducts = [
     "price": 480,
     "offerPrice": 429,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/265700_15-red-bull-energy-drink.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/assets/products/sliding_images/jpeg/d2775c06-2939-4c62-a2cd-41f35a893892.jpg?ts=1719834174",
+      "https://rukminim1.flixcart.com/image/416/416/energy-sport-drink-mix/z/u/j/250-250-ml-pack-4-red-bull-original-imaescq9ttydzz69.jpeg?q=70"
     ],
     "description": [
       "100% Genuine & Authentic Red Bull Energy Drink Cans Multipack 4x250ml",
@@ -5221,8 +5310,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81rCN1qvvgL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71ZKLI829-L.jpg"
     ],
     "description": [
       "100% Original & Authentic Dabur Amla Hair Oil",
@@ -5243,8 +5332,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/af2d4685-fcbe-4013-af15-bda893a35789.jpg",
+      "https://m.media-amazon.com/images/I/71ZKLI829-L.jpg"
     ],
     "description": [
       "100% Original & Authentic Dabur Amla Hair Oil (small)",
@@ -5265,8 +5354,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81BjD34ygrL._US2500_.jpg",
+      "https://m.media-amazon.com/images/I/81TWmROFaBL.jpg"
     ],
     "description": [
       "100% Original & Authentic Dabur Jasmine Hair Oil",
@@ -5287,8 +5376,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71aJ8nPxhOL._SL1500_.jpg",
+      "https://cdn.grofers.com/app/images/products/full_screen/pro_485422.jpg?ts=1710347395"
     ],
     "description": [
       "100% Original & Authentic Parachute Advansed Jasmine Hair Oil",
@@ -5309,8 +5398,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/bcdea855-acda-4cee-98db-27f7eba4b015.jpg?ts=1712576828",
+      "https://m.media-amazon.com/images/I/61NaVT7emwL._SL1000_.jpg"
     ],
     "description": [
       "100% Original & Authentic Dettol Antiseptic Liquid",
@@ -5331,8 +5420,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71gaCTiTUoL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71vT1Gfg4-L.jpg"
     ],
     "description": [
       "100% Original & Authentic Odomos Mosquito Repellent Cream",
@@ -5353,8 +5442,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 85,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71X8BLVeIwL.jpg",
+      "https://m.media-amazon.com/images/I/61QYq3SwS9L.jpg"
     ],
     "description": [
       "100% Original & Authentic Colgate Strong Teeth Toothpaste",
@@ -5375,8 +5464,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 85,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://www.jiomart.com/images/product/150x150/rvyhvfo5jt/colgate-active-salt-neem-toothpaste-200-g-pack-of-2-product-images-orvyhvfo5jt-p604252707-0-202308302115.jpg",
+      "https://m.media-amazon.com/images/I/61Gx5Le6GFL._SL1500_.jpg"
     ],
     "description": [
       "100% Original & Authentic Colgate Salt Neem Toothpaste",
@@ -5397,8 +5486,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 85,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-800-800,pr-true,f-auto,q-40,dpr-2/inventory/product/13c0cc14-c6be-4465-80fb-2cd66c277c85-f5f4f245-a162-4ec3-aea0-e5753b5c017d/Colgate-Cibaca-Anticavity-Toothpaste.jpeg",
+      "https://m.media-amazon.com/images/I/81NRQZJABhL._SL1500_.jpg"
     ],
     "description": [
       "100% Original & Authentic Colgate Cibaca Toothpaste",
@@ -5419,8 +5508,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 85,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61C9d+RN8mL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/61xtM2TJxkL._SL1100_.jpg"
     ],
     "description": [
       "100% Original & Authentic Colgate Active Salt Toothpaste",
@@ -5441,8 +5530,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 85,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71pahdYpEOL._SL1500_.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1777584708039-332.jpg"
     ],
     "description": [
       "100% Original & Authentic Dabur Red Toothpaste",
@@ -5463,8 +5552,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 85,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61dlv2evEDL._SL1200_.jpg",
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/46bfa82f-12eb-4e33-900d-82554131691c.__CR0,0,970,600_PT0_SX970_V1___.png"
     ],
     "description": [
       "100% Original & Authentic Sensodyne Toothpaste",
@@ -5485,8 +5574,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 85,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://www.patanjaliayurved.net/assets/product_images/400x500/1689593013DantKantiofferpack300g1.png",
+      "https://m.media-amazon.com/images/I/71sNzH+N7mL._SX679_.jpg"
     ],
     "description": [
       "100% Original & Authentic Dant Kanti Toothpaste",
@@ -5507,8 +5596,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 85,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81NOnOtE7RL.jpg",
+      "https://rukminim1.flixcart.com/image/1500/1500/kgjqefk0/toothpaste/f/f/h/600-meswak-indias-no-1-fluoride-free-toothpaste-herbal-paste-original-imafwqpkvvjhfems.jpeg?q=90"
     ],
     "description": [
       "100% Original & Authentic Meswak Toothpaste",
@@ -5529,8 +5618,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 85,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/images/products/full_screen/pro_468079.jpg?ts=1710347235",
+      "https://m.media-amazon.com/images/I/51kHg4UPeAL._SX679_.jpg"
     ],
     "description": [
       "100% Original & Authentic Babool Toothpaste",
@@ -5551,8 +5640,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/51WrZrQyGuL._SX800_.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2022/11/IW/PM/QY/162086704/india-gate-feast-rozzana-basmati-rice-1000x1000.png"
     ],
     "description": [
       "100% Original & Authentic Packaged rice green bag",
@@ -5573,8 +5662,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61MIUAk7HnL.jpg",
+      "https://m.media-amazon.com/images/S/aplus-media/vc/1e3628de-7fd8-4d7d-8d8e-fe65802923e6.__CR0,0,970,300_PT0_SX970_V1___.jpg"
     ],
     "description": [
       "100% Original & Authentic Packaged rice white purple bag",
@@ -5595,8 +5684,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/p/l/243336_2-india-gate-basmati-rice-classic.jpg",
+      "https://bf1af2.akinoncloudcdn.com/products/2025/04/21/76142/b785e270-c194-4ae6-ae4c-d3b730949b5d_size3840_cropCenter.jpg"
     ],
     "description": [
       "100% Original & Authentic Packaged rice blue bag",
@@ -5617,8 +5706,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71xqTSRdbML._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51p+OEYCJML._AC_.jpg"
     ],
     "description": [
       "100% Original & Authentic Packaged rice yellow bag",
@@ -5639,8 +5728,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/91sjEAy2I4L.jpg",
+      "https://m.media-amazon.com/images/I/91hgwOgvhjL._SX679_.jpg"
     ],
     "description": [
       "100% Original & Authentic Red bag grain / cereal",
@@ -5661,8 +5750,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/sliding_image/467546a.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/68376395-13d6-45fb-b032-c932a9a92bc6.jpg"
     ],
     "description": [
       "100% Original & Authentic Medimix Ayurvedic Soap",
@@ -5683,8 +5772,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/51uAwI2Pv5L._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/61aVciJj+vL._SL1500_.jpg"
     ],
     "description": [
       "100% Original & Authentic Wild Stone Soap",
@@ -5705,8 +5794,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/f325834a-89f7-43d4-95cf-7c731e577530.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_475919.jpg?ts=1685981531"
     ],
     "description": [
       "100% Original & Authentic Pears Pure and Gentle Soap",
@@ -5727,8 +5816,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61jNb3JtSyL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/811UX32Q-dL._SL1500_.jpg"
     ],
     "description": [
       "100% Original & Authentic Liril Soap",
@@ -5749,8 +5838,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61QFDgbhnVL._SL1387_.jpg",
+      "https://m.media-amazon.com/images/I/41zOrIS2EiL._SX300_SY300_QL70_ML2_.jpg"
     ],
     "description": [
       "100% Original & Authentic Limda Soap",
@@ -5771,8 +5860,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/ab397114-5d6d-49c7-a372-6f09a67a6184.jpg",
+      "https://m.media-amazon.com/images/I/51pGMD-NlUL._AC_.jpg"
     ],
     "description": [
       "100% Original & Authentic Johnsons Baby Soap",
@@ -5793,8 +5882,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/a37b297c-e204-4692-94c3-d20f401ca5f1.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/35c52671-72da-41f8-8171-1a4bbc1d771f.jpg"
     ],
     "description": [
       "100% Original & Authentic Lux Soap",
@@ -5815,8 +5904,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1ab1c6ca-52bb-477a-8286-099e50c59a52.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+      "https://m.media-amazon.com/images/I/31LTdxbF-WL.jpg"
     ],
     "description": [
       "100% Original & Authentic Dove Beauty Bar",
@@ -5837,8 +5926,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/815uRxpEklL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41Adh8+synL._SX300_SY300_QL70_ML2_.jpg"
     ],
     "description": [
       "100% Original & Authentic Santoor PureGlo Soap",
@@ -5859,8 +5948,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71VgXIeMRlL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71fv34uSEVL._SL1500_.jpg"
     ],
     "description": [
       "100% Original & Authentic Good Knight Flash Liquid Vaporiser",
@@ -5881,8 +5970,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61oeoXkGnML._SL1001_.jpg",
+      "https://m.media-amazon.com/images/I/816NoTRPcIL._SL1500_.jpg"
     ],
     "description": [
       "100% Original & Authentic All Out Ultra Liquid Vaporiser",
@@ -5903,8 +5992,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/ca87b742-7ffc-46d8-b4e4-3518392ac2cc.jpg",
+      "https://m.media-amazon.com/images/I/61Jp8smmZeL._SL1500_.jpg"
     ],
     "description": [
       "100% Original & Authentic Lifebuoy Soap",
@@ -5925,8 +6014,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61CTzCLlveL._SL1000_.jpg",
+      "https://cdn.grofers.com/app/images/products/full_screen/pro_400489.jpg?ts=1710344910"
     ],
     "description": [
       "100% Original & Authentic Dettol Original Soap",
@@ -5947,8 +6036,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71tEVekUZlL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/61GtaQEQ3lL._SL1000_.jpg"
     ],
     "description": [
       "100% Original & Authentic Dettol Skincare Soap",
@@ -5969,8 +6058,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/a1bca107-4b78-4319-802c-ad2f017cd6f3.jpg?ts=1730801395",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/ca8e53b2-089e-4784-a76d-050a35a67a83.jpg"
     ],
     "description": [
       "100% Original & Authentic Good Knight Flash refill",
@@ -5991,8 +6080,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/p/l/40065679_14-all-out-ultra-mosquito-repellant-refill.jpg",
+      "https://m.media-amazon.com/images/I/81-P0oJCfmL.jpg"
     ],
     "description": [
       "100% Original & Authentic All Out Ultra Refill",
@@ -6013,8 +6102,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71m6QFhvgpL._AC_.jpg",
+      "https://5.imimg.com/data5/ANDROID/Default/2024/1/380608516/GW/YT/AX/128348662/product-jpeg-1000x1000.jpg"
     ],
     "description": [
       "100% Original & Authentic Lux Soap (various)",
@@ -6035,8 +6124,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61e3WXSLUJL._SL1000_.jpg",
+      "https://rukminim2.flixcart.com/image/960/1280/xif0q/soap/6/l/a/4-500-total-10-125-g-pack-of-4-with-silver-natural-shield-original-imahczhfvj3ybzkc.jpeg?q=60"
     ],
     "description": [
       "100% Original & Authentic Lifebuoy Soap (various)",
@@ -6057,8 +6146,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/images/products/sliding_image/532464a.jpg?ts=1699688229",
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/5d146059-4ae8-48b5-9edf-6ef4f8301f35.__CR0,0,970,600_PT0_SX970_V1___.jpg"
     ],
     "description": [
       "100% Original & Authentic Moti Soap",
@@ -6079,8 +6168,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61sLJDCuTNL.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/5e8d5183-1654-475e-a1f6-cb64c05880cd.jpg"
     ],
     "description": [
       "100% Original & Authentic Santoor Soap",
@@ -6101,8 +6190,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_475919.jpg?ts=1685981531",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/f325834a-89f7-43d4-95cf-7c731e577530.jpg"
     ],
     "description": [
       "100% Original & Authentic Pears Soap",
@@ -6123,8 +6212,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/44efd652-75c6-4659-9b18-f7ddd3c5f6e7.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/7df4f8a3-8318-499b-ab4e-78155dd02fd8.jpg"
     ],
     "description": [
       "100% Original & Authentic Dettol Soap",
@@ -6145,8 +6234,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/68376395-13d6-45fb-b032-c932a9a92bc6.jpg",
+      "https://cdn.grofers.com/app/images/products/sliding_image/467546a.jpg?ts=1687500599"
     ],
     "description": [
       "100% Original & Authentic Medimix Soap",
@@ -6167,8 +6256,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61hNxwWS7GL._SL1402_.jpg",
+      "https://m.media-amazon.com/images/I/51ozwHCVqpL.jpg"
     ],
     "description": [
       "100% Original & Authentic Cinthol Soap (pack unclear)",
@@ -6189,8 +6278,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/57cd42ec-88b0-4cb2-9ede-f88b4646bc62.jpg?ts=1707468496",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_532963.jpg?ts=1700220222"
     ],
     "description": [
       "100% Original & Authentic Oreo Biscuit",
@@ -6211,8 +6300,8 @@ export const dummyProducts = [
     "price": 195,
     "offerPrice": 175,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/871c0c88-29fc-4e62-8c5f-5d566f7a32ff.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+      "https://m.media-amazon.com/images/I/71SMaD3K7HL._SL1500_.jpg"
     ],
     "description": [
       "100% Original & Authentic Cadbury Bournvita Biscuit",
@@ -6233,8 +6322,8 @@ export const dummyProducts = [
     "price": 195,
     "offerPrice": 175,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim1.flixcart.com/image/416/416/jnm2efk0/tea/s/g/k/25-pack-of-2-25x2-50-tea-bag-green-tea-lipton-tea-bag-original-imafa94yqahg57dy.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/416/416/kwdv3bk0/tea/s/n/a/-original-imag92knmapr64hz.jpeg?q=70"
     ],
     "description": [
       "100% Original & Authentic Lipton Honey Lemon Tea",
@@ -6255,8 +6344,8 @@ export const dummyProducts = [
     "price": 195,
     "offerPrice": 175,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/c7efbf8b-ebc4-4fcc-a383-2575eb38bf62.jpg",
+      "https://rukminim2.flixcart.com/image/960/1280/khtghow0-0/tea/4/z/s/130-green-tea-pure-light-freshly-packed-pack-of-100-tea-bags-original-imafxqdpvxcbmgpa.jpeg?q=60"
     ],
     "description": [
       "100% Original & Authentic Lipton Green Tea",
@@ -6277,8 +6366,8 @@ export const dummyProducts = [
     "price": 195,
     "offerPrice": 175,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/rc-upload-1778473839715-3708.jpg",
+      "https://m.media-amazon.com/images/I/61W+P4yNzWL.jpg"
     ],
     "description": [
       "100% Original & Authentic Brooke Bond Red Label Tea",
@@ -6299,8 +6388,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/41Nfy5N+vyL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/411pk61sJtL._SY300_SX300_QL70_ML2_.jpg"
     ],
     "description": [
       "100% Original & Authentic White Fox Roasted Snack",
@@ -6321,8 +6410,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/large_images/9b7ed313-d909-4b50-ad90-db1914a658af.jpg?ts=1733827890",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/d0cf1891-ec20-4ce4-b4b6-8200aee17972.jpg?ts=1733827901"
     ],
     "description": [
       "100% Original & Authentic Packaged 250g grocery bag",
@@ -6343,8 +6432,8 @@ export const dummyProducts = [
     "price": 260,
     "offerPrice": 240,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100005470_19-amul-butter-pasteurised.jpg",
-      "https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71tikpIQnbL.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/assets/products/large_images/jpeg/3af0f61e-308d-42ff-bc9e-adcee099d172.jpg?ts=1708953276"
     ],
     "description": [
       "100% Original & Authentic Nestle Milkmaid Sweetened Condensed Milk",
@@ -6365,8 +6454,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/images/products/sliding_image/247493a.jpg?ts=1704781491",
+      "https://www.bigbasket.com/media/uploads/p/xl/40002209_27-kelloggs-chocos-variety-pack.jpg"
     ],
     "description": [
       "100% Original & Authentic Kelloggs Chocos (pack partly visible)",
@@ -6387,8 +6476,8 @@ export const dummyProducts = [
     "price": 195,
     "offerPrice": 175,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_437595.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_487431.jpg?ts=1694016309"
     ],
     "description": [
       "100% Original & Authentic Nestle Nescafe Classic Coffee",
@@ -6409,8 +6498,8 @@ export const dummyProducts = [
     "price": 195,
     "offerPrice": 175,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61xR7-K9fQL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/61AAoi+EO+L._SL1001_.jpg"
     ],
     "description": [
       "100% Original & Authentic Horlicks Health Drink",
@@ -6431,8 +6520,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/A1mZ+LwiVLL._CR92,0,2704,2704_UX175.jpg",
+      "https://www.bigbasket.com/media/uploads/flatpages/mailer-images-aug/119377_03_02dec24.jpg"
     ],
     "description": [
       "100% Original & Authentic Boost Health Drink",
@@ -6453,8 +6542,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/8528c52e-41d5-44e2-bf08-e686f7116ad6.jpg",
+      "https://m.media-amazon.com/images/I/815+INEEbtL._SL1500_.jpg"
     ],
     "description": [
       "100% Original & Authentic Dabur Chyawanprash",
@@ -6475,8 +6564,8 @@ export const dummyProducts = [
     "price": 195,
     "offerPrice": 175,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/66438c37-2261-433a-8ed6-df54b92232c6.jpg?ts=1740557118",
+      "https://m.media-amazon.com/images/I/710iqU0zQRL.jpg"
     ],
     "description": [
       "100% Original & Authentic Bournvita Health Drink",
@@ -6497,8 +6586,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/51VcvrroJrL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d3b5692f-e40e-4c03-b43b-da783d30fe5a.__CR0,0,970,600_PT0_SX970_V1___.jpg"
     ],
     "description": [
       "100% Original & Authentic Instant breakfast / meal pouch",
@@ -6519,8 +6608,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/816uYRdDrYL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81N--8G+5lL._SL1500_.jpg"
     ],
     "description": [
       "100% Original & Authentic Protinex / nutrition powder",
@@ -6541,8 +6630,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/p/l/102833-7_6-cadbury-chocolate-health-drink-bournvita-refill-pack.jpg",
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/eb1c29a1-dad2-49d6-9fb9-1634a1c4c99e.__CR0,0,970,600_PT0_SX970_V1___.jpg"
     ],
     "description": [
       "100% Original & Authentic Chocolate health drink powder",
@@ -6563,8 +6652,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/712c4ebh71L._SL1500_.jpg",
+      "https://rukminim2.flixcart.com/image/480/640/xif0q/milk-drink-mix/5/q/q/-original-imahzwchg2ees8gg.jpeg?q=90"
     ],
     "description": [
       "100% Original & Authentic Protein supplement pouch",
@@ -6585,8 +6674,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81eUYiJs96L.jpg",
+      "https://m.media-amazon.com/images/I/61WiDlxJ2ML._SL1081_.jpg"
     ],
     "description": [
       "100% Original & Authentic Red packaged powdered drink mix",
@@ -6607,8 +6696,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/bab02a9a-7b8c-4414-8b33-d09e4db38145.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778498205178-93.jpg"
     ],
     "description": [
       "100% Original & Authentic Parle-G Original Biscuits",
@@ -6629,8 +6718,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_488425.jpg?ts=1685981729",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/880bd873-3684-4140-a42e-dd7ec5f1f3b7.jpg"
     ],
     "description": [
       "100% Original & Authentic Parle-G Gold Biscuits",
@@ -6651,8 +6740,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71GeM-85+UL._SL1200_.jpg",
+      "https://cdn.grofers.com/app/images/products/sliding_image/488648a.jpg?ts=1684849003"
     ],
     "description": [
       "100% Original & Authentic Parle Krackjack Biscuits",
@@ -6673,8 +6762,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/7979dba4-9435-40bc-93c2-9766d4d03e0a.jpg?ts=1747826090",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/sliding_image/405682a.jpg?ts=1676270004"
     ],
     "description": [
       "100% Original & Authentic Britannia Bourbon Biscuit",
@@ -6695,8 +6784,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/assets/products/large_images/jpeg/4000f9d7-89d3-46a1-b3dc-78056b5c3415.jpg?ts=1723797337",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/e25ce9ed-9438-4491-8d8b-c63e2c9113be.jpg?ts=1731329787"
     ],
     "description": [
       "100% Original & Authentic Britannia Good Day Biscuits",
@@ -6717,8 +6806,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/f178f25d-da50-49c4-bc30-4ce1b068f176.jpg?ts=1723634387",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/ff0fed12-dcc5-4318-8bac-97c4afec0006.jpg?ts=1729512013"
     ],
     "description": [
       "100% Original & Authentic Sunfeast Dark Fantasy Biscuits",
@@ -6739,8 +6828,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_531407.jpg?ts=1693219458",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778220054937-1717.jpg"
     ],
     "description": [
       "100% Original & Authentic Cadbury Chocobakes Cookies",
@@ -6761,8 +6850,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/p/xl/100012349_2-britannia-50-50-biscuits.jpg",
+      "https://m.media-amazon.com/images/I/713EVSfuDIL.jpg"
     ],
     "description": [
       "100% Original & Authentic Britannia 50-50 Biscuits",
@@ -6783,8 +6872,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/rc-upload-1771602170375-861.jpg",
+      "https://rukminim2.flixcart.com/image/960/1280/xif0q/chocolate/g/j/l/-original-imah6j96fqyfgwqt.jpeg?q=60"
     ],
     "description": [
       "100% Original & Authentic Kinder Schoko-Bons Crispy",
@@ -6805,8 +6894,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/a210cc6b-7077-4462-a946-735c34414a67.jpg",
+      "https://www.bigbasket.com/media/uploads/p/m/1224264_1-parle-g-oats-berries-biscuits.jpg"
     ],
     "description": [
       "100% Original & Authentic Oats and Berries Biscuit",
@@ -6827,8 +6916,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+      "https://www.bbassets.com/media/uploads/p/l/266169_17-maggi-pazzta-masala-penne.jpg",
+      "https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-1000-1000,pr-true,f-auto,q-40,dpr-2/cms/product_variant/14c8546f-ed81-4b4f-b641-0f2f537f5fdc/Maggi-Pazzta-Instant-Pasta-Masala-Penne.jpeg"
     ],
     "description": [
       "100% Original & Authentic Maggi Pazzta Masala Penne",
@@ -6849,8 +6938,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/fdb21f17-66ae-49bd-bb1b-9ade7f2e4315.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/rc-upload-1775533735848-337.jpg"
     ],
     "description": [
       "100% Original & Authentic Maggi Pazzta Cheese Macaroni",
@@ -6871,8 +6960,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/eb7e1f03-2781-4dd9-aad0-86715994b364.jpg?ts=1745570815",
+      "https://rukminim2.flixcart.com/image/612/612/xif0q/pasta/s/v/h/192-pazzta-cheesy-tomato-twist-pack-of-3-64gm-3-instant-3-maggi-original-imagh987ghg8b5rf.jpeg?q=70"
     ],
     "description": [
       "100% Original & Authentic Maggi Pazzta Cheesy Tomato Twist",
@@ -6893,8 +6982,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71T0QfFl+3L._SL1500_.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/7eae7d5c-63b5-4c74-b7ca-e772e070c7e6.jpg"
     ],
     "description": [
       "100% Original & Authentic Maggi Masala Noodles",
@@ -6915,8 +7004,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/0aec7c7c-44b7-4411-8462-306a65460c78.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/7eae7d5c-63b5-4c74-b7ca-e772e070c7e6.jpg"
     ],
     "description": [
       "100% Original & Authentic Maggi Masala Tastemaker",
@@ -6937,8 +7026,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/7113T0BLbkL._SX569_.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/sliding_image/370104a.jpg?ts=1664865646"
     ],
     "description": [
       "100% Original & Authentic Maggi Cuppa Noodles",
@@ -6959,8 +7048,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim2.flixcart.com/image/480/480/ku1k4280/noodle/n/q/0/840-yippee-noodles-pack-of-12-12-instant-noodles-sunfeast-original-imag78j5nnwcv7uz.jpeg?q=20",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/3c1efeaf-0f65-4a69-b0d1-08d29c67b1d3.jpg"
     ],
     "description": [
       "100% Original & Authentic Yippee Noodles",
@@ -6981,8 +7070,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61OmjUMY8nL._SL500_.jpg",
+      "https://m.media-amazon.com/images/I/71VT5BzXbSS._AC_.jpg"
     ],
     "description": [
       "100% Original & Authentic Instant Ramen / Soba Noodles",
@@ -7003,8 +7092,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61XzXYSUqZL._SY741_.jpg",
+      "https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-1200-1200,pr-true,f-auto,q-40,dpr-2/cms/product_variant/1fc51746-8138-422c-a968-60d9eac3c578/Britannia-Toastea-Premium-Bake-Rusk-With-Real-Elaichi.jpeg"
     ],
     "description": [
       "100% Original & Authentic Packaged Rusk",
@@ -7025,8 +7114,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+      "https://www.jiomart.com/images/product/150x150/rvdzoa8kdf/midbreak-cake-rusk-extra-soft-cake-rusk-100-eggless-premium-handmade-cake-rusks-300-gm-pack-of-1-product-images-orvdzoa8kdf-p595331433-0-202211151645.jpg",
+      "https://kcbakers.co.in/assets/images/rusk.jpg"
     ],
     "description": [
       "100% Original & Authentic Rusk 18g extra pack",
@@ -7047,8 +7136,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778220050094-2150.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/3f59d143-a696-4d78-a385-fa1991ed5f6a.jpg"
     ],
     "description": [
       "100% Original & Authentic Veeba Mayonnaise",
@@ -7069,8 +7158,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71h0HdMadDL.jpg",
+      "https://m.media-amazon.com/images/I/81BDrfntPZL._SL1500_.jpg"
     ],
     "description": [
       "100% Original & Authentic Veeba Pizza Pasta Sauce",
@@ -7091,8 +7180,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1777436686892-13279.jpg",
+      "https://rukminim2.flixcart.com/image/960/1280/xif0q/sauce-ketchup/q/z/s/-original-imahhg4qk85nhn9m.jpeg?q=60"
     ],
     "description": [
       "100% Original & Authentic Knorr Schezwan Sauce",
@@ -7113,8 +7202,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_424382.jpg?ts=1684834485",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/rc-upload-1777436686892-13287.jpg"
     ],
     "description": [
       "100% Original & Authentic Knorr Pizza Pasta Sauce",
@@ -7135,8 +7224,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim1.flixcart.com/image/416/416/jr9iwsw0/sauce-ketchup/b/g/n/252-pizza-pasta-sause-sachet-sauce-fric-bergen-original-imafcxv8ngzzzewx.jpeg?q=70",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/db475a27-184a-4336-a6c0-73989fd7207d.jpg?ts=1731652493"
     ],
     "description": [
       "100% Original & Authentic Fric Bergen Pizza Pasta Sauce",
@@ -7157,8 +7246,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim1.flixcart.com/image/832/832/jrf8o7k0/sauce-ketchup/3/z/4/200-mayonnaise-bottle-pack-glass-bottle-sauces-ketchup-fric-original-imafd7xchyrsxwsv.jpeg?q=70",
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/e423aee6-574d-4405-9140-d98c6464cdd0.__CR0,0,1941,1201_PT0_SX970_V1___.png"
     ],
     "description": [
       "100% Original & Authentic Fric Bergen Mayonnaise Tandoori",
@@ -7179,8 +7268,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71I8mL973UL._SL1500_.jpg",
+      "https://images.openfoodfacts.org/images/products/890/605/058/1143/front_en.10.full.jpg"
     ],
     "description": [
       "100% Original & Authentic Fric Bergen Sandwich Spread",
@@ -7201,8 +7290,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+      "https://www.jiomart.com/images/product/600x600/491107999/parle-real-elaichi-premium-rusk-200-g-product-images-o491107999-p491107999-0-202203150437.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_46074.jpg?ts=1675333659"
     ],
     "description": [
       "100% Original & Authentic Packaged bakery rusks",
@@ -7223,8 +7312,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/49a08a8c-b3c9-4bd1-b4fd-e79e0649de45.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/8499e32b-4b0d-4d44-9cc2-be394a4777da.jpg"
     ],
     "description": [
       "100% Original & Authentic Packaged Toast Rusk",
@@ -7245,8 +7334,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61GYltsY58L._SL1000_.jpg",
+      "https://rukminim2.flixcart.com/image/612/612/l59xq4w0/sauce-ketchup/v/k/w/1-2-fresh-tomato-ketchup-pouch-1-ketchup-kissan-original-imagfzy6yzprnv3p.jpeg?q=70"
     ],
     "description": [
       "100% Original & Authentic Kissan Fresh Tomato Ketchup",
@@ -7267,8 +7356,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71UQOyGMmzL._SL1500_.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/4d1c1417008148618917c419230134b6.jpeg"
     ],
     "description": [
       "100% Original & Authentic Maggi Rich Tomato Ketchup",
@@ -7289,8 +7378,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/09cfac29-a28a-45b4-8ae3-7a135c4246e9.jpg",
+      "https://m.media-amazon.com/images/I/71BK6Cq4sML.jpg"
     ],
     "description": [
       "100% Original & Authentic Veeba Pizza Sauce",
@@ -7311,8 +7400,8 @@ export const dummyProducts = [
     "price": 260,
     "offerPrice": 240,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100005470_19-amul-butter-pasteurised.jpg",
-      "https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/814f3791-7fb7-48d5-a83f-7486ba95ce5d.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/sliding_image/492909a.jpg"
     ],
     "description": [
       "100% Original & Authentic Gowardhan Ghee",
@@ -7333,8 +7422,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61CoMMYXe9L._SL1100_.jpg",
+      "https://www.bigbasket.com/media/uploads/p/l/40194164_2-fortune-suji.jpg"
     ],
     "description": [
       "100% Original & Authentic Packaged Flour / Semolina",
@@ -7355,8 +7444,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81OMTcgyWpL._SL1500_.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1770870008650-1663.jpg"
     ],
     "description": [
       "100% Original & Authentic Chings Secret Soup / Instant Mix",
@@ -7377,8 +7466,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81g9+4PsfjL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71b6ZA2W0VL._SL1200_.jpg"
     ],
     "description": [
       "100% Original & Authentic MTR Instant Mix",
@@ -7399,8 +7488,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81lGP+lRuiL._SL1500_.jpg",
+      "https://rukminim1.flixcart.com/image/832/832/kynb6vk0/spice-masala/h/0/a/50-chicken-biryani-spice-mix-pack-of-3-3-pouch-suhana-powder-original-imagau3fzw7xhvf5.jpeg?q=70"
     ],
     "description": [
       "100% Original & Authentic Suhana Instant Mix",
@@ -7421,8 +7510,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/images/products/sliding_image/421335a.jpg?ts=1625474912",
+      "https://images.kglobalservices.com/www.kelloggs.co.za/en_za/product/product_4874754/prod_img-4874757_en_za_06009803998013_2409180923_p_1.png"
     ],
     "description": [
       "100% Original & Authentic Kelloggs Noodles or Pasta",
@@ -7443,8 +7532,8 @@ export const dummyProducts = [
     "price": 28,
     "offerPrice": 25,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267200_14-everest-masala-chhole.jpg",
-      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/91IBlGGIvdL._SL1500_.jpg",
+      "https://www.jiomart.com/images/product/150x150/rvnc3sz3qy/everest-spices-meat-masala-100-gm-garam-masala-100-gm-pack-of-2-200-gm-spice-sprinkler-product-images-orvnc3sz3qy-p602120538-0-202306040051.jpg"
     ],
     "description": [
       "100% Original & Authentic Everest Masala sachet",
@@ -7465,8 +7554,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/groot/images/232022-38eb2bd5-second-module.jpg",
+      "https://www.bigbasket.com/media/uploads/p/l/266165_17-maggi-masala-2-minute-instant-noodles.jpg"
     ],
     "description": [
       "100% Original & Authentic Maggi Instant Masala pouch",
@@ -7487,8 +7576,8 @@ export const dummyProducts = [
     "price": 195,
     "offerPrice": 175,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61rco5VppgL.jpg",
+      "https://m.media-amazon.com/images/I/71SMaD3K7HL._SL1500_.jpg"
     ],
     "description": [
       "100% Original & Authentic Cadbury Bournvita Cookie / Snack pack",
@@ -7509,8 +7598,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/e790a2de-a242-485c-94e6-0a277ec439b2.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_495814.jpg?ts=1685975520"
     ],
     "description": [
       "100% Original & Authentic Sunfeast Dark Fantasy Cookies",
@@ -7531,8 +7620,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_110655.jpg?ts=1695797190",
+      "https://cdn.grofers.com/da/cms-assets/cms/product_videos_thumbnails/edcdf4f9-adf3-4389-a70e-5a817ff0b0d5.jpg"
     ],
     "description": [
       "100% Original & Authentic Cadbury Gems",
@@ -7553,8 +7642,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/91b7L1LlR7L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71SVddgbs4L._AC_SL1000_.jpg"
     ],
     "description": [
       "100% Original & Authentic Packaged Snack Mix Red",
@@ -7575,8 +7664,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim2.flixcart.com/image/612/612/l05lx8w0/snack-savourie/i/z/y/400-nagpur-moong-dal-standy-pack-of-2-200g-2-box-2-haldiram-s-original-imagcy69sgrecffz.jpeg?q=70",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_19295.jpg?ts=1684834611"
     ],
     "description": [
       "100% Original & Authentic Packaged Snack Mix Green",
@@ -7597,8 +7686,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81yCH0JVhqL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/7190epBkpYL._SL1500_.jpg"
     ],
     "description": [
       "100% Original & Authentic Packaged Snack Mix Yellow",
@@ -7619,8 +7708,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81FxhDbl6WL.jpg",
+      "https://www.jiomart.com/images/product/600x600/rvxoase4cg/haldiram-s-bhujia-sev-200-gm-pack-of-2-product-images-orvxoase4cg-p591783765-0-202206010010.jpg"
     ],
     "description": [
       "100% Original & Authentic Packaged Snack Mix Orange",
@@ -7641,8 +7730,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/p/xl/40053580_3-balaji-namkeen-ratlami-sev.jpg",
+      "https://www.jiomart.com/images/product/150x150/490868184/balaji-wafers-ratlami-sev-namkeen-210-g-product-images-o490868184-p605693890-0-202312081838.jpg"
     ],
     "description": [
       "100% Original & Authentic Balaji Wafers Ratlami Sev",
@@ -7663,8 +7752,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81wlQp7QFzL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51NnDyirISL._SX300_SY300_QL70_ML2_.jpg"
     ],
     "description": [
       "100% Original & Authentic Balaji Wafers Aloo Sev",
@@ -7685,8 +7774,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+      "https://www.bbassets.com/media/uploads/p/l/40053576_3-balaji-namkeen-tikha-mitha-mix.jpg",
+      "https://www.jiomart.com/images/product/600x600/491336860/balaji-tikha-mitha-mixture-500-g-product-images-o491336860-p491336860-0-202203152259.jpg"
     ],
     "description": [
       "100% Original & Authentic Balaji Wafers Tikha Mitha Mix",
@@ -7707,8 +7796,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/41OOkFFXIQL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/91WusVi+r2L._AC_SL1500_.jpg"
     ],
     "description": [
       "100% Original & Authentic Balaji Wafers Chana Dal",
@@ -7729,8 +7818,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/assets/products/sliding_images/jpeg/a12a4d48-99e6-4cc0-b7d1-9a0651f6963a.jpg?ts=1721124809",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/assets/products/large_images/jpeg/dd5b1677-9f6e-436c-a9bb-5a84a92e7ab8.jpg?ts=1723797036"
     ],
     "description": [
       "100% Original & Authentic Balaji Wafers CrunchEx Cream and Onion",
@@ -7751,8 +7840,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/e14bb406-edfd-48c3-ad0e-9282ea000949.jpg",
+      "https://m.media-amazon.com/images/I/61EV+fnZ9RL._SL1100_.jpg"
     ],
     "description": [
       "100% Original & Authentic Balaji Wafers CrunchEx Chaat Chaska",
@@ -7773,8 +7862,8 @@ export const dummyProducts = [
     "price": 28,
     "offerPrice": 25,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267200_14-everest-masala-chhole.jpg",
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/e802fd97-4502-41dc-896e-36824f1f20c3.jpg?ts=1721124968",
+      "https://m.media-amazon.com/images/I/81GCNY+JQPL._SL1500_.jpg"
     ],
     "description": [
       "100% Original & Authentic Balaji Wafers CrunchEx Simply Salted",
@@ -7795,8 +7884,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/48cb9fe4-507d-4c16-bb29-52928016fd69.jpg?ts=1708968410",
+      "https://m.media-amazon.com/images/I/91q0hJCWfQL.__AC_SX300_SY300_QL70_ML2_.jpg"
     ],
     "description": [
       "100% Original & Authentic Balaji Wafers CrunchEx Tomato Twist",
@@ -7817,8 +7906,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/c484cbc3-65d8-4c40-ab3d-d2eb8c12aff1.jpg",
+      "https://rukminim2.flixcart.com/image/300/300/l3rmzrk0/wafer-waffle/r/q/4/40-rumbles-wafer-1-wafers-balaji-original-imagetdkcnr3t7dm.jpeg"
     ],
     "description": [
       "100% Original & Authentic Balaji Wafers Rumbles",
@@ -7839,8 +7928,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/51iIIWi61nL._AC_.jpg",
+      "https://indiabazaar.pl/cdn/shop/products/balaji_gathiya.jpg?v=1674225925"
     ],
     "description": [
       "100% Original & Authentic Balaji Wafers Gathiya",
@@ -7861,8 +7950,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/p/l/40060016_1-real-namkeen-bites-indori-mix.jpg?tr=w-1080,q=80",
+      "https://www.bigbasket.com/media/uploads/p/l/40060016-2_1-real-namkeen-bites-indori-mix.jpg"
     ],
     "description": [
       "100% Original & Authentic Real Bites Indori Mix",
@@ -7883,8 +7972,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71Egz7gcKXL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41SRtUPMrUL._AC_.jpg"
     ],
     "description": [
       "100% Original & Authentic Real Bites Chivda",
@@ -7905,8 +7994,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/917LnZHbx7L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41GPELJPskL._SX300_SY300_QL70_ML2_.jpg"
     ],
     "description": [
       "100% Original & Authentic Real Bites Sev",
@@ -7927,8 +8016,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/513DkZmgJzL._SY300_SX300_QL70_ML2_.jpg",
+      "https://www.bigbasket.com/media/uploads/p/l/40050973_1-samrat-namkeen-sev-mamra-garlic.jpg"
     ],
     "description": [
       "100% Original & Authentic Garlic Mamra",
@@ -7949,8 +8038,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71N-a+LT4+L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41OSdlhFxpL._AC_.jpg"
     ],
     "description": [
       "100% Original & Authentic Puffed Rice / Mamra Loose",
@@ -7971,8 +8060,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/p/l/40284077-6_1-godrej-expert-rich-creme-hair-colour-natural-brown-long-lasting-100-grey-coverage-no-ammonia.jpg",
+      "https://m.media-amazon.com/images/I/81hai2LzxoL._SL1500_.jpg"
     ],
     "description": [
       "100% Original & Authentic Godrej Expert Rich Creme Hair Color Sachet",
@@ -7993,8 +8082,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://img.lazcdn.com/g/p/3df0cb801b432e1e95f062e5645eb811.jpg_720x720q80.jpg",
+      "https://www.garnier.com.ph/-/media/project/loreal/brand-sites/garnier/apac/ph/products/garnier-color-naturals/gcn-4-0-brown/05.jpg?rev=8f60f1a769c54955b8ce5fb59d834e1d"
     ],
     "description": [
       "100% Original & Authentic Garnier Hair Color Sachet",
@@ -8015,8 +8104,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/7161wHYvetL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71yCXOfwwmL.jpg"
     ],
     "description": [
       "100% Original & Authentic Dabur Amla Hair Oil Sachet",
@@ -8037,8 +8126,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61RL-IjJ7nL._SL1094_.jpg",
+      "https://m.media-amazon.com/images/I/41wES5+GCjL.jpg"
     ],
     "description": [
       "100% Original & Authentic Clinic Plus Shampoo Sachet",
@@ -8059,8 +8148,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/51+X4D1LNRL.jpg",
+      "https://rukminim2.flixcart.com/image/300/300/kq8dua80/shampoo/r/r/z/256-thick-and-long-shampoo-sachets-4ml-each-pack-of-64-sunsilk-original-imag4azbha7nes4d.jpeg"
     ],
     "description": [
       "100% Original & Authentic Sunsilk Shampoo Sachet",
@@ -8081,8 +8170,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://lzd-img-global.slatic.net/g/p/d0dd64f3d734415d6cba7fa14aec7df1.png_720x720q80.png",
+      "https://tiendalamundialsv.com/img/productos/WEB LM pantene sachet shampoo.jpg"
     ],
     "description": [
       "100% Original & Authentic Pantene Shampoo Sachet",
@@ -8103,8 +8192,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/414l8t93TUL.jpg",
+      "https://m.media-amazon.com/images/I/41QWAHQUCOL.jpg"
     ],
     "description": [
       "100% Original & Authentic Head & Shoulders Shampoo Sachet",
@@ -8125,8 +8214,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://www.bbassets.com/media/uploads/p/l/20005992_2-amul-kool-cafe-milk-coffee.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_19135.jpg"
     ],
     "description": [
       "100% Original & Authentic Amul Kool Cafe Drink",
@@ -8147,8 +8236,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/images/products/sliding_image/518493a.jpg",
+      "https://m.media-amazon.com/images/I/61StrC1+NBL._SL1500_.jpg"
     ],
     "description": [
       "100% Original & Authentic Complan Health Drink",
@@ -8169,8 +8258,8 @@ export const dummyProducts = [
     "price": 195,
     "offerPrice": 175,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/767d1e4b-52c0-4a68-8c96-7c3c9dd9fb4b.jpg",
+      "https://m.media-amazon.com/images/I/81ZgVXZjI-L._SL1500_.jpg"
     ],
     "description": [
       "100% Original & Authentic Horlicks Protein Plus",
@@ -8191,8 +8280,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/rc-upload-1778220050094-2869.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/b7a19a7a-0924-43b4-a62d-210892ba0a98.jpg"
     ],
     "description": [
       "100% Original & Authentic Nestle Everyday Dairy Whitener (unclear)",
@@ -8213,8 +8302,8 @@ export const dummyProducts = [
     "price": 260,
     "offerPrice": 240,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100005470_19-amul-butter-pasteurised.jpg",
-      "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/2240abdb-c6ef-4fcc-bf8c-4c15ed81cf8c.jpg",
+      "https://www.bigbasket.com/media/uploads/p/m/1217207_2-nestle-milkmaid-sweetened-condensed-milk.jpg"
     ],
     "description": [
       "100% Original & Authentic Nestle Milkmaid",
@@ -8235,8 +8324,8 @@ export const dummyProducts = [
     "price": 195,
     "offerPrice": 175,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/41SvOY0RHOL.jpg",
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/15a1e4ef-2eb2-4672-8244-8157292340e6.__CR0,0,970,600_PT0_SX970_V1___.png"
     ],
     "description": [
       "100% Original & Authentic Nescafe Coffee Jar",
@@ -8257,8 +8346,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71C+iQxI2nL._SL1500_.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/3cad9254-93dc-4150-9a6b-44f0c91ceec4.jpg"
     ],
     "description": [
       "100% Original & Authentic Ariel Power Gel Liquid Detergent",
@@ -8279,8 +8368,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/e8b35b0f-cfc8-4a22-8286-ac6895aa9090.jpg?ts=1737989755",
+      "https://m.media-amazon.com/images/I/61DAhodwIEL._SL1500_.jpg"
     ],
     "description": [
       "100% Original & Authentic Ariel Matic Detergent Powder",
@@ -8301,8 +8390,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/51xoF1fPbgL.jpg",
+      "https://m.media-amazon.com/images/I/71ROfvBLhaL.jpg"
     ],
     "description": [
       "100% Original & Authentic Surf Excel Matic Detergent Powder",
@@ -8323,8 +8412,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/951b74a4-be2d-4c3f-a8d7-1d9473a42f67.jpg?ts=1707548418",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/large_images/b54a6db6-f4da-4621-8e6e-a7e56925e144.jpg?ts=1728375205"
     ],
     "description": [
       "100% Original & Authentic Rin Matic Detergent Powder",
@@ -8345,8 +8434,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/67286800-103d-4a96-96f9-541f6f284cae.jpg",
+      "https://cdn.grofers.com/app/images/products/sliding_image/239471a.jpg?ts=1698817790"
     ],
     "description": [
       "100% Original & Authentic Godrej Genteel Detergent Powder",
@@ -8367,8 +8456,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61gp-pTSuQL._SL1000_.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/d0c11f43-502c-4368-a5aa-31dd052aad30.jpg"
     ],
     "description": [
       "100% Original & Authentic Dettol Sensitive Hand Wash Refill",
@@ -8389,8 +8478,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/16d2adb8-18f9-4de8-99e3-97f5bd335022.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778041150974-7638.jpg"
     ],
     "description": [
       "100% Original & Authentic Pampers Baby Diapers",
@@ -8411,8 +8500,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71NzIMjv0+L._AC_SL1080_.jpg",
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1200,h_630/NI_CATALOG/IMAGES/ciw/2025/12/18/4f050eae-c7f5-4a39-a88d-55b77aa714e5_1R8KMZIW0X_MN_18122025.png"
     ],
     "description": [
       "100% Original & Authentic Suhana Veg Biryani Mix",
@@ -8433,8 +8522,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/8143DaEqjmL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81GtNVPPk0L._SL1500_.jpg"
     ],
     "description": [
       "100% Original & Authentic Suhana Paneer Tikka Masala Mix",
@@ -8455,8 +8544,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_518792.jpg?ts=1689341117",
+      "https://cdn.grofers.com/da/cms-assets/cms/product_videos_thumbnails/edcdf4f9-adf3-4389-a70e-5a817ff0b0d5.jpg"
     ],
     "description": [
       "100% Original & Authentic Cadbury Gems Chocolate",
@@ -8477,8 +8566,8 @@ export const dummyProducts = [
     "price": 10,
     "offerPrice": 9,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/large_images/b54a6db6-f4da-4621-8e6e-a7e56925e144.jpg?ts=1728375205",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_21536.jpg?ts=1685974086"
     ],
     "description": [
       "100% Original & Authentic Rin Detergent Powder Sachet",
@@ -8499,8 +8588,8 @@ export const dummyProducts = [
     "price": 10,
     "offerPrice": 9,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/images/products/sliding_image/469176a.jpg",
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/d487865d-1acb-4bac-85df-e881440f02c8.jpg?ts=1716873884"
     ],
     "description": [
       "100% Original & Authentic Surf Excel Easy Wash Sachet",
@@ -8521,8 +8610,8 @@ export const dummyProducts = [
     "price": 10,
     "offerPrice": 9,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim2.flixcart.com/image/480/640/xif0q/fabric-softener/s/n/w/-original-imahgbgkedhymhny.jpeg?q=80",
+      "https://m.media-amazon.com/images/I/51+zUrPwopL._SL1000_.jpg"
     ],
     "description": [
       "100% Original & Authentic Comfort Fabric Conditioner Sachet",
@@ -8543,8 +8632,8 @@ export const dummyProducts = [
     "price": 10,
     "offerPrice": 9,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/719l4BIm0bL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/817A0ii3rYL._AC_SL1500_.jpg"
     ],
     "description": [
       "100% Original & Authentic Tide Detergent Sachet",
@@ -8565,8 +8654,8 @@ export const dummyProducts = [
     "price": 10,
     "offerPrice": 9,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81q3nkB0YGL._SL1500_.jpg",
+      "https://cdn.grofers.com/app/images/products/sliding_image/88340a.jpg?ts=1652685143"
     ],
     "description": [
       "100% Original & Authentic Wheel Detergent Sachet",
@@ -8587,8 +8676,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/41wES5+GCjL.jpg",
+      "https://m.media-amazon.com/images/I/41FmWSjumEL._SL1000_.jpg"
     ],
     "description": [
       "100% Original & Authentic Clinic Plus Shampoo Sachet",
@@ -8609,8 +8698,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/41cVHUHGhWL.jpg",
+      "https://m.media-amazon.com/images/I/61-qWovInPL.jpg"
     ],
     "description": [
       "100% Original & Authentic Dove Shampoo Sachet",
@@ -8631,8 +8720,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://static.wixstatic.com/media/a962c7_248eba98d93149dba1fbcca014e7da4d~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "https://5.imimg.com/data5/ECOM/Default/2024/6/428110246/JF/ZG/HU/85949022/512bhn5vldl-1-1000x1000.jpg"
     ],
     "description": [
       "100% Original & Authentic Sunsilk Shampoo Sachet",
@@ -8653,8 +8742,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/41QWAHQUCOL.jpg",
+      "https://static.wixstatic.com/media/b13348_daf06da377c24bf1a0cc4052cad2c201~mv2.jpg/v1/fill/w_750,h_750,al_c,q_85,enc_avif,quality_auto/b13348_daf06da377c24bf1a0cc4052cad2c201~mv2.jpg"
     ],
     "description": [
       "100% Original & Authentic Head and Shoulders Shampoo Sachet",
@@ -8675,8 +8764,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://tiendalamundialsv.com/img/productos/WEB LM pantene sachet shampoo.jpg",
+      "https://sukigrocer.com/cdn/shop/files/SukiGrocer_0757618d-e791-4a43-94f6-e40ba2b01568.png?v=1719497430"
     ],
     "description": [
       "100% Original & Authentic Pantene Shampoo Sachet",
@@ -8697,8 +8786,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://www.garnier.com.ph/-/media/project/loreal/brand-sites/garnier/apac/ph/products/garnier-color-naturals/gcn-4-0-brown/05.jpg?rev=8f60f1a769c54955b8ce5fb59d834e1d",
+      "https://lzd-img-global.slatic.net/g/ff/kf/S4a276953c2f941099caa018efc3e615ao.jpg_720x720q80.jpg"
     ],
     "description": [
       "100% Original & Authentic Garnier Hair Color Sachet",
@@ -8719,8 +8808,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 85,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/da01973d-7276-4434-9686-260f88e92452.jpg",
+      "https://rukminim2.flixcart.com/image/416/416/k2jbyq80/combo-kit/k/n/b/toothpaste-and-toothbrush-combo-pack-whole-mouth-clean-colgate-original-imafhvgk7tzxqhnd.jpeg?q=70"
     ],
     "description": [
       "100% Original & Authentic Colgate Toothpaste Mini pack",
@@ -8741,8 +8830,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778498205178-274.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/a28e65ad-5738-4696-8a41-9aef9f036a57.jpg"
     ],
     "description": [
       "100% Original & Authentic Amul Masti Buttermilk",
@@ -8763,8 +8852,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/p/m/1209724_1-amul-kool-cafe.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_19135.jpg"
     ],
     "description": [
       "100% Original & Authentic Amul Kool Cafe",
@@ -8785,8 +8874,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/images/products/sliding_image/382104a.jpg?ts=1603953873",
+      "https://cdn.grofers.com/app/images/products/full_screen/pro_382103.jpg?ts=1710346483"
     ],
     "description": [
       "100% Original & Authentic Amul Kool Flavoured Milk",
@@ -8807,8 +8896,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/images/products/sliding_image/506342a.jpg?ts=1690831124",
+      "https://m.media-amazon.com/images/I/71I8Dy5ZTVL.jpg"
     ],
     "description": [
       "100% Original & Authentic Maaza Mango Drink",
@@ -8829,8 +8918,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/ca3d9420-2122-424b-9f1a-945722dfaf42.jpg?ts=1728484385",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1777436686892-12539.jpg"
     ],
     "description": [
       "100% Original & Authentic Frooti Mango Drink",
@@ -8851,8 +8940,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/5b3e3a5f-a570-492e-899f-85e409d07583.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/assets/products/sliding_images/jpeg/265fc5a3-b1e1-428c-9e4a-89d884a51a3d.jpg?ts=1716862453"
     ],
     "description": [
       "100% Original & Authentic Minute Maid Pulpy Orange",
@@ -8873,8 +8962,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/c54ad865-e014-4e66-8d3b-35f6392d135b.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_404971.jpg?ts=1685990144"
     ],
     "description": [
       "100% Original & Authentic Sting Energy Drink",
@@ -8895,8 +8984,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71vN8l2EGhL.jpg",
+      "https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-2222-691,pr-true,f-auto,q-40,dpr-2/cms/product_variant/e18d1e54-e16b-4cfa-8929-559df0ccd66f/Runner-Energy-Drink-Berry-Flavour.jpeg"
     ],
     "description": [
       "100% Original & Authentic Runner Energy Drink",
@@ -8917,8 +9006,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/b836b1ac-6c29-43ce-b2df-32df9d9d0a98.jpg?ts=1721992935",
+      "https://m.media-amazon.com/images/I/81wqWbGjyiL.jpg"
     ],
     "description": [
       "100% Original & Authentic Sprite Bottle",
@@ -8939,8 +9028,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/d7692f91-03b7-41ac-b4ac-f7de54f04733.jpg?ts=1714119734",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/assets/products/large_images/jpeg/c0862f82-a2a3-4497-9706-e5ae54e4ad46.jpg?ts=1723194788"
     ],
     "description": [
       "100% Original & Authentic Thums Up Bottle",
@@ -8961,8 +9050,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/p/l/40329404_1-campa-power-up.jpg",
+      "https://m.media-amazon.com/images/I/61nVBtgnczL.jpg"
     ],
     "description": [
       "100% Original & Authentic Power Up Energy Drink",
@@ -8983,8 +9072,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/446acccb-dc05-428f-8faf-b7076d976e74.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/784075b3fca0437f83d1cc959999439a.jpg"
     ],
     "description": [
       "100% Original & Authentic Kinley Water / Drink",
@@ -9005,8 +9094,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81W5hGnU9PL.jpg",
+      "https://cdn.grofers.com/app/images/products/sliding_image/495835a.jpg?ts=1699883205"
     ],
     "description": [
       "100% Original & Authentic Coca Cola Bottle",
@@ -9027,8 +9116,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://5.imimg.com/data5/SELLER/Default/2024/12/470209619/UN/CQ/TK/23106281/black-hit-400ml-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2026/5/608229297/GY/MS/AL/263617855/godrej-hit-mosquito-killer-1000x1000.jpg"
     ],
     "description": [
       "Authentic Store Product: HIT Black mosquito killer aerosol",
@@ -9049,8 +9138,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/5b9df53d-90b5-4c31-9fc1-a87e86adedec.jpg",
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/e7df276c-b5d1-4af6-afc2-b69c769ec9f1.jpg?ts=1708519254"
     ],
     "description": [
       "Authentic Store Product: HIT Red cockroach killer aerosol",
@@ -9071,8 +9160,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/p/l/40003992_2-good-home-scrub-pad-2-in-1-spongescrub-pad.jpg",
+      "https://m.media-amazon.com/images/I/414K7w5tQKL._AC_.jpg"
     ],
     "description": [
       "Authentic Store Product: Good Home 2 in 1 scrub pad & sponge",
@@ -9093,8 +9182,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/51Q+KOeUuiL.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/5f175ea5-945a-4f60-8223-63b6861c6075.jpg"
     ],
     "description": [
       "Authentic Store Product: Good Home Steel scrubber pack",
@@ -9115,8 +9204,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/images/products/sliding_image/95591a.jpg",
+      "https://m.media-amazon.com/images/I/71l2FJjBEiL._SL1500_.jpg"
     ],
     "description": [
       "Authentic Store Product: Generic Plastic dustpan set",
@@ -9137,8 +9226,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/b363611d-78bc-429b-a37c-094bb3c1d8e2.jpg",
+      "https://m.media-amazon.com/images/I/41JakYp+cqL._AC_SS450_.jpg"
     ],
     "description": [
       "Authentic Store Product: Generic Cotton mop head / cleaning cloth",
@@ -9159,8 +9248,8 @@ export const dummyProducts = [
     "price": 10,
     "offerPrice": 9,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/images/products/full_screen/pro_455249.jpg?ts=1710347221",
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/c9b2adf2-735e-4a9b-9bc1-73856794a9ed.jpg?ts=1727942794"
     ],
     "description": [
       "Authentic Store Product: Ariel Detergent powder sachet",
@@ -9181,8 +9270,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/d487865d-1acb-4bac-85df-e881440f02c8.jpg?ts=1716873884",
+      "https://rukminim2.flixcart.com/image/960/1280/xif0q/washing-powder/t/9/j/-original-imahb7wxsuxbpd6z.jpeg?q=60"
     ],
     "description": [
       "Authentic Store Product: Excel Easy Wash detergent powder",
@@ -9203,8 +9292,8 @@ export const dummyProducts = [
     "price": 28,
     "offerPrice": 25,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267200_14-everest-masala-chhole.jpg",
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61-zRoFrfqL.jpg",
+      "https://myminimart.in/wp-content/uploads/2025/07/Tata-Salt.jpg"
     ],
     "description": [
       "Authentic Store Product: Tata Salt",
@@ -9225,8 +9314,8 @@ export const dummyProducts = [
     "price": 28,
     "offerPrice": 25,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267200_14-everest-masala-chhole.jpg",
-      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/11a25e4e-cb14-46b4-a119-108e75c50d74.jpg?ts=1716881248",
+      "https://m.media-amazon.com/images/S/aplus-media/sota/32372aa5-d2f8-4dbe-9a3e-70a6e90f089a.__CR0,0,2021,1250_PT0_SX970_V1___.jpg"
     ],
     "description": [
       "Authentic Store Product: Tata Salt Lite",
@@ -9247,8 +9336,8 @@ export const dummyProducts = [
     "price": 28,
     "offerPrice": 25,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267200_14-everest-masala-chhole.jpg",
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61AZt0aOGoL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/94430a54-ba1f-47c4-a64e-67c1b6fb53ec.__CR0,0,970,600_PT0_SX970_V1___.jpg"
     ],
     "description": [
       "Authentic Store Product: Generic Rock salt / pink salt",
@@ -9269,8 +9358,8 @@ export const dummyProducts = [
     "price": 28,
     "offerPrice": 25,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267200_14-everest-masala-chhole.jpg",
-      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/p/l/241600_7-tata-salt-iodized.jpg",
+      "https://www.bigbasket.com/media/uploads/p/l/241600-5_10-tata-salt-iodized.jpg"
     ],
     "description": [
       "Authentic Store Product: Generic Loose salt pouch",
@@ -9291,8 +9380,8 @@ export const dummyProducts = [
     "price": 10,
     "offerPrice": 9,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/c9b2adf2-735e-4a9b-9bc1-73856794a9ed.jpg?ts=1727942794",
+      "https://www.bigbasket.com/media/uploads/p/l/40177925-7_13-ariel-complete-detergent-washing-powder-value-pack.jpg"
     ],
     "description": [
       "Authentic Store Product: Ariel Detergent powder sachet",
@@ -9313,8 +9402,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/9360f9dd-5d4f-4a28-a11f-6e3c3140178b.jpg",
+      "https://m.media-amazon.com/images/I/81wH8Zun7PS.jpg"
     ],
     "description": [
       "Authentic Store Product: Wheel Active 2 in 1 detergent powder",
@@ -9335,8 +9424,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/images/products/sliding_image/88340a.jpg?ts=1652685143",
+      "https://m.media-amazon.com/images/I/81wH8Zun7PS.jpg"
     ],
     "description": [
       "Authentic Store Product: Wheel Active 2 in 1 2 kg value pack",
@@ -9357,8 +9446,8 @@ export const dummyProducts = [
     "price": 28,
     "offerPrice": 25,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267200_14-everest-masala-chhole.jpg",
-      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/c4144f4d-ba4e-41a5-b3fc-b73bc2e062eb.jpg?ts=1728039602",
+      "https://rukminim2.flixcart.com/image/832/832/kjq1mkw0-0/salt/p/8/a/500-salt-rock-salt-500gm-pack-rock-salt-tata-original-imafz7xgkkhsfy6f.jpeg?q=70"
     ],
     "description": [
       "Authentic Store Product: Tata Rock Salt",
@@ -9379,8 +9468,8 @@ export const dummyProducts = [
     "price": 28,
     "offerPrice": 25,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267200_14-everest-masala-chhole.jpg",
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/S/aplus-media/sota/32372aa5-d2f8-4dbe-9a3e-70a6e90f089a.__CR0,0,2021,1250_PT0_SX970_V1___.jpg",
+      "https://arjunsupermarket.co.nz/wp-content/uploads/2023/11/61GHekNSesL.jpg"
     ],
     "description": [
       "Authentic Store Product: Tata Salt Lite",
@@ -9401,8 +9490,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/p/l/40188046_1-ankur-iodised-salt.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2026/5/604467268/DX/ZV/IG/107099552/ctc-tea-500x500.jpg"
     ],
     "description": [
       "Authentic Store Product: Generic Salt pack orange white",
@@ -9423,8 +9512,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81f0Naas1bL._SX522_.jpg",
+      "https://m.media-amazon.com/images/I/41gXHZ3YxAL.jpg"
     ],
     "description": [
       "Authentic Store Product: Generic Blue packaged soap / detergent bar",
@@ -9445,8 +9534,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/712r4WdVUJL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51XzBvH+RtL.jpg"
     ],
     "description": [
       "Authentic Store Product: Generic Red packaged soap / detergent bar",
@@ -9467,8 +9556,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/813LXtSIZJL.jpg",
+      "https://m.media-amazon.com/images/I/71mSTJwI46L._SL1500_.jpg"
     ],
     "description": [
       "Authentic Store Product: Generic Green packaged soap / detergent bar",
@@ -9489,8 +9578,8 @@ export const dummyProducts = [
     "price": 55,
     "offerPrice": 48,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267000_15-dettol-liquid-handwash-refill-original.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81+1cNmaceL.jpg",
+      "https://m.media-amazon.com/images/I/51d-dLAvPyL.jpg"
     ],
     "description": [
       "Authentic Store Product: Generic White packaged soap bar",
@@ -9511,8 +9600,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81wH8Zun7PS.jpg",
+      "https://m.media-amazon.com/images/I/71SUUO72e5L._SL1500_.jpg"
     ],
     "description": [
       "Authentic Store Product: Wheel Active 2 in 1 detergent value pack",
@@ -9533,8 +9622,8 @@ export const dummyProducts = [
     "price": 90,
     "offerPrice": 79,
     "image": [
-      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/819omgInapL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71gz7rQz24L._SL1500_.jpg"
     ],
     "description": [
       "Authentic Store Product: Generic Incense sticks assorted fragrance packets",
@@ -9555,8 +9644,8 @@ export const dummyProducts = [
     "price": 90,
     "offerPrice": 79,
     "image": [
-      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim2.flixcart.com/image/300/300/xif0q/cotton-wick/c/j/9/500-phool-batti-cotton-wicks-for-puja-bati-set-500-pieces-original-imahgxfxkdncrhk7.jpeg",
+      "https://m.media-amazon.com/images/I/61so23IXMgL._SL1000_.jpg"
     ],
     "description": [
       "Authentic Store Product: Generic Cotton wicks / puja supplies",
@@ -9577,8 +9666,8 @@ export const dummyProducts = [
     "price": 90,
     "offerPrice": 79,
     "image": [
-      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81MbyHUCiiL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/811hoHfK-GL._SL1500_.jpg"
     ],
     "description": [
       "Authentic Store Product: Generic Scented incense cones or sticks jar",
@@ -9599,8 +9688,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81dmSofGPTL._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/51uNvYkvLiL._AC_.jpg"
     ],
     "description": [
       "Authentic Store Product: Generic Small packet accessories / sachets",
@@ -9621,8 +9710,8 @@ export const dummyProducts = [
     "price": 90,
     "offerPrice": 79,
     "image": [
-      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=600"
+      "https://www.bbassets.com/media/uploads/p/m/40222979_3-duracell-chhota-power-aa-battery-15-v-alkaline.jpg",
+      "https://m.media-amazon.com/images/I/61UsX9JXwqL._AC_.jpg"
     ],
     "description": [
       "Authentic Store Product: Duracell AA battery blister pack",
@@ -9643,8 +9732,8 @@ export const dummyProducts = [
     "price": 90,
     "offerPrice": 79,
     "image": [
-      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/p/l/40212633-8_1-eveready-alkaline-battery-aa-ultima-2115.jpg",
+      "https://www.bigbasket.com/media/uploads/p/m/40128540_5-eveready-rechargeable-battery-aa-700-mah-bp2.jpg"
     ],
     "description": [
       "Authentic Store Product: Eveready Battery blister pack",
@@ -9665,8 +9754,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim2.flixcart.com/image/960/1280/xif0q/kajal/9/0/h/-original-imahh2wgdryhbyjs.jpeg?q=60",
+      "https://rukminim2.flixcart.com/image/480/640/xif0q/kajal/j/0/a/-original-imahh2wgngp6kntr.jpeg?q=90"
     ],
     "description": [
       "Authentic Store Product: Kajal Hair colour sachet",
@@ -9687,8 +9776,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/51EbnieGw7L._SY355_.jpg",
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/b028f26d-67e4-49bc-8782-044fa573f798.jpg?ts=1725518348"
     ],
     "description": [
       "Authentic Store Product: Nupur Henna hair colour pouch",
@@ -9709,8 +9798,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61+8BsyrduL.jpg",
+      "https://m.media-amazon.com/images/I/61NXwR9DWTL._AC_SX679_.jpg"
     ],
     "description": [
       "Authentic Store Product: Vatika Hair colour sachet green",
@@ -9731,8 +9820,8 @@ export const dummyProducts = [
     "price": 130,
     "offerPrice": 115,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267350_14-dabur-amla-hair-oil.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/21RFvlJjhOL._QL70_ML2_.jpg",
+      "https://m.media-amazon.com/images/I/41FmWSjumEL._SL1000_.jpg"
     ],
     "description": [
       "Authentic Store Product: Clinic Plus Shampoo sachet",
@@ -9753,8 +9842,8 @@ export const dummyProducts = [
     "price": 90,
     "offerPrice": 79,
     "image": [
-      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61m30LGs0rL._AC_.jpg",
+      "https://rukminim2.flixcart.com/image/300/300/xif0q/adhesive/6/5/l/40-fevistik-power-glue-stick-for-multiple-sticking-solutions-original-imagquwhjw8g5bbb.jpeg"
     ],
     "description": [
       "Authentic Store Product: Generic Glue stick / adhesive tube",
@@ -9775,8 +9864,8 @@ export const dummyProducts = [
     "price": 90,
     "offerPrice": 79,
     "image": [
-      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim1.flixcart.com/image/1664/1664/wall-clock/c/n/w/olc-302-ajanta-digtal-olc-302-original-imadh53x6wxcnyhm.jpeg?q=90",
+      "https://m.media-amazon.com/images/I/61r+z1lczgL._SL1218_.jpg"
     ],
     "description": [
       "Authentic Store Product: Ajanta Digital calendar clock",
@@ -9797,8 +9886,8 @@ export const dummyProducts = [
     "price": 195,
     "offerPrice": 175,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/6d309c8e-22e9-4b80-ba6d-ebd0735efb9d.jpg",
+      "https://m.media-amazon.com/images/I/61mSh3ueXDL.jpg"
     ],
     "description": [
       "Authentic Store Product: Wagh Bakri Premium Leaf Tea",
@@ -9819,8 +9908,8 @@ export const dummyProducts = [
     "price": 195,
     "offerPrice": 175,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61m88DiPcIL.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_11177.jpg"
     ],
     "description": [
       "Authentic Store Product: Taj Mahal Leaf tea pouch (blue green)",
@@ -9841,8 +9930,8 @@ export const dummyProducts = [
     "price": 195,
     "offerPrice": 175,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/76da8d86-2137-431f-bc67-2030f003a798.jpg?ts=1738759616",
+      "https://rukminim2.flixcart.com/image/480/640/kialrww0-0/energy-sport-drink-mix/a/x/7/1-5-inner-strength-750-g-pouch-pack-of-2-cadbury-bournvita-original-imafy4fw9v9cszj3.jpeg?q=90"
     ],
     "description": [
       "Authentic Store Product: Bournvita 2X Strength pouch",
@@ -9863,8 +9952,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61E6DufEUJL._SL1142_.jpg",
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/cf52f0e0-d886-4556-8c92-88b4bfbd3ef4.jpg?ts=1717753186"
     ],
     "description": [
       "Authentic Store Product: Tang Mango instant drink powder",
@@ -9885,8 +9974,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/app/images/products/sliding_image/15296a.jpg?ts=1676895529",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1778220054761-1426.jpg"
     ],
     "description": [
       "Authentic Store Product: Tang Orange instant drink powder",
@@ -9907,8 +9996,8 @@ export const dummyProducts = [
     "price": 60,
     "offerPrice": 52,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/251023_13-coca-cola-soft-drink.jpg",
-      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61f5jEP6O7L.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product_videos_thumbnails/13d51a1b-d7a0-47ec-a270-9909525fbb42.jpg"
     ],
     "description": [
       "Authentic Store Product: Tang Other flavour instant drink powder",
@@ -9929,8 +10018,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81FbVYZJYyL._SY879_.jpg",
+      "https://m.media-amazon.com/images/I/81gBShBlfOL._SL1500_.jpg"
     ],
     "description": [
       "Authentic Store Product: Fortune Sunlite refined sunflower oil can",
@@ -9951,8 +10040,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/494974766/DV/ZN/GL/43133150/agrawal-s-420-rusk-toast-1000x1000.jpeg",
+      "https://5.imimg.com/data5/SELLER/Default/2025/3/494975813/FO/FE/CZ/43133150/agrawal-s-420-rusk-toast-1000x1000.jpeg"
     ],
     "description": [
       "Authentic Store Product: Generic Packaged rusk toast",
@@ -9973,8 +10062,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81V6nATWwQL.jpg",
+      "https://m.media-amazon.com/images/I/41J2+ka4IQL._AC_.jpg"
     ],
     "description": [
       "Authentic Store Product: New Lucky Toasted Khari / baked snack",
@@ -9995,8 +10084,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1775446787912-601.jpg",
+      "https://m.media-amazon.com/images/I/6123neRQDaL._SL1200_.jpg"
     ],
     "description": [
       "Authentic Store Product: Protein Sandwich bread",
@@ -10017,8 +10106,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/c2b74722-9e3c-4bcf-99f8-a35edfc6e466.jpg?ts=1742541955",
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/2363ea3a-bbee-4cf9-a9f0-cf28ca68cb6e.jpg?ts=1717758969"
     ],
     "description": [
       "Authentic Store Product: Protein Brown bread",
@@ -10039,8 +10128,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1784101541636-472.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1777267443546-477.jpg"
     ],
     "description": [
       "Authentic Store Product: Protein Maruti bread",
@@ -10061,8 +10150,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=600"
+      "https://www.bbassets.com/media/uploads/p/l/40053990_2-aabad-sandwich-bread-crustless.jpg",
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1777267443546-477.jpg"
     ],
     "description": [
       "Authentic Store Product: Protein Crustless sandwich bread",
@@ -10083,8 +10172,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1784101541636-250.jpg",
+      "https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/48e760aa-50a1-4643-b779-85478c5ab5de.jpg?ts=1717412970"
     ],
     "description": [
       "Authentic Store Product: Generic Plain bread buns",
@@ -10105,8 +10194,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 85,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/711QR9KPxVL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61hs--4dPHL._SL1500_.jpg"
     ],
     "description": [
       "Authentic Store Product: Oral-B Toothbrush",
@@ -10127,8 +10216,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 85,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267360_16-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti.jpg",
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1783309185390-227.jpg",
+      "https://m.media-amazon.com/images/I/71lBiuC4TuL.jpg"
     ],
     "description": [
       "Authentic Store Product: Sensodyne Toothbrush",
@@ -10149,8 +10238,8 @@ export const dummyProducts = [
     "price": 90,
     "offerPrice": 79,
     "image": [
-      "https://images.unsplash.com/photo-1550524514-4b533f81e3a9?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=600"
+      "https://www.bigbasket.com/media/uploads/groot/images/28102020-2510c622-joyo-1.jpg",
+      "https://m.media-amazon.com/images/I/81yMBVqYHpL._SL1500_.jpg"
     ],
     "description": [
       "Authentic Store Product: Amul Festive offer JOYO storage container set (promotional display)",
@@ -10171,8 +10260,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71yVc+O4H7L.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/f39713cd-8c0d-4986-9196-f6cdc51a5b4f.jpg?ts=1732774323"
     ],
     "description": [
       "Authentic Store Product: Malkist Cheese crackers",
@@ -10193,8 +10282,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-1000-1000,pr-true,f-auto,q-40,dpr-2/cms/product_variant/bdb3cd99-cef2-4abc-aa25-16914ecaf540/Malkist-Double-Chocolatey-Crunchy-Layered-Crackers.jpeg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_481758.jpg?ts=1685975455"
     ],
     "description": [
       "Authentic Store Product: Malkist Chocolate crackers",
@@ -10215,8 +10304,8 @@ export const dummyProducts = [
     "price": 45,
     "offerPrice": 40,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/100012502_20-nestle-kitkat-chocolate-bar.jpg",
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=400,h=400/app/images/products/full_screen/pro_18371.jpg",
+      "https://m.media-amazon.com/images/I/71YtMNXBUCL._SL1500_.jpg"
     ],
     "description": [
       "Authentic Store Product: Generic Nutrish rusks",
@@ -10237,8 +10326,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/717ykx5AbIL.jpg",
+      "https://m.media-amazon.com/images/I/81D+Qz-Kb6L._SL1500_.jpg"
     ],
     "description": [
       "Authentic Store Product: Generic Soan papdi box",
@@ -10259,8 +10348,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_373939.jpg?ts=1695451801",
+      "https://cdn.grofers.com/app/images/products/sliding_image/405595a.jpg?ts=1649834553"
     ],
     "description": [
       "Authentic Store Product: Generic Cake / packaged dessert",
@@ -10281,8 +10370,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/71t5e-M3wKL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81k1My+R08L._SL1500_.jpg"
     ],
     "description": [
       "Authentic Store Product: Generic Ready-to-eat snack cup",
@@ -10303,8 +10392,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600"
+      "https://rukminim1.flixcart.com/image/832/832/xif0q/nut-dry-fruit/k/f/e/1-arabian-dates-seeded-500g-buy-1-get-1-free-2-bulk-pack-lion-original-imaggf86sxfazdyq.jpeg?q=70",
+      "https://m.media-amazon.com/images/I/91g8ddQV05L.jpg"
     ],
     "description": [
       "Authentic Store Product: Generic Dried dates / dried fruit packs",
@@ -10325,8 +10414,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81wBqgqehXL._AC_SL1500_.jpg",
+      "https://rukminim2.flixcart.com/image/960/1280/xif0q/snack-savourie/g/k/q/-original-imahjw3dxxjgyj9p.jpeg?q=60"
     ],
     "description": [
       "Authentic Store Product: Generic Roasted snack mixture jars",
@@ -10347,8 +10436,8 @@ export const dummyProducts = [
     "price": 70,
     "offerPrice": 62,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266970_19-vim-dishwash-gel-lemon.jpg",
-      "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bf3f9194-c944-4889-bcc2-636821967351.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/3076ace6-8438-494c-96a0-83e4ac56efae.__CR0,0,970,600_PT0_SX970_V1___.jpg"
     ],
     "description": [
       "Authentic Store Product: Gits Mini Gulab Jamun open and eat can",
@@ -10369,8 +10458,8 @@ export const dummyProducts = [
     "price": 28,
     "offerPrice": 25,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267200_14-everest-masala-chhole.jpg",
-      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&q=80&w=600"
+      "https://www.patanjaliayurved.net/assets/product_images/400x500/1699098734MoongDalPapad1.png",
+      "https://www.patanjaliayurved.net/assets/product_images/400x500/1690278550chanapapad200g1.jpg.png"
     ],
     "description": [
       "Authentic Store Product: Patanjali Papad / Mathiya pack",
@@ -10391,8 +10480,8 @@ export const dummyProducts = [
     "price": 28,
     "offerPrice": 25,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/267200_14-everest-masala-chhole.jpg",
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/41ASxz2kfrL._SY300_SX300_QL70_ML2_.jpg",
+      "https://www.bombayspices.ca/wp-content/uploads/2019/03/RAMDEV-PAPAD.jpg"
     ],
     "description": [
       "Authentic Store Product: Generic Chorafali papad 200 g",
@@ -10413,8 +10502,8 @@ export const dummyProducts = [
     "price": 95,
     "offerPrice": 84,
     "image": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=600",
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/61ZgLza64WL._SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/61Vb+d18UPL._SL1000_.jpg"
     ],
     "description": [
       "Authentic Store Product: Generic Dry poha / flattened rice loose",
@@ -10435,8 +10524,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/81bdW18bgZL._SX522_.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/da/cms-assets/cms/product/4b9077bf-e04c-49d3-857d-34da9e018ed6.jpg"
     ],
     "description": [
       "Authentic Store Product: Jumbo Long broom (packaged)",
@@ -10457,8 +10546,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&q=80&w=600"
+      "https://m.media-amazon.com/images/I/617Y+BFd9ES._AC_.jpg",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/full_screen/pro_68584.jpg?ts=1684835232"
     ],
     "description": [
       "Authentic Store Product: Generic Grass broom / coconut-stick broom",
@@ -10479,8 +10568,8 @@ export const dummyProducts = [
     "price": 140,
     "offerPrice": 125,
     "image": [
-      "https://www.bbassets.com/media/uploads/p/l/266952_18-lizol-disinfectant-floor-cleaner-citrus.jpg",
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=600"
+      "https://5.imimg.com/data5/SELLER/Default/2021/3/KF/VU/HC/125178702/phool-jhadu-1000x1000.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2020/12/FL/SS/TU/3559039/350gm-phool-jhadu-1000x1000.jpg"
     ],
     "description": [
       "Authentic Store Product: Generic Peacock-branded household broom",
